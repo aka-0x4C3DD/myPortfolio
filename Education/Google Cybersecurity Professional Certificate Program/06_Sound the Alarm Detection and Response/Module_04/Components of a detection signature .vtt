@@ -1,0 +1,445 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:02.175
+As a security analyst,
+
+2
+00:00:02.175 --> 00:00:03.990
+you may be tasked with writing,
+
+3
+00:00:03.990 --> 00:00:06.405
+customizing, or
+testing signatures.
+
+4
+00:00:06.405 --> 00:00:08.850
+To do this, you'll
+use IDS tools.
+
+5
+00:00:08.850 --> 00:00:10.815
+So in this section, we'll examine
+
+6
+00:00:10.815 --> 00:00:12.855
+signature syntax and by the end,
+
+7
+00:00:12.855 --> 00:00:15.015
+you'll be able to
+read a signature.
+
+8
+00:00:16.015 --> 00:00:17.790
+A signature specifies
+detection rules.
+
+9
+00:00:17.790 --> 00:00:19.620
+These rules outline
+the types of
+
+10
+00:00:19.620 --> 00:00:22.740
+network intrusions you
+want an IDS to detect.
+
+11
+00:00:22.740 --> 00:00:24.390
+For example, a signature can
+
+12
+00:00:24.390 --> 00:00:25.920
+be written to detect and alert
+
+13
+00:00:25.920 --> 00:00:29.460
+on suspicious traffic attempting
+to connect to a port.
+
+14
+00:00:30.460 --> 00:00:31.650
+Rule language
+differs depending on
+
+15
+00:00:31.650 --> 00:00:34.180
+different network intrusion
+detection systems.
+
+16
+00:00:34.180 --> 00:00:36.555
+The term network intrusion
+detection system
+
+17
+00:00:36.555 --> 00:00:37.770
+is often abbreviated
+
+18
+00:00:37.770 --> 00:00:41.865
+as the acronym N-I-D-S
+and pronounced NIDS.
+
+19
+00:00:41.865 --> 00:00:45.035
+Generally, NIDS rules
+consists of three components:
+
+20
+00:00:45.035 --> 00:00:48.595
+an action, a header,
+and rule options.
+
+21
+00:00:48.595 --> 00:00:50.060
+Now, let's examine each of
+
+22
+00:00:50.060 --> 00:00:52.475
+these three components
+in more detail.
+
+23
+00:00:53.475 --> 00:00:54.140
+Typically, the action is
+
+24
+00:00:54.140 --> 00:00:56.840
+the first item specified
+in a signature.
+
+25
+00:00:56.840 --> 00:00:58.970
+This determines the
+action to take if
+
+26
+00:00:58.970 --> 00:01:01.435
+the rule criteria
+matches are met.
+
+27
+00:01:01.435 --> 00:01:04.370
+Actions differ across
+NIDS rule languages,
+
+28
+00:01:04.370 --> 00:01:08.915
+but some common actions are:
+alert, pass, or reject.
+
+29
+00:01:09.915 --> 00:01:12.500
+Using our example, if a
+rule specifies to alert on
+
+30
+00:01:12.500 --> 00:01:14.480
+suspicious network traffic that
+
+31
+00:01:14.480 --> 00:01:16.910
+establishes an unusual
+connection to a port,
+
+32
+00:01:16.910 --> 00:01:18.380
+the IDS will inspect
+
+33
+00:01:18.380 --> 00:01:21.070
+the traffic packets
+and send out an alert.
+
+34
+00:01:21.070 --> 00:01:24.290
+The header defines the
+signature's network traffic.
+
+35
+00:01:24.290 --> 00:01:26.255
+These include
+information such as
+
+36
+00:01:26.255 --> 00:01:28.714
+source and destination
+IP addresses,
+
+37
+00:01:28.714 --> 00:01:30.979
+source and destination ports,
+
+38
+00:01:30.979 --> 00:01:33.965
+protocols, and
+traffic direction.
+
+39
+00:01:34.965 --> 00:01:36.320
+If we want to
+detect an alert on
+
+40
+00:01:36.320 --> 00:01:38.555
+suspicious traffic
+connecting to a port,
+
+41
+00:01:38.555 --> 00:01:40.640
+we have to first
+define the source
+
+42
+00:01:40.640 --> 00:01:42.905
+of the suspicious
+traffic in the header.
+
+43
+00:01:42.905 --> 00:01:45.110
+Suspicious traffic
+can originate from
+
+44
+00:01:45.110 --> 00:01:47.690
+IP addresses outside
+the local network.
+
+45
+00:01:47.690 --> 00:01:51.140
+It can also use specific
+or unusual protocols.
+
+46
+00:01:51.140 --> 00:01:53.705
+We can specify
+external IP addresses
+
+47
+00:01:53.705 --> 00:01:55.835
+and these protocols
+in the header.
+
+48
+00:01:56.835 --> 00:01:57.500
+Here's an example of how
+
+49
+00:01:57.500 --> 00:02:00.695
+header information may
+appear in a basic rule.
+
+50
+00:02:00.695 --> 00:02:03.170
+First, we can observe
+that the protocol,
+
+51
+00:02:03.170 --> 00:02:06.955
+TCP, is the first listed
+item in the signature.
+
+52
+00:02:06.955 --> 00:02:09.285
+Next, the source IP address
+
+53
+00:02:09.285 --> 00:02:14.585
+10.120.170.17 and the
+source port number
+
+54
+00:02:14.585 --> 00:02:16.820
+is specified as being any.
+
+55
+00:02:16.820 --> 00:02:19.160
+The arrow in the middle
+of the signature
+
+56
+00:02:19.160 --> 00:02:21.820
+indicates the direction
+of the network traffic.
+
+57
+00:02:21.820 --> 00:02:24.335
+So we know it's originating
+from the source IP
+
+58
+00:02:24.335 --> 00:02:29.000
+10.120.170.17 from any port
+
+59
+00:02:29.000 --> 00:02:30.890
+going to the following
+destination
+
+60
+00:02:30.890 --> 00:02:38.925
+IP address 133.113.202.181
+and destination port 80.
+
+61
+00:02:39.925 --> 00:02:41.690
+The rule options
+lets you customize
+
+62
+00:02:41.690 --> 00:02:44.005
+signatures with
+additional parameters.
+
+63
+00:02:44.005 --> 00:02:46.760
+There are many different
+options available to use.
+
+64
+00:02:46.760 --> 00:02:49.280
+For instance, you can
+set options to match
+
+65
+00:02:49.280 --> 00:02:50.975
+the content of a network packet
+
+66
+00:02:50.975 --> 00:02:53.000
+to detect malicious payloads.
+
+67
+00:02:53.000 --> 00:02:56.330
+Malicious payloads reside in
+a packet's data and perform
+
+68
+00:02:56.330 --> 00:02:59.855
+malicious activity like
+deleting or encrypting data.
+
+69
+00:03:00.855 --> 00:03:01.985
+Configuring rule options helps
+
+70
+00:03:01.985 --> 00:03:03.980
+in narrowing down
+network traffic,
+
+71
+00:03:03.980 --> 00:03:06.385
+so you can find exactly
+what you're looking for.
+
+72
+00:03:06.385 --> 00:03:08.690
+Typically, rule options
+are separated by
+
+73
+00:03:08.690 --> 00:03:11.435
+semi-colons and enclosed
+in parentheses.
+
+74
+00:03:11.435 --> 00:03:13.280
+In this example, we can examine
+
+75
+00:03:13.280 --> 00:03:15.140
+that the rule options
+are enclosed in
+
+76
+00:03:15.140 --> 00:03:16.880
+a pair of parentheses and are
+
+77
+00:03:16.880 --> 00:03:19.450
+also separated with semi-colons.
+
+78
+00:03:20.450 --> 00:03:21.895
+The first rule option, msg,
+
+79
+00:03:21.895 --> 00:03:23.465
+which stands for message,
+
+80
+00:03:23.465 --> 00:03:25.205
+provides the alert's text.
+
+81
+00:03:25.205 --> 00:03:27.845
+In this case, the alert
+will print out the text:
+
+82
+00:03:27.845 --> 00:03:29.275
+"This is a message."
+
+83
+00:03:29.275 --> 00:03:31.175
+There's also the option sid,
+
+84
+00:03:31.175 --> 00:03:33.095
+which stands for signature ID.
+
+85
+00:03:33.095 --> 00:03:36.370
+This attaches a unique
+id to each signature.
+
+86
+00:03:36.370 --> 00:03:38.905
+The rev option
+stands for revision.
+
+87
+00:03:38.905 --> 00:03:41.255
+Each time a signature
+is updated or changed,
+
+88
+00:03:41.255 --> 00:03:42.740
+the revision number changes.
+
+89
+00:03:42.740 --> 00:03:44.570
+Here, the number 1 means
+
+90
+00:03:44.570 --> 00:03:47.425
+it's the first version
+of the signature.
+
+91
+00:03:48.425 --> 00:03:50.510
+Great! Now you've
+developed another skill in
+
+92
+00:03:50.510 --> 00:03:53.195
+your journey towards
+becoming a security analyst:
+
+93
+00:03:53.195 --> 00:03:54.845
+how to read signatures.
+
+94
+00:03:54.845 --> 00:03:56.945
+There's so much more to
+learn and coming up,
+
+95
+00:03:56.945 --> 00:04:00.150
+we'll discuss tools
+that use signatures.

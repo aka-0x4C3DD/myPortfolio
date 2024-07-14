@@ -1,0 +1,248 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:04.754
+[MUSIC]
+
+2
+00:00:04.754 --> 00:00:09.236
+My name is Garvey, I'm a global
+staffing manager here at Google.
+
+3
+00:00:09.236 --> 00:00:10.777
+I've hired, I would say,
+
+4
+00:00:10.777 --> 00:00:15.332
+several hundred security engineers here
+at Google over the last seven years.
+
+5
+00:00:15.332 --> 00:00:17.820
+Advice I'd give those
+that are preparing for
+
+6
+00:00:17.820 --> 00:00:22.208
+their technical interviews, don't expect
+that the interview will be a sort of
+
+7
+00:00:22.208 --> 00:00:26.732
+trivial exam of how many questions can you
+answer in this sort of period of time.
+
+8
+00:00:26.732 --> 00:00:30.710
+I want to know, as an interviewer, does
+the candidate understand the fundamentals
+
+9
+00:00:30.710 --> 00:00:32.572
+and can they explain them back to me?
+
+10
+00:00:32.572 --> 00:00:36.103
+Programs and applications that
+I would recommend preparing for
+
+11
+00:00:36.103 --> 00:00:40.219
+when doing an entry level interview,
+for example, Splunk, Wireshark,
+
+12
+00:00:40.219 --> 00:00:43.710
+understanding their functions,
+their purpose.
+
+13
+00:00:43.710 --> 00:00:46.572
+If you can get to the point of
+understanding their internals,
+
+14
+00:00:46.572 --> 00:00:47.510
+why they exist.
+
+15
+00:00:47.510 --> 00:00:49.996
+If they didn't exist,
+how would you solve a problem?
+
+16
+00:00:49.996 --> 00:00:50.824
+Outside of that,
+
+17
+00:00:50.824 --> 00:00:54.485
+just understanding the fundamentals of
+topics that exist within this space.
+
+18
+00:00:54.485 --> 00:00:58.339
+Network security, web application,
+security knowledge,
+
+19
+00:00:58.339 --> 00:01:01.452
+operating system internals,
+understanding and
+
+20
+00:01:01.452 --> 00:01:06.360
+mastering security protocols I think
+that's an important place to start.
+
+21
+00:01:06.360 --> 00:01:09.110
+Practice answering open end questions.
+
+22
+00:01:09.110 --> 00:01:12.134
+They tend to be really difficult,
+they're ambiguous by design,
+
+23
+00:01:12.134 --> 00:01:13.560
+they're complex by design.
+
+24
+00:01:13.560 --> 00:01:16.504
+You always want to start first
+by asking clarifying questions.
+
+25
+00:01:16.504 --> 00:01:20.875
+Get information from your interviewer
+to help you narrow down the focus of
+
+26
+00:01:20.875 --> 00:01:25.543
+the question itself, but also sort of
+lower the scope of the problem, right?
+
+27
+00:01:25.543 --> 00:01:27.244
+Into something that you
+can answer yourself,
+
+28
+00:01:27.244 --> 00:01:29.020
+that you know that you
+feel comfortable with.
+
+29
+00:01:29.020 --> 00:01:31.030
+Organize your answer
+through the STAR method.
+
+30
+00:01:31.030 --> 00:01:35.315
+It's a great way to organize yourself when
+faced with a large open ended question,
+
+31
+00:01:35.315 --> 00:01:38.864
+it will help your interviewer
+understand your train of thought.
+
+32
+00:01:38.864 --> 00:01:43.269
+Thinking out loud as well will help your
+interviewer understand okay, this is where
+
+33
+00:01:43.269 --> 00:01:47.220
+Garvey's going with this answer,
+if I need to help him, I can help him.
+
+34
+00:01:47.220 --> 00:01:50.368
+Maybe he doesn't get the entire answer, I
+know he was on the right track because he
+
+35
+00:01:50.368 --> 00:01:52.756
+was thinking out loud,
+I understood where he was going.
+
+36
+00:01:52.756 --> 00:01:54.244
+If you don't know the answer, that's fine.
+
+37
+00:01:54.244 --> 00:01:58.705
+Again, no one expects you to walk on
+water, but we don't expect you to lie,
+
+38
+00:01:58.705 --> 00:02:00.456
+[LAUGH] if you will, right?
+
+39
+00:02:00.456 --> 00:02:03.352
+My ideal candidate is someone
+who just loves to learn, right?
+
+40
+00:02:03.352 --> 00:02:07.682
+Someone that's humble, that's honest,
+someone that can manage through ambiguity,
+
+41
+00:02:07.682 --> 00:02:12.140
+complexity in their own life, doesn't
+necessarily have to be directly related to
+
+42
+00:02:12.140 --> 00:02:16.556
+cybersecurity, but someone that when
+faced with a problem, runs towards it.
+
+43
+00:02:16.556 --> 00:02:20.552
+They're always a student, they're always
+there to learn, always there to mentor,
+
+44
+00:02:20.552 --> 00:02:24.572
+lead others, and they demonstrate those
+characteristics throughout their life.
+
+45
+00:02:24.572 --> 00:02:28.308
+Nerves during technical interviews,
+I think that's pretty standard [LAUGH],
+
+46
+00:02:28.308 --> 00:02:30.012
+it's okay to be nervous, right?
+
+47
+00:02:30.012 --> 00:02:31.908
+I think it means you care.
+
+48
+00:02:31.908 --> 00:02:33.156
+There's a reason you're there.
+
+49
+00:02:33.156 --> 00:02:36.276
+There's a reason you find
+yourself in that moment, right?
+
+50
+00:02:36.276 --> 00:02:37.684
+Someone has counted you in already.
+
+51
+00:02:37.684 --> 00:02:40.676
+They have belief in you and
+this space needs you.
+
+52
+00:02:40.676 --> 00:02:46.190
+So, you know, I would say, trust yourself,
+trust your gut, don't be afraid to fail.

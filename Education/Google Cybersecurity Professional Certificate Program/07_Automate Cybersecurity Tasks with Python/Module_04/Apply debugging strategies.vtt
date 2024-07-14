@@ -1,0 +1,521 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:02.880
+Let's say our co-workers
+
+2
+00:00:02.880 --> 00:00:05.550
+need some help getting
+their code to work, and
+
+3
+00:00:05.550 --> 00:00:07.650
+we've offered to debug
+their code to
+
+4
+00:00:07.650 --> 00:00:09.645
+make sure it runs smoothly.
+
+5
+00:00:09.645 --> 00:00:14.070
+First, we need to know about
+the purpose of the code.
+
+6
+00:00:14.070 --> 00:00:17.400
+In this case, the purpose
+of the code is to
+
+7
+00:00:17.400 --> 00:00:21.555
+parse a single line from
+a log file and return it.
+
+8
+00:00:21.555 --> 00:00:24.470
+The log file we're using tracks
+
+9
+00:00:24.470 --> 00:00:27.480
+potential issues with
+software applications.
+
+10
+00:00:27.480 --> 00:00:29.750
+Each line in the log contains
+
+11
+00:00:29.750 --> 00:00:32.525
+the HTTP response status codes,
+
+12
+00:00:32.525 --> 00:00:34.370
+the date, the time,
+
+13
+00:00:34.370 --> 00:00:36.020
+and the application name.
+
+14
+00:00:36.020 --> 00:00:37.685
+When writing this code,
+
+15
+00:00:37.685 --> 00:00:40.415
+our co-workers consider whether
+
+16
+00:00:40.415 --> 00:00:43.280
+all these status codes
+needed to be parsed.
+
+17
+00:00:43.280 --> 00:00:47.165
+Since 200 signals a
+successful event,
+
+18
+00:00:47.165 --> 00:00:49.280
+they concluded that lines with
+
+19
+00:00:49.280 --> 00:00:52.430
+this status code
+shouldn't be parsed.
+
+20
+00:00:52.430 --> 00:00:55.925
+Instead, Python should
+return a message
+
+21
+00:00:55.925 --> 00:00:59.255
+indicating that
+parsing wasn't needed.
+
+22
+00:00:59.255 --> 00:01:02.360
+To start the debugging
+process, let's first
+
+23
+00:01:02.360 --> 00:01:06.085
+run the code to identify
+what errors appear.
+
+24
+00:01:07.085 --> 00:01:10.045
+Our first error is
+a syntax error.
+
+25
+00:01:10.045 --> 00:01:13.195
+The error message also tells us
+
+26
+00:01:13.195 --> 00:01:15.310
+the syntax error occurs
+
+27
+00:01:15.310 --> 00:01:18.320
+in a line that
+defines a function.
+
+28
+00:01:18.770 --> 00:01:22.425
+So let's just scroll to
+that part of the code.
+
+29
+00:01:22.425 --> 00:01:24.655
+As you might recall,
+
+30
+00:01:24.655 --> 00:01:28.420
+these function headers
+should end with a colon.
+
+31
+00:01:28.420 --> 00:01:31.910
+Let's go ahead and
+add that to the code.
+
+32
+00:01:32.210 --> 00:01:36.435
+Now, the syntax error
+should go away.
+
+33
+00:01:36.435 --> 00:01:39.070
+Let's run the code again.
+
+34
+00:01:39.380 --> 00:01:42.445
+Now our syntax error is gone,
+
+35
+00:01:42.445 --> 00:01:45.280
+which is good news, but we
+
+36
+00:01:45.280 --> 00:01:48.555
+have another error, a
+"name error."
+
+37
+00:01:48.555 --> 00:01:52.520
+"Name error" is actually
+a type of exception,
+
+38
+00:01:52.520 --> 00:01:55.189
+meaning we've written
+valid syntax,
+
+39
+00:01:55.189 --> 00:01:58.360
+but Python can't
+process the statement.
+
+40
+00:01:58.360 --> 00:02:00.120
+According to the error,
+
+41
+00:02:00.120 --> 00:02:02.360
+the interpreter
+doesn't understand
+
+42
+00:02:02.360 --> 00:02:04.670
+the variable application_name
+at the point
+
+43
+00:02:04.670 --> 00:02:08.075
+where it's been added
+to the parsed_line list.
+
+44
+00:02:09.075 --> 00:02:10.945
+Let's examine that
+section of code.
+
+45
+00:02:10.945 --> 00:02:13.550
+This error means we haven't
+
+46
+00:02:13.550 --> 00:02:16.095
+assigned a variable
+name properly.
+
+47
+00:02:16.095 --> 00:02:18.830
+So now let's go back to where it
+
+48
+00:02:18.830 --> 00:02:22.380
+was first assigned and
+determine what happened.
+
+49
+00:02:22.610 --> 00:02:26.570
+We find that this
+variable is misspelled.
+
+50
+00:02:26.570 --> 00:02:31.175
+There should be two p's in
+application_name, not one.
+
+51
+00:02:31.175 --> 00:02:33.775
+Let's correct the spelling.
+
+52
+00:02:33.775 --> 00:02:37.440
+Now that we've fixed it,
+it should work.
+
+53
+00:02:37.440 --> 00:02:41.430
+So let's run the code.
+Great! We fixed
+
+54
+00:02:41.430 --> 00:02:43.845
+an error and an exception.
+
+55
+00:02:43.845 --> 00:02:46.735
+And we no longer have
+any error messages.
+
+56
+00:02:46.735 --> 00:02:50.200
+But this doesn't mean our
+debugging work is done.
+
+57
+00:02:51.200 --> 00:02:52.060
+Let's make sure the logic of
+
+58
+00:02:52.060 --> 00:02:55.660
+the program works as intended
+by examining the output.
+
+59
+00:02:55.660 --> 00:02:58.125
+Our output is a parsed line.
+
+60
+00:02:58.125 --> 00:03:01.575
+In most cases, this
+would be what we wanted.
+
+61
+00:03:01.575 --> 00:03:03.625
+But as you might recall,
+
+62
+00:03:03.625 --> 00:03:06.130
+if the status code is 200,
+
+63
+00:03:06.130 --> 00:03:08.745
+our code shouldn't parse the line.
+
+64
+00:03:08.745 --> 00:03:10.930
+Instead, it should print
+
+65
+00:03:10.930 --> 00:03:14.510
+a message that no
+parsing is needed.
+
+66
+00:03:14.510 --> 00:03:18.264
+And when we called it with
+a status code of 200,
+
+67
+00:03:18.264 --> 00:03:20.050
+there was a logic error
+
+68
+00:03:20.050 --> 00:03:23.390
+because this message
+wasn't displayed.
+
+69
+00:03:24.390 --> 00:03:26.725
+So let's go back to the
+conditional we used to
+
+70
+00:03:26.725 --> 00:03:30.350
+handle the status code
+of 200 and investigate.
+
+71
+00:03:30.350 --> 00:03:32.895
+To find the source of the issue,
+
+72
+00:03:32.895 --> 00:03:35.445
+let's add print statements.
+
+73
+00:03:35.445 --> 00:03:37.425
+In our print statements,
+
+74
+00:03:37.425 --> 00:03:39.355
+we'll include the line number
+
+75
+00:03:39.355 --> 00:03:42.125
+and the description
+of the location.
+
+76
+00:03:42.125 --> 00:03:45.580
+We'll add one print
+statement before the line of
+
+77
+00:03:45.580 --> 00:03:49.595
+code containing
+"return parsed_list".
+
+78
+00:03:49.595 --> 00:03:54.340
+We'll add another above the
+if statement that checks for
+
+79
+00:03:54.340 --> 00:03:56.750
+the 200 status code to
+
+80
+00:03:56.750 --> 00:04:00.240
+determine if it reaches
+the if statement.
+
+81
+00:04:00.500 --> 00:04:05.269
+We'll add one more
+print statement inside
+
+82
+00:04:05.269 --> 00:04:07.130
+the if statement to
+
+83
+00:04:07.130 --> 00:04:11.155
+determine whether the
+program even enters it.
+
+84
+00:04:12.155 --> 00:04:16.735
+Now, let's run the code and
+review what gets printed.
+
+85
+00:04:16.735 --> 00:04:21.485
+Only the first print
+statement printed something.
+
+86
+00:04:21.485 --> 00:04:25.925
+The other two print statements
+after these didn't print.
+
+87
+00:04:25.925 --> 00:04:28.460
+This means the program
+
+88
+00:04:28.460 --> 00:04:31.055
+didn't even enter
+the if statement.
+
+89
+00:04:31.055 --> 00:04:33.410
+The problem occurred somewhere
+
+90
+00:04:33.410 --> 00:04:36.560
+before the line that returns
+the parsed_line variable.
+
+91
+00:04:36.560 --> 00:04:38.600
+Let's investigate.
+
+92
+00:04:39.600 --> 00:04:42.670
+When Python encounters the
+first return statement
+
+93
+00:04:42.670 --> 00:04:44.920
+which sends back the parsed list,
+
+94
+00:04:44.920 --> 00:04:47.080
+it exits the function.
+
+95
+00:04:47.080 --> 00:04:50.410
+In other words, it
+returns the list before
+
+96
+00:04:50.410 --> 00:04:54.245
+it even checks for a
+status code value of 200.
+
+97
+00:04:54.245 --> 00:04:58.510
+To fix this, we must
+move the if statement,
+
+98
+00:04:58.510 --> 00:05:00.280
+checking for the status code
+
+99
+00:05:00.280 --> 00:05:03.860
+somewhere before
+"return parsed line".
+
+100
+00:05:03.860 --> 00:05:07.365
+Let's first delete
+our print statements.
+
+101
+00:05:07.365 --> 00:05:09.850
+This makes the program
+more efficient
+
+102
+00:05:09.850 --> 00:05:13.480
+because it doesn't run any
+unneeded lines of code.
+
+103
+00:05:13.480 --> 00:05:17.480
+Now, let's move
+the if statement.
+
+104
+00:05:17.480 --> 00:05:21.030
+We'll place it right
+after the line of code
+
+105
+00:05:21.030 --> 00:05:25.200
+that involves parsing the
+status code from the line.
+
+106
+00:05:25.330 --> 00:05:30.530
+Let's run our code and confirm
+that this fixed our issue.
+
+107
+00:05:30.530 --> 00:05:35.735
+Yes! It printed "Successful
+event - no parsing needed."
+
+108
+00:05:36.735 --> 00:05:39.680
+Great work! We've fixed
+this logic error.
+
+109
+00:05:39.680 --> 00:05:42.460
+I enjoyed debugging
+this code with you.
+
+110
+00:05:42.460 --> 00:05:45.740
+I hope this video has strengthened
+your understanding of
+
+111
+00:05:45.740 --> 00:05:48.140
+some helpful
+debugging strategies
+
+112
+00:05:48.140 --> 00:05:52.200
+and gave you an idea of some
+errors you might encounter.

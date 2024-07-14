@@ -1,0 +1,309 @@
+WEBVTT
+
+1
+00:00:00.961 --> 00:00:05.480
+There's a wide range of vulnerabilities
+in systems that need to be found.
+
+2
+00:00:05.480 --> 00:00:08.955
+Assessing those weaknesses
+is a time-consuming process.
+
+3
+00:00:08.955 --> 00:00:11.336
+To position themselves
+ahead of threats and
+
+4
+00:00:11.336 --> 00:00:15.392
+make the most of their limited resources,
+companies start by understanding
+
+5
+00:00:15.392 --> 00:00:18.113
+the environment surrounding
+their operations.
+
+6
+00:00:18.113 --> 00:00:22.414
+An important part of this is getting
+a sense of their attack surface.
+
+7
+00:00:23.414 --> 00:00:27.109
+An attack surface is all the potential
+vulnerabilities that a threat actor
+
+8
+00:00:27.109 --> 00:00:28.161
+could exploit.
+
+9
+00:00:28.161 --> 00:00:33.388
+Analyzing the attack surface is usually
+the first thing security teams do.
+
+10
+00:00:34.388 --> 00:00:38.139
+For example, imagine being part of
+a security team of an old castle.
+
+11
+00:00:38.139 --> 00:00:42.949
+Your team would need to decide how
+to allocate resources to defenses.
+
+12
+00:00:42.949 --> 00:00:44.981
+Giant walls, stone towers, and
+
+13
+00:00:44.981 --> 00:00:49.597
+wooden gates are a few common security
+controls of these structures.
+
+14
+00:00:49.597 --> 00:00:53.806
+While these are all designed to protect
+the assets inside from attacks,
+
+15
+00:00:53.806 --> 00:00:57.122
+they don't exactly account for
+all the possibilities.
+
+16
+00:00:57.122 --> 00:00:59.828
+What if the castle were near the ocean?
+
+17
+00:00:59.828 --> 00:01:04.191
+If it were, these defenses would be
+vulnerable to long range attacks by ship.
+
+18
+00:01:04.191 --> 00:01:08.072
+A proper understanding of the attack
+surface would mean your security team
+
+19
+00:01:08.072 --> 00:01:12.148
+equipped the castle with catapults that
+could deal with these kinds of threats.
+
+20
+00:01:13.148 --> 00:01:16.939
+Modern organizations need to concern
+themselves with both a physical and
+
+21
+00:01:16.939 --> 00:01:18.647
+digital attack surface.
+
+22
+00:01:18.647 --> 00:01:22.627
+The physical attack surface is made
+up of people and their devices.
+
+23
+00:01:22.627 --> 00:01:26.010
+This surface can be attacked
+from both inside and
+
+24
+00:01:26.010 --> 00:01:29.488
+outside the organization,
+which makes it unique.
+
+25
+00:01:30.488 --> 00:01:31.477
+For example,
+
+26
+00:01:31.477 --> 00:01:35.676
+let's consider an unattended laptop
+in a public space, like a coffee shop.
+
+27
+00:01:35.676 --> 00:01:37.295
+The person responsible for
+
+28
+00:01:37.295 --> 00:01:42.019
+it walked away while sensitive company
+information was visible on the screen.
+
+29
+00:01:42.019 --> 00:01:45.193
+This information is vulnerable
+to external threats,
+
+30
+00:01:45.193 --> 00:01:49.958
+like a business competitor, who can easily
+record the information and exploit it.
+
+31
+00:01:49.958 --> 00:01:53.703
+An internal threat of this attack surface,
+on the other hand,
+
+32
+00:01:53.703 --> 00:01:55.338
+is often angry employees.
+
+33
+00:01:55.338 --> 00:01:59.228
+These employees might share
+an organization's private information on
+
+34
+00:01:59.228 --> 00:01:59.806
+purpose.
+
+35
+00:02:00.806 --> 00:02:04.465
+In general, the physical attack surface
+should be filled with obstacles that
+
+36
+00:02:04.465 --> 00:02:06.438
+deter attacks from happening.
+
+37
+00:02:06.438 --> 00:02:09.563
+We call this process security hardening.
+
+38
+00:02:09.563 --> 00:02:13.734
+Security hardening is the process
+of strengthening a system to
+
+39
+00:02:13.734 --> 00:02:17.048
+reduce its vulnerabilities and
+attack surface.
+
+40
+00:02:17.048 --> 00:02:19.837
+In other words, hardening is the act of
+
+41
+00:02:19.837 --> 00:02:24.412
+minimizing the attack surface
+by limiting its points of entry.
+
+42
+00:02:25.412 --> 00:02:28.687
+We do this a lot in security because
+the smaller the attack surface,
+
+43
+00:02:28.687 --> 00:02:30.487
+the easier it is to protect.
+
+44
+00:02:30.487 --> 00:02:34.437
+In fact, some security controls
+that we've explored previously,
+
+45
+00:02:34.437 --> 00:02:38.387
+like organization policies and
+access controls, are common ways that
+
+46
+00:02:38.387 --> 00:02:41.747
+organizations harden their
+physical attack surface.
+
+47
+00:02:42.747 --> 00:02:44.879
+The digital attack surface
+is a bit tougher to harden.
+
+48
+00:02:44.879 --> 00:02:48.518
+The digital attack surface includes
+everything that's beyond our
+
+49
+00:02:48.518 --> 00:02:50.122
+organization's firewall.
+
+50
+00:02:50.122 --> 00:02:55.416
+In other words, it includes anything
+that connects to an organization online.
+
+51
+00:02:56.416 --> 00:02:59.331
+In the past, organizations stored
+their data in a single location.
+
+52
+00:02:59.331 --> 00:03:02.893
+This mainly consisted of servers
+that were managed on-site.
+
+53
+00:03:02.893 --> 00:03:07.293
+Accessing the information stored on
+those servers required connecting to
+
+54
+00:03:07.293 --> 00:03:09.609
+the network the workplace managed.
+
+55
+00:03:10.609 --> 00:03:14.525
+These days, information is accessed outside
+of an organization's network because it's
+
+56
+00:03:14.525 --> 00:03:15.699
+stored in the cloud.
+
+57
+00:03:15.699 --> 00:03:19.107
+Information can be accessed
+from anywhere in the world.
+
+58
+00:03:19.107 --> 00:03:22.840
+A person can be in one part of the world,
+fly to another place, and
+
+59
+00:03:22.840 --> 00:03:27.154
+continue working. All while outside
+of their organization's network.
+
+60
+00:03:28.154 --> 00:03:31.502
+Cloud computing has essentially
+expanded the digital attack surface.
+
+61
+00:03:31.502 --> 00:03:35.651
+Quicker access to information is
+something we all benefit from, but
+
+62
+00:03:35.651 --> 00:03:37.163
+it comes with a cost.
+
+63
+00:03:37.163 --> 00:03:41.883
+Organizations of all sizes are under
+more pressure to defend against threats
+
+64
+00:03:41.883 --> 00:03:44.216
+coming from different entry points.
+
+65
+00:03:45.216 --> 00:03:48.411
+When we get together next time, we'll
+explore why this is such a challenge.

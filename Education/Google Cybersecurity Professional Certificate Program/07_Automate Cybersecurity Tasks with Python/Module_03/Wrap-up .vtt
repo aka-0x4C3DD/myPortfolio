@@ -1,0 +1,119 @@
+WEBVTT
+
+1
+00:00:00.020 --> 00:00:04.575
+Congratulations! We
+accomplished a lot together.
+
+2
+00:00:04.575 --> 00:00:06.585
+Let's take time to
+quickly go through
+
+3
+00:00:06.585 --> 00:00:08.760
+all the new concepts we covered.
+
+4
+00:00:09.760 --> 00:00:11.190
+We started this
+course by focusing on
+
+5
+00:00:11.190 --> 00:00:13.890
+working with strings and lists.
+
+6
+00:00:13.890 --> 00:00:15.945
+We learned methods that work
+
+7
+00:00:15.945 --> 00:00:18.360
+specifically with
+these data types.
+
+8
+00:00:18.360 --> 00:00:20.535
+We also learned to work with
+
+9
+00:00:20.535 --> 00:00:23.460
+indices and extract
+information we need.
+
+10
+00:00:23.460 --> 00:00:27.240
+Next, we focused on
+writing algorithms.
+
+11
+00:00:27.240 --> 00:00:29.940
+We wrote a simple
+algorithm that sliced
+
+12
+00:00:29.940 --> 00:00:33.165
+the network ID from a
+list of IP addresses.
+
+13
+00:00:33.165 --> 00:00:37.385
+Finally, we covered using
+regular expressions.
+
+14
+00:00:37.385 --> 00:00:41.450
+Regular expressions allow
+you to search for patterns,
+
+15
+00:00:41.450 --> 00:00:43.790
+and this provides
+expanded ways to
+
+16
+00:00:43.790 --> 00:00:47.000
+locate what you need in
+logs and other files.
+
+17
+00:00:48.000 --> 00:00:49.730
+These are complex concepts,
+and you're always
+
+18
+00:00:49.730 --> 00:00:52.835
+welcome to visit the videos
+again whenever you like.
+
+19
+00:00:52.835 --> 00:00:54.920
+With these concepts, you took
+
+20
+00:00:54.920 --> 00:00:56.840
+a big step towards being able to
+
+21
+00:00:56.840 --> 00:00:58.340
+work with data and write
+
+22
+00:00:58.340 --> 00:01:01.460
+the algorithms that security
+professionals need.
+
+23
+00:01:01.460 --> 00:01:03.680
+Throughout the rest
+of this course,
+
+24
+00:01:03.680 --> 00:01:05.450
+you're going to get
+more practice with
+
+25
+00:01:05.450 --> 00:01:09.660
+Python and what it can
+offer to security analysts.

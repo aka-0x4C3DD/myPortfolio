@@ -1,0 +1,122 @@
+WEBVTT
+
+1
+00:00:00.810 --> 00:00:05.850
+Our focus in this section was on a major
+theme of security: protecting assets.
+
+2
+00:00:05.850 --> 00:00:08.690
+A large part of this relates to privacy.
+
+3
+00:00:08.690 --> 00:00:12.770
+We should all enjoy the right to
+decide who can access our information.
+
+4
+00:00:12.770 --> 00:00:17.210
+As we learned, there are several controls
+in place that help secure assets.
+
+5
+00:00:18.210 --> 00:00:21.240
+We began the section by exploring
+effective data handling processes that
+
+6
+00:00:21.240 --> 00:00:23.850
+are founded on the principle
+of least privilege.
+
+7
+00:00:23.850 --> 00:00:28.890
+We then explored the role of encryption
+and hashing and safeguarding information.
+
+8
+00:00:28.890 --> 00:00:32.450
+We explored how symmetric and
+asymmetric encryption works and
+
+9
+00:00:32.450 --> 00:00:35.730
+how hashes further
+safeguard data from harm.
+
+10
+00:00:36.730 --> 00:00:40.685
+We then turned our attention to standard
+access controls. Properly authenticating
+
+11
+00:00:40.685 --> 00:00:45.660
+and authorizing users is what maintaining
+the CIA triad of information is all about!
+
+12
+00:00:46.660 --> 00:00:50.710
+We used the AAA framework of security
+to take a detailed tour of identity and
+
+13
+00:00:50.710 --> 00:00:55.609
+access management systems and the access
+controls that validate whether or not
+
+14
+00:00:55.609 --> 00:00:57.925
+someone is who they claim to be.
+
+15
+00:00:58.925 --> 00:01:00.710
+Well done making it through
+the first half of the course!
+
+16
+00:01:00.710 --> 00:01:04.288
+You're making great progress so
+far, and I hope you keep it up.
+
+17
+00:01:04.288 --> 00:01:08.490
+Remember, your background and
+experiences are valuable in this field.
+
+18
+00:01:08.490 --> 00:01:11.715
+This combined with the concepts
+we're covering will make you
+
+19
+00:01:11.715 --> 00:01:14.500
+a valuable contributor
+to any security team.
+
+20
+00:01:15.500 --> 00:01:18.516
+Up until this point, we've been exploring
+the defensive side of security, but
+
+21
+00:01:18.516 --> 00:01:22.810
+security isn't all about planning ahead
+and waiting for something to happen.
+
+22
+00:01:22.810 --> 00:01:24.442
+In the next part of our journey,
+
+23
+00:01:24.442 --> 00:01:28.362
+we're going to continue developing
+a security mindset by taking a more
+
+24
+00:01:28.362 --> 00:01:31.912
+proactive look at security from
+the perspective of attackers.
+
+25
+00:01:31.912 --> 00:01:32.980
+I'll meet you there!

@@ -1,0 +1,400 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:03.300
+As you've learned,
+security analysts can be
+
+2
+00:00:03.300 --> 00:00:06.375
+flooded with a large amount
+of alerts on any given day.
+
+3
+00:00:06.375 --> 00:00:09.315
+How does an analyst manage
+all of these alerts?
+
+4
+00:00:10.315 --> 00:00:11.550
+Hospital emergency
+departments receive
+
+5
+00:00:11.550 --> 00:00:13.635
+a large number of
+patients every day.
+
+6
+00:00:13.635 --> 00:00:16.860
+Each patient needs medical
+care for a different reason,
+
+7
+00:00:16.860 --> 00:00:18.170
+but not all patients will
+
+8
+00:00:18.170 --> 00:00:20.165
+receive medical
+care immediately.
+
+9
+00:00:20.165 --> 00:00:21.680
+This is because hospitals
+
+10
+00:00:21.680 --> 00:00:23.300
+have a limited
+number of resources
+
+11
+00:00:23.300 --> 00:00:24.710
+available and must manage
+
+12
+00:00:24.710 --> 00:00:26.765
+their time and
+energy efficiently.
+
+13
+00:00:26.765 --> 00:00:30.190
+They do this through a
+process known as triage.
+
+14
+00:00:31.190 --> 00:00:33.050
+In medicine, triage
+is used to categorize
+
+15
+00:00:33.050 --> 00:00:35.825
+patients based on the
+urgency of their conditions.
+
+16
+00:00:35.825 --> 00:00:38.630
+For example, patients with a
+life-threatening condition
+
+17
+00:00:38.630 --> 00:00:39.980
+such as a heart attack will
+
+18
+00:00:39.980 --> 00:00:42.010
+receive immediate
+medical attention,
+
+19
+00:00:42.010 --> 00:00:44.615
+but a patient with a non-life
+threatening condition like
+
+20
+00:00:44.615 --> 00:00:46.190
+a broken finger may have to
+
+21
+00:00:46.190 --> 00:00:48.215
+wait before they see a doctor.
+
+22
+00:00:48.215 --> 00:00:50.030
+Triage helps to manage
+
+23
+00:00:50.030 --> 00:00:52.370
+limited resources so
+that hospital staff can
+
+24
+00:00:52.370 --> 00:00:53.660
+give immediate attention to
+
+25
+00:00:53.660 --> 00:00:56.500
+patients with the most
+urgent conditions.
+
+26
+00:00:57.500 --> 00:00:59.265
+Triage is also used in security.
+
+27
+00:00:59.265 --> 00:01:00.970
+Before an alert gets escalated,
+
+28
+00:01:00.970 --> 00:01:03.850
+it goes through a triage
+process, which prioritizes
+
+29
+00:01:03.850 --> 00:01:05.440
+incidents according
+to their level
+
+30
+00:01:05.440 --> 00:01:07.285
+of importance or urgency.
+
+31
+00:01:07.285 --> 00:01:09.655
+Similar to hospital
+emergency departments,
+
+32
+00:01:09.655 --> 00:01:11.740
+security teams have
+limited resources
+
+33
+00:01:11.740 --> 00:01:14.470
+available to dedicate
+to incident response.
+
+34
+00:01:14.470 --> 00:01:16.380
+Not all incidents are the same,
+
+35
+00:01:16.380 --> 00:01:18.920
+and some may involve an
+urgent response.
+
+36
+00:01:18.920 --> 00:01:21.100
+Incidents are
+triaged according to
+
+37
+00:01:21.100 --> 00:01:23.695
+the threat they pose to
+the confidentiality,
+
+38
+00:01:23.695 --> 00:01:26.405
+integrity, and
+availability of systems.
+
+39
+00:01:27.405 --> 00:01:28.480
+For example, an
+incident involving
+
+40
+00:01:28.480 --> 00:01:31.089
+ransomware requires
+immediate response.
+
+41
+00:01:31.089 --> 00:01:33.655
+This is because ransomware
+may cause financial,
+
+42
+00:01:33.655 --> 00:01:36.205
+reputational, and
+operational damage.
+
+43
+00:01:36.205 --> 00:01:38.320
+Ransomware is a
+higher priority than
+
+44
+00:01:38.320 --> 00:01:41.795
+an incident like an employee
+receiving a phishing email.
+
+45
+00:01:42.795 --> 00:01:44.100
+When does triage happen?
+
+46
+00:01:44.100 --> 00:01:46.630
+Once an incident is
+detected and an alert gets
+
+47
+00:01:46.630 --> 00:01:49.284
+sent out, triage begins.
+
+48
+00:01:49.284 --> 00:01:50.680
+As a security analyst,
+
+49
+00:01:50.680 --> 00:01:52.850
+you'll identify the
+different types of alerts,
+
+50
+00:01:52.850 --> 00:01:55.810
+and then prioritize them
+according to urgency.
+
+51
+00:01:56.810 --> 00:01:59.200
+The triage process
+generally looks like this.
+
+52
+00:01:59.200 --> 00:02:00.820
+First, you'll receive and
+
+53
+00:02:00.820 --> 00:02:02.740
+assess the alert to
+determine if it's a
+
+54
+00:02:02.740 --> 00:02:04.450
+false positive and whether it's
+
+55
+00:02:04.450 --> 00:02:06.460
+related to an existing incident.
+
+56
+00:02:06.460 --> 00:02:07.870
+If it's a true positive,
+
+57
+00:02:07.870 --> 00:02:09.940
+you'll assign priority
+on the alert based
+
+58
+00:02:09.940 --> 00:02:12.535
+on the organization's
+policy and guidelines.
+
+59
+00:02:12.535 --> 00:02:14.410
+The priority level defines how
+
+60
+00:02:14.410 --> 00:02:16.255
+the organization's security team
+
+61
+00:02:16.255 --> 00:02:17.905
+will respond to the incident.
+
+62
+00:02:17.905 --> 00:02:19.840
+Finally, you'll
+investigate the alert
+
+63
+00:02:19.840 --> 00:02:21.775
+and collect and
+analyze any evidence
+
+64
+00:02:21.775 --> 00:02:24.645
+associated with the alert,
+such as system logs.
+
+65
+00:02:25.645 --> 00:02:27.860
+As an analyst, you'll want
+to ensure that you complete
+
+66
+00:02:27.860 --> 00:02:29.600
+a thorough analysis
+so that you have
+
+67
+00:02:29.600 --> 00:02:30.890
+enough information to make
+
+68
+00:02:30.890 --> 00:02:33.160
+an informed decision
+about your findings.
+
+69
+00:02:33.160 --> 00:02:35.180
+For example, say
+that you received
+
+70
+00:02:35.180 --> 00:02:37.835
+an alert for a failed
+user login attempt.
+
+71
+00:02:37.835 --> 00:02:39.860
+You'll need to add context to
+
+72
+00:02:39.860 --> 00:02:42.670
+your investigation to
+determine if it's malicious.
+
+73
+00:02:42.670 --> 00:02:45.140
+You can do so by
+asking questions.
+
+74
+00:02:45.140 --> 00:02:46.400
+Is there anything out of the
+
+75
+00:02:46.400 --> 00:02:48.665
+ordinary associated
+with this alert?
+
+76
+00:02:48.665 --> 00:02:50.810
+Are there multiple
+failed login attempts?
+
+77
+00:02:50.810 --> 00:02:53.885
+Did the login happen outside
+of normal working hours?
+
+78
+00:02:53.885 --> 00:02:56.800
+Did the login happen
+outside of the network?
+
+79
+00:02:56.800 --> 00:02:59.780
+These questions paint a
+picture around the incident.
+
+80
+00:02:59.780 --> 00:03:01.100
+By adding context,
+
+81
+00:03:01.100 --> 00:03:03.485
+you avoid making assumptions,
+which can result
+
+82
+00:03:03.485 --> 00:03:06.280
+in incomplete or
+incorrect conclusions.
+
+83
+00:03:07.280 --> 00:03:08.505
+Now that we've covered
+how to triage alerts,
+
+84
+00:03:08.505 --> 00:03:10.340
+we're ready to discuss
+how to respond and
+
+85
+00:03:10.340 --> 00:03:13.560
+recover from an
+incident. Let's go!

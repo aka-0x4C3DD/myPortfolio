@@ -1,0 +1,244 @@
+WEBVTT
+
+1
+00:00:00.617 --> 00:00:04.596
+[MUSIC]
+
+2
+00:00:04.596 --> 00:00:06.890
+Hi, I'm Niru, and
+I lead the red team at Google.
+
+3
+00:00:06.890 --> 00:00:11.780
+The red team at Google simulates attackers
+that are trying to hack into Google.
+
+4
+00:00:11.780 --> 00:00:15.940
+They function as a sparring partner for
+the blue team, that is, the teams that
+
+5
+00:00:15.940 --> 00:00:20.051
+build security controls, detection
+pipelines, or respond to incidents.
+
+6
+00:00:20.051 --> 00:00:25.002
+So we help test all of those
+by simulating adversaries.
+
+7
+00:00:25.002 --> 00:00:28.949
+So we hack into Google to make
+it harder to hack into Google.
+
+8
+00:00:28.949 --> 00:00:32.145
+So it's like, hey,
+we found these issues with your system,
+
+9
+00:00:32.145 --> 00:00:36.087
+now here are some recommendations we have,
+and how can we help you fix this?
+
+10
+00:00:36.087 --> 00:00:41.353
+Thinking like an attacker is approaching
+a problem like an adversary.
+
+11
+00:00:41.353 --> 00:00:44.077
+I generally have a predisposition
+to think like an attacker.
+
+12
+00:00:44.077 --> 00:00:45.110
+[LAUGH].
+
+13
+00:00:45.110 --> 00:00:48.971
+It started when I was a kid and
+I used to play video games, and
+
+14
+00:00:48.971 --> 00:00:53.546
+I used to ask, oh, do I have to beat
+the game in the way it's intended?
+
+15
+00:00:53.546 --> 00:00:56.737
+Do I have to get the objective
+in the standard path?
+
+16
+00:00:56.737 --> 00:01:00.688
+Looking at a system and
+asking the question, can I break into it?
+
+17
+00:01:00.688 --> 00:01:02.069
+How do I break into it?
+
+18
+00:01:02.069 --> 00:01:03.871
+What is likely to fail?
+
+19
+00:01:03.871 --> 00:01:06.058
+If it fails, what does that give me?
+
+20
+00:01:06.058 --> 00:01:09.496
+It's about taking apart systems and
+trying to understand it.
+
+21
+00:01:09.496 --> 00:01:13.310
+Threat modeling is integral to almost
+anything a security professional does.
+
+22
+00:01:13.310 --> 00:01:15.308
+It's about challenging assumptions.
+
+23
+00:01:15.308 --> 00:01:18.563
+It's about approaching things
+from a different perspective.
+
+24
+00:01:18.563 --> 00:01:22.740
+Rather than looking at the system from
+the perspective of a developer who is
+
+25
+00:01:22.740 --> 00:01:26.802
+thinking about, how do I build the system
+in a way that works for people?
+
+26
+00:01:26.802 --> 00:01:31.072
+You're putting on the hat of an attacker
+and saying, if I looked at the system,
+
+27
+00:01:31.072 --> 00:01:32.496
+how would I break into it?
+
+28
+00:01:32.496 --> 00:01:36.320
+It's important for all security
+professionals to think like an attacker
+
+29
+00:01:36.320 --> 00:01:40.330
+because you code more defensively,
+you build things more defensively, and
+
+30
+00:01:40.330 --> 00:01:42.254
+you break things more offensively.
+
+31
+00:01:42.254 --> 00:01:46.151
+And what that means is you're building
+in this resilience into the system, and
+
+32
+00:01:46.151 --> 00:01:50.164
+you're building in all these safeguards
+that are going to help protect the data,
+
+33
+00:01:50.164 --> 00:01:51.695
+the systems, and the people.
+
+34
+00:01:51.695 --> 00:01:54.783
+In order to build my attacker mindset,
+
+35
+00:01:54.783 --> 00:01:58.441
+what I did is I would go
+pick people's brains.
+
+36
+00:01:58.441 --> 00:02:01.419
+What that means is I can
+grab time with them and say,
+
+37
+00:02:01.419 --> 00:02:03.717
+hey, how do you approach the system?
+
+38
+00:02:03.717 --> 00:02:06.506
+What are the assumptions you're making?
+
+39
+00:02:06.506 --> 00:02:09.807
+How do you build out the security
+safeguards that you're thinking about?
+
+40
+00:02:09.807 --> 00:02:14.734
+My advice for people who are trying
+to build their own attacker mindset
+
+41
+00:02:14.734 --> 00:02:19.161
+is go talk to people,
+be it in local meetups, in conferences,
+
+42
+00:02:19.161 --> 00:02:23.774
+find yourself a CTF group and
+play these competitions with them.
+
+43
+00:02:23.774 --> 00:02:27.653
+See how each person in the team approaches
+certain things and solves for it.
+
+44
+00:02:27.653 --> 00:02:32.215
+Almost everything we do on a daily basis
+is online these days, like banking is
+
+45
+00:02:32.215 --> 00:02:37.218
+online, grocery shopping is online,
+the electricity grid, the water supplies.
+
+46
+00:02:37.218 --> 00:02:40.811
+All of this has happened in
+a short span of time, and
+
+47
+00:02:40.811 --> 00:02:45.675
+now people are taking a step back and
+say, what does that mean for us?
+
+48
+00:02:45.675 --> 00:02:50.463
+And cybersecurity folks are the ones who
+help make sure these systems are locked
+
+49
+00:02:50.463 --> 00:02:53.406
+down and
+protected against these adversaries.
+
+50
+00:02:53.406 --> 00:02:58.630
+If you're inquisitive, if you like taking
+things apart, if you like solving things,
+
+51
+00:02:58.630 --> 00:03:02.950
+if you want to help make things secure,
+you should join cybersecurity.

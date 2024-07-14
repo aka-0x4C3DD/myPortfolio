@@ -1,0 +1,514 @@
+WEBVTT
+
+1
+00:00:01.000 --> 00:00:05.510
+Previously, we discussed how to store
+different data types in variables.
+
+2
+00:00:05.510 --> 00:00:09.666
+Now we'll begin to move into
+the concept of automation, so
+
+3
+00:00:09.666 --> 00:00:13.430
+we can create exciting actions with code.
+
+4
+00:00:14.430 --> 00:00:17.591
+Automation is the use of
+technology to reduce human and
+
+5
+00:00:17.591 --> 00:00:22.500
+manual effort to perform common and
+repetitive tasks.
+
+6
+00:00:22.500 --> 00:00:25.735
+It allows computers to do these
+tasks for us
+
+7
+00:00:25.735 --> 00:00:30.610
+so that we may get back more time in
+our lives to do other activities.
+
+8
+00:00:30.610 --> 00:00:34.480
+Conditional statements are important for
+automation.
+
+9
+00:00:34.480 --> 00:00:38.631
+A conditional statement is
+a statement that evaluates code
+
+10
+00:00:38.631 --> 00:00:42.541
+to determine if it meets
+a specified set of conditions.
+
+11
+00:00:43.680 --> 00:00:47.790
+The keyword if is important
+in conditional statements.
+
+12
+00:00:47.790 --> 00:00:53.052
+if starts a conditional statement.
+After this keyword,
+
+13
+00:00:53.052 --> 00:00:59.771
+we then specify the condition that must
+be met and what will happen if it is.
+
+14
+00:00:59.771 --> 00:01:05.507
+We use if statements every day.
+For example, if it's cold outside,
+
+15
+00:01:05.507 --> 00:01:12.550
+then we'll wear a jacket. Or
+if it's raining, we'll bring an umbrella.
+
+16
+00:01:12.550 --> 00:01:17.327
+if statements are structured with
+the condition we want to evaluate and
+
+17
+00:01:17.327 --> 00:01:21.341
+the action that Python will
+perform if this condition is met.
+
+18
+00:01:22.500 --> 00:01:27.221
+Python always evaluates if
+the condition is True or False, and
+
+19
+00:01:27.221 --> 00:01:31.440
+if it's True,
+it performs the specific action.
+
+20
+00:01:31.440 --> 00:01:37.116
+Let's explore an example of this.
+We'll instruct Python to print an "account
+
+21
+00:01:37.116 --> 00:01:42.457
+locked" message anytime the failed log-in
+attempts are greater than five.
+
+22
+00:01:42.457 --> 00:01:48.174
+Our keyword if tells Python to start
+a conditional statement. After this,
+
+23
+00:01:48.174 --> 00:01:52.550
+we indicate the condition
+we want to check for.
+
+24
+00:01:52.550 --> 00:01:59.350
+In this case, we're checking if the user
+has more than five failed log-in attempts.
+
+25
+00:01:59.350 --> 00:02:03.680
+Notice how we're using a variable
+called failed_attempts.
+
+26
+00:02:03.680 --> 00:02:05.232
+In our complete code,
+
+27
+00:02:05.232 --> 00:02:10.555
+we will have assigned a value to
+failed_attempts prior to this if a statement.
+
+28
+00:02:10.555 --> 00:02:13.935
+After this condition,
+we always place a colon.
+
+29
+00:02:13.935 --> 00:02:20.440
+This signals that what follows is what we
+want to happen when the condition is met.
+
+30
+00:02:20.440 --> 00:02:26.104
+In this case, when the user has more
+than five failed log-in attempts,
+
+31
+00:02:26.104 --> 00:02:29.955
+it prints a message that
+the account is locked.
+
+32
+00:02:29.955 --> 00:02:34.057
+In Python,
+this message should always be indented
+
+33
+00:02:34.057 --> 00:02:39.631
+at least one space in order to execute
+only when the condition is true.
+
+34
+00:02:41.290 --> 00:02:44.891
+It's common to call this first line
+the "header" and
+
+35
+00:02:44.891 --> 00:02:49.451
+to call the actions that happen when
+the condition is met the "body."
+
+36
+00:02:51.650 --> 00:02:55.879
+This condition was based on a variable
+being greater than a specific number,
+
+37
+00:02:55.879 --> 00:03:00.080
+but we can define our condition
+using a variety of operators.
+
+38
+00:03:00.080 --> 00:03:05.073
+For example, we can also check
+if something is "less than"
+
+39
+00:03:05.073 --> 00:03:10.277
+a specified value, or
+we can check if it's "greater than" or
+
+40
+00:03:10.277 --> 00:03:15.200
+"equal to" or "less than or
+equal to" the value.
+
+41
+00:03:16.200 --> 00:03:18.854
+We can also compare if
+something is equal to a value.
+
+42
+00:03:18.854 --> 00:03:23.690
+When we do this inside a conditional,
+we need to use a special syntax.
+
+43
+00:03:23.690 --> 00:03:28.560
+It's not just the equals sign,
+but a double equals.
+
+44
+00:03:28.560 --> 00:03:33.321
+The double equals sign is an important
+operator often used in conditional
+
+45
+00:03:33.321 --> 00:03:34.260
+statements.
+
+46
+00:03:34.260 --> 00:03:39.390
+A double equals evaluates
+whether two objects match.
+
+47
+00:03:39.390 --> 00:03:45.751
+It assigns a Boolean value of True when
+they match and False when they don't.
+
+48
+00:03:47.640 --> 00:03:52.810
+There's one more operator we should
+discuss. An exclamation mark
+
+49
+00:03:52.810 --> 00:03:57.811
+followed by an equals sign represents
+the condition of "not equal."
+
+50
+00:04:00.000 --> 00:04:05.580
+This operator for "not equal" evaluates
+whether two objects are different.
+
+51
+00:04:05.580 --> 00:04:08.602
+It assigns a Boolean value of True
+
+52
+00:04:08.602 --> 00:04:13.890
+when they don't match and
+False when they match.
+
+53
+00:04:13.890 --> 00:04:19.070
+Let's more closely investigate an example
+that uses the double equals sign.
+
+54
+00:04:19.070 --> 00:04:21.770
+We'll focus on an example that prints an
+
+55
+00:04:21.770 --> 00:04:26.489
+"updates needed" message when a particular
+operating system is running.
+
+56
+00:04:26.489 --> 00:04:31.409
+Here, we've created a condition
+that checks if a device's operating
+
+57
+00:04:31.409 --> 00:04:36.585
+system matches a specific string that
+identifies this operating system.
+
+58
+00:04:36.585 --> 00:04:42.350
+To do this, we'll need to use
+the double equals sign in our condition.
+
+59
+00:04:42.350 --> 00:04:48.440
+When it matches, our program will print
+a message that there are updates needed.
+
+60
+00:04:48.440 --> 00:04:53.100
+The operating_system variable is on
+the left of the double equals sign.
+
+61
+00:04:53.100 --> 00:04:55.841
+The string "OS 2" is on the right.
+
+62
+00:04:57.130 --> 00:05:00.044
+If the condition evaluates to True,
+
+63
+00:05:00.044 --> 00:05:05.120
+it performs the action that is
+indented in the next line of code.
+
+64
+00:05:05.120 --> 00:05:11.110
+Here, if the operating_system is OS 2,
+it will print "updates needed."
+
+65
+00:05:11.110 --> 00:05:14.787
+If it's False, the message will not print.
+
+66
+00:05:14.787 --> 00:05:19.731
+Notice how this line is indented.
+This tells Python that
+
+67
+00:05:19.731 --> 00:05:24.681
+the task depends on the if
+statement evaluating to True.
+
+68
+00:05:25.990 --> 00:05:31.011
+Now let's write code that incorporates
+this conditional and get the results.
+
+69
+00:05:33.110 --> 00:05:35.725
+Before we write the conditional statement,
+
+70
+00:05:35.725 --> 00:05:39.178
+we need to assign a value to
+our operating system variable.
+
+71
+00:05:39.178 --> 00:05:43.504
+We'll make this value the same as
+the operating system that we'll check for
+
+72
+00:05:43.504 --> 00:05:44.771
+in the conditional.
+
+73
+00:05:47.120 --> 00:05:52.811
+Next, we'll write the condition for
+our if statement and use the double
+
+74
+00:05:52.811 --> 00:05:58.611
+equals sign to check if the
+operating_system variable is equivalent to OS 2.
+
+75
+00:06:01.090 --> 00:06:05.960
+Now we'll type the action that we'll
+execute if the condition on the previous
+
+76
+00:06:05.960 --> 00:06:08.440
+line evaluates to True.
+
+77
+00:06:08.440 --> 00:06:12.817
+We'll tell Python to print
+an "updates needed" message.
+
+78
+00:06:12.817 --> 00:06:19.721
+Since we set our operating_system variable
+to OS 2, the print statement will execute.
+
+79
+00:06:20.810 --> 00:06:22.820
+Okay, let's run this.
+
+80
+00:06:22.820 --> 00:06:28.660
+As expected, it printed
+"updates needed" because the value
+
+81
+00:06:28.660 --> 00:06:34.401
+assigned to the operating_system
+variable was equal to OS 2.
+
+82
+00:06:35.510 --> 00:06:40.282
+Sometimes, we want our conditional
+statements to execute another
+
+83
+00:06:40.282 --> 00:06:44.980
+set of instructions in the event
+our first condition isn't True.
+
+84
+00:06:44.980 --> 00:06:47.338
+In our example, not being True
+
+85
+00:06:47.338 --> 00:06:53.200
+means that the device is running
+an operating system other than OS 2.
+
+86
+00:06:53.200 --> 00:06:55.370
+This is when we need to incorporate
+
+87
+00:06:55.370 --> 00:06:58.980
+the else keyword into our
+conditional statements.
+
+88
+00:06:58.980 --> 00:07:04.688
+else precedes a code section that only
+evaluates when all conditions that
+
+89
+00:07:04.688 --> 00:07:09.766
+precede it within the conditional
+statement evaluate to False.
+
+90
+00:07:09.766 --> 00:07:15.239
+else statements always follow
+an if statement and end in a colon.
+
+91
+00:07:16.239 --> 00:07:21.320
+Let's use our previous conditional and
+add an else statement to it.
+
+92
+00:07:21.320 --> 00:07:24.500
+We've included the same if statement,
+
+93
+00:07:24.500 --> 00:07:28.711
+but this time,
+we set the operating system variable
+
+94
+00:07:28.711 --> 00:07:32.739
+to contain a different operating system,
+OS 3.
+
+95
+00:07:32.739 --> 00:07:37.493
+Because this doesn't match
+the value in the condition of
+
+96
+00:07:37.493 --> 00:07:42.652
+the if statement,
+the "updates needed" message won't print.
+
+97
+00:07:42.652 --> 00:07:49.087
+But we can add an else statement and
+tell it to do something else instead.
+
+98
+00:07:49.087 --> 00:07:55.933
+We type the else keyword followed by
+a colon.Then we indent the next line
+
+99
+00:07:55.933 --> 00:08:00.960
+and tell it to print a "no
+updates needed" message.
+
+100
+00:08:00.960 --> 00:08:07.520
+When we'd run this code, it processes
+the else statement after the if statement.
+
+101
+00:08:07.520 --> 00:08:11.160
+Since our if statement
+will evaluate to False,
+
+102
+00:08:11.160 --> 00:08:14.351
+it then moves on to the "else" instruction.
+
+103
+00:08:16.500 --> 00:08:17.719
+Let's try it.
+
+104
+00:08:17.719 --> 00:08:23.251
+As expected, it only prints the message
+"no updates needed."
+
+105
+00:08:25.310 --> 00:08:31.060
+Great work! Now we've covered how
+to use if and how to use else.
+
+106
+00:08:31.060 --> 00:08:35.571
+Using conditional statements allows you
+to incorporate logic into your code.

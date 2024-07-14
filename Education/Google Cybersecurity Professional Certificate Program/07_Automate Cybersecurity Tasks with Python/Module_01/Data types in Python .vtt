@@ -1,0 +1,505 @@
+WEBVTT
+
+1
+00:00:00.240 --> 00:00:05.380
+Our next topic relates to
+categorizing data in Python.
+
+2
+00:00:05.380 --> 00:00:07.960
+First, let's take a moment to
+
+3
+00:00:07.960 --> 00:00:11.510
+consider another environment
+where we apply categories.
+
+4
+00:00:11.510 --> 00:00:13.735
+We'll think about
+working in the kitchen.
+
+5
+00:00:13.735 --> 00:00:17.125
+When cooking, we can
+categorize the ingredients we
+
+6
+00:00:17.125 --> 00:00:21.880
+use; for example, carrots and
+peppers are vegetables,
+
+7
+00:00:21.880 --> 00:00:25.090
+and chicken and beef are meat.
+
+8
+00:00:25.090 --> 00:00:27.220
+These categories are important
+
+9
+00:00:27.220 --> 00:00:30.549
+because they affect how we
+handle these ingredients.
+
+10
+00:00:30.549 --> 00:00:32.470
+When working in Python,
+
+11
+00:00:32.470 --> 00:00:35.515
+data types achieve
+a similar purpose.
+
+12
+00:00:35.515 --> 00:00:37.570
+A data type is a category
+
+13
+00:00:37.570 --> 00:00:40.000
+for a particular
+type of data item.
+
+14
+00:00:40.000 --> 00:00:42.690
+Python uses several data types.
+
+15
+00:00:42.690 --> 00:00:44.965
+We'll focus on string,
+
+16
+00:00:44.965 --> 00:00:49.885
+float, integer,
+Boolean, and list data.
+
+17
+00:00:49.885 --> 00:00:51.725
+When we printed the text
+
+18
+00:00:51.725 --> 00:00:54.410
+"Hello Python!" in our
+previous video,
+
+19
+00:00:54.410 --> 00:00:56.770
+this was an example of a string.
+
+20
+00:00:57.770 --> 00:00:59.030
+String data is
+data consisting
+
+21
+00:00:59.030 --> 00:01:01.820
+of an ordered sequence
+of characters.
+
+22
+00:01:01.820 --> 00:01:04.640
+These characters
+could be letters,
+
+23
+00:01:04.640 --> 00:01:08.615
+symbols, spaces,
+and even numbers.
+
+24
+00:01:08.615 --> 00:01:10.939
+Numbers in the string data type
+
+25
+00:01:10.939 --> 00:01:13.595
+cannot be used for calculations.
+
+26
+00:01:13.595 --> 00:01:16.190
+All characters in a string must
+
+27
+00:01:16.190 --> 00:01:18.760
+be placed inside
+quotation marks.
+
+28
+00:01:18.760 --> 00:01:21.590
+Luckily, Python will tell you by
+
+29
+00:01:21.590 --> 00:01:22.960
+giving you an error message
+
+30
+00:01:22.960 --> 00:01:24.905
+if you forget a quotation mark.
+
+31
+00:01:25.905 --> 00:01:27.410
+Let's use our code
+from before and
+
+32
+00:01:27.410 --> 00:01:28.790
+explore what happens when we
+
+33
+00:01:28.790 --> 00:01:30.935
+leave off the quotation mark.
+
+34
+00:01:30.935 --> 00:01:32.630
+Notice how one of
+
+35
+00:01:32.630 --> 00:01:35.900
+our quotation marks is missing
+at the end of the string.
+
+36
+00:01:35.900 --> 00:01:37.790
+When we run this code,
+
+37
+00:01:37.790 --> 00:01:40.560
+we'll receive an error message.
+
+38
+00:01:42.600 --> 00:01:46.025
+Python also supports
+numeric data types as well.
+
+39
+00:01:46.025 --> 00:01:48.350
+When working with numeric data,
+
+40
+00:01:48.350 --> 00:01:51.320
+we don't put quotation
+marks around the data.
+
+41
+00:01:51.320 --> 00:01:54.934
+Numeric data includes
+floats and integers.
+
+42
+00:01:55.934 --> 00:01:56.960
+Float data is data
+
+43
+00:01:56.960 --> 00:02:00.185
+consisting of a number
+with a decimal point.
+
+44
+00:02:00.185 --> 00:02:05.810
+This includes fractions like 2.1 or 10.5.
+
+45
+00:02:05.810 --> 00:02:08.720
+It also includes
+whole numbers with a
+
+46
+00:02:08.720 --> 00:02:13.865
+decimal point like 2.0 or
+10.0.
+
+47
+00:02:14.865 --> 00:02:17.060
+Integer data is
+data consisting of
+
+48
+00:02:17.060 --> 00:02:20.930
+a number that does not
+include a decimal point.
+
+49
+00:02:20.930 --> 00:02:23.765
+Numbers such as 0,
+
+50
+00:02:23.765 --> 00:02:28.145
+-9, and 5,000
+are valid integers.
+
+51
+00:02:28.145 --> 00:02:33.145
+So far, we've used the print
+function to output a string.
+
+52
+00:02:33.145 --> 00:02:35.994
+But it can also be
+used with float
+
+53
+00:02:35.994 --> 00:02:38.555
+and integer types
+for calculations.
+
+54
+00:02:38.555 --> 00:02:41.410
+Let's try out an
+example of this.
+
+55
+00:02:41.410 --> 00:02:44.855
+First, since it's good practice,
+
+56
+00:02:44.855 --> 00:02:48.940
+let's add a comment to explain
+the purpose of our code.
+
+57
+00:02:48.940 --> 00:02:53.445
+Then, we'll tell Python
+what to calculate.
+
+58
+00:02:53.445 --> 00:02:56.190
+The output gives us the answer.
+
+59
+00:02:56.190 --> 00:02:58.950
+1 plus 1 is 2.
+
+60
+00:02:58.950 --> 00:03:02.990
+We can use print with
+float and integer data to
+
+61
+00:03:02.990 --> 00:03:07.939
+perform all kinds of mathematical
+operations like addition,
+
+62
+00:03:07.939 --> 00:03:12.330
+subtraction, multiplication,
+and division.
+
+63
+00:03:13.330 --> 00:03:17.125
+The third data type in
+Python is called a Boolean.
+
+64
+00:03:17.125 --> 00:03:21.575
+Boolean data is data that can
+only be one of two values:
+
+65
+00:03:21.575 --> 00:03:24.280
+either True or False.
+
+66
+00:03:24.280 --> 00:03:29.705
+Booleans are useful for
+logic in our programs.
+
+67
+00:03:29.705 --> 00:03:31.970
+For example, let's compare numbers and
+
+68
+00:03:31.970 --> 00:03:35.050
+determine the Boolean values
+of these comparisons.
+
+69
+00:03:35.050 --> 00:03:38.510
+First, we'll use the
+print function to
+
+70
+00:03:38.510 --> 00:03:42.215
+evaluate if 10 is
+less than 5.
+
+71
+00:03:42.215 --> 00:03:46.745
+Then, we'll also evaluate if 9
+
+72
+00:03:46.745 --> 00:03:51.780
+is less than 12.
+So, what do you think?
+
+73
+00:03:51.780 --> 00:03:53.975
+10 is not less than 5,
+
+74
+00:03:53.975 --> 00:03:57.470
+but 9 is less than 12, right?
+
+75
+00:03:57.470 --> 00:04:01.045
+Let's see how Python handles
+this when we run it.
+
+76
+00:04:01.045 --> 00:04:02.820
+Python agrees.
+
+77
+00:04:02.820 --> 00:04:05.810
+The first line of output
+tells us that it's
+
+78
+00:04:05.810 --> 00:04:09.140
+False to say 10 is
+less than 5.
+
+79
+00:04:09.140 --> 00:04:11.795
+The second tells us it's True
+
+80
+00:04:11.795 --> 00:04:15.010
+to say 9 is less than 12.
+
+81
+00:04:15.010 --> 00:04:17.270
+We'll use Boolean more when we
+
+82
+00:04:17.270 --> 00:04:19.900
+start including
+conditions in our code.
+
+83
+00:04:20.900 --> 00:04:23.810
+And the last data type
+we'll cover is lists.
+
+84
+00:04:23.810 --> 00:04:26.480
+List data is a data
+structure that
+
+85
+00:04:26.480 --> 00:04:30.460
+consists of a collection of
+data in sequential form.
+
+86
+00:04:30.460 --> 00:04:32.990
+We'll create and
+print a list that
+
+87
+00:04:32.990 --> 00:04:34.850
+prints all the usernames of
+
+88
+00:04:34.850 --> 00:04:36.590
+the three individuals that
+
+89
+00:04:36.590 --> 00:04:39.110
+have access to a
+confidential file.
+
+90
+00:04:39.110 --> 00:04:41.885
+First, we'll add our comment
+
+91
+00:04:41.885 --> 00:04:45.380
+about an intention
+to print this list.
+
+92
+00:04:45.380 --> 00:04:47.960
+After the keyword print,
+
+93
+00:04:47.960 --> 00:04:49.670
+we'll add our list.
+
+94
+00:04:49.670 --> 00:04:52.460
+We need to place the
+list in brackets.
+
+95
+00:04:52.460 --> 00:04:56.510
+After this, we place
+the individual items in
+
+96
+00:04:56.510 --> 00:04:58.475
+the list in quotation marks
+
+97
+00:04:58.475 --> 00:05:01.445
+and separate them with commas.
+
+98
+00:05:01.445 --> 00:05:04.535
+Now let's run this.
+
+99
+00:05:04.535 --> 00:05:07.550
+As expected, we get the list.
+
+100
+00:05:07.550 --> 00:05:10.925
+When it prints, it
+still has the brackets.
+
+101
+00:05:11.925 --> 00:05:14.330
+This is just the beginning of
+what you can do with lists.
+
+102
+00:05:14.330 --> 00:05:17.255
+As you grow with
+your Python skills,
+
+103
+00:05:17.255 --> 00:05:19.310
+you'll learn about
+how you can access
+
+104
+00:05:19.310 --> 00:05:22.370
+and edit individual
+items in the list.
+
+105
+00:05:22.370 --> 00:05:24.980
+So that was a brief summary of
+
+106
+00:05:24.980 --> 00:05:27.485
+five major data types in Python:
+
+107
+00:05:27.485 --> 00:05:31.100
+string, integer, float,
+
+108
+00:05:31.100 --> 00:05:33.715
+Boolean, and list.
+
+109
+00:05:33.715 --> 00:05:36.020
+These data types are some of
+
+110
+00:05:36.020 --> 00:05:37.700
+the more common ones you'll work
+
+111
+00:05:37.700 --> 00:05:40.650
+with as we progress
+through our lessons.

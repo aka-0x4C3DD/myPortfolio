@@ -1,0 +1,177 @@
+WEBVTT
+
+1
+00:00:01.120 --> 00:00:02.230
+Hello again!
+
+2
+00:00:02.230 --> 00:00:05.523
+Previously, we learned about
+built-in functions in Python.
+
+3
+00:00:05.523 --> 00:00:10.631
+Built-in functions come standard
+with every version of Python and
+
+4
+00:00:10.631 --> 00:00:15.750
+consist of functions such as print(),
+type(), max(), and many more.
+
+5
+00:00:15.750 --> 00:00:19.940
+To access additional pre-built functions,
+you can import a library.
+
+6
+00:00:19.940 --> 00:00:24.474
+A library is a collection of
+modules that provide code users can
+
+7
+00:00:24.474 --> 00:00:26.460
+access in their programs.
+
+8
+00:00:26.460 --> 00:00:31.060
+All libraries are generally
+made up of several modules.
+
+9
+00:00:31.060 --> 00:00:36.243
+A module is a Python file that
+contains additional functions,
+
+10
+00:00:36.243 --> 00:00:41.140
+variables, classes, and
+any kind of runnable code.
+
+11
+00:00:41.140 --> 00:00:47.050
+Think of them as saved Python files
+that contain useful functionality.
+
+12
+00:00:47.050 --> 00:00:51.386
+Modules may be made up of small and
+simple lines of code or
+
+13
+00:00:51.386 --> 00:00:54.360
+be complex and lengthy in size.
+
+14
+00:00:54.360 --> 00:01:00.260
+Either way, they help save programmers
+time and make code more readable.
+
+15
+00:01:01.260 --> 00:01:05.760
+Now, let's focus specifically
+on the Python Standard Library.
+
+16
+00:01:05.760 --> 00:01:10.122
+The Python Standard Library
+is an extensive collection of
+
+17
+00:01:10.122 --> 00:01:15.390
+usable Python code that often
+comes packaged with Python.
+
+18
+00:01:15.390 --> 00:01:20.743
+One example of a module from the Python
+Standard Library is the re module.
+
+19
+00:01:20.743 --> 00:01:22.645
+This is a useful module for
+
+20
+00:01:22.645 --> 00:01:29.300
+a security analyst when they're tasked
+with searching for patterns in log files.
+
+21
+00:01:29.300 --> 00:01:32.310
+Another module is the csv module.
+
+22
+00:01:32.310 --> 00:01:36.490
+It allows you to work
+efficiently with CSV files.
+
+23
+00:01:36.490 --> 00:01:41.797
+The Python Standard Library also
+contains glob and os modules for
+
+24
+00:01:41.797 --> 00:01:46.043
+interacting with the command
+line as well as time and
+
+25
+00:01:46.043 --> 00:01:50.250
+datetime for working with timestamps.
+
+26
+00:01:50.250 --> 00:01:54.720
+These are just a few of the modules
+in the Python Standard Library.
+
+27
+00:01:55.720 --> 00:01:59.599
+In addition to what's always available
+through the Python Standard Library,
+
+28
+00:01:59.599 --> 00:02:02.320
+you can also download external libraries.
+
+29
+00:02:02.320 --> 00:02:08.538
+A couple of examples are Beautiful Soup
+for parsing HTML website files and
+
+30
+00:02:08.538 --> 00:02:13.540
+NumPy for arrays and
+mathematical computations.
+
+31
+00:02:13.540 --> 00:02:18.326
+These libraries will assist you
+as a security analyst in network
+
+32
+00:02:18.326 --> 00:02:23.250
+traffic analysis,
+log file parsing, and complex math.
+
+33
+00:02:24.250 --> 00:02:25.229
+Overall, Python libraries and
+
+34
+00:02:25.229 --> 00:02:30.520
+modules are useful because they provide
+pre-programmed functions and variables.
+
+35
+00:02:30.520 --> 00:02:33.320
+This saves time for the user.
+
+36
+00:02:33.320 --> 00:02:38.402
+I encourage you to explore some of the
+libraries and modules we discussed here and
+
+37
+00:02:38.402 --> 00:02:42.181
+the ways they might be helpful
+to you as you work in Python.

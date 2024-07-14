@@ -1,0 +1,237 @@
+WEBVTT
+
+1
+00:00:00.230 --> 00:00:02.655
+As we wrap up this course,
+
+2
+00:00:02.655 --> 00:00:04.470
+I want to congratulate you for
+
+3
+00:00:04.470 --> 00:00:06.600
+your commitment to
+learning Python.
+
+4
+00:00:06.600 --> 00:00:09.120
+You should feel accomplished
+having explored
+
+5
+00:00:09.120 --> 00:00:10.725
+a programming language that's
+
+6
+00:00:10.725 --> 00:00:12.480
+useful in the security field.
+
+7
+00:00:12.480 --> 00:00:14.850
+Let's recap some of
+what we've learned.
+
+8
+00:00:15.850 --> 00:00:19.320
+First, we covered basic
+programming concepts in Python.
+
+9
+00:00:19.320 --> 00:00:22.770
+We discussed
+variables, data types,
+
+10
+00:00:22.770 --> 00:00:26.369
+conditional statements,
+and iterative statements.
+
+11
+00:00:26.369 --> 00:00:29.550
+These topics provided
+important foundations
+
+12
+00:00:29.550 --> 00:00:32.220
+for what we explored
+later in the course.
+
+13
+00:00:32.220 --> 00:00:36.645
+And our next focus was on writing
+effective Python code.
+
+14
+00:00:36.645 --> 00:00:39.210
+We learned how we can
+reuse functions in
+
+15
+00:00:39.210 --> 00:00:42.009
+our programs to
+improve efficiency.
+
+16
+00:00:42.009 --> 00:00:45.110
+We explored built-in
+functions and even
+
+17
+00:00:45.110 --> 00:00:48.470
+created our own
+user-defined functions.
+
+18
+00:00:48.470 --> 00:00:52.530
+Another topic was
+modules and libraries.
+
+19
+00:00:52.530 --> 00:00:55.220
+The pre-packaged functions
+and variables they
+
+20
+00:00:55.220 --> 00:00:58.145
+contain can make
+our work easier.
+
+21
+00:00:58.145 --> 00:01:03.320
+Last, we learned ways to
+ensure our code is readable.
+
+22
+00:01:04.420 --> 00:01:05.014
+In the next section,
+
+23
+00:01:05.014 --> 00:01:08.330
+we focused on working
+with strings and lists.
+
+24
+00:01:08.330 --> 00:01:10.490
+We learned a variety of
+
+25
+00:01:10.490 --> 00:01:13.400
+methods that can be
+applied to these data types.
+
+26
+00:01:13.400 --> 00:01:17.240
+We also learned about their
+indices and how to slice
+
+27
+00:01:17.240 --> 00:01:21.005
+characters from a string
+or elements from a list.
+
+28
+00:01:21.005 --> 00:01:23.600
+We put all of these together to
+
+29
+00:01:23.600 --> 00:01:26.060
+write a simple algorithm, and
+
+30
+00:01:26.060 --> 00:01:27.785
+then we explored how
+
+31
+00:01:27.785 --> 00:01:29.660
+regular expressions can be used
+
+32
+00:01:29.660 --> 00:01:32.095
+to find patterns in the strings.
+
+33
+00:01:32.095 --> 00:01:34.790
+And last, we wrapped
+up the course with
+
+34
+00:01:34.790 --> 00:01:37.400
+a focus on putting
+Python into practice.
+
+35
+00:01:37.400 --> 00:01:39.530
+We learned how to open,
+
+36
+00:01:39.530 --> 00:01:41.810
+read, and parse files.
+
+37
+00:01:41.810 --> 00:01:44.090
+With these skills,
+you can work with
+
+38
+00:01:44.090 --> 00:01:45.320
+a variety of logs you will
+
+39
+00:01:45.320 --> 00:01:47.440
+encounter in a security setting.
+
+40
+00:01:47.440 --> 00:01:49.950
+We also learned
+how to debug code.
+
+41
+00:01:49.950 --> 00:01:53.875
+This is an important skill
+for all programmers.
+
+42
+00:01:54.875 --> 00:01:56.735
+Wow! You learned a lot
+
+43
+00:01:56.735 --> 00:01:59.825
+about Python in this
+course, so great job!
+
+44
+00:01:59.825 --> 00:02:02.180
+I hope soon you'll join me in
+
+45
+00:02:02.180 --> 00:02:04.735
+using Python in the
+security profession.
+
+46
+00:02:04.735 --> 00:02:07.250
+In the meantime, I
+encourage you to
+
+47
+00:02:07.250 --> 00:02:09.350
+practice, and feel free to
+
+48
+00:02:09.350 --> 00:02:12.095
+rewatch these videos
+whenever you like.
+
+49
+00:02:12.095 --> 00:02:14.480
+The more you study
+these concepts,
+
+50
+00:02:14.480 --> 00:02:16.690
+the easier they will become.
+
+51
+00:02:16.690 --> 00:02:20.950
+Thanks again for joining
+me as we explored Python.

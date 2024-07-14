@@ -1,0 +1,662 @@
+WEBVTT
+
+1
+00:00:00.110 --> 00:00:03.630
+Previously, we
+compared data types to
+
+2
+00:00:03.630 --> 00:00:05.040
+the categories we have for
+
+3
+00:00:05.040 --> 00:00:07.425
+different ingredients
+we use when cooking,
+
+4
+00:00:07.425 --> 00:00:10.380
+like vegetables or meat.
+
+5
+00:00:10.380 --> 00:00:12.750
+Some of these
+categories we use for
+
+6
+00:00:12.750 --> 00:00:14.955
+data types are the string,
+
+7
+00:00:14.955 --> 00:00:17.385
+float, integer,
+
+8
+00:00:17.385 --> 00:00:19.455
+Boolean, and list.
+
+9
+00:00:19.455 --> 00:00:21.210
+Now, let's make
+
+10
+00:00:21.210 --> 00:00:24.175
+another comparison. When
+working in the kitchen,
+
+11
+00:00:24.175 --> 00:00:26.690
+we also use
+storage containers.
+
+12
+00:00:26.690 --> 00:00:30.020
+These containers can hold
+a lot of different things.
+
+13
+00:00:30.020 --> 00:00:33.215
+After one meal, a
+container might hold rice,
+
+14
+00:00:33.215 --> 00:00:35.090
+and after another, it could
+
+15
+00:00:35.090 --> 00:00:38.265
+hold something
+different, like pasta.
+
+16
+00:00:38.265 --> 00:00:43.030
+In a similar way, in
+Python, we have variables.
+
+17
+00:00:43.030 --> 00:00:47.225
+A variable is a container
+that stores data.
+
+18
+00:00:48.225 --> 00:00:49.205
+To create a variable,
+
+19
+00:00:49.205 --> 00:00:53.675
+you need a name for it. Then,
+you add an equals sign
+
+20
+00:00:53.675 --> 00:00:56.635
+and then an object
+to store in it.
+
+21
+00:00:56.635 --> 00:01:00.740
+Creating a variable is
+often called assignment.
+
+22
+00:01:00.740 --> 00:01:03.740
+The best practice for
+naming variables is to make
+
+23
+00:01:03.740 --> 00:01:07.075
+the names relevant to what
+they're being used for.
+
+24
+00:01:08.075 --> 00:01:10.795
+Let's use a variable
+to store a device ID.
+
+25
+00:01:10.795 --> 00:01:15.730
+We'll name our
+variable device_ID, add
+
+26
+00:01:15.730 --> 00:01:22.910
+the equals sign, and then
+assign it a value of h32rb17.
+
+27
+00:01:24.590 --> 00:01:28.390
+Because the data type for
+this variable is a string,
+
+28
+00:01:28.390 --> 00:01:30.100
+we'll place that value in
+
+29
+00:01:30.100 --> 00:01:34.255
+quotation marks.
+Let's run the code.
+
+30
+00:01:34.255 --> 00:01:38.200
+Our variable is now
+saved into Python.
+
+31
+00:01:39.200 --> 00:01:40.629
+The purpose of
+creating variables
+
+32
+00:01:40.629 --> 00:01:42.790
+is to use them
+later in the code.
+
+33
+00:01:42.790 --> 00:01:47.285
+Using variables can also be
+referred to as "calling" them.
+
+34
+00:01:47.285 --> 00:01:50.555
+To call a variable,
+you type its name.
+
+35
+00:01:50.555 --> 00:01:52.730
+This tells Python to use
+
+36
+00:01:52.730 --> 00:01:55.085
+the object that the
+variable contains.
+
+37
+00:01:56.085 --> 00:01:56.810
+Let's add to the code we've just
+
+38
+00:01:56.810 --> 00:01:58.835
+written and call a variable.
+
+39
+00:01:58.835 --> 00:02:01.255
+Let's just have it
+print the variable.
+
+40
+00:02:01.255 --> 00:02:04.520
+To do this, we use the
+print function and
+
+41
+00:02:04.520 --> 00:02:06.110
+ask it to print the value
+
+42
+00:02:06.110 --> 00:02:08.515
+stored in the
+device ID variable.
+
+43
+00:02:08.515 --> 00:02:11.510
+When using a variable
+in our print function,
+
+44
+00:02:11.510 --> 00:02:14.405
+we don't use quotation marks.
+
+45
+00:02:14.405 --> 00:02:18.640
+This time, when we run
+it, something happens.
+
+46
+00:02:18.640 --> 00:02:24.035
+Python prints h32rb17
+to the screen.
+
+47
+00:02:25.035 --> 00:02:25.640
+Let's add one more line of
+
+48
+00:02:25.640 --> 00:02:27.320
+code to demonstrate
+the difference
+
+49
+00:02:27.320 --> 00:02:31.080
+between printing a variable
+and printing a string.
+
+50
+00:02:31.080 --> 00:02:33.115
+We'll ask Python to print
+
+51
+00:02:33.115 --> 00:02:36.110
+a string that contains
+another device ID:
+
+52
+00:02:36.110 --> 00:02:40.050
+m50pi31.
+
+53
+00:02:40.050 --> 00:02:43.015
+Because this is string
+data and not a variable,
+
+54
+00:02:43.015 --> 00:02:45.700
+we place it in quotation marks.
+
+55
+00:02:45.700 --> 00:02:50.150
+Now, let's run the code
+and see the results.
+
+56
+00:02:50.150 --> 00:02:53.920
+It executes both
+print statements.
+
+57
+00:02:53.920 --> 00:02:56.530
+The first reads the
+variable and prints
+
+58
+00:02:56.530 --> 00:03:00.440
+the value it contains: h32rb17.
+
+59
+00:03:00.890 --> 00:03:07.880
+And the second reads the specified
+string and prints m50pi31.
+
+60
+00:03:09.600 --> 00:03:11.815
+But if we could use
+the string directly,
+
+61
+00:03:11.815 --> 00:03:14.115
+why do we need variables?
+
+62
+00:03:14.115 --> 00:03:16.880
+Well, we often use
+
+63
+00:03:16.880 --> 00:03:19.790
+variables to simplify
+our code or make it
+
+64
+00:03:19.790 --> 00:03:21.835
+cleaner and easier to read.
+
+65
+00:03:21.835 --> 00:03:25.770
+Or if we needed a very
+long string or number,
+
+66
+00:03:25.770 --> 00:03:28.760
+storing it in a variable
+would let us use
+
+67
+00:03:28.760 --> 00:03:31.990
+it throughout our code
+without typing it all out.
+
+68
+00:03:31.990 --> 00:03:34.100
+In the previous example,
+
+69
+00:03:34.100 --> 00:03:36.680
+the variable stored
+string data, but
+
+70
+00:03:36.680 --> 00:03:39.980
+variables can store a
+variety of data types.
+
+71
+00:03:39.980 --> 00:03:42.170
+Variables have the data type
+
+72
+00:03:42.170 --> 00:03:44.405
+of the object currently
+storing them.
+
+73
+00:03:44.405 --> 00:03:45.800
+If you're unsure about
+
+74
+00:03:45.800 --> 00:03:48.365
+the data type stored
+inside of a variable,
+
+75
+00:03:48.365 --> 00:03:50.665
+you can use the type function.
+
+76
+00:03:51.665 --> 00:03:52.640
+The type function is
+
+77
+00:03:52.640 --> 00:03:56.080
+a function that returns the
+data type of its input.
+
+78
+00:03:56.080 --> 00:03:59.420
+Let's use the type
+function in Python.
+
+79
+00:03:59.420 --> 00:04:01.440
+We'll start by creating
+
+80
+00:04:01.440 --> 00:04:07.900
+our variable. Then, we'll
+
+81
+00:04:07.900 --> 00:04:11.510
+add a line of code that
+includes the type function.
+
+82
+00:04:15.750 --> 00:04:19.810
+This line asks Python to
+tell us the data type of
+
+83
+00:04:19.810 --> 00:04:22.075
+the device ID variable
+
+84
+00:04:22.075 --> 00:04:27.265
+and to assign this to a new
+variable called data_type.
+
+85
+00:04:27.265 --> 00:04:29.930
+After this, we can
+
+86
+00:04:29.930 --> 00:04:32.860
+print the data_type
+variable to the screen.
+
+87
+00:04:32.860 --> 00:04:36.385
+Perfect! Python tells us
+
+88
+00:04:36.385 --> 00:04:40.505
+that the value that device
+ID contains a string.
+
+89
+00:04:41.505 --> 00:04:42.965
+When working with variables,
+
+90
+00:04:42.965 --> 00:04:45.950
+it's important to keep
+track of their data types.
+
+91
+00:04:45.950 --> 00:04:48.740
+If you don't, you could
+get a type error.
+
+92
+00:04:48.740 --> 00:04:50.570
+A type error is
+
+93
+00:04:50.570 --> 00:04:54.205
+an error that results from
+using the wrong data type.
+
+94
+00:04:54.205 --> 00:04:58.880
+For example, if you try to
+add a number and a string,
+
+95
+00:04:58.880 --> 00:05:00.695
+you will get a type error
+
+96
+00:05:00.695 --> 00:05:03.050
+because Python cannot combine
+
+97
+00:05:03.050 --> 00:05:04.775
+those two data types together.
+
+98
+00:05:04.775 --> 00:05:08.975
+It can only add two
+strings or two numbers.
+
+99
+00:05:08.975 --> 00:05:11.880
+Let's demonstrate a type error.
+
+100
+00:05:12.500 --> 00:05:15.410
+First, we'll reuse
+
+101
+00:05:15.410 --> 00:05:19.320
+our device ID variable that
+stores a string value.
+
+102
+00:05:22.460 --> 00:05:26.120
+Then, we'll define
+another variable
+
+103
+00:05:26.120 --> 00:05:30.810
+called number and assign
+an integer value to it.
+
+104
+00:05:31.100 --> 00:05:34.730
+Let's add a print statement
+that outputs the sum of
+
+105
+00:05:34.730 --> 00:05:42.820
+these variables, and
+then we'll run this.
+
+106
+00:05:43.340 --> 00:05:45.650
+We ended up with an error
+
+107
+00:05:45.650 --> 00:05:49.325
+because we cannot add
+a string to a number.
+
+108
+00:05:50.325 --> 00:05:53.435
+Let's cover one more topic
+related to variables.
+
+109
+00:05:53.435 --> 00:05:57.905
+Earlier, we mentioned how
+variables are like containers.
+
+110
+00:05:57.905 --> 00:06:00.320
+What they hold can change.
+
+111
+00:06:00.320 --> 00:06:02.345
+After we define a variable,
+
+112
+00:06:02.345 --> 00:06:05.435
+we can always change the
+object inside of it.
+
+113
+00:06:05.435 --> 00:06:08.255
+This is called reassignment.
+
+114
+00:06:08.255 --> 00:06:10.820
+Reassigning a variable is very
+
+115
+00:06:10.820 --> 00:06:13.745
+similar to assigning it
+in the first place.
+
+116
+00:06:13.745 --> 00:06:17.910
+Let's try this out and
+reassign a variable.
+
+117
+00:06:18.400 --> 00:06:21.755
+We'll start by assigning
+the same string of
+
+118
+00:06:21.755 --> 00:06:26.545
+h32rb17 to our
+variable device_ID.
+
+119
+00:06:26.545 --> 00:06:28.520
+We will also include a line
+
+120
+00:06:28.520 --> 00:06:31.320
+of code to print this variable.
+
+121
+00:06:33.040 --> 00:06:37.340
+Now, let's try
+reassigning the variable.
+
+122
+00:06:37.340 --> 00:06:41.345
+We type this variable's
+name, add an equals sign,
+
+123
+00:06:41.345 --> 00:06:43.685
+and then add the new object.
+
+124
+00:06:43.685 --> 00:06:46.550
+In this case, we'll
+use the string
+
+125
+00:06:46.550 --> 00:06:51.835
+n73ab07 as the new device ID.
+
+126
+00:06:51.835 --> 00:06:56.130
+We'll also ask Python to
+print the variable again.
+
+127
+00:06:56.300 --> 00:07:00.040
+Let's see what happens
+when we run this.
+
+128
+00:07:00.110 --> 00:07:03.990
+Python prints two
+lines of output.
+
+129
+00:07:03.990 --> 00:07:07.575
+The first print statement
+came before reassignment,
+
+130
+00:07:07.575 --> 00:07:12.825
+so it first prints the
+string of h32rb17.
+
+131
+00:07:12.825 --> 00:07:17.540
+But the second print statement
+came after it changed.
+
+132
+00:07:17.540 --> 00:07:20.480
+That's why the second
+output to the screen
+
+133
+00:07:20.480 --> 00:07:24.095
+is the string n73ab07.
+
+134
+00:07:24.095 --> 00:07:27.665
+With this code, we
+reassigned a variable
+
+135
+00:07:27.665 --> 00:07:30.550
+with a string value to
+another string value,
+
+136
+00:07:30.550 --> 00:07:32.450
+but it's also
+possible to reassign
+
+137
+00:07:32.450 --> 00:07:35.865
+a variable to a value
+of another data type.
+
+138
+00:07:35.865 --> 00:07:38.660
+For instance, we can
+reassign a variable
+
+139
+00:07:38.660 --> 00:07:41.705
+with a string value
+to an integer value.
+
+140
+00:07:42.705 --> 00:07:44.255
+Variables are an
+essential part of
+
+141
+00:07:44.255 --> 00:07:47.180
+Python, and as we progress
+through this course,
+
+142
+00:07:47.180 --> 00:07:50.460
+you'll become more
+familiar with them.

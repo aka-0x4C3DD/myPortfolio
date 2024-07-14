@@ -1,0 +1,287 @@
+WEBVTT
+
+1
+00:00:03.710 --> 00:00:07.620
+Hi, my name is Dorsa and
+I'm a security engineer.
+
+2
+00:00:07.620 --> 00:00:09.195
+What I love the
+most about my job
+
+3
+00:00:09.195 --> 00:00:10.260
+is that I get to look at
+
+4
+00:00:10.260 --> 00:00:12.675
+different infrastructures
+and system designs
+
+5
+00:00:12.675 --> 00:00:14.415
+on a daily basis.
+
+6
+00:00:14.415 --> 00:00:16.590
+One piece of advice for
+individuals who are
+
+7
+00:00:16.590 --> 00:00:19.215
+starting out in their
+cybersecurity profession,
+
+8
+00:00:19.215 --> 00:00:20.640
+it's very important to work
+
+9
+00:00:20.640 --> 00:00:23.150
+collaboratively in
+Python and one of
+
+10
+00:00:23.150 --> 00:00:25.250
+the key aspects of
+that is to listen
+
+11
+00:00:25.250 --> 00:00:27.605
+to the feedback that your
+team members provide.
+
+12
+00:00:27.605 --> 00:00:30.485
+Python allows for
+many different ways
+
+13
+00:00:30.485 --> 00:00:32.770
+of accessing different
+information.
+
+14
+00:00:32.770 --> 00:00:34.070
+When you share Python code
+
+15
+00:00:34.070 --> 00:00:35.825
+snippets amongst
+your team members,
+
+16
+00:00:35.825 --> 00:00:38.105
+it allows the code
+to be more uniform
+
+17
+00:00:38.105 --> 00:00:41.100
+and the coding process
+to be more efficient.
+
+18
+00:00:41.100 --> 00:00:42.560
+It makes the code
+base a lot more
+
+19
+00:00:42.560 --> 00:00:44.180
+readable and it allows for
+
+20
+00:00:44.180 --> 00:00:47.510
+other engineers to work
+on your code after you,
+
+21
+00:00:47.510 --> 00:00:49.100
+I've seen many examples of
+
+22
+00:00:49.100 --> 00:00:51.500
+when collaboratively
+written Python code
+
+23
+00:00:51.500 --> 00:00:53.390
+has been helpful
+in the industry.
+
+24
+00:00:53.390 --> 00:00:55.790
+One of the examples is
+when at Google we wrote
+
+25
+00:00:55.790 --> 00:00:59.030
+a collaboratively written
+code base which allowed
+
+26
+00:00:59.030 --> 00:01:01.760
+for an onboarding
+process to be reduced
+
+27
+00:01:01.760 --> 00:01:04.790
+from six or seven hours
+to a couple of minutes.
+
+28
+00:01:04.790 --> 00:01:08.630
+Collaboration was a key part
+of this process because
+
+29
+00:01:08.630 --> 00:01:10.100
+otherwise it would have taken
+
+30
+00:01:10.100 --> 00:01:13.310
+many many years for one single
+individual to write it.
+
+31
+00:01:13.310 --> 00:01:15.290
+One individual is not able to
+
+32
+00:01:15.290 --> 00:01:17.765
+understand every fine detail of
+
+33
+00:01:17.765 --> 00:01:19.970
+each system and if we
+
+34
+00:01:19.970 --> 00:01:22.715
+don't have multiple
+engineers working on it,
+
+35
+00:01:22.715 --> 00:01:25.460
+they would have made this
+process a lot more difficult.
+
+36
+00:01:25.460 --> 00:01:28.070
+Communication is very important
+when you're working in
+
+37
+00:01:28.070 --> 00:01:29.750
+a team and especially
+
+38
+00:01:29.750 --> 00:01:31.775
+if you're developing
+code in Python,
+
+39
+00:01:31.775 --> 00:01:33.200
+you need to express
+
+40
+00:01:33.200 --> 00:01:35.480
+whether you need help
+throughout the process
+
+41
+00:01:35.480 --> 00:01:37.220
+because your team
+members are there to
+
+42
+00:01:37.220 --> 00:01:39.440
+ensure that you are successful.
+
+43
+00:01:39.440 --> 00:01:41.195
+At the end of the
+day, your success
+
+44
+00:01:41.195 --> 00:01:43.675
+means that your team
+is also successful.
+
+45
+00:01:43.675 --> 00:01:45.300
+As you advance in your career
+
+46
+00:01:45.300 --> 00:01:47.825
+as someone who writes
+code in Python,
+
+47
+00:01:47.825 --> 00:01:49.310
+you'll realize that
+there are a lot of
+
+48
+00:01:49.310 --> 00:01:51.470
+functions and methods
+that are just sticking
+
+49
+00:01:51.470 --> 00:01:53.600
+around on the
+internet and you will
+
+50
+00:01:53.600 --> 00:01:56.035
+be able to find them
+with a quick search
+
+51
+00:01:56.035 --> 00:01:58.940
+and those methods will
+come in handy and you
+
+52
+00:01:58.940 --> 00:02:02.240
+will be able to reuse them
+for your pieces of code.
+
+53
+00:02:02.240 --> 00:02:04.580
+A really good resource for you to
+
+54
+00:02:04.580 --> 00:02:06.710
+learn new skills and expand
+
+55
+00:02:06.710 --> 00:02:08.720
+your Python coding skills is to
+
+56
+00:02:08.720 --> 00:02:10.940
+talk to your colleagues,
+attend meetups,
+
+57
+00:02:10.940 --> 00:02:12.080
+talk to different security
+
+58
+00:02:12.080 --> 00:02:13.460
+professionals who don't work at
+
+59
+00:02:13.460 --> 00:02:15.380
+your company because
+everyone has
+
+60
+00:02:15.380 --> 00:02:17.810
+an insight on how to
+make your coding skills,
+
+61
+00:02:17.810 --> 00:02:21.000
+especially in
+cybersecurity better.

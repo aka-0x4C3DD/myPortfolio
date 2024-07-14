@@ -1,0 +1,134 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:04.232
+Welcome. In my role as
+Principal Security Strategist,
+
+2
+00:00:04.232 --> 00:00:08.313
+I've seen how the incident response
+operations that you'll learn about in this
+
+3
+00:00:08.313 --> 00:00:10.603
+course are implemented in an organization.
+
+4
+00:00:10.603 --> 00:00:13.685
+One of the things I find so
+exciting about detecting and
+
+5
+00:00:13.685 --> 00:00:17.839
+responding to incidents is the challenge
+of using data to understand what
+
+6
+00:00:17.839 --> 00:00:21.193
+an adversary has done in my
+organization's environment.
+
+7
+00:00:21.193 --> 00:00:25.454
+No two investigations are ever the same,
+but there are patterns of behavior
+
+8
+00:00:25.454 --> 00:00:28.900
+that you can learn to spot as
+you hone your analytic skills.
+
+9
+00:00:29.900 --> 00:00:32.458
+Previously, you established a solid
+understanding of asset security,
+
+10
+00:00:32.458 --> 00:00:34.067
+threats, and vulnerabilities.
+
+11
+00:00:34.067 --> 00:00:38.802
+You explored the NIST Cyber Security
+Framework, or CSF, as a methodology for
+
+12
+00:00:38.802 --> 00:00:40.033
+risk management.
+
+13
+00:00:40.033 --> 00:00:43.876
+You learned about mitigating
+organizational risk through classifying
+
+14
+00:00:43.876 --> 00:00:45.077
+and securing assets.
+
+15
+00:00:45.077 --> 00:00:49.328
+And you also explored security and
+privacy controls to safeguard data.
+
+16
+00:00:49.328 --> 00:00:54.022
+You used tools like MITRE and CVE to
+investigate common vulnerabilities and
+
+17
+00:00:54.022 --> 00:00:58.657
+used techniques like threat modeling
+to develop an attacker's mindset.
+
+18
+00:00:59.657 --> 00:01:04.099
+Next, we'll revisit the NIST CSF with a
+focus on the incident response lifecycle.
+
+19
+00:01:04.099 --> 00:01:08.171
+You'll be given your own incident handler's
+journal, which you'll use throughout
+
+20
+00:01:08.171 --> 00:01:09.361
+the rest of the course.
+
+21
+00:01:09.361 --> 00:01:12.817
+You'll also be introduced to
+incident response teams, including
+
+22
+00:01:12.817 --> 00:01:16.666
+the different team roles and
+how they organize to respond to incidents.
+
+23
+00:01:16.666 --> 00:01:20.620
+And finally, you'll learn about
+the different types of documentation,
+
+24
+00:01:20.620 --> 00:01:21.398
+detection, and
+
+25
+00:01:21.398 --> 00:01:26.285
+management tools you'll use as a security
+professional working in incident response.
+
+26
+00:01:26.285 --> 00:01:29.805
+Later on, you'll have
+an opportunity to use these tools.
+
+27
+00:01:30.805 --> 00:01:32.833
+Are you ready to begin your
+journey in detection and response?
+
+28
+00:01:32.833 --> 00:01:33.983
+Let's begin!

@@ -1,0 +1,197 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:02.010
+The process of learning
+
+2
+00:00:02.010 --> 00:00:03.810
+a new programming language is
+
+3
+00:00:03.810 --> 00:00:05.820
+similar to learning
+a new language.
+
+4
+00:00:05.820 --> 00:00:09.000
+For instance, like
+any human language,
+
+5
+00:00:09.000 --> 00:00:11.625
+programming consists of words
+
+6
+00:00:11.625 --> 00:00:14.655
+organized together to
+form lines of code.
+
+7
+00:00:14.655 --> 00:00:18.495
+Lines of code are used to
+communicate with a computer,
+
+8
+00:00:18.495 --> 00:00:20.384
+similar to a sentence,
+
+9
+00:00:20.384 --> 00:00:22.875
+telling it how to
+perform a task.
+
+10
+00:00:22.875 --> 00:00:24.750
+In this section, we're going to
+
+11
+00:00:24.750 --> 00:00:26.430
+start learning the
+language needed to
+
+12
+00:00:26.430 --> 00:00:28.440
+communicate with
+a computer as we
+
+13
+00:00:28.440 --> 00:00:30.735
+explore some key
+components of Python.
+
+14
+00:00:31.735 --> 00:00:33.720
+We'll start by introducing
+the basics of programming,
+
+15
+00:00:33.720 --> 00:00:37.260
+starting with why security
+analysts use Python.
+
+16
+00:00:37.260 --> 00:00:41.550
+Next, we'll start building
+the foundations for Python.
+
+17
+00:00:41.550 --> 00:00:43.860
+We'll discuss data types.
+
+18
+00:00:43.860 --> 00:00:46.575
+Then we'll cover variables.
+
+19
+00:00:46.575 --> 00:00:49.160
+Lastly, we're going
+to learn about
+
+20
+00:00:49.160 --> 00:00:51.320
+specific statements
+we can make in
+
+21
+00:00:51.320 --> 00:00:54.455
+Python, like
+conditional statements.
+
+22
+00:00:54.455 --> 00:00:56.780
+Conditional statements help us
+
+23
+00:00:56.780 --> 00:00:59.540
+incorporate logic
+into our programs.
+
+24
+00:00:59.540 --> 00:01:01.830
+The second type of
+statement we'll learn
+
+25
+00:01:01.830 --> 00:01:04.505
+about is the
+iterative statement.
+
+26
+00:01:04.505 --> 00:01:07.880
+Iterative statements allow
+us to repeat a line of
+
+27
+00:01:07.880 --> 00:01:11.600
+code multiple times without
+having to rewrite it.
+
+28
+00:01:12.600 --> 00:01:13.940
+Learning Python helped me
+
+29
+00:01:13.940 --> 00:01:16.190
+succeed in my career
+because using
+
+30
+00:01:16.190 --> 00:01:18.230
+Python allows me to free up
+
+31
+00:01:18.230 --> 00:01:20.900
+time from repetitive
+tasks, and instead,
+
+32
+00:01:20.900 --> 00:01:24.950
+focus on more challenging
+tasks and problems.
+
+33
+00:01:24.950 --> 00:01:26.490
+Successfully applying
+
+34
+00:01:26.490 --> 00:01:29.585
+automation reduces
+my overall workload,
+
+35
+00:01:29.585 --> 00:01:31.340
+increases productivity,
+
+36
+00:01:31.340 --> 00:01:33.950
+and reduces the risk
+of human error.
+
+37
+00:01:33.950 --> 00:01:36.620
+The use of automation
+also allows
+
+38
+00:01:36.620 --> 00:01:39.040
+me to focus on my
+engineering tasks,
+
+39
+00:01:39.040 --> 00:01:41.195
+which require more creativity,
+
+40
+00:01:41.195 --> 00:01:44.000
+collaboration, and
+problem-solving.
+
+41
+00:01:44.000 --> 00:01:45.860
+Are you ready to
+start programming
+
+42
+00:01:45.860 --> 00:01:48.780
+in Python? Let's begin.

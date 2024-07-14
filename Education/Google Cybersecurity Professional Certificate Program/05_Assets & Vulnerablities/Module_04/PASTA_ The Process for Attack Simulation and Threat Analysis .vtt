@@ -1,0 +1,329 @@
+WEBVTT
+
+1
+00:00:00.859 --> 00:00:05.989
+Let's finish exploring threat modeling by
+taking a look at real-world scenarios.
+
+2
+00:00:05.989 --> 00:00:10.223
+This time, we'll use a standard threat
+modeling process called PASTA.
+
+3
+00:00:11.223 --> 00:00:15.176
+Imagine that a fitness company is getting
+ready to launch their first mobile app.
+
+4
+00:00:15.176 --> 00:00:16.544
+Before we can go live,
+
+5
+00:00:16.544 --> 00:00:21.657
+the company asks their security team to
+ensure the app will protect customer data.
+
+6
+00:00:21.657 --> 00:00:25.637
+The team decides to perform a threat
+model using the PASTA framework.
+
+7
+00:00:26.637 --> 00:00:29.448
+PASTA is a popular threat modeling
+framework that's used across many
+
+8
+00:00:29.448 --> 00:00:30.229
+industries.
+
+9
+00:00:30.229 --> 00:00:35.249
+PASTA is short for Process for
+Attack Simulation and Threat Analysis.
+
+10
+00:00:35.249 --> 00:00:38.113
+There are seven stages
+of the PASTA framework.
+
+11
+00:00:38.113 --> 00:00:41.791
+Let's go through each of them to help
+this fitness company get their app ready.
+
+12
+00:00:42.791 --> 00:00:46.199
+Stage one of the PASTA threat model
+framework is to define business and
+
+13
+00:00:46.199 --> 00:00:47.770
+security objectives.
+
+14
+00:00:47.770 --> 00:00:52.420
+Before starting the threat model, the team
+needs to decide what their goals are.
+
+15
+00:00:52.420 --> 00:00:56.219
+The main objective in our example
+with the fitness company app is
+
+16
+00:00:56.219 --> 00:00:57.916
+protecting customer data.
+
+17
+00:00:57.916 --> 00:01:01.395
+The team starts by asking a lot
+of questions at this stage.
+
+18
+00:01:01.395 --> 00:01:04.346
+They'll need to understand
+things like how personally
+
+19
+00:01:04.346 --> 00:01:06.488
+identifiable information is handled.
+
+20
+00:01:06.488 --> 00:01:09.529
+Answering these questions is
+a key to evaluate the impact
+
+21
+00:01:09.529 --> 00:01:11.945
+of threats that they'll
+find along the way.
+
+22
+00:01:12.945 --> 00:01:16.497
+Stage two of the PASTA framework is
+to define the technical scope.
+
+23
+00:01:16.497 --> 00:01:20.748
+Here, the team's focus is to identify
+the application components that must be
+
+24
+00:01:20.748 --> 00:01:21.530
+evaluated.
+
+25
+00:01:21.530 --> 00:01:25.412
+This is what we discussed
+earlier as the attack surface.
+
+26
+00:01:25.412 --> 00:01:26.468
+For a mobile app,
+
+27
+00:01:26.468 --> 00:01:31.197
+this will include technology that's
+involved while data is at rest and in use.
+
+28
+00:01:31.197 --> 00:01:36.983
+This includes network protocols, security
+controls, and other data interactions.
+
+29
+00:01:37.983 --> 00:01:41.949
+At stage three of PASTA, the team's
+job is to decompose the application.
+
+30
+00:01:41.949 --> 00:01:42.937
+In other words,
+
+31
+00:01:42.937 --> 00:01:47.956
+we need to identify the existing controls
+that will protect user data from threats.
+
+32
+00:01:47.956 --> 00:01:52.855
+This normally means working with the
+application developers to produce a data
+
+33
+00:01:52.855 --> 00:01:53.825
+flow diagram.
+
+34
+00:01:53.825 --> 00:01:58.752
+A diagram like this will show how data
+gets from a user's device to the company's
+
+35
+00:01:58.752 --> 00:01:59.484
+database.
+
+36
+00:01:59.484 --> 00:02:04.642
+It would also identify the controls in
+place to protect this data along the way.
+
+37
+00:02:05.642 --> 00:02:06.743
+Stage four of PASTA is next.
+
+38
+00:02:06.743 --> 00:02:09.718
+The focus here is to
+perform a threat analysis.
+
+39
+00:02:09.718 --> 00:02:12.914
+This is where the team gets
+into their attacker mindset.
+
+40
+00:02:12.914 --> 00:02:17.844
+Here, research is done to collect the most
+up-to-date information on the type of
+
+41
+00:02:17.844 --> 00:02:19.201
+attacks being used.
+
+42
+00:02:19.201 --> 00:02:23.475
+Like other technologies,
+mobile apps have many attack vectors.
+
+43
+00:02:23.475 --> 00:02:28.305
+These change regularly, so the team would
+reference resources to stay up-to-date.
+
+44
+00:02:29.305 --> 00:02:32.324
+Stage five of PASTA is performing
+a vulnerability analysis.
+
+45
+00:02:32.324 --> 00:02:35.143
+In this stage,
+the team more deeply investigates
+
+46
+00:02:35.143 --> 00:02:39.144
+potential vulnerabilities by
+considering the root of the problem.
+
+47
+00:02:40.144 --> 00:02:43.755
+Next is stage six of PASTA, where
+the team conducts attack modeling.
+
+48
+00:02:43.755 --> 00:02:48.007
+This is where the team tests
+the vulnerabilities that were analyzed
+
+49
+00:02:48.007 --> 00:02:50.401
+in stage five by simulating attacks.
+
+50
+00:02:50.401 --> 00:02:55.184
+The team does this by creating an attack
+tree, which looks like a flow chart.
+
+51
+00:02:55.184 --> 00:02:59.957
+For example, an attack tree for
+our mobile app might look like this.
+
+52
+00:02:59.957 --> 00:03:04.320
+Customer information, like user names and
+passwords, is a target.
+
+53
+00:03:04.320 --> 00:03:07.379
+This data is normally
+stored in a database.
+
+54
+00:03:07.379 --> 00:03:11.715
+We've learned that databases are
+vulnerable to attacks like SQL injection.
+
+55
+00:03:11.715 --> 00:03:15.569
+So we will add this attack
+vector to our attack tree.
+
+56
+00:03:15.569 --> 00:03:20.250
+A threat actor might exploit
+vulnerabilities caused by unsanitized
+
+57
+00:03:20.250 --> 00:03:22.318
+inputs to attack this vector.
+
+58
+00:03:22.318 --> 00:03:27.017
+The security team uses attack trees
+like this to identify attack vectors
+
+59
+00:03:27.017 --> 00:03:29.877
+that need to be tested
+to validate threats.
+
+60
+00:03:29.877 --> 00:03:32.724
+This is just one branch
+of this attack tree.
+
+61
+00:03:32.724 --> 00:03:37.178
+An application, like a fitness app,
+typically has lots of branches with
+
+62
+00:03:37.178 --> 00:03:39.430
+a number of other attack vectors.
+
+63
+00:03:40.430 --> 00:03:43.333
+Stage seven of PASTA is to
+analyze risk and impact.
+
+64
+00:03:43.333 --> 00:03:46.980
+Here, the team assembles all
+the information they've collected in
+
+65
+00:03:46.980 --> 00:03:48.380
+stages one through six.
+
+66
+00:03:48.380 --> 00:03:51.543
+By this stage, the team is in
+position to make informed risk
+
+67
+00:03:51.543 --> 00:03:56.123
+management recommendations to business
+stakeholders that align with their goals.
+
+68
+00:03:57.123 --> 00:04:00.261
+And with that, we made it all the way
+through a threat modeling exercise based
+
+69
+00:04:00.261 --> 00:04:01.650
+on the PASTA framework!

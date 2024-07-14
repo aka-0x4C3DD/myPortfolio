@@ -1,0 +1,502 @@
+WEBVTT
+
+1
+00:00:00.320 --> 00:00:02.340
+We just learned about
+
+2
+00:00:02.340 --> 00:00:04.410
+conditional statements
+and how they can
+
+3
+00:00:04.410 --> 00:00:07.710
+be developed to allow computers
+to make decisions.
+
+4
+00:00:07.710 --> 00:00:10.860
+But sometimes we need
+our programs to simply
+
+5
+00:00:10.860 --> 00:00:14.340
+count or perform a task
+over and over again.
+
+6
+00:00:14.340 --> 00:00:17.174
+When it comes to tasks
+that are tedious,
+
+7
+00:00:17.174 --> 00:00:20.320
+it's normal for humans to
+lose focus and energy.
+
+8
+00:00:20.320 --> 00:00:22.370
+It's in situations
+like these where
+
+9
+00:00:22.370 --> 00:00:24.920
+computers can be
+especially helpful.
+
+10
+00:00:24.920 --> 00:00:28.310
+In this video, we'll
+examine how computers can
+
+11
+00:00:28.310 --> 00:00:32.240
+perform repetitive tasks
+using iterative statements.
+
+12
+00:00:33.240 --> 00:00:35.120
+An iterative statement is code
+
+13
+00:00:35.120 --> 00:00:38.525
+that repeatedly executes
+a set of instructions.
+
+14
+00:00:38.525 --> 00:00:43.175
+Iterative statements are
+also referred to as "loops."
+
+15
+00:00:43.175 --> 00:00:46.640
+Setting up a loop allows
+us to repeatedly use
+
+16
+00:00:46.640 --> 00:00:50.150
+a line of code without having
+to type it multiple times.
+
+17
+00:00:50.150 --> 00:00:52.340
+Before discussing the syntax,
+
+18
+00:00:52.340 --> 00:00:56.255
+let's run a loop so you can
+experience what happens.
+
+19
+00:00:56.255 --> 00:01:00.470
+Notice how this code printed
+all the numbers in the list
+
+20
+00:01:00.470 --> 00:01:04.115
+with only one print
+statement. That's a loop.
+
+21
+00:01:04.115 --> 00:01:07.085
+There are two types of
+loops we'll explore:
+
+22
+00:01:07.085 --> 00:01:09.890
+for loops and while loops.
+
+23
+00:01:09.890 --> 00:01:12.380
+We just ran a for loop, and we'll
+
+24
+00:01:12.380 --> 00:01:15.095
+continue to focus on
+them in this video.
+
+25
+00:01:15.095 --> 00:01:18.955
+Later, we'll explore
+while loops.
+
+26
+00:01:19.955 --> 00:01:23.450
+for loops repeat code for
+a specified sequence.
+
+27
+00:01:23.450 --> 00:01:26.240
+An example of this
+would be using a
+
+28
+00:01:26.240 --> 00:01:29.255
+for loop to print
+every item in a list.
+
+29
+00:01:29.255 --> 00:01:33.400
+For loops begin with
+the keyword for.
+
+30
+00:01:33.400 --> 00:01:37.280
+for signals the
+beginning of a for loop.
+
+31
+00:01:37.280 --> 00:01:39.740
+Similar to conditional
+statements,
+
+32
+00:01:39.740 --> 00:01:43.930
+iterative statements
+consist of two main parts.
+
+33
+00:01:43.930 --> 00:01:45.920
+The parts of a loop are
+
+34
+00:01:45.920 --> 00:01:48.605
+the loop header
+and the loop body.
+
+35
+00:01:48.605 --> 00:01:50.900
+Let's examine the
+for loop we just
+
+36
+00:01:50.900 --> 00:01:54.610
+ran and use that to
+explore these parts.
+
+37
+00:01:55.610 --> 00:01:57.500
+The loop header is the
+line that contains
+
+38
+00:01:57.500 --> 00:02:00.335
+the for keyword and
+ends with a colon.
+
+39
+00:02:00.335 --> 00:02:03.370
+It tells Python to start a loop.
+
+40
+00:02:03.370 --> 00:02:06.320
+It consists of the for keyword,
+
+41
+00:02:06.320 --> 00:02:08.075
+a loop variable,
+
+42
+00:02:08.075 --> 00:02:11.270
+and the sequence the loop
+will iterate through.
+
+43
+00:02:11.270 --> 00:02:13.850
+The loop variable is
+a variable that is
+
+44
+00:02:13.850 --> 00:02:16.565
+used to control the
+iterations of a loop.
+
+45
+00:02:16.565 --> 00:02:20.395
+The loop variable comes
+directly after for.
+
+46
+00:02:20.395 --> 00:02:23.450
+A common name for
+it is the letter i,
+
+47
+00:02:23.450 --> 00:02:26.030
+but you can give it any
+other name you want.
+
+48
+00:02:26.030 --> 00:02:30.050
+In for loops, this
+temporary variable is only
+
+49
+00:02:30.050 --> 00:02:31.940
+used within the loop and not
+
+50
+00:02:31.940 --> 00:02:34.550
+outside of it in the
+rest of the code.
+
+51
+00:02:34.550 --> 00:02:37.130
+The loop variable is followed by
+
+52
+00:02:37.130 --> 00:02:39.080
+the in operator and
+
+53
+00:02:39.080 --> 00:02:41.670
+the sequence the loop
+will iterate through.
+
+54
+00:02:41.670 --> 00:02:44.600
+In this example,
+this sequence is
+
+55
+00:02:44.600 --> 00:02:48.365
+a list containing numbers
+from one through four.
+
+56
+00:02:48.365 --> 00:02:52.685
+It runs each of these numbers
+through a specified action.
+
+57
+00:02:52.685 --> 00:02:55.460
+We need to remember
+to put a colon at
+
+58
+00:02:55.460 --> 00:02:58.590
+the end of the loop header
+to introduce this code.
+
+59
+00:02:59.590 --> 00:03:00.730
+The loop body refers to
+
+60
+00:03:00.730 --> 00:03:03.295
+the indented lines
+after the loop header.
+
+61
+00:03:03.295 --> 00:03:05.665
+This represent the actions that
+
+62
+00:03:05.665 --> 00:03:08.335
+are repeated while
+the loop iterates.
+
+63
+00:03:08.335 --> 00:03:12.070
+In this case, it will print
+each number in the list:
+
+64
+00:03:12.070 --> 00:03:15.755
+first one, and then
+two, and so on.
+
+65
+00:03:16.755 --> 00:03:17.620
+Another important use of for
+
+66
+00:03:17.620 --> 00:03:20.185
+loops is to repeat
+a specific process
+
+67
+00:03:20.185 --> 00:03:22.000
+a set number of times.
+
+68
+00:03:22.000 --> 00:03:23.950
+This is done through combining
+
+69
+00:03:23.950 --> 00:03:25.915
+it with the range function.
+
+70
+00:03:25.915 --> 00:03:29.830
+The range function generates
+a sequence of numbers.
+
+71
+00:03:29.830 --> 00:03:32.340
+As an example, range from
+
+72
+00:03:32.340 --> 00:03:35.940
+zero to 10 sets a sequence
+that goes from zero,
+
+73
+00:03:35.940 --> 00:03:41.380
+one, two all the way up
+until the number nine.
+
+74
+00:03:41.380 --> 00:03:43.225
+When we use range,
+
+75
+00:03:43.225 --> 00:03:46.270
+we start counting at the
+number in the first position;
+
+76
+00:03:46.270 --> 00:03:48.325
+in this case, zero.
+
+77
+00:03:48.325 --> 00:03:52.179
+Then when we reach the number
+in the second position,
+
+78
+00:03:52.179 --> 00:03:54.565
+it tells us where to stop.
+
+79
+00:03:54.565 --> 00:03:56.880
+That number is excluded.
+
+80
+00:03:56.880 --> 00:04:00.670
+In this case, where
+the number is 10,
+
+81
+00:04:00.670 --> 00:04:04.540
+the sequence only
+goes up until nine.
+
+82
+00:04:05.540 --> 00:04:07.495
+An important detail
+about the range function
+
+83
+00:04:07.495 --> 00:04:10.330
+is that if we don't
+provide a start point,
+
+84
+00:04:10.330 --> 00:04:13.655
+it automatically
+starts from zero.
+
+85
+00:04:13.655 --> 00:04:16.860
+10 represents the stop point.
+
+86
+00:04:16.860 --> 00:04:19.335
+Since the stop
+point is excluded,
+
+87
+00:04:19.335 --> 00:04:22.120
+the numbers included in
+the sequence start at
+
+88
+00:04:22.120 --> 00:04:25.175
+zero and end at nine.
+
+89
+00:04:25.175 --> 00:04:28.340
+A sequence that starts
+at zero and ends at
+
+90
+00:04:28.340 --> 00:04:31.830
+nine will iterate 10 times.
+
+91
+00:04:32.830 --> 00:04:33.740
+Let's run a for loop that
+
+92
+00:04:33.740 --> 00:04:36.390
+incorporates the range function.
+
+93
+00:04:37.450 --> 00:04:40.400
+We'll use range to ask Python to
+
+94
+00:04:40.400 --> 00:04:42.785
+repeat an action 10 times.
+
+95
+00:04:42.785 --> 00:04:46.355
+Then we'll indicate the
+action we want to repeat.
+
+96
+00:04:46.355 --> 00:04:49.310
+This action is printing
+an error message that
+
+97
+00:04:49.310 --> 00:04:53.610
+indicates "cannot connect
+to the destination."
+
+98
+00:04:55.100 --> 00:05:00.860
+Let's run this. Using
+a for loop with
+
+99
+00:05:00.860 --> 00:05:03.350
+the range function
+allowed us to repeat
+
+100
+00:05:03.350 --> 00:05:06.140
+the same error message 10 times,
+
+101
+00:05:06.140 --> 00:05:10.069
+instead of typing it over
+and over again ourselves.
+
+102
+00:05:11.069 --> 00:05:12.140
+In this video, we learned
+
+103
+00:05:12.140 --> 00:05:14.150
+about the syntax
+and structure of
+
+104
+00:05:14.150 --> 00:05:16.370
+iterative statements and worked
+
+105
+00:05:16.370 --> 00:05:18.655
+with for loops as an example.
+
+106
+00:05:18.655 --> 00:05:21.890
+In the next video, we'll
+cover another type
+
+107
+00:05:21.890 --> 00:05:25.770
+of iterative statement:
+the while loop.

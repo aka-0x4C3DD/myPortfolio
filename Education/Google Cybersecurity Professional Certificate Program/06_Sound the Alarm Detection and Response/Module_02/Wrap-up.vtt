@@ -1,0 +1,108 @@
+WEBVTT
+
+1
+00:00:00.230 --> 00:00:02.280
+Nice work so far!
+
+2
+00:00:02.280 --> 00:00:04.110
+Congratulations on capturing
+
+3
+00:00:04.110 --> 00:00:06.075
+and analyzing your first packet.
+
+4
+00:00:06.075 --> 00:00:08.520
+Let's review what
+we've covered so far.
+
+5
+00:00:08.520 --> 00:00:11.130
+First, you learned how
+network traffic flows
+
+6
+00:00:11.130 --> 00:00:13.860
+provide valuable
+communications insight.
+
+7
+00:00:13.860 --> 00:00:15.720
+Through monitoring
+network activity
+
+8
+00:00:15.720 --> 00:00:17.430
+for indicators of compromise,
+
+9
+00:00:17.430 --> 00:00:18.585
+you learned how to spot
+
+10
+00:00:18.585 --> 00:00:21.805
+unusual network activity,
+like data exfiltration.
+
+11
+00:00:22.805 --> 00:00:23.900
+Then, you learned how
+to view and capture
+
+12
+00:00:23.900 --> 00:00:26.344
+network traffic using
+packet sniffers.
+
+13
+00:00:27.344 --> 00:00:28.040
+Finally, you learned
+how to inspect
+
+14
+00:00:28.040 --> 00:00:30.095
+packets through packet analysis.
+
+15
+00:00:30.095 --> 00:00:32.360
+You dissected packet
+header data fields
+
+16
+00:00:32.360 --> 00:00:34.895
+and analyzed packet
+captures in detail.
+
+17
+00:00:35.895 --> 00:00:36.290
+You've made a lot of progress
+
+18
+00:00:36.290 --> 00:00:37.700
+in developing the skills you'll
+
+19
+00:00:37.700 --> 00:00:40.790
+need to prepare for an
+entry-level role in security.
+
+20
+00:00:40.790 --> 00:00:42.620
+Coming up, you'll
+be immersed into
+
+21
+00:00:42.620 --> 00:00:45.335
+the exciting world of
+incident investigation,
+
+22
+00:00:45.335 --> 00:00:48.260
+where you'll examine the
+processes behind detecting
+
+23
+00:00:48.260 --> 00:00:51.720
+and containing an incident.
+I'll meet you there.

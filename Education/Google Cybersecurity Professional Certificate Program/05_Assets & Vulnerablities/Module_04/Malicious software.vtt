@@ -1,0 +1,498 @@
+WEBVTT
+
+1
+00:00:00.530 --> 00:00:04.335
+People and computers are very
+different from one another.
+
+2
+00:00:04.335 --> 00:00:06.660
+There's one way that we're alike.
+
+3
+00:00:06.660 --> 00:00:08.550
+You know how? We're both
+
+4
+00:00:08.550 --> 00:00:10.470
+vulnerable to getting
+an infection.
+
+5
+00:00:10.470 --> 00:00:12.600
+While humans can be
+infected by a virus
+
+6
+00:00:12.600 --> 00:00:14.760
+that causes a cold or flu,
+
+7
+00:00:14.760 --> 00:00:17.685
+computers can be
+infected by malware.
+
+8
+00:00:18.685 --> 00:00:22.455
+Malware is software designed to
+harm devices or networks.
+
+9
+00:00:22.455 --> 00:00:25.800
+Malware, which is short
+for malicious software,
+
+10
+00:00:25.800 --> 00:00:27.900
+can be spread in many ways.
+
+11
+00:00:27.900 --> 00:00:29.960
+For example, it can be
+
+12
+00:00:29.960 --> 00:00:32.570
+spread through an
+infected USB drive.
+
+13
+00:00:32.570 --> 00:00:36.050
+Or also commonly spread
+between computers online.
+
+14
+00:00:37.050 --> 00:00:38.210
+Devices and systems
+that are connected to
+
+15
+00:00:38.210 --> 00:00:41.104
+the internet are especially
+vulnerable to infection.
+
+16
+00:00:41.104 --> 00:00:43.100
+When a device becomes infected,
+
+17
+00:00:43.100 --> 00:00:46.220
+malware interferes with
+its normal operations.
+
+18
+00:00:46.220 --> 00:00:48.650
+Attackers use malware
+to take control of
+
+19
+00:00:48.650 --> 00:00:50.240
+the infected system without
+
+20
+00:00:50.240 --> 00:00:52.375
+the user's knowledge
+or permission.
+
+21
+00:00:52.375 --> 00:00:54.770
+Malware has been a
+threat to people and
+
+22
+00:00:54.770 --> 00:00:57.155
+organizations for a long time.
+
+23
+00:00:57.155 --> 00:01:00.530
+Attackers have created many
+different strains of malware.
+
+24
+00:01:00.530 --> 00:01:03.400
+They all vary in
+how they're spread.
+
+25
+00:01:04.400 --> 00:01:07.430
+Five of the most common types
+of malware are a virus,
+
+26
+00:01:07.430 --> 00:01:11.290
+worm, trojan,
+ransomware, and spyware.
+
+27
+00:01:11.290 --> 00:01:13.815
+Let's take a look at
+how each of them work.
+
+28
+00:01:14.815 --> 00:01:17.330
+A virus is malicious code
+written to interfere with
+
+29
+00:01:17.330 --> 00:01:19.040
+computer operations and cause
+
+30
+00:01:19.040 --> 00:01:21.245
+damage to data and software.
+
+31
+00:01:21.245 --> 00:01:25.180
+Viruses typically hide inside
+of trusted applications.
+
+32
+00:01:25.180 --> 00:01:27.530
+When the infected
+program is launched,
+
+33
+00:01:27.530 --> 00:01:29.240
+the virus clones itself and
+
+34
+00:01:29.240 --> 00:01:32.030
+spreads to other
+files on the device.
+
+35
+00:01:32.030 --> 00:01:33.950
+An important characteristic of
+
+36
+00:01:33.950 --> 00:01:35.480
+viruses is that they have to
+
+37
+00:01:35.480 --> 00:01:38.785
+be activated by the user
+to start the infection.
+
+38
+00:01:39.785 --> 00:01:42.110
+The next kind of malware
+doesn't have this limitation.
+
+39
+00:01:42.110 --> 00:01:44.390
+A worm is malware that can
+
+40
+00:01:44.390 --> 00:01:47.930
+duplicate and spread itself
+across systems on its own.
+
+41
+00:01:47.930 --> 00:01:50.420
+While viruses require
+users to perform
+
+42
+00:01:50.420 --> 00:01:53.020
+an action like opening
+a file to duplicate,
+
+43
+00:01:53.020 --> 00:01:56.150
+worms use an infected
+device as a host.
+
+44
+00:01:56.150 --> 00:01:59.660
+They scan the connected
+network for other devices.
+
+45
+00:01:59.660 --> 00:02:02.315
+Worms then infect
+everything on the network
+
+46
+00:02:02.315 --> 00:02:05.395
+without requiring an action
+to trigger the spread.
+
+47
+00:02:06.395 --> 00:02:07.640
+Viruses and worms are
+delivered through
+
+48
+00:02:07.640 --> 00:02:09.665
+phishing emails
+and other methods
+
+49
+00:02:09.665 --> 00:02:11.570
+before they infect a device.
+
+50
+00:02:11.570 --> 00:02:13.850
+Making sure you click
+links only from
+
+51
+00:02:13.850 --> 00:02:15.800
+trusted sources is one way
+
+52
+00:02:15.800 --> 00:02:17.765
+to avoid these
+types of infection.
+
+53
+00:02:17.765 --> 00:02:20.495
+However, attackers have designed
+
+54
+00:02:20.495 --> 00:02:22.190
+another form of malware that
+
+55
+00:02:22.190 --> 00:02:24.365
+can get past this precaution.
+
+56
+00:02:25.365 --> 00:02:27.230
+A trojan, or Trojan horse,
+
+57
+00:02:27.230 --> 00:02:30.575
+is malware that looks like a
+legitimate file or program.
+
+58
+00:02:30.575 --> 00:02:32.120
+The name is a reference to
+
+59
+00:02:32.120 --> 00:02:35.660
+an ancient Greek legend that's
+set in the city of Troy.
+
+60
+00:02:35.660 --> 00:02:38.840
+In Troy, a group of
+soldiers hid inside
+
+61
+00:02:38.840 --> 00:02:40.550
+a giant wooden horse that was
+
+62
+00:02:40.550 --> 00:02:42.965
+presented as a gift
+to their enemies.
+
+63
+00:02:42.965 --> 00:02:46.270
+It was accepted and brought
+inside the city walls.
+
+64
+00:02:46.270 --> 00:02:48.780
+Later that evening,
+the soldiers inside
+
+65
+00:02:48.780 --> 00:02:51.400
+of the horse climbed out
+and attacked the city.
+
+66
+00:02:51.400 --> 00:02:53.105
+Like this ancient tale,
+
+67
+00:02:53.105 --> 00:02:56.435
+attackers design trojans
+to appear harmless.
+
+68
+00:02:56.435 --> 00:03:00.170
+This type of malware is
+typically disguised as files or
+
+69
+00:03:00.170 --> 00:03:02.180
+useful applications to trick
+
+70
+00:03:02.180 --> 00:03:04.360
+their target into
+installing them.
+
+71
+00:03:05.360 --> 00:03:07.670
+Attackers often use
+trojans to gain access and
+
+72
+00:03:07.670 --> 00:03:11.230
+install another kind of
+malware called ransomware.
+
+73
+00:03:11.230 --> 00:03:14.855
+Ransomware is a type of
+malicious attack where attackers
+
+74
+00:03:14.855 --> 00:03:17.090
+encrypt an
+organization's data and
+
+75
+00:03:17.090 --> 00:03:19.600
+demand payment to
+restore access.
+
+76
+00:03:19.600 --> 00:03:23.180
+These kind of attacks have
+become very common these days.
+
+77
+00:03:23.180 --> 00:03:24.710
+A unique feature of
+
+78
+00:03:24.710 --> 00:03:26.420
+ransomware attacks is that they
+
+79
+00:03:26.420 --> 00:03:28.850
+make themselves known
+to their targets.
+
+80
+00:03:28.850 --> 00:03:30.410
+Without doing this, they
+
+81
+00:03:30.410 --> 00:03:32.555
+couldn't collect the
+money they demand.
+
+82
+00:03:32.555 --> 00:03:35.255
+Normally, they decrypt
+the hidden data
+
+83
+00:03:35.255 --> 00:03:37.600
+as soon as the sum
+of money is paid.
+
+84
+00:03:37.600 --> 00:03:40.219
+Unfortunately,
+there's no guarantee
+
+85
+00:03:40.219 --> 00:03:42.320
+they won't return
+to demand more.
+
+86
+00:03:43.320 --> 00:03:45.845
+The last type of malware I
+want to mention is spyware.
+
+87
+00:03:45.845 --> 00:03:48.080
+Spyware is malware
+that's used to
+
+88
+00:03:48.080 --> 00:03:50.800
+gather and sell information
+without consent.
+
+89
+00:03:50.800 --> 00:03:53.400
+Consent is a keyword
+in this case.
+
+90
+00:03:54.400 --> 00:03:54.920
+Organizations also
+
+91
+00:03:54.920 --> 00:03:56.810
+collect information
+about their customers,
+
+92
+00:03:56.810 --> 00:03:59.330
+like their browsing habits
+and purchase history.
+
+93
+00:03:59.330 --> 00:04:01.130
+However, they always give
+
+94
+00:04:01.130 --> 00:04:03.625
+their customers the
+ability to opt out.
+
+95
+00:04:03.625 --> 00:04:05.510
+Cybercriminals, on
+the other hand,
+
+96
+00:04:05.510 --> 00:04:07.925
+use spyware to
+steal information.
+
+97
+00:04:07.925 --> 00:04:09.530
+They use spyware attacks to
+
+98
+00:04:09.530 --> 00:04:11.630
+collect data like
+login credentials,
+
+99
+00:04:11.630 --> 00:04:13.460
+account PINs, and other types of
+
+100
+00:04:13.460 --> 00:04:16.870
+sensitive information for
+their own personal gain.
+
+101
+00:04:17.870 --> 00:04:19.700
+There are many other
+types of malware besides
+
+102
+00:04:19.700 --> 00:04:22.595
+these and new forms
+are always evolving.
+
+103
+00:04:22.595 --> 00:04:24.350
+They all pose a serious risk
+
+104
+00:04:24.350 --> 00:04:26.725
+to individuals and
+organizations.
+
+105
+00:04:26.725 --> 00:04:28.580
+Next time, we'll explore how
+
+106
+00:04:28.580 --> 00:04:32.850
+security teams detect and
+remove these kinds of threats.

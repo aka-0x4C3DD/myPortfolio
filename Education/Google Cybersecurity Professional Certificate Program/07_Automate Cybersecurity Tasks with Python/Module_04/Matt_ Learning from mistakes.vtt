@@ -1,0 +1,370 @@
+WEBVTT
+
+1
+00:00:03.680 --> 00:00:05.400
+My name is Matt.
+
+2
+00:00:05.400 --> 00:00:08.980
+I'm a software engineer
+working in cybersecurity.
+
+3
+00:00:08.980 --> 00:00:10.755
+When I was in high school,
+
+4
+00:00:10.755 --> 00:00:12.660
+what I really want
+to do is music,
+
+5
+00:00:12.660 --> 00:00:14.250
+I was a musician.
+
+6
+00:00:14.250 --> 00:00:17.880
+I went to music school
+for jazz trombone.
+
+7
+00:00:17.880 --> 00:00:21.045
+Partway through that
+process, I realized, no,
+
+8
+00:00:21.045 --> 00:00:23.265
+bandleader in their right mind,
+
+9
+00:00:23.265 --> 00:00:25.245
+looks at a group and thinks,
+
+10
+00:00:25.245 --> 00:00:27.075
+we need a trombone player.
+
+11
+00:00:27.075 --> 00:00:28.905
+This is what makes us better.
+
+12
+00:00:28.905 --> 00:00:35.375
+I grew up watching
+movies like The Matrix,
+
+13
+00:00:35.375 --> 00:00:38.180
+and it's not very
+
+14
+00:00:38.180 --> 00:00:40.565
+realistic to what cybersecurity
+work actually is,
+
+15
+00:00:40.565 --> 00:00:42.215
+but it is inspiring.
+
+16
+00:00:42.215 --> 00:00:44.330
+If you dig through the work
+
+17
+00:00:44.330 --> 00:00:46.460
+at specifics of what
+you do and take
+
+18
+00:00:46.460 --> 00:00:48.485
+the broad step back like you are
+
+19
+00:00:48.485 --> 00:00:52.030
+that cool guy with
+sunglasses, you're a hacker.
+
+20
+00:00:52.030 --> 00:00:54.920
+When I first started
+writing code,
+
+21
+00:00:54.920 --> 00:00:56.675
+I would look at coding errors
+
+22
+00:00:56.675 --> 00:00:59.135
+as a sign that I have done bad.
+
+23
+00:00:59.135 --> 00:01:01.145
+But as I grew older,
+
+24
+00:01:01.145 --> 00:01:02.435
+a little bit more mature,
+
+25
+00:01:02.435 --> 00:01:05.130
+I realized everyone
+has coding errors.
+
+26
+00:01:05.130 --> 00:01:07.170
+Literally the very best
+software engineer I
+
+27
+00:01:07.170 --> 00:01:09.475
+know writes code
+and it has errors.
+
+28
+00:01:09.475 --> 00:01:12.260
+Errors represent a moment where
+
+29
+00:01:12.260 --> 00:01:15.260
+you can take a step back and
+say, what did I do wrong?
+
+30
+00:01:15.260 --> 00:01:16.840
+It's a learning opportunity.
+
+31
+00:01:16.840 --> 00:01:21.440
+Now, I see these
+like moments where
+
+32
+00:01:21.440 --> 00:01:23.690
+I can look at some
+problems that I don't
+
+33
+00:01:23.690 --> 00:01:26.120
+understand and be like, why?
+
+34
+00:01:26.120 --> 00:01:28.205
+Dive into it and expand
+
+35
+00:01:28.205 --> 00:01:32.305
+my knowledge of computer
+science, which is my whole job.
+
+36
+00:01:32.305 --> 00:01:34.190
+I see this as a learning
+
+37
+00:01:34.190 --> 00:01:36.160
+process and it's
+a little bit fun.
+
+38
+00:01:36.160 --> 00:01:40.805
+One of the really messy coding
+areas that I've run into
+
+39
+00:01:40.805 --> 00:01:45.230
+in my time here at Google
+involved fingerprinting
+
+40
+00:01:45.230 --> 00:01:47.050
+when we find a vulnerability.
+
+41
+00:01:47.050 --> 00:01:49.595
+If we find the same
+vulnerability later,
+
+42
+00:01:49.595 --> 00:01:52.310
+we don't want to have
+two vulnerabilities,
+
+43
+00:01:52.310 --> 00:01:54.470
+we don't want to poke
+someone twice and be like,
+
+44
+00:01:54.470 --> 00:01:56.765
+fix this thing if it's
+the exact same thing.
+
+45
+00:01:56.765 --> 00:01:58.430
+We do this thing called
+
+46
+00:01:58.430 --> 00:02:01.100
+fingerprinting where we
+say this vulnerability has
+
+47
+00:02:01.100 --> 00:02:03.575
+a specific fingerprint
+and if we find
+
+48
+00:02:03.575 --> 00:02:06.320
+another vulnerability that
+has the same fingerprint,
+
+49
+00:02:06.320 --> 00:02:07.640
+we're not going to store them
+
+50
+00:02:07.640 --> 00:02:09.410
+separately or treat
+them separately.
+
+51
+00:02:09.410 --> 00:02:10.705
+They're effectively the same.
+
+52
+00:02:10.705 --> 00:02:13.160
+I was running into these errors
+
+53
+00:02:13.160 --> 00:02:14.660
+where things would not
+
+54
+00:02:14.660 --> 00:02:16.650
+fingerprint in the way
+that I expected them to.
+
+55
+00:02:16.650 --> 00:02:21.455
+I was literally grinding
+my gears for weeks,
+
+56
+00:02:21.455 --> 00:02:22.955
+trying to figure out what
+
+57
+00:02:22.955 --> 00:02:24.335
+is going on with this thing?
+
+58
+00:02:24.335 --> 00:02:28.345
+But when I found it was very
+satisfying like, that's it.
+
+59
+00:02:28.345 --> 00:02:30.650
+When you're in the
+middle of this mess,
+
+60
+00:02:30.650 --> 00:02:32.900
+all of that self-doubt
+creeps into your brain.
+
+61
+00:02:32.900 --> 00:02:34.670
+You're like, maybe I'm
+
+62
+00:02:34.670 --> 00:02:36.920
+not as good at this thing
+as I thought I was.
+
+63
+00:02:36.920 --> 00:02:39.500
+What I would go back and
+
+64
+00:02:39.500 --> 00:02:42.795
+tell myself: A), it's not endless -
+
+65
+00:02:42.795 --> 00:02:44.750
+it gets better. Once
+you figure it out,
+
+66
+00:02:44.750 --> 00:02:47.315
+that feeling of
+reward is incredible.
+
+67
+00:02:47.315 --> 00:02:50.720
+But B), also, it's okay
+to rope people in
+
+68
+00:02:50.720 --> 00:02:52.870
+if you are struggling
+with something,
+
+69
+00:02:52.870 --> 00:02:56.195
+I always advocate
+for asking for help.
+
+70
+00:02:56.195 --> 00:02:57.920
+Most people are really
+
+71
+00:02:57.920 --> 00:02:59.645
+excited to go help you
+out with this thing,
+
+72
+00:02:59.645 --> 00:03:02.185
+especially when it's
+a convoluted problem.
+
+73
+00:03:02.185 --> 00:03:06.305
+I am so thrilled I ended
+up in cybersecurity.
+
+74
+00:03:06.305 --> 00:03:08.130
+Cybersecurity is
+having its moment.
+
+75
+00:03:08.130 --> 00:03:11.165
+People are realizing, waking
+up to the amount of data
+
+76
+00:03:11.165 --> 00:03:12.290
+that they're putting out into
+
+77
+00:03:12.290 --> 00:03:14.755
+the world and they're
+starting to care about it.
+
+78
+00:03:14.755 --> 00:03:16.845
+Every day there's something new.
+
+79
+00:03:16.845 --> 00:03:19.320
+Every day there's something
+
+80
+00:03:19.320 --> 00:03:21.990
+exciting for me to do and yeah,
+
+81
+00:03:21.990 --> 00:03:24.670
+get into it.
+Cybersecurity is the way.

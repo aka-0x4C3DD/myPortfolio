@@ -1,0 +1,97 @@
+WEBVTT
+
+1
+00:00:00.260 --> 00:00:02.970
+Great work in this section!
+
+2
+00:00:02.970 --> 00:00:06.030
+We focused on a few new
+topics that will help
+
+3
+00:00:06.030 --> 00:00:09.375
+you put Python into practice
+in the security profession.
+
+4
+00:00:09.375 --> 00:00:14.265
+First, we explored opening
+and reading files in Python.
+
+5
+00:00:14.265 --> 00:00:18.060
+Security analysts work
+with a lot of log files,
+
+6
+00:00:18.060 --> 00:00:21.525
+so the ability to do
+this is essential.
+
+7
+00:00:21.525 --> 00:00:25.200
+Next, we covered parsing files.
+
+8
+00:00:25.200 --> 00:00:27.645
+Log files can be very long.
+
+9
+00:00:27.645 --> 00:00:29.820
+For this reason, a structure
+
+10
+00:00:29.820 --> 00:00:31.530
+in these files to make them more
+
+11
+00:00:31.530 --> 00:00:33.600
+readable helps you automate
+
+12
+00:00:33.600 --> 00:00:36.720
+your tasks and get the
+information you need.
+
+13
+00:00:36.720 --> 00:00:39.705
+And last, we focused
+on debugging code.
+
+14
+00:00:39.705 --> 00:00:41.150
+Knowing how to debug
+
+15
+00:00:41.150 --> 00:00:43.525
+your code can save
+you a lot of time,
+
+16
+00:00:43.525 --> 00:00:47.200
+especially as your code
+increases in complexity.
+
+17
+00:00:48.200 --> 00:00:49.370
+Overall, I hope you feel
+
+18
+00:00:49.370 --> 00:00:52.070
+proud of what you've
+accomplished in this section.
+
+19
+00:00:52.070 --> 00:00:54.710
+Addressing security
+issues through Python is
+
+20
+00:00:54.710 --> 00:00:56.570
+exciting, and the information we
+
+21
+00:00:56.570 --> 00:00:59.700
+covered will allow
+you to do that.

@@ -1,0 +1,557 @@
+WEBVTT
+
+1
+00:00:00.320 --> 00:00:04.410
+Now that we know how to
+create our own functions,
+
+2
+00:00:04.410 --> 00:00:08.400
+let's also explore a few of
+Python's built-in functions.
+
+3
+00:00:08.400 --> 00:00:10.260
+As we discussed previously,
+
+4
+00:00:10.260 --> 00:00:12.630
+built-in functions are
+functions that exist
+
+5
+00:00:12.630 --> 00:00:16.155
+within Python and can
+be called directly.
+
+6
+00:00:16.155 --> 00:00:18.510
+Our only job is to call them by
+
+7
+00:00:18.510 --> 00:00:20.070
+their name! And we've
+
+8
+00:00:20.070 --> 00:00:22.680
+already described a few
+throughout the course;
+
+9
+00:00:22.680 --> 00:00:27.285
+for example, Python's
+print() and type() functions.
+
+10
+00:00:27.285 --> 00:00:30.360
+Let's quickly review those
+two built-in functions
+
+11
+00:00:30.360 --> 00:00:32.385
+before learning about new ones!
+
+12
+00:00:33.385 --> 00:00:37.350
+First, print() outputs a
+specified object to the screen.
+
+13
+00:00:37.350 --> 00:00:42.560
+And then, the type() function returns
+the data type of its input.
+
+14
+00:00:42.560 --> 00:00:44.570
+Previously, we've been using
+
+15
+00:00:44.570 --> 00:00:47.500
+functions independently
+from one another.
+
+16
+00:00:47.500 --> 00:00:50.420
+For example, we asked
+Python to print
+
+17
+00:00:50.420 --> 00:00:52.520
+something, or we asked
+
+18
+00:00:52.520 --> 00:00:55.405
+Python to return the
+data type of something.
+
+19
+00:00:55.405 --> 00:00:58.515
+As we begin to explore
+built-in functions,
+
+20
+00:00:58.515 --> 00:01:02.225
+we'll often need to use
+multiple functions together.
+
+21
+00:01:02.225 --> 00:01:04.130
+We can do this by passing
+
+22
+00:01:04.130 --> 00:01:07.780
+one function into
+another as an argument.
+
+23
+00:01:07.780 --> 00:01:10.905
+For example, in
+this line of code,
+
+24
+00:01:10.905 --> 00:01:15.850
+Python first returns the
+data type of "Hello" as a string.
+
+25
+00:01:15.850 --> 00:01:20.360
+Then, this returned value is
+passed into the print() function.
+
+26
+00:01:20.360 --> 00:01:22.640
+This means the data type of
+
+27
+00:01:22.640 --> 00:01:25.280
+string will be printed
+to the screen.
+
+28
+00:01:26.280 --> 00:01:26.870
+print() and type()
+
+29
+00:01:26.870 --> 00:01:28.610
+are not the only
+functions you'll
+
+30
+00:01:28.610 --> 00:01:30.680
+see used together in this way.
+
+31
+00:01:30.680 --> 00:01:34.685
+In all cases, the general
+syntax is the same.
+
+32
+00:01:34.685 --> 00:01:38.300
+The inner function is
+processed first and then
+
+33
+00:01:38.300 --> 00:01:42.155
+its returned value is passed
+to the outer function.
+
+34
+00:01:43.155 --> 00:01:44.675
+Let's consider another aspect
+
+35
+00:01:44.675 --> 00:01:46.895
+of working with
+built-in functions.
+
+36
+00:01:46.895 --> 00:01:49.115
+When working with functions,
+
+37
+00:01:49.115 --> 00:01:50.570
+you have to understand what
+
+38
+00:01:50.570 --> 00:01:53.465
+their expected inputs
+and outputs are.
+
+39
+00:01:53.465 --> 00:01:57.245
+Some functions only
+expect specific data types
+
+40
+00:01:57.245 --> 00:02:00.680
+and will return a type error
+if you use the wrong one.
+
+41
+00:02:00.680 --> 00:02:03.980
+Other functions need
+a specific amount
+
+42
+00:02:03.980 --> 00:02:07.265
+of parameters or return
+a different data type.
+
+43
+00:02:07.265 --> 00:02:09.940
+The print() function, for example
+
+44
+00:02:09.940 --> 00:02:13.100
+can take in any data
+type as its input.
+
+45
+00:02:13.100 --> 00:02:16.340
+It can also take in any
+number of parameters,
+
+46
+00:02:16.340 --> 00:02:19.540
+even ones with
+different data types.
+
+47
+00:02:20.540 --> 00:02:23.900
+Let's explore the input and
+output of the print() function.
+
+48
+00:02:23.900 --> 00:02:26.779
+We'll enter three arguments.
+
+49
+00:02:26.779 --> 00:02:29.660
+The first contains
+string data.
+
+50
+00:02:29.660 --> 00:02:32.090
+Then, a comma is used to
+
+51
+00:02:32.090 --> 00:02:34.760
+separate this from
+the second argument.
+
+52
+00:02:34.760 --> 00:02:37.790
+This second argument
+is an integer.
+
+53
+00:02:37.790 --> 00:02:40.580
+Finally, after another comma,
+
+54
+00:02:40.580 --> 00:02:43.625
+our third argument
+is another string.
+
+55
+00:02:43.625 --> 00:02:47.005
+Now, let's run this code.
+
+56
+00:02:47.005 --> 00:02:52.230
+Perfect! This printed
+out just as expected!
+
+57
+00:02:52.230 --> 00:02:56.455
+The type() function also
+takes in all data types,
+
+58
+00:02:56.455 --> 00:02:59.510
+but it only accepts
+one parameter.
+
+59
+00:03:00.810 --> 00:03:03.855
+Let's explore this
+input and output too.
+
+60
+00:03:04.855 --> 00:03:06.085
+Our first line of code
+
+61
+00:03:06.085 --> 00:03:08.110
+will first determine
+the data type of
+
+62
+00:03:08.110 --> 00:03:09.970
+the word "security" and
+
+63
+00:03:09.970 --> 00:03:13.975
+then pass what it returns
+into a print() function.
+
+64
+00:03:13.975 --> 00:03:16.480
+And the second line of
+code will do
+
+65
+00:03:16.480 --> 00:03:20.275
+the same thing with
+the value of 73.2.
+
+66
+00:03:20.275 --> 00:03:24.530
+Now, let's run this
+and see what happens.
+
+67
+00:03:24.530 --> 00:03:27.650
+Python first returns output that
+
+68
+00:03:27.650 --> 00:03:31.030
+tells us that the word
+"security" is string data.
+
+69
+00:03:31.030 --> 00:03:34.580
+Next, it returns another
+line of output that tells
+
+70
+00:03:34.580 --> 00:03:38.060
+us that 73.2 is float data.
+
+71
+00:03:38.060 --> 00:03:39.890
+Now, we know what to
+
+72
+00:03:39.890 --> 00:03:42.500
+consider before using
+a built-in function.
+
+73
+00:03:42.500 --> 00:03:45.620
+We have to know exactly
+how many parameters it
+
+74
+00:03:45.620 --> 00:03:49.040
+requires and what data
+types they can be.
+
+75
+00:03:49.040 --> 00:03:53.350
+We also need to know
+what kind of output it produces.
+
+76
+00:03:53.350 --> 00:03:55.010
+Let's learn a couple of
+
+77
+00:03:55.010 --> 00:03:57.905
+new built-in functions
+and think about this.
+
+78
+00:03:57.905 --> 00:03:59.900
+We'll start with max().
+
+79
+00:04:00.900 --> 00:04:01.700
+The max() function returns
+
+80
+00:04:01.700 --> 00:04:04.475
+the largest numeric
+input passed into it.
+
+81
+00:04:04.475 --> 00:04:06.650
+It doesn't have a
+defined number of
+
+82
+00:04:06.650 --> 00:04:08.584
+parameters that it accepts.
+
+83
+00:04:09.584 --> 00:04:10.775
+Let's explore the max() function.
+
+84
+00:04:10.775 --> 00:04:13.175
+We'll pass three arguments
+
+85
+00:04:13.175 --> 00:04:16.045
+into max() in the
+form of variables.
+
+86
+00:04:16.045 --> 00:04:18.960
+So let's first define
+those variables.
+
+87
+00:04:18.960 --> 00:04:22.755
+We'll set the value of a to 3,
+
+88
+00:04:22.755 --> 00:04:24.840
+b to 9,
+
+89
+00:04:24.840 --> 00:04:27.120
+and c to 6.
+
+90
+00:04:27.120 --> 00:04:29.780
+Then, we'll pass
+these variables into
+
+91
+00:04:29.780 --> 00:04:35.270
+the max() function and print
+them. Let's run this.
+
+92
+00:04:36.370 --> 00:04:41.590
+It tells us the highest
+value among those is 9.
+
+93
+00:04:42.590 --> 00:04:44.000
+Now, let's study
+
+94
+00:04:44.000 --> 00:04:47.885
+one more built-in function:
+the sorted() function.
+
+95
+00:04:47.885 --> 00:04:52.145
+The sorted() function sorts
+the components of a list.
+
+96
+00:04:52.145 --> 00:04:56.015
+This function can be very
+useful in a security setting.
+
+97
+00:04:56.015 --> 00:04:57.755
+When working with lists,
+
+98
+00:04:57.755 --> 00:05:01.940
+we often have to sort them.
+With lists of numbers,
+
+99
+00:05:01.940 --> 00:05:03.950
+we sort them from smallest to
+
+100
+00:05:03.950 --> 00:05:06.415
+largest or the
+other way around.
+
+101
+00:05:06.415 --> 00:05:08.660
+With lists of string data,
+
+102
+00:05:08.660 --> 00:05:11.545
+we might need to sort
+them alphabetically.
+
+103
+00:05:11.545 --> 00:05:14.030
+Imagine you have a
+list that contains
+
+104
+00:05:14.030 --> 00:05:16.325
+usernames in your organization
+
+105
+00:05:16.325 --> 00:05:19.295
+and you wanted to sort
+them alphabetically.
+
+106
+00:05:19.295 --> 00:05:23.270
+Let's use Python's sorted()
+function for this.
+
+107
+00:05:23.270 --> 00:05:28.400
+We'll specify our list through a
+variable named usernames.
+
+108
+00:05:28.400 --> 00:05:30.605
+In this list, we'll include
+
+109
+00:05:30.605 --> 00:05:33.485
+all of the usernames
+we want to sort.
+
+110
+00:05:33.485 --> 00:05:36.920
+Now, we'll use the
+sorted() function to
+
+111
+00:05:36.920 --> 00:05:38.630
+sort these names by passing
+
+112
+00:05:38.630 --> 00:05:41.240
+the usernames variable into it.
+
+113
+00:05:41.240 --> 00:05:44.180
+And then we'll pass its output into
+
+114
+00:05:44.180 --> 00:05:48.160
+the print statement so it can
+be displayed on the screen.
+
+115
+00:05:48.160 --> 00:05:52.295
+When we run it, everything
+is now in order!
+
+116
+00:05:53.295 --> 00:05:54.110
+These are just a few of
+
+117
+00:05:54.110 --> 00:05:57.005
+the built-in functions
+available for your use.
+
+118
+00:05:57.005 --> 00:05:58.955
+As you work more in Python,
+
+119
+00:05:58.955 --> 00:06:00.680
+you'll become familiar with
+
+120
+00:06:00.680 --> 00:06:03.839
+others that can help
+you in your programs.

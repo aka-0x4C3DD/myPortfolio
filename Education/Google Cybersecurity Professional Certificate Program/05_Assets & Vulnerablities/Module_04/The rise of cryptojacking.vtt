@@ -1,0 +1,432 @@
+WEBVTT
+
+1
+00:00:00.080 --> 00:00:04.275
+Malware has been around
+nearly as long as computers.
+
+2
+00:00:04.275 --> 00:00:05.835
+In its earliest forms,
+
+3
+00:00:05.835 --> 00:00:07.575
+it was used by troublemakers
+
+4
+00:00:07.575 --> 00:00:09.705
+as a form of digital vandalism.
+
+5
+00:00:09.705 --> 00:00:11.570
+In today's digital world,
+
+6
+00:00:11.570 --> 00:00:13.800
+malware has become
+a profitable crime
+
+7
+00:00:13.800 --> 00:00:16.710
+that attackers use for
+their own financial gain.
+
+8
+00:00:17.710 --> 00:00:18.675
+As a security professional,
+
+9
+00:00:18.675 --> 00:00:19.860
+it's important that you remain
+
+10
+00:00:19.860 --> 00:00:21.780
+aware of the latest evolutions.
+
+11
+00:00:21.780 --> 00:00:25.470
+Let's take a closer look at
+one way malware has evolved.
+
+12
+00:00:25.470 --> 00:00:27.090
+We'll then use this example
+
+13
+00:00:27.090 --> 00:00:28.530
+to consider how malware can be
+
+14
+00:00:28.530 --> 00:00:30.000
+spotted and how you can
+
+15
+00:00:30.000 --> 00:00:32.290
+proactively protect
+against malware.
+
+16
+00:00:32.290 --> 00:00:34.340
+Ransomware is one
+of the types of
+
+17
+00:00:34.340 --> 00:00:36.580
+malware attackers
+use to steal money.
+
+18
+00:00:37.580 --> 00:00:40.525
+Another more recent type of
+malware is cryptojacking.
+
+19
+00:00:40.525 --> 00:00:43.670
+Cryptojacking is a form
+of malware that installs
+
+20
+00:00:43.670 --> 00:00:46.810
+software to illegally
+mine cryptocurrencies.
+
+21
+00:00:46.810 --> 00:00:49.925
+You may be familiar with
+cryptocurrency from the news.
+
+22
+00:00:49.925 --> 00:00:51.590
+If you're new to the topic,
+
+23
+00:00:51.590 --> 00:00:54.980
+cryptocurrencies are a form
+of digital money that have
+
+24
+00:00:54.980 --> 00:00:58.625
+real-world value. Like
+physical forms of currency,
+
+25
+00:00:58.625 --> 00:01:00.680
+there are many different types.
+
+26
+00:01:00.680 --> 00:01:02.225
+For the most part,
+
+27
+00:01:02.225 --> 00:01:05.045
+they're referred to
+as coins or tokens.
+
+28
+00:01:06.045 --> 00:01:07.550
+In simple terms, crypto mining is
+
+29
+00:01:07.550 --> 00:01:10.475
+a process used to
+obtain new coins.
+
+30
+00:01:10.475 --> 00:01:12.650
+Crypto mining is
+similar to the process
+
+31
+00:01:12.650 --> 00:01:15.560
+for mining for other resources, like gold.
+
+32
+00:01:15.560 --> 00:01:18.680
+Mining for something like
+gold involves machinery, such
+
+33
+00:01:18.680 --> 00:01:21.980
+as trucks and bulldozers, that
+can dig through the Earth.
+
+34
+00:01:21.980 --> 00:01:23.615
+Crypto coins, on the other hand,
+
+35
+00:01:23.615 --> 00:01:26.030
+use computers instead. Rather
+
+36
+00:01:26.030 --> 00:01:27.200
+than digging through the Earth,
+
+37
+00:01:27.200 --> 00:01:29.090
+the computers run
+software that dig
+
+38
+00:01:29.090 --> 00:01:31.540
+through billions of
+lines of encrypted code.
+
+39
+00:01:31.540 --> 00:01:35.475
+When enough code is processed,
+a crypto coin can be found.
+
+40
+00:01:36.475 --> 00:01:37.970
+Generally, more
+computers mining for
+
+41
+00:01:37.970 --> 00:01:41.140
+coins mean more cryptocurrency
+can be discovered.
+
+42
+00:01:41.140 --> 00:01:43.725
+Criminals unfortunately
+figured this out.
+
+43
+00:01:43.725 --> 00:01:46.640
+Beginning in 2017, cryptojacking
+
+44
+00:01:46.640 --> 00:01:50.045
+malware started being used to
+gain unauthorized control
+
+45
+00:01:50.045 --> 00:01:53.155
+of personal computers to
+mine cryptocurrency.
+
+46
+00:01:54.155 --> 00:01:54.560
+Since that time,
+
+47
+00:01:54.560 --> 00:01:57.740
+cryptojacking techniques have
+become more sophisticated.
+
+48
+00:01:57.740 --> 00:01:59.510
+Criminals now regularly target
+
+49
+00:01:59.510 --> 00:02:02.210
+vulnerable servers to spread
+their mining software.
+
+50
+00:02:02.210 --> 00:02:03.860
+Devices that communicate with
+
+51
+00:02:03.860 --> 00:02:06.980
+the infected server become
+infected themselves.
+
+52
+00:02:06.980 --> 00:02:09.964
+The malicious code then
+runs in the background,
+
+53
+00:02:09.964 --> 00:02:12.430
+mining for coins
+unknown to anyone.
+
+54
+00:02:13.430 --> 00:02:15.170
+Cryptojacking software
+is hard to detect.
+
+55
+00:02:15.170 --> 00:02:17.420
+Luckily, security professionals
+
+56
+00:02:17.420 --> 00:02:19.780
+have sophisticated
+tools that can help.
+
+57
+00:02:19.780 --> 00:02:23.930
+An intrusion detection system,
+or IDS, is an application
+
+58
+00:02:23.930 --> 00:02:25.850
+that monitors system activity
+
+59
+00:02:25.850 --> 00:02:28.045
+and alerts some
+possible intrusions.
+
+60
+00:02:28.045 --> 00:02:31.160
+When abnormal activity is
+detected like, malware
+
+61
+00:02:31.160 --> 00:02:35.075
+mining for coins, the IDS
+alerts security personnel.
+
+62
+00:02:36.075 --> 00:02:36.725
+Despite their usefulness,
+
+63
+00:02:36.725 --> 00:02:39.260
+detection systems have
+a major drawback.
+
+64
+00:02:39.260 --> 00:02:42.380
+New forms of malware
+can remain undetected.
+
+65
+00:02:42.380 --> 00:02:44.180
+Fortunately, there are
+
+66
+00:02:44.180 --> 00:02:46.460
+subtle signs that
+indicate a device is
+
+67
+00:02:46.460 --> 00:02:48.740
+infected with
+cryptojacking software
+
+68
+00:02:48.740 --> 00:02:50.680
+or other forms of malware.
+
+69
+00:02:51.680 --> 00:02:52.880
+By far the most telling sign of
+
+70
+00:02:52.880 --> 00:02:55.570
+a cryptojacking
+infection is slowdown.
+
+71
+00:02:55.570 --> 00:02:58.820
+Other signs include
+increased CPU usage,
+
+72
+00:02:58.820 --> 00:03:02.375
+sudden system crashes, and
+fast draining batteries.
+
+73
+00:03:02.375 --> 00:03:05.585
+Another sign is unusually
+high electricity costs
+
+74
+00:03:05.585 --> 00:03:07.880
+related to the resource-
+intensive process
+
+75
+00:03:07.880 --> 00:03:09.160
+of crypto mining.
+
+76
+00:03:10.160 --> 00:03:10.940
+It's also good to
+know that there are
+
+77
+00:03:10.940 --> 00:03:12.560
+certain measures you can take to
+
+78
+00:03:12.560 --> 00:03:14.420
+reduce the likelihood
+of experiencing
+
+79
+00:03:14.420 --> 00:03:16.690
+a malware attack
+like cryptojacking.
+
+80
+00:03:16.690 --> 00:03:18.890
+These defenses include
+things like using
+
+81
+00:03:18.890 --> 00:03:22.025
+browser extensions
+designed to block malware,
+
+82
+00:03:22.025 --> 00:03:24.230
+using ad blockers, disabling
+
+83
+00:03:24.230 --> 00:03:27.190
+JavaScript, and staying
+alert on the latest trends.
+
+84
+00:03:27.190 --> 00:03:29.810
+Security analysts can
+also educate others in
+
+85
+00:03:29.810 --> 00:03:32.470
+their organizations
+on malware attacks.
+
+86
+00:03:33.470 --> 00:03:35.150
+While cryptojacking is
+still relatively new,
+
+87
+00:03:35.150 --> 00:03:37.160
+attacks are becoming
+more common.
+
+88
+00:03:37.160 --> 00:03:38.795
+The type of malicious code
+
+89
+00:03:38.795 --> 00:03:41.615
+cybercriminals spread is
+continually evolving.
+
+90
+00:03:41.615 --> 00:03:43.580
+It takes many years
+of experience
+
+91
+00:03:43.580 --> 00:03:45.830
+to analyze new forms of malware.
+
+92
+00:03:45.830 --> 00:03:48.230
+Nevertheless, you're well on
+
+93
+00:03:48.230 --> 00:03:51.660
+your way towards helping
+defend against these threats.

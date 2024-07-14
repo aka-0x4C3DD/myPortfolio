@@ -1,0 +1,101 @@
+WEBVTT
+
+1
+00:00:01.260 --> 00:00:04.550
+Congratulations! You've made it
+to the end of this section.
+
+2
+00:00:04.550 --> 00:00:07.700
+You've made so
+much progress in your security journey.
+
+3
+00:00:08.700 --> 00:00:09.600
+Let's review what we learned.
+
+4
+00:00:09.600 --> 00:00:12.670
+You learned all about how to read and
+analyze logs.
+
+5
+00:00:12.670 --> 00:00:16.680
+You examined how log files are created and
+used for analysis.
+
+6
+00:00:16.680 --> 00:00:19.802
+You also compared different
+types of common log formats and
+
+7
+00:00:19.802 --> 00:00:21.570
+learned how to read them.
+
+8
+00:00:22.570 --> 00:00:25.607
+You extended your understanding on
+intrusion detection systems by comparing
+
+9
+00:00:25.607 --> 00:00:28.330
+network-based systems and
+host-based systems.
+
+10
+00:00:28.330 --> 00:00:31.000
+You also learned how to
+interpret signatures.
+
+11
+00:00:31.000 --> 00:00:35.380
+You examined how signatures are written
+and also how they detect, log, and
+
+12
+00:00:35.380 --> 00:00:36.930
+alert on intrusions.
+
+13
+00:00:36.930 --> 00:00:41.598
+You interacted with Suricata in the command line
+to examine and interpret signatures and
+
+14
+00:00:41.598 --> 00:00:42.430
+alerts.
+
+15
+00:00:43.430 --> 00:00:46.740
+Lastly, you learned how to search in
+SIEM tools like Splunk and Chronicle.
+
+16
+00:00:46.740 --> 00:00:51.323
+You learned about the importance of
+crafting tailored queries to locate events.
+
+17
+00:00:52.323 --> 00:00:54.448
+At the forefront of incident response,
+monitoring and
+
+18
+00:00:54.448 --> 00:00:59.245
+analyzing network traffic for indicators
+of compromise is one of the primary goals.
+
+19
+00:00:59.245 --> 00:01:03.262
+Being able to perform in-depth log
+analysis and knowing how to read and
+
+20
+00:01:03.262 --> 00:01:04.647
+write signatures and
+
+21
+00:01:04.647 --> 00:01:08.960
+how to access log data are all skills
+that you'll use as a security analyst.

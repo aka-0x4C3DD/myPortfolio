@@ -1,0 +1,263 @@
+WEBVTT
+
+1
+00:00:00.410 --> 00:00:03.840
+As the complexity of
+our programs grow,
+
+2
+00:00:03.840 --> 00:00:07.395
+it's also likely that we'll
+reuse the same lines of code.
+
+3
+00:00:07.395 --> 00:00:10.050
+Writing this code
+multiple times would
+
+4
+00:00:10.050 --> 00:00:12.675
+be time-consuming, but luckily
+
+5
+00:00:12.675 --> 00:00:14.775
+we have a way to manage this.
+
+6
+00:00:14.775 --> 00:00:16.470
+We can use functions.
+
+7
+00:00:16.470 --> 00:00:19.020
+A function is a section
+
+8
+00:00:19.020 --> 00:00:21.805
+of code that can be
+reused in a program.
+
+9
+00:00:22.805 --> 00:00:25.050
+We already learned one
+function when we worked with
+
+10
+00:00:25.050 --> 00:00:29.115
+print and used it to output
+specified data to the screen.
+
+11
+00:00:29.115 --> 00:00:32.925
+For example, we printed
+"Hello Python."
+
+12
+00:00:32.925 --> 00:00:35.805
+There are many other functions.
+
+13
+00:00:35.805 --> 00:00:38.970
+Sometimes, we need to
+automate a task that
+
+14
+00:00:38.970 --> 00:00:42.180
+might otherwise be repetitive
+if we did it manually.
+
+15
+00:00:43.180 --> 00:00:44.255
+Previously, we compared
+
+16
+00:00:44.255 --> 00:00:47.965
+other key Python components
+to elements of a kitchen.
+
+17
+00:00:47.965 --> 00:00:52.070
+We compared data types
+to categories of food.
+
+18
+00:00:52.070 --> 00:00:54.530
+There are differences
+in how we handle
+
+19
+00:00:54.530 --> 00:00:57.605
+vegetables and
+meat, and likewise,
+
+20
+00:00:57.605 --> 00:00:59.150
+there are differences in how
+
+21
+00:00:59.150 --> 00:01:01.460
+we handle different data types.
+
+22
+00:01:01.460 --> 00:01:04.340
+We then discussed
+how variables are
+
+23
+00:01:04.340 --> 00:01:07.760
+like the containers you
+put food in after a meal;
+
+24
+00:01:07.760 --> 00:01:10.630
+what they hold can change.
+
+25
+00:01:11.630 --> 00:01:12.645
+As far as functions,
+
+26
+00:01:12.645 --> 00:01:15.660
+we can think about them
+like a dishwasher.
+
+27
+00:01:15.660 --> 00:01:18.245
+If you aren't using
+a dishwasher,
+
+28
+00:01:18.245 --> 00:01:22.900
+you'll spend a lot of time
+washing each dish separately.
+
+29
+00:01:22.900 --> 00:01:25.699
+But a dishwasher automates
+
+30
+00:01:25.699 --> 00:01:29.020
+this and lets you wash
+everything at once.
+
+31
+00:01:29.020 --> 00:01:32.865
+Similarly, functions
+improve efficiency.
+
+32
+00:01:32.865 --> 00:01:35.870
+They perform
+repetitive activities
+
+33
+00:01:35.870 --> 00:01:39.175
+within a program and allow
+it to work effectively.
+
+34
+00:01:39.175 --> 00:01:42.710
+Functions are made to be
+reused in our programs.
+
+35
+00:01:42.710 --> 00:01:46.850
+They consist of small
+instructions and can be called
+
+36
+00:01:46.850 --> 00:01:48.320
+upon any number of
+
+37
+00:01:48.320 --> 00:01:51.395
+times and from anywhere
+in our programs.
+
+38
+00:01:52.395 --> 00:01:54.050
+Another benefit to functions is
+
+39
+00:01:54.050 --> 00:01:57.035
+that if we ever had to
+make changes to them,
+
+40
+00:01:57.035 --> 00:02:00.605
+we can make those changes
+directly in the function,
+
+41
+00:02:00.605 --> 00:02:03.355
+and there'll be applied
+everywhere we use them.
+
+42
+00:02:03.355 --> 00:02:05.150
+This is much better than making
+
+43
+00:02:05.150 --> 00:02:06.470
+the same changes in
+
+44
+00:02:06.470 --> 00:02:09.380
+many different places
+within a program.
+
+45
+00:02:10.380 --> 00:02:13.720
+The print() function is an
+example of a built-in function.
+
+46
+00:02:13.720 --> 00:02:16.430
+Built-in functions
+are functions that
+
+47
+00:02:16.430 --> 00:02:20.330
+exist within Python and
+can be called directly.
+
+48
+00:02:20.330 --> 00:02:23.410
+They are available
+to us by default.
+
+49
+00:02:23.410 --> 00:02:26.370
+We can also create
+our own functions.
+
+50
+00:02:26.370 --> 00:02:29.450
+User-defined functions
+are functions that
+
+51
+00:02:29.450 --> 00:02:32.990
+programmers design for
+their specific needs.
+
+52
+00:02:33.990 --> 00:02:35.000
+Both types of functions are
+
+53
+00:02:35.000 --> 00:02:38.005
+like mini-programs
+within a larger program.
+
+54
+00:02:38.005 --> 00:02:39.830
+They make working in Python much
+
+55
+00:02:39.830 --> 00:02:42.230
+more effective and efficient.
+
+56
+00:02:42.230 --> 00:02:45.660
+Let's continue learning
+more about them.

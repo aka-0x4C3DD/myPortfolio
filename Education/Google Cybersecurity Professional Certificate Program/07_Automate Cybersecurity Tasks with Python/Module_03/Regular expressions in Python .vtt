@@ -1,0 +1,564 @@
+WEBVTT
+
+1
+00:00:01.260 --> 00:00:05.425
+We've already learned a lot
+about working with strings.
+
+2
+00:00:05.425 --> 00:00:10.320
+This includes working with their
+positional indices and slicing them.
+
+3
+00:00:10.320 --> 00:00:11.789
+In the previous video,
+
+4
+00:00:11.789 --> 00:00:16.644
+we applied these to extract the first
+three digits from a list of IP addresses.
+
+5
+00:00:16.644 --> 00:00:17.544
+In this video,
+
+6
+00:00:17.544 --> 00:00:22.380
+we're going to focus on a more advanced
+way to search through strings.
+
+7
+00:00:23.380 --> 00:00:27.640
+We'll learn about searching for patterns
+in strings through regular expressions.
+
+8
+00:00:27.640 --> 00:00:30.796
+A regular expression, shortened to regex,
+
+9
+00:00:30.796 --> 00:00:34.300
+is a sequence of characters
+that forms a pattern.
+
+10
+00:00:34.300 --> 00:00:38.130
+This pattern can be used when
+searching within log files.
+
+11
+00:00:38.130 --> 00:00:41.590
+We can use them to search for
+any kind of pattern.
+
+12
+00:00:41.590 --> 00:00:46.971
+For example, we can find all strings
+that start with a certain prefix,
+
+13
+00:00:46.971 --> 00:00:50.940
+or we can find all strings
+that are a certain length.
+
+14
+00:00:50.940 --> 00:00:54.980
+We can apply this to a security
+context in a variety of ways.
+
+15
+00:00:54.980 --> 00:01:01.252
+For example, let's say we needed to find
+all IP addresses with a network ID
+
+16
+00:01:01.252 --> 00:01:08.520
+of 184. Regular expressions would allow us
+to efficiently search for this pattern.
+
+17
+00:01:09.520 --> 00:01:12.720
+We'll examine another example
+throughout this video.
+
+18
+00:01:12.720 --> 00:01:17.540
+Let's say that we want to extract all
+the email addresses containing a log.
+
+19
+00:01:17.540 --> 00:01:20.559
+If we try to do this
+through the index method,
+
+20
+00:01:20.559 --> 00:01:24.775
+we would need the exact email
+addresses we were searching for.
+
+21
+00:01:24.775 --> 00:01:28.900
+As security analysts,
+we rarely have that kind of information.
+
+22
+00:01:28.900 --> 00:01:32.024
+But if we use a regular
+expression that tells
+
+23
+00:01:32.024 --> 00:01:35.064
+Python how an email address is structured,
+
+24
+00:01:35.064 --> 00:01:41.180
+it would return all the strings that have
+the same elements as an email address.
+
+25
+00:01:41.180 --> 00:01:45.033
+Even if we were given a log file
+with thousands of lines and
+
+26
+00:01:45.033 --> 00:01:49.529
+entries, we could extract every
+email in the file by searching for
+
+27
+00:01:49.529 --> 00:01:53.968
+the structure of an email address
+through a regular expression.
+
+28
+00:01:53.968 --> 00:01:58.720
+We wouldn't need to know
+the specific emails to extract them.
+
+29
+00:01:59.720 --> 00:02:03.495
+Let's explore the regular expression
+symbols that we need to do this.
+
+30
+00:02:03.495 --> 00:02:07.130
+To begin, let's learn about the plus sign.
+
+31
+00:02:07.130 --> 00:02:11.513
+The plus sign is a regular expression
+symbol that represents one or
+
+32
+00:02:11.513 --> 00:02:15.140
+more occurrences of a specific character.
+
+33
+00:02:15.140 --> 00:02:17.530
+Let's explain that through
+an example pattern.
+
+34
+00:02:17.530 --> 00:02:20.818
+The regular expression pattern a+
+
+35
+00:02:20.818 --> 00:02:24.730
+matches a string of any length
+in which "a" is repeated.
+
+36
+00:02:24.730 --> 00:02:29.212
+For example, just a single "a",
+three "a's" in a row, or
+
+37
+00:02:29.212 --> 00:02:34.120
+five "a's" in a row.
+It could even be 1000 "a's" in a row.
+
+38
+00:02:34.120 --> 00:02:38.676
+We can start working with a quick example
+to see which strings this pattern would
+
+39
+00:02:38.676 --> 00:02:39.830
+extract.
+
+40
+00:02:40.830 --> 00:02:43.190
+Let's start with this
+string of device IDs.
+
+41
+00:02:43.190 --> 00:02:49.940
+These are all the instances of the letter
+"a" written once or multiple times in a row.
+
+42
+00:02:49.940 --> 00:02:54.908
+The first instance has one "a",
+the second has two "a's",
+
+43
+00:02:54.908 --> 00:02:59.890
+the third one has one "a", and
+the fourth has three "a's".
+
+44
+00:02:59.890 --> 00:03:05.880
+So, if we told Python to find matches
+to the a+ sign regular expression,
+
+45
+00:03:05.880 --> 00:03:08.850
+it would return this list of "a's".
+
+46
+00:03:09.850 --> 00:03:14.124
+The other building block we
+need is the \w symbol.
+
+47
+00:03:14.124 --> 00:03:19.425
+This matches with any
+alphanumeric character, but
+
+48
+00:03:19.425 --> 00:03:23.714
+it doesn't match symbols. "1", "k", and
+
+49
+00:03:23.714 --> 00:03:28.660
+"i" are just three examples
+of what "\w" matches.
+
+50
+00:03:29.660 --> 00:03:32.200
+Regular expressions can easily
+be combined to allow for
+
+51
+00:03:32.200 --> 00:03:35.000
+even more patterns in a search.
+
+52
+00:03:35.000 --> 00:03:39.534
+Before we apply this to our email context,
+let's explore
+
+53
+00:03:39.534 --> 00:03:45.003
+the patterns we can search for
+if we combine the "\w" with the plus sign.
+
+54
+00:03:45.003 --> 00:03:48.748
+"\w" matches any alphanumeric character, and
+
+55
+00:03:48.748 --> 00:03:55.670
+the plus sign matches any number of
+occurrences of the character before it.
+
+56
+00:03:55.670 --> 00:04:00.210
+This means that
+the combination of "\w+"
+
+57
+00:04:00.210 --> 00:04:04.995
+matches an alphanumeric
+string of any length.
+
+58
+00:04:04.995 --> 00:04:09.879
+"\w" provides flexibility in the
+alphanumeric characters that this regular
+
+59
+00:04:09.879 --> 00:04:11.336
+expression matches,
+
+60
+00:04:11.336 --> 00:04:18.480
+and the plus sign provides flexibility in
+the length of the string that it matches.
+
+61
+00:04:18.480 --> 00:04:23.528
+The strings "192", "abc123", and
+"security" are just
+
+62
+00:04:23.528 --> 00:04:29.070
+three possible strings
+that match to "\w+".
+
+63
+00:04:30.070 --> 00:04:33.710
+Now let's apply these to extracting
+email addresses from a log.
+
+64
+00:04:33.710 --> 00:04:39.040
+Email addresses consist of text
+separated by certain symbols,
+
+65
+00:04:39.040 --> 00:04:42.450
+like the @ symbol and the period.
+
+66
+00:04:42.450 --> 00:04:46.130
+Let's learn how we can represent
+this as a regular expression.
+
+67
+00:04:47.130 --> 00:04:51.000
+To start, let's think about the format
+of a typical email address;
+
+68
+00:04:51.000 --> 00:04:54.107
+for example, user1@email1.com.
+
+69
+00:04:54.107 --> 00:04:59.863
+The first segment of an email address
+contains alphanumeric characters,
+
+70
+00:04:59.863 --> 00:05:04.730
+and the number of alphanumeric
+characters may vary in length.
+
+71
+00:05:04.730 --> 00:05:08.877
+We can use our regular
+expression "\w+" for
+
+72
+00:05:08.877 --> 00:05:14.390
+this portion to match to
+an alphanumeric string of any length.
+
+73
+00:05:14.390 --> 00:05:18.582
+The next segment in an email
+address is the @ symbol.
+
+74
+00:05:18.582 --> 00:05:21.840
+This segment is always present.
+
+75
+00:05:21.840 --> 00:05:27.707
+We'll enter this directly in our regular
+expression. Including this is essential
+
+76
+00:05:27.707 --> 00:05:33.172
+for ensuring that Python distinguishes
+email addresses from other strings.
+
+77
+00:05:33.172 --> 00:05:36.066
+After the @ symbol is the domain name.
+
+78
+00:05:36.066 --> 00:05:41.991
+Just like the first segment, this one
+varies depending on the email address,
+
+79
+00:05:41.991 --> 00:05:46.031
+but it always contains
+alphanumeric characters, so
+
+80
+00:05:46.031 --> 00:05:50.449
+we can use "\w+"
+again to allow for this variation.
+
+81
+00:05:51.449 --> 00:05:52.802
+Next, just like the @ symbol,
+
+82
+00:05:52.802 --> 00:05:57.943
+a period is always part of an email
+address. But unlike the @ symbol,
+
+83
+00:05:57.943 --> 00:06:02.940
+in regular expressions,
+the period has a special meaning.
+
+84
+00:06:02.940 --> 00:06:07.668
+For this reason,
+we need to use backslash period here.
+
+85
+00:06:07.668 --> 00:06:10.345
+When we add a backslash in front of it,
+
+86
+00:06:10.345 --> 00:06:15.114
+we let Python know that we are not
+intending to use it as an operator,
+
+87
+00:06:15.114 --> 00:06:19.571
+and that our pattern should
+include a period in this location.
+
+88
+00:06:20.571 --> 00:06:25.130
+For the last segment,
+we can also use "\w+".
+
+89
+00:06:25.130 --> 00:06:29.298
+This final part of an email
+address is often "com" but
+
+90
+00:06:29.298 --> 00:06:31.970
+might be other strings like "net."
+
+91
+00:06:31.970 --> 00:06:33.988
+When we put the pieces together,
+
+92
+00:06:33.988 --> 00:06:38.620
+we get the regular expression we'll use
+to find email addresses in our row.
+
+93
+00:06:38.620 --> 00:06:41.780
+This pattern will match
+all email addresses.
+
+94
+00:06:41.780 --> 00:06:45.640
+It will exclude everything
+else in our string.
+
+95
+00:06:45.640 --> 00:06:48.540
+This is because we've
+included the @ symbol and
+
+96
+00:06:48.540 --> 00:06:53.170
+the period where they appear in
+the structure of an email address.
+
+97
+00:06:54.170 --> 00:06:54.820
+Let's bring this into Python.
+
+98
+00:06:54.820 --> 00:06:59.437
+We'll use regular expressions to
+extract email addresses from a string.
+
+99
+00:06:59.437 --> 00:07:04.150
+Regular expressions can be used when
+the re module is imported into Python,
+
+100
+00:07:04.150 --> 00:07:07.074
+so we begin with that step. Later,
+
+101
+00:07:07.074 --> 00:07:11.820
+we'll learn how to import and
+open files like logs.
+
+102
+00:07:11.820 --> 00:07:17.359
+But for now, we've restored our log
+as a string variable named email_log.
+
+103
+00:07:17.359 --> 00:07:20.205
+Because this is a multi-line string,
+
+104
+00:07:20.205 --> 00:07:24.871
+we're using three sets of quotation
+marks instead of just one.
+
+105
+00:07:24.871 --> 00:07:30.155
+Next, we'll apply the findall() function
+from the re module to a regular
+
+106
+00:07:30.155 --> 00:07:37.140
+expression. re.findall() returns a list
+of matches to a regular expression.
+
+107
+00:07:38.140 --> 00:07:41.950
+Let's use this with the regular expression
+we created earlier for email addresses.
+
+108
+00:07:41.950 --> 00:07:45.350
+The first argument is the pattern
+that we want to match.
+
+109
+00:07:45.350 --> 00:07:48.710
+Notice that we place
+it in quotation marks.
+
+110
+00:07:48.710 --> 00:07:52.580
+The second argument indicates
+where to search for the pattern.
+
+111
+00:07:52.580 --> 00:07:57.187
+In this case, we're searching through
+the string contained within the email log
+
+112
+00:07:57.187 --> 00:07:57.890
+variable.
+
+113
+00:07:57.890 --> 00:08:01.870
+When we run this, we get a list
+of all the emails in the string.
+
+114
+00:08:01.870 --> 00:08:06.614
+Imagine applying this to a log with
+thousands of entries. Pretty useful,
+
+115
+00:08:06.614 --> 00:08:07.160
+right?
+
+116
+00:08:08.160 --> 00:08:11.303
+This was just an introduction to
+the power of regular expressions.
+
+117
+00:08:11.303 --> 00:08:13.840
+There are many more symbols you can use.
+
+118
+00:08:13.840 --> 00:08:18.530
+I encourage you to explore regular
+expressions on your own and learn more.

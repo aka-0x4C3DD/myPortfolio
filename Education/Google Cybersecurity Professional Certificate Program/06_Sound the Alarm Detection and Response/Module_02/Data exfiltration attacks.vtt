@@ -1,0 +1,473 @@
+WEBVTT
+
+1
+00:00:00.350 --> 00:00:02.730
+Monitoring network traffic
+
+2
+00:00:02.730 --> 00:00:04.680
+helps security
+professionals detect,
+
+3
+00:00:04.680 --> 00:00:07.065
+prevent, and respond
+to attacks.
+
+4
+00:00:07.065 --> 00:00:09.524
+In my experience as a
+security professional,
+
+5
+00:00:09.524 --> 00:00:11.250
+monitoring for deviations from
+
+6
+00:00:11.250 --> 00:00:14.475
+typical network traffic patterns
+has yielded big results.
+
+7
+00:00:14.475 --> 00:00:16.439
+Even if information
+is encrypted,
+
+8
+00:00:16.439 --> 00:00:18.120
+monitoring network
+traffic is still
+
+9
+00:00:18.120 --> 00:00:20.340
+important for security purposes.
+
+10
+00:00:21.340 --> 00:00:22.710
+Let's discuss how the
+detection and response
+
+11
+00:00:22.710 --> 00:00:25.515
+process might work in a
+data exfiltration attack.
+
+12
+00:00:25.515 --> 00:00:28.079
+First, we'll outline the
+attacker's perspective.
+
+13
+00:00:29.079 --> 00:00:30.885
+Before attackers can
+perform data exfiltration,
+
+14
+00:00:30.885 --> 00:00:32.460
+they'll need to
+gain initial access
+
+15
+00:00:32.460 --> 00:00:34.440
+into a network and
+computer system.
+
+16
+00:00:34.440 --> 00:00:35.910
+This can be done
+through a social
+
+17
+00:00:35.910 --> 00:00:37.500
+engineering attack
+like phishing,
+
+18
+00:00:37.500 --> 00:00:40.765
+which tricks people into
+disclosing sensitive data.
+
+19
+00:00:40.765 --> 00:00:43.640
+Attackers can send phishing
+emails with attachments or
+
+20
+00:00:43.640 --> 00:00:45.440
+links that trick their target
+
+21
+00:00:45.440 --> 00:00:47.180
+into entering their credentials.
+
+22
+00:00:47.180 --> 00:00:48.530
+Now, an attacker has
+
+23
+00:00:48.530 --> 00:00:50.810
+successfully gained
+access to their device.
+
+24
+00:00:51.810 --> 00:00:52.970
+After gaining their
+initial position into
+
+25
+00:00:52.970 --> 00:00:55.250
+the system, an attacker
+won't stop there.
+
+26
+00:00:55.250 --> 00:00:58.130
+The goal for attackers
+is to maintain access in
+
+27
+00:00:58.130 --> 00:00:59.600
+the environment and avoid being
+
+28
+00:00:59.600 --> 00:01:01.570
+detected for as
+long as possible.
+
+29
+00:01:01.570 --> 00:01:03.275
+To do this, they'll perform
+
+30
+00:01:03.275 --> 00:01:05.990
+a tactic known as lateral
+movement, or pivoting.
+
+31
+00:01:05.990 --> 00:01:07.400
+This is when they'll spend time
+
+32
+00:01:07.400 --> 00:01:09.200
+exploring the network
+with the goal of
+
+33
+00:01:09.200 --> 00:01:11.060
+expanding and
+maintaining their access
+
+34
+00:01:11.060 --> 00:01:12.800
+to other systems on the network.
+
+35
+00:01:13.800 --> 00:01:14.705
+As an attacker pivots
+in the network,
+
+36
+00:01:14.705 --> 00:01:16.130
+they'll scope out
+the environment
+
+37
+00:01:16.130 --> 00:01:17.885
+to identify valuable assets,
+
+38
+00:01:17.885 --> 00:01:20.840
+such as sensitive data
+like proprietary code,
+
+39
+00:01:20.840 --> 00:01:23.000
+personally identifiable
+information like
+
+40
+00:01:23.000 --> 00:01:25.610
+names and addresses,
+or financial records.
+
+41
+00:01:25.610 --> 00:01:27.110
+They'll do this by searching
+
+42
+00:01:27.110 --> 00:01:29.345
+locations such as
+network file shares,
+
+43
+00:01:29.345 --> 00:01:32.720
+intranet sites, code
+repositories, and more.
+
+44
+00:01:33.720 --> 00:01:35.705
+After the attacker identifies
+the assets of value,
+
+45
+00:01:35.705 --> 00:01:37.580
+they'll need to
+collect, package,
+
+46
+00:01:37.580 --> 00:01:40.310
+and prepare the data for
+exfiltration outside of
+
+47
+00:01:40.310 --> 00:01:44.045
+the organization's network and
+into the attacker's hands.
+
+48
+00:01:44.045 --> 00:01:47.375
+One way they may do this is
+by reducing the data size.
+
+49
+00:01:47.375 --> 00:01:48.860
+This helps attackers hide
+
+50
+00:01:48.860 --> 00:01:51.710
+the stolen data and
+bypass security controls.
+
+51
+00:01:52.710 --> 00:01:53.690
+Finally, the attacker
+will exfiltrate
+
+52
+00:01:53.690 --> 00:01:56.125
+the data to their
+destination of choice.
+
+53
+00:01:56.125 --> 00:01:58.500
+There are many ways to
+do this. For example,
+
+54
+00:01:58.500 --> 00:02:00.680
+attackers can email
+the stolen data to
+
+55
+00:02:00.680 --> 00:02:03.950
+themselves using the
+compromised email account.
+
+56
+00:02:04.950 --> 00:02:06.829
+Now that you've tapped into
+the attacker's perspective,
+
+57
+00:02:06.829 --> 00:02:08.780
+let's explore how organizations
+
+58
+00:02:08.780 --> 00:02:11.030
+can defend against
+this type of attack.
+
+59
+00:02:12.030 --> 00:02:15.020
+First, security teams must
+prevent attacker access.
+
+60
+00:02:15.020 --> 00:02:16.910
+There are many methods
+you can use to
+
+61
+00:02:16.910 --> 00:02:18.980
+protect your network
+from phishing attempts.
+
+62
+00:02:18.980 --> 00:02:20.825
+For example, requiring users
+
+63
+00:02:20.825 --> 00:02:23.150
+to use multi-factor
+authentication.
+
+64
+00:02:24.150 --> 00:02:25.535
+Attackers that gain
+access to a network
+
+65
+00:02:25.535 --> 00:02:27.890
+can remain unnoticed
+for a while.
+
+66
+00:02:27.890 --> 00:02:29.705
+It's important that
+security teams
+
+67
+00:02:29.705 --> 00:02:31.370
+monitor network activity to
+
+68
+00:02:31.370 --> 00:02:33.454
+identify any suspicious activity
+
+69
+00:02:33.454 --> 00:02:35.225
+that can indicate a compromise.
+
+70
+00:02:35.225 --> 00:02:38.240
+For example, multiple
+user logins coming from
+
+71
+00:02:38.240 --> 00:02:39.740
+IP addresses outside of
+
+72
+00:02:39.740 --> 00:02:41.675
+the network should
+be investigated.
+
+73
+00:02:42.675 --> 00:02:44.720
+Earlier, you examined how
+to identify, classify,
+
+74
+00:02:44.720 --> 00:02:46.250
+and protect assets using
+
+75
+00:02:46.250 --> 00:02:48.850
+asset inventories and
+security controls.
+
+76
+00:02:48.850 --> 00:02:51.440
+As part of an organization's
+security policy,
+
+77
+00:02:51.440 --> 00:02:54.740
+all assets should be cataloged
+in an asset inventory.
+
+78
+00:02:54.740 --> 00:02:57.590
+The appropriate security
+controls should also be applied
+
+79
+00:02:57.590 --> 00:03:00.680
+to protect these assets
+from unauthorized access.
+
+80
+00:03:01.680 --> 00:03:03.800
+Lastly, if a data exfiltration
+attack is successful,
+
+81
+00:03:03.800 --> 00:03:07.055
+security teams must detect
+and stop the exfiltration.
+
+82
+00:03:07.055 --> 00:03:08.405
+To detect the attack,
+
+83
+00:03:08.405 --> 00:03:10.670
+indicators of unusual
+data collection can
+
+84
+00:03:10.670 --> 00:03:13.205
+be identified through
+network monitoring.
+
+85
+00:03:13.205 --> 00:03:16.370
+These include: large
+internal file transfers,
+
+86
+00:03:16.370 --> 00:03:18.020
+large external uploads,
+
+87
+00:03:18.020 --> 00:03:20.185
+and unexpected file writes.
+
+88
+00:03:21.185 --> 00:03:23.555
+SIEM tools can detect an
+alert on these activities.
+
+89
+00:03:23.555 --> 00:03:25.340
+Once an alert has been sent out,
+
+90
+00:03:25.340 --> 00:03:27.080
+security teams investigate and
+
+91
+00:03:27.080 --> 00:03:28.925
+stop the attack from continuing.
+
+92
+00:03:28.925 --> 00:03:31.505
+There are many ways to
+stop an attack like this.
+
+93
+00:03:31.505 --> 00:03:34.580
+For instance, once the unusual
+activity is identified,
+
+94
+00:03:34.580 --> 00:03:36.245
+you can block the IP addresses
+
+95
+00:03:36.245 --> 00:03:39.410
+associated with the attacker
+using firewall rules.
+
+96
+00:03:40.410 --> 00:03:42.080
+Data exfiltration
+attacks are just one of
+
+97
+00:03:42.080 --> 00:03:43.220
+many attacks that can be
+
+98
+00:03:43.220 --> 00:03:45.230
+detected through
+network monitoring.
+
+99
+00:03:45.230 --> 00:03:47.210
+Coming up, you'll learn
+how to monitor and
+
+100
+00:03:47.210 --> 00:03:51.120
+analyze network communications
+using packet sniffers.

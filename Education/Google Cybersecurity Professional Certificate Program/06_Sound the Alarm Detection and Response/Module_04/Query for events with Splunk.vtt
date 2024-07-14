@@ -1,0 +1,458 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:02.985
+Now that we've reviewed
+how a SIEM works,
+
+2
+00:00:02.985 --> 00:00:04.380
+let's learn how to search and
+
+3
+00:00:04.380 --> 00:00:06.525
+query events in a SIEM database.
+
+4
+00:00:06.525 --> 00:00:09.420
+Data that's been imported
+into a SIEM can be accessed
+
+5
+00:00:09.420 --> 00:00:12.585
+by entering queries into
+the SIEM's search engine.
+
+6
+00:00:12.585 --> 00:00:15.959
+Massive amounts of data can
+be stored in a SIEM database.
+
+7
+00:00:15.959 --> 00:00:18.690
+Some of this data
+may date back years.
+
+8
+00:00:18.690 --> 00:00:21.720
+This can make searching for
+security events challenging.
+
+9
+00:00:22.720 --> 00:00:23.430
+For example, let's say you're
+
+10
+00:00:23.430 --> 00:00:25.695
+searching to find a
+failed login event.
+
+11
+00:00:25.695 --> 00:00:29.280
+You search for the event using
+the keywords: failed login.
+
+12
+00:00:29.280 --> 00:00:31.380
+This is a very broad query, which
+
+13
+00:00:31.380 --> 00:00:33.285
+can return thousands of results.
+
+14
+00:00:33.285 --> 00:00:34.995
+Broad search queries like this,
+
+15
+00:00:34.995 --> 00:00:37.500
+slow down the response
+times of a search engine
+
+16
+00:00:37.500 --> 00:00:40.285
+since it's searching
+across all the indexed data.
+
+17
+00:00:40.285 --> 00:00:42.455
+But, if you specify
+additional parameters,
+
+18
+00:00:42.455 --> 00:00:45.245
+like an event ID and a
+date and time range,
+
+19
+00:00:45.245 --> 00:00:48.020
+you can narrow down the
+search to get faster results.
+
+20
+00:00:48.020 --> 00:00:49.790
+It's important that
+search queries
+
+21
+00:00:49.790 --> 00:00:51.290
+are specific, so
+that you can find
+
+22
+00:00:51.290 --> 00:00:52.910
+exactly what you're
+looking for and
+
+23
+00:00:52.910 --> 00:00:54.890
+save time in the search process.
+
+24
+00:00:55.890 --> 00:00:58.125
+Different SIEM tools use
+different search methods.
+
+25
+00:00:58.125 --> 00:00:59.750
+For example, Splunk uses
+
+26
+00:00:59.750 --> 00:01:01.160
+its own query language called
+
+27
+00:01:01.160 --> 00:01:02.720
+Search Processing Language,
+
+28
+00:01:02.720 --> 00:01:04.630
+or SPL for short.
+
+29
+00:01:04.630 --> 00:01:07.670
+SPL has many different search
+options you can use to
+
+30
+00:01:07.670 --> 00:01:09.470
+optimize search
+results, so that you
+
+31
+00:01:09.470 --> 00:01:11.435
+can get the data
+you're looking for.
+
+32
+00:01:12.435 --> 00:01:12.560
+For now, I'll demonstrate
+
+33
+00:01:12.560 --> 00:01:15.200
+a raw log search in Splunk
+Cloud for events that
+
+34
+00:01:15.200 --> 00:01:16.940
+reference errors or failures for
+
+35
+00:01:16.940 --> 00:01:19.925
+a fictional online store
+called Buttercup Games.
+
+36
+00:01:19.925 --> 00:01:22.940
+First, we'll use the search
+bar to type in our query:
+
+37
+00:01:22.940 --> 00:01:26.750
+buttercupgames error
+OR fail*
+
+38
+00:01:26.750 --> 00:01:29.000
+This search is
+specifying the index,
+
+39
+00:01:29.000 --> 00:01:30.665
+which is buttercupgames.
+
+40
+00:01:30.665 --> 00:01:34.610
+We also specify the search
+terms: error OR fail.
+
+41
+00:01:34.610 --> 00:01:36.770
+The Boolean operator OR ensures
+
+42
+00:01:36.770 --> 00:01:39.190
+that both of the keywords
+will be searched.
+
+43
+00:01:39.190 --> 00:01:41.180
+The asterisk at the
+end of the term
+
+44
+00:01:41.180 --> 00:01:43.505
+fail* is known
+as a wildcard.
+
+45
+00:01:43.505 --> 00:01:44.780
+This means it will search for
+
+46
+00:01:44.780 --> 00:01:47.570
+all possible endings that
+contain the term fail.
+
+47
+00:01:47.570 --> 00:01:49.700
+This helps us expand
+our search results
+
+48
+00:01:49.700 --> 00:01:52.495
+because events may label
+failures differently.
+
+49
+00:01:52.495 --> 00:01:55.565
+For example, some events
+may use the term failed.
+
+50
+00:01:56.565 --> 00:01:57.140
+Next, we'll select a time range
+
+51
+00:01:57.140 --> 00:01:58.730
+using the time range picker.
+
+52
+00:01:58.730 --> 00:02:01.820
+Remember, the more specific
+our search is, the better.
+
+53
+00:02:01.820 --> 00:02:05.110
+Let's search for data
+from the last 30 days.
+
+54
+00:02:05.110 --> 00:02:08.475
+Under the search bar, we
+have our search results.
+
+55
+00:02:08.475 --> 00:02:10.205
+There's a timeline,
+which gives us
+
+56
+00:02:10.205 --> 00:02:11.750
+a visual representation of
+
+57
+00:02:11.750 --> 00:02:13.880
+the number of events
+over a period.
+
+58
+00:02:13.880 --> 00:02:15.680
+This can be helpful
+in identifying
+
+59
+00:02:15.680 --> 00:02:18.385
+event patterns such as
+peaks in activity.
+
+60
+00:02:18.385 --> 00:02:21.260
+Under the timeline, there's
+the events viewer, which
+
+61
+00:02:21.260 --> 00:02:24.035
+gives us a list of events
+that match our search.
+
+62
+00:02:24.035 --> 00:02:25.865
+Notice how our search terms:
+
+63
+00:02:25.865 --> 00:02:27.575
+buttercupgames and error
+
+64
+00:02:27.575 --> 00:02:29.365
+are highlighted in each event.
+
+65
+00:02:29.365 --> 00:02:31.205
+It doesn't appear
+that any events
+
+66
+00:02:31.205 --> 00:02:33.425
+matching with the
+term fail were found.
+
+67
+00:02:33.425 --> 00:02:36.425
+Each event has a timestamp
+and raw logged data.
+
+68
+00:02:36.425 --> 00:02:37.865
+For the events with errors,
+
+69
+00:02:37.865 --> 00:02:39.950
+it appears that there's
+an error relating to
+
+70
+00:02:39.950 --> 00:02:43.565
+the HTTP cookies used in the
+Buttercup Games website.
+
+71
+00:02:44.565 --> 00:02:45.545
+At the bottom of
+the raw log data,
+
+72
+00:02:45.545 --> 00:02:47.945
+there's some information
+related to the data source,
+
+73
+00:02:47.945 --> 00:02:49.370
+including the host name,
+
+74
+00:02:49.370 --> 00:02:51.005
+source, and source type.
+
+75
+00:02:51.005 --> 00:02:53.420
+This information tells
+us where the event data
+
+76
+00:02:53.420 --> 00:02:56.215
+originated from such as
+a device or file.
+
+77
+00:02:56.215 --> 00:02:57.860
+If we click on it,
+we can choose to
+
+78
+00:02:57.860 --> 00:02:59.935
+exclude it from the
+search results.
+
+79
+00:02:59.935 --> 00:03:02.015
+On the search bar,
+we can examine
+
+80
+00:03:02.015 --> 00:03:04.025
+that the search terms
+have been changed
+
+81
+00:03:04.025 --> 00:03:08.555
+and host!=www1
+has been added,
+
+82
+00:03:08.555 --> 00:03:12.445
+which means not to
+include www1 hosts.
+
+83
+00:03:12.445 --> 00:03:14.870
+Notice that the new
+search results do not
+
+84
+00:03:14.870 --> 00:03:17.870
+contain www1 as a host,
+
+85
+00:03:17.870 --> 00:03:22.300
+but contain www2 and www3.
+
+86
+00:03:22.300 --> 00:03:25.010
+This is just one of the many
+ways that you can target
+
+87
+00:03:25.010 --> 00:03:27.820
+your searches to retrieve
+information you're looking for.
+
+88
+00:03:27.820 --> 00:03:30.410
+This search is known
+as a raw log search,
+
+89
+00:03:30.410 --> 00:03:33.140
+which has a slower search
+performance since it extracts
+
+90
+00:03:33.140 --> 00:03:36.130
+log data fields during
+the search process.
+
+91
+00:03:37.130 --> 00:03:37.625
+As a security analyst,
+
+92
+00:03:37.625 --> 00:03:39.560
+you'll use different
+commands to optimize
+
+93
+00:03:39.560 --> 00:03:42.245
+search performance for
+faster search results.
+
+94
+00:03:42.245 --> 00:03:44.465
+That completes
+querying in Splunk.
+
+95
+00:03:44.465 --> 00:03:46.700
+You've learned the importance
+of effective queries
+
+96
+00:03:46.700 --> 00:03:49.000
+and how to perform a
+basic Splunk search.
+
+97
+00:03:49.000 --> 00:03:52.830
+Coming up, you'll learn how
+to query events in Chronicle.

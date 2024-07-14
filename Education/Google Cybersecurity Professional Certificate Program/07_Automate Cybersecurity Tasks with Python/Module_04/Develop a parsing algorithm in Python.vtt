@@ -1,0 +1,370 @@
+WEBVTT
+
+1
+00:00:00.597 --> 00:00:05.892
+We're now going to bring all of
+the pieces together to import a file,
+
+2
+00:00:05.892 --> 00:00:12.579
+parse it, and implement a simple algorithm to
+help us detect suspicious login attempts.
+
+3
+00:00:12.579 --> 00:00:17.429
+In this video, we want to create
+a program that runs every
+
+4
+00:00:17.429 --> 00:00:20.359
+time a new user logs in and checks
+
+5
+00:00:20.359 --> 00:00:25.226
+if that user has had three or
+more failed login attempts.
+
+6
+00:00:26.226 --> 00:00:29.808
+First, let's discuss the structure
+of our inputs to build
+
+7
+00:00:29.808 --> 00:00:32.566
+a strategy to develop our program.
+
+8
+00:00:32.566 --> 00:00:39.067
+We have a log file stored in a .txt format
+that contains one username per line.
+
+9
+00:00:39.067 --> 00:00:43.380
+Each username represents
+a failed login attempt.
+
+10
+00:00:43.380 --> 00:00:50.179
+So when a user logs in, we want our
+program to check for their username and
+
+11
+00:00:50.179 --> 00:00:55.207
+count how many times that
+username is in our log file.
+
+12
+00:00:55.207 --> 00:01:02.351
+If that username is repeated three or
+more times, the program returns an alert.
+
+13
+00:01:03.351 --> 00:01:08.011
+We'll start with code that imports
+the file of logging attempts,
+
+14
+00:01:08.011 --> 00:01:13.280
+splits it, and stores it
+into a variable named usernames.
+
+15
+00:01:13.280 --> 00:01:18.663
+Let's try printing the variable user
+names to check for its contents.
+
+16
+00:01:18.663 --> 00:01:24.888
+We'll run this. Perfect!
+This is exactly what we expected.
+
+17
+00:01:24.888 --> 00:01:29.626
+The variable usernames is ready
+to be used in our algorithm.
+
+18
+00:01:30.626 --> 00:01:35.281
+Now let's develop a strategy for counting
+username occurrences in the list.
+
+19
+00:01:35.281 --> 00:01:39.837
+We'll start with the first eight
+elements of the usernames list.
+
+20
+00:01:39.837 --> 00:01:45.870
+We notice that there are two
+occurrences of the username "eraab"
+
+21
+00:01:45.870 --> 00:01:50.951
+in the list, but
+how would we tell Python to count this?
+
+22
+00:01:50.951 --> 00:01:55.800
+We'll implement a for loop that
+iterates through every element.
+
+23
+00:01:55.800 --> 00:02:00.051
+Let's represent the loop
+variable with an arrow.
+
+24
+00:02:00.051 --> 00:02:04.706
+We'll also define a counter
+variable that starts at 0.
+
+25
+00:02:04.706 --> 00:02:11.127
+So, our for loop starts at
+the username "elarson."
+
+26
+00:02:11.127 --> 00:02:14.627
+At every element, Python asks,
+
+27
+00:02:14.627 --> 00:02:19.749
+"Is this element equal to the string
+'eraab'?"
+
+28
+00:02:19.749 --> 00:02:24.341
+If the answer is yes,
+the counter goes up by one.
+
+29
+00:02:24.341 --> 00:02:28.832
+If it isn't,
+then the counter stays the same.
+
+30
+00:02:29.832 --> 00:02:35.246
+Since "elarson" is not
+the same as "eraab,"
+
+31
+00:02:35.246 --> 00:02:39.736
+the counter remains 0.
+
+32
+00:02:39.736 --> 00:02:43.607
+Then, we move on to the next element.
+
+33
+00:02:43.607 --> 00:02:48.520
+We encounter our first
+occurrence of "eraab."
+
+34
+00:02:48.520 --> 00:02:53.551
+At this point, the counter
+increases by 1. As we move
+
+35
+00:02:53.551 --> 00:02:59.401
+to the next element,
+we find another occurrence of "eraab,"
+
+36
+00:02:59.401 --> 00:03:03.250
+so we increase our counter by 1 again.
+
+37
+00:03:03.250 --> 00:03:07.213
+That means that our counter is now at 2.
+
+38
+00:03:07.213 --> 00:03:12.436
+We will continue this process for
+the rest of the list.
+
+39
+00:03:13.436 --> 00:03:17.809
+Now that we know the solution, let's talk
+about how to implement it in Python.
+
+40
+00:03:17.809 --> 00:03:22.686
+Solving the problem in Python
+will involve a for loop,
+
+41
+00:03:22.686 --> 00:03:28.935
+a counter variable, and an if statement.
+Let's get back into our code.
+
+42
+00:03:29.935 --> 00:03:34.295
+We'll create a function that counts
+a user's failed login attempts.
+
+43
+00:03:34.295 --> 00:03:41.217
+First, let's define our function.
+We'll call it login_check().
+
+44
+00:03:41.217 --> 00:03:47.533
+It takes two parameters.
+The first is called login_list.
+
+45
+00:03:47.533 --> 00:03:51.748
+This will be used for
+the list of failed login attempts.
+
+46
+00:03:51.748 --> 00:03:59.355
+The second is called current_user. This
+will be used for the user who logs in.
+
+47
+00:03:59.355 --> 00:04:03.706
+Inside of this function,
+we start by defining
+
+48
+00:04:03.706 --> 00:04:08.420
+the counter variable and
+set its value to 0.
+
+49
+00:04:08.420 --> 00:04:13.942
+Now we start the for loop.
+We'll use i as our loop variable and
+
+50
+00:04:13.942 --> 00:04:17.339
+iterate through the login list.
+
+51
+00:04:17.339 --> 00:04:20.085
+In other words, as the loop iterates,
+
+52
+00:04:20.085 --> 00:04:24.787
+it will run through all the failed
+login attempts in the list.
+
+53
+00:04:24.787 --> 00:04:31.550
+Directly inside of the for loop, we
+start the if statement. The if statement
+
+54
+00:04:31.550 --> 00:04:38.120
+checks if our loop variable is equal to
+the current_user we're searching for.
+
+55
+00:04:38.120 --> 00:04:44.568
+If this condition is true,
+We want to add 1 to the counter.
+
+56
+00:04:45.568 --> 00:04:48.256
+We're almost done with our algorithm.
+
+57
+00:04:48.256 --> 00:04:54.012
+Now, we just need the final if-else
+statement to print the alert.
+
+58
+00:04:54.012 --> 00:04:58.145
+If the counter adds up to 3 or more,
+
+59
+00:04:58.145 --> 00:05:05.930
+we need to tell the user that their
+account is locked so they can't log in.
+
+60
+00:05:05.930 --> 00:05:13.122
+We'll also type an else statement for users
+who can log in. Our algorithm is complete!
+
+61
+00:05:14.122 --> 00:05:17.384
+Let's try out our new function
+on an example username.
+
+62
+00:05:17.384 --> 00:05:23.718
+We can pull out a few of the usernames
+in the list and try our function on them.
+
+63
+00:05:23.718 --> 00:05:26.968
+Let's use the first name in the list.
+
+64
+00:05:26.968 --> 00:05:30.971
+Let's run the code. According to our code,
+
+65
+00:05:30.971 --> 00:05:37.529
+this user can log in. They have fewer
+than three failed login attempts.
+
+66
+00:05:38.529 --> 00:05:42.094
+Now let's go back to our user "eraab."
+
+67
+00:05:42.094 --> 00:05:46.919
+Remember, they had two entries in
+the list of the first eight names in
+
+68
+00:05:46.919 --> 00:05:49.000
+our failed login attempts.
+
+69
+00:05:49.000 --> 00:05:55.342
+Do you think they'll be able to log in?
+When we run,
+
+70
+00:05:55.342 --> 00:06:00.106
+we get an "account locked" message.
+This means
+
+71
+00:06:00.106 --> 00:06:04.760
+they had three or
+more failed login attempts.
+
+72
+00:06:05.760 --> 00:06:11.221
+Excellent work! You've just developed your
+first security algorithm involving a log.
+
+73
+00:06:11.221 --> 00:06:16.784
+As you grow in your skills, you'll learn
+how to make this algorithm more efficient,
+
+74
+00:06:16.784 --> 00:06:19.271
+but this solution works well for now.
+
+75
+00:06:19.271 --> 00:06:23.759
+In this video,
+we recapped everything we learned so far,
+
+76
+00:06:23.759 --> 00:06:30.000
+from list operations to algorithm
+development, all the way to file parsing.
+
+77
+00:06:30.000 --> 00:06:34.156
+We did this while building an algorithm
+we can apply in a security context.

@@ -1,0 +1,331 @@
+WEBVTT
+
+1
+00:00:00.140 --> 00:00:03.000
+Let's take a little
+time to discuss
+
+2
+00:00:03.000 --> 00:00:04.320
+a concept that would help you
+
+3
+00:00:04.320 --> 00:00:06.210
+throughout your security career:
+
+4
+00:00:06.210 --> 00:00:08.445
+having a security mindset.
+
+5
+00:00:09.445 --> 00:00:12.735
+In previous courses, we discussed
+various threats, risks,
+
+6
+00:00:12.735 --> 00:00:15.555
+and vulnerabilities and
+how they can impact
+
+7
+00:00:15.555 --> 00:00:18.150
+organizational operations
+and the people
+
+8
+00:00:18.150 --> 00:00:20.160
+served by those organizations.
+
+9
+00:00:20.160 --> 00:00:22.800
+These concepts are
+key considerations
+
+10
+00:00:22.800 --> 00:00:25.390
+when thinking about having
+a security mindset.
+
+11
+00:00:25.390 --> 00:00:28.519
+You'll have to recognize not
+only what you're defending,
+
+12
+00:00:28.519 --> 00:00:31.345
+but what or who you're
+defending against.
+
+13
+00:00:32.345 --> 00:00:33.380
+For example, it's important to
+
+14
+00:00:33.380 --> 00:00:35.630
+recognize the types
+of assets that are
+
+15
+00:00:35.630 --> 00:00:36.770
+essential to maintaining
+
+16
+00:00:36.770 --> 00:00:38.825
+an organization's
+business functions,
+
+17
+00:00:38.825 --> 00:00:41.135
+along with types of threats,
+
+18
+00:00:41.135 --> 00:00:43.070
+risks, and vulnerabilities that
+
+19
+00:00:43.070 --> 00:00:45.455
+can negatively
+impact those assets.
+
+20
+00:00:45.455 --> 00:00:48.845
+And that's what having a security
+mindset is all about.
+
+21
+00:00:48.845 --> 00:00:51.380
+A security mindset
+is the ability
+
+22
+00:00:51.380 --> 00:00:53.510
+to evaluate risk and constantly
+
+23
+00:00:53.510 --> 00:00:54.920
+seek out and identify
+
+24
+00:00:54.920 --> 00:00:58.235
+the potential or actual
+breach of a system,
+
+25
+00:00:58.235 --> 00:01:00.235
+application, or data.
+
+26
+00:01:01.235 --> 00:01:01.820
+Earlier in the program,
+
+27
+00:01:01.820 --> 00:01:03.950
+we discussed threats, risks,
+
+28
+00:01:03.950 --> 00:01:05.930
+and vulnerabilities
+that are posed by
+
+29
+00:01:05.930 --> 00:01:09.025
+social engineering
+attacks, such as phishing.
+
+30
+00:01:09.025 --> 00:01:11.390
+These attacks are
+designed to compromise
+
+31
+00:01:11.390 --> 00:01:13.910
+an organization's assets to help
+
+32
+00:01:13.910 --> 00:01:15.545
+the threat actor or actors gain
+
+33
+00:01:15.545 --> 00:01:17.825
+access to sensitive information.
+
+34
+00:01:17.825 --> 00:01:19.940
+Using our security mindset can
+
+35
+00:01:19.940 --> 00:01:22.250
+help prevent these
+types of attacks.
+
+36
+00:01:22.250 --> 00:01:24.905
+It's important that
+we're constantly staying
+
+37
+00:01:24.905 --> 00:01:27.980
+up-to-date with the kinds of attacks
+that are happening.
+
+38
+00:01:27.980 --> 00:01:31.355
+To do this, it's good to develop
+a habit of seeking out
+
+39
+00:01:31.355 --> 00:01:32.810
+information regarding
+
+40
+00:01:32.810 --> 00:01:35.855
+the latest security threats
+or vulnerabilities.
+
+41
+00:01:35.855 --> 00:01:38.210
+As you do this, new ideas for
+
+42
+00:01:38.210 --> 00:01:40.880
+protecting company
+data may come to mind.
+
+43
+00:01:41.880 --> 00:01:43.190
+Security is an
+everyday objective
+
+44
+00:01:43.190 --> 00:01:45.610
+for every security
+team in the industry.
+
+45
+00:01:45.610 --> 00:01:48.050
+So having a security
+mindset helps analysts
+
+46
+00:01:48.050 --> 00:01:50.675
+defend against the constant
+pressure from attackers.
+
+47
+00:01:50.675 --> 00:01:53.030
+That mindset can make
+you think: "Every click of
+
+48
+00:01:53.030 --> 00:01:56.240
+the mouse has the potential
+to lead to a security breach."
+
+49
+00:01:56.240 --> 00:01:59.870
+That level of scrutiny as
+a security professional
+
+50
+00:01:59.870 --> 00:02:00.950
+helps you prepare for
+
+51
+00:02:00.950 --> 00:02:04.205
+the worst-case scenario,
+even if it doesn't happen.
+
+52
+00:02:05.205 --> 00:02:07.655
+Entry-level analysts can help
+protect low-level assets,
+
+53
+00:02:07.655 --> 00:02:10.910
+such as an organization's
+guest WiFi network, and
+
+54
+00:02:10.910 --> 00:02:14.480
+high-importance assets, such
+as intellectual property,
+
+55
+00:02:14.480 --> 00:02:19.205
+trade secrets, PII, and
+even financial information.
+
+56
+00:02:19.205 --> 00:02:21.590
+Your security mindset
+allows you to
+
+57
+00:02:21.590 --> 00:02:23.930
+protect all levels of assets.
+
+58
+00:02:23.930 --> 00:02:26.810
+However, if an
+incident does occur,
+
+59
+00:02:26.810 --> 00:02:28.565
+that doesn't mean you respond to
+
+60
+00:02:28.565 --> 00:02:30.620
+all incidents in the same way.
+
+61
+00:02:30.620 --> 00:02:33.050
+So we'll discuss incident
+prioritization
+
+62
+00:02:33.050 --> 00:02:34.670
+a little later in the course.
+
+63
+00:02:35.670 --> 00:02:36.740
+Having a strong security mindset
+
+64
+00:02:36.740 --> 00:02:38.225
+can help set you apart from
+
+65
+00:02:38.225 --> 00:02:39.860
+other candidates as you
+
+66
+00:02:39.860 --> 00:02:42.470
+prepare to enter the
+security profession.
+
+67
+00:02:42.470 --> 00:02:44.660
+It may even be a good idea to
+
+68
+00:02:44.660 --> 00:02:47.930
+reference that foundation
+in future job interviews.
+
+69
+00:02:47.930 --> 00:02:49.790
+We'll discuss
+interview preparation
+
+70
+00:02:49.790 --> 00:02:51.920
+in detail, later in the course.
+
+71
+00:02:51.920 --> 00:02:53.810
+Coming up, we'll focus on
+
+72
+00:02:53.810 --> 00:02:57.030
+incident detection
+in greater detail.

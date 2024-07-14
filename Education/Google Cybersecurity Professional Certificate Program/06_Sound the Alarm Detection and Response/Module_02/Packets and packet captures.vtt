@@ -1,0 +1,335 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:03.210
+Whether it's an employee
+sending an email or
+
+2
+00:00:03.210 --> 00:00:04.620
+a malicious actor attempting
+
+3
+00:00:04.620 --> 00:00:06.705
+to exfiltrate confidential data,
+
+4
+00:00:06.705 --> 00:00:09.060
+actions that are performed
+on a network can be
+
+5
+00:00:09.060 --> 00:00:12.285
+identified through examining
+network traffic flows.
+
+6
+00:00:13.285 --> 00:00:14.895
+Understanding these network
+communications provides
+
+7
+00:00:14.895 --> 00:00:16.815
+valuable insight
+into the activities
+
+8
+00:00:16.815 --> 00:00:18.510
+happening in a network.
+
+9
+00:00:18.510 --> 00:00:21.060
+This way, you can better
+understand what's going on in
+
+10
+00:00:21.060 --> 00:00:24.370
+an environment and defend
+against potential threats.
+
+11
+00:00:24.370 --> 00:00:26.450
+With this in mind,
+let's examine how to
+
+12
+00:00:26.450 --> 00:00:29.345
+record network traffic
+through packet captures.
+
+13
+00:00:30.345 --> 00:00:31.400
+Previously in the program,
+
+14
+00:00:31.400 --> 00:00:32.435
+you learned that
+when data is sent,
+
+15
+00:00:32.435 --> 00:00:34.130
+it's divided into packets.
+
+16
+00:00:34.130 --> 00:00:36.215
+Just like an addressed
+envelope in the mail,
+
+17
+00:00:36.215 --> 00:00:38.330
+packets contain delivery
+information which
+
+18
+00:00:38.330 --> 00:00:40.985
+is used to route it
+to its destination.
+
+19
+00:00:41.985 --> 00:00:42.890
+This information
+includes a sender
+
+20
+00:00:42.890 --> 00:00:44.675
+and receiver's IP address,
+
+21
+00:00:44.675 --> 00:00:47.425
+the type of packet that's
+being sent, and more.
+
+22
+00:00:47.425 --> 00:00:49.970
+Packets can provide lots
+of information about
+
+23
+00:00:49.970 --> 00:00:51.650
+the communications
+happening between
+
+24
+00:00:51.650 --> 00:00:53.530
+devices over a network.
+
+25
+00:00:54.530 --> 00:00:54.920
+You may also recall that
+
+26
+00:00:54.920 --> 00:00:57.005
+a packet has
+multiple components.
+
+27
+00:00:57.005 --> 00:00:59.150
+There's the header, which
+includes information like
+
+28
+00:00:59.150 --> 00:01:01.835
+the type of network protocol
+and port being used.
+
+29
+00:01:01.835 --> 00:01:03.830
+Imagine this as
+being the name and
+
+30
+00:01:03.830 --> 00:01:06.350
+mailing address located
+on an envelope.
+
+31
+00:01:07.350 --> 00:01:09.350
+Network protocols are a set
+of rules that determine
+
+32
+00:01:09.350 --> 00:01:12.785
+the transmission of data
+between devices on a network.
+
+33
+00:01:12.785 --> 00:01:15.875
+Ports are non-physical
+locations on a computer
+
+34
+00:01:15.875 --> 00:01:17.540
+that organize data transmission
+
+35
+00:01:17.540 --> 00:01:19.385
+between devices on a network.
+
+36
+00:01:20.385 --> 00:01:20.930
+The header also contains
+
+37
+00:01:20.930 --> 00:01:23.870
+the packet's source and
+destination IP address.
+
+38
+00:01:23.870 --> 00:01:25.520
+We'll explore more information
+
+39
+00:01:25.520 --> 00:01:28.010
+contained in the header
+in a later section.
+
+40
+00:01:29.010 --> 00:01:30.170
+Next, there's the payload, which
+
+41
+00:01:30.170 --> 00:01:32.735
+contains the actual data
+that's being delivered.
+
+42
+00:01:32.735 --> 00:01:34.220
+This is like the content of
+
+43
+00:01:34.220 --> 00:01:36.140
+a letter inside of an envelope.
+
+44
+00:01:36.140 --> 00:01:37.265
+And there's the footer,
+
+45
+00:01:37.265 --> 00:01:39.475
+which signifies the
+end of the packet.
+
+46
+00:01:40.475 --> 00:01:42.485
+So how exactly can you
+observe a network packet?
+
+47
+00:01:42.485 --> 00:01:45.620
+Just like scents are invisible
+but can be smelled,
+
+48
+00:01:45.620 --> 00:01:47.270
+packets are invisible but can be
+
+49
+00:01:47.270 --> 00:01:50.000
+captured using tools
+called packet sniffers.
+
+50
+00:01:51.000 --> 00:01:53.315
+You may remember packet sniffers
+from a previous section.
+
+51
+00:01:53.315 --> 00:01:56.180
+A network protocol analyzer,
+or packet sniffer,
+
+52
+00:01:56.180 --> 00:01:57.830
+is a tool designed
+to capture and
+
+53
+00:01:57.830 --> 00:02:00.515
+analyze data traffic
+within a network.
+
+54
+00:02:00.515 --> 00:02:02.015
+As a security analyst,
+
+55
+00:02:02.015 --> 00:02:03.890
+you'll use packet
+sniffers to inspect
+
+56
+00:02:03.890 --> 00:02:06.200
+packets for indicators
+of compromise.
+
+57
+00:02:07.200 --> 00:02:09.600
+Through packet sniffing, we can grab
+a detailed snapshot of
+
+58
+00:02:09.600 --> 00:02:10.670
+packets that travel over
+
+59
+00:02:10.670 --> 00:02:13.175
+a network in the form
+of a packet capture.
+
+60
+00:02:13.175 --> 00:02:16.310
+A packet capture,
+or P-cap, is a file
+
+61
+00:02:16.310 --> 00:02:18.500
+containing data
+packets intercepted
+
+62
+00:02:18.500 --> 00:02:20.195
+from an interface or network.
+
+63
+00:02:20.195 --> 00:02:23.345
+It's sort of like intercepting
+an envelope in the mail.
+
+64
+00:02:24.345 --> 00:02:25.580
+Packet captures are
+incredibly useful
+
+65
+00:02:25.580 --> 00:02:27.680
+during incident investigation.
+
+66
+00:02:27.680 --> 00:02:29.600
+By having access to
+the communications
+
+67
+00:02:29.600 --> 00:02:31.925
+happening between
+devices over a network,
+
+68
+00:02:31.925 --> 00:02:34.550
+you can observe network
+interactions and start to build
+
+69
+00:02:34.550 --> 00:02:37.670
+a storyline to determine
+what exactly happened.
+
+70
+00:02:38.670 --> 00:02:39.800
+Coming up, we'll
+discuss the importance
+
+71
+00:02:39.800 --> 00:02:42.780
+of packet analysis.
+Meet you there.

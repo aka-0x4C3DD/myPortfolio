@@ -1,0 +1,234 @@
+WEBVTT
+
+1
+00:00:00.260 --> 00:00:02.490
+Here we are at the end of
+
+2
+00:00:02.490 --> 00:00:04.740
+this section! Can
+you believe it?
+
+3
+00:00:04.740 --> 00:00:08.010
+I had so much fun exploring
+the world of vulnerabilities.
+
+4
+00:00:08.010 --> 00:00:09.705
+I hope you felt the same.
+
+5
+00:00:09.705 --> 00:00:12.480
+More importantly, I hope
+you got a better sense of
+
+6
+00:00:12.480 --> 00:00:15.570
+how complex a landscape
+the digital world is.
+
+7
+00:00:15.570 --> 00:00:18.390
+This environment is filled
+with gaps that attackers can
+
+8
+00:00:18.390 --> 00:00:21.525
+use to gain unauthorized
+access to assets,
+
+9
+00:00:21.525 --> 00:00:23.805
+making it a challenge to defend.
+
+10
+00:00:24.805 --> 00:00:26.955
+We've explored a lot of
+information this time around,
+
+11
+00:00:26.955 --> 00:00:29.760
+so let's quickly recap
+what we've covered.
+
+12
+00:00:30.760 --> 00:00:32.760
+You learned about the
+vulnerability management process,
+
+13
+00:00:32.760 --> 00:00:35.055
+starting with the
+defense-in-depth model.
+
+14
+00:00:35.055 --> 00:00:36.590
+You learned about the layers of
+
+15
+00:00:36.590 --> 00:00:37.940
+this security framework and
+
+16
+00:00:37.940 --> 00:00:39.410
+how each of them work together
+
+17
+00:00:39.410 --> 00:00:41.155
+to build a stronger defense.
+
+18
+00:00:42.155 --> 00:00:43.535
+You then learned
+about the CVE list
+
+19
+00:00:43.535 --> 00:00:46.460
+that's used to find
+cataloged vulnerabilities.
+
+20
+00:00:46.460 --> 00:00:47.930
+This is a great addition to
+
+21
+00:00:47.930 --> 00:00:50.030
+your growing security toolbox.
+
+22
+00:00:51.030 --> 00:00:51.770
+After that, you learned of
+
+23
+00:00:51.770 --> 00:00:54.410
+the attack surfaces that
+businesses protect.
+
+24
+00:00:54.410 --> 00:00:57.139
+We discussed physical
+and digital surfaces
+
+25
+00:00:57.139 --> 00:00:59.600
+and the challenges of
+defending the cloud.
+
+26
+00:01:00.600 --> 00:01:03.005
+We finished up by exploring
+common attack vectors,
+
+27
+00:01:03.005 --> 00:01:04.970
+where you learned
+how security teams
+
+28
+00:01:04.970 --> 00:01:06.770
+use an attacker mindset to
+
+29
+00:01:06.770 --> 00:01:08.570
+identify the security gaps
+
+30
+00:01:08.570 --> 00:01:11.030
+that cyber criminals
+try to exploit.
+
+31
+00:01:12.030 --> 00:01:13.400
+Every one of the vulnerabilities
+that we've discussed
+
+32
+00:01:13.400 --> 00:01:16.055
+so far is faced with
+a number of threats.
+
+33
+00:01:17.055 --> 00:01:17.600
+When we get back together,
+
+34
+00:01:17.600 --> 00:01:19.805
+we're going to expand
+our attacker mindset
+
+35
+00:01:19.805 --> 00:01:21.050
+even further by
+
+36
+00:01:21.050 --> 00:01:23.060
+exploring specific
+type of attacks
+
+37
+00:01:23.060 --> 00:01:25.430
+that cybercriminals
+commonly use.
+
+38
+00:01:25.430 --> 00:01:28.175
+We'll look at things like
+malware and the techniques
+
+39
+00:01:28.175 --> 00:01:31.040
+attackers use to compromise
+defense systems.
+
+40
+00:01:31.040 --> 00:01:33.815
+By exploring how these
+tools and tactics work,
+
+41
+00:01:33.815 --> 00:01:35.330
+you'll gain a clearer
+understanding
+
+42
+00:01:35.330 --> 00:01:36.655
+of the threats they pose.
+
+43
+00:01:36.655 --> 00:01:40.205
+We'll then wrap up by
+investigating how security teams
+
+44
+00:01:40.205 --> 00:01:41.480
+stop these threats from
+
+45
+00:01:41.480 --> 00:01:44.165
+damaging our
+organizations' operations,
+
+46
+00:01:44.165 --> 00:01:46.910
+their reputation, and
+most importantly,
+
+47
+00:01:46.910 --> 00:01:48.830
+their customers and employees.
+
+48
+00:01:49.830 --> 00:01:51.785
+You've done a fantastic
+job getting to this point.
+
+49
+00:01:51.785 --> 00:01:54.890
+When you're ready, let's
+finish the journey together.
+
+50
+00:01:54.890 --> 00:01:58.230
+I'm looking forward to
+being back with you again.

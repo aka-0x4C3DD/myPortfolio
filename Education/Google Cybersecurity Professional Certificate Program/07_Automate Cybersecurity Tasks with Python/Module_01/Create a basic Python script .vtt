@@ -1,0 +1,241 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:04.965
+Hi there. Previously, we
+discussed the basics of Python.
+
+2
+00:00:04.965 --> 00:00:08.385
+Now we'll practice
+writing and running code.
+
+3
+00:00:08.385 --> 00:00:10.244
+When we work in Python,
+
+4
+00:00:10.244 --> 00:00:14.220
+we refer to what we write
+as a "script" or a "program."
+
+5
+00:00:14.220 --> 00:00:17.325
+There are subtle differences
+between the two.
+
+6
+00:00:18.325 --> 00:00:19.770
+Let's compare a computer program
+
+7
+00:00:19.770 --> 00:00:21.825
+to a theater performance.
+
+8
+00:00:21.825 --> 00:00:24.390
+Almost every theater performance
+
+9
+00:00:24.390 --> 00:00:26.310
+includes a written script.
+
+10
+00:00:26.310 --> 00:00:28.440
+Actors study and memorize
+
+11
+00:00:28.440 --> 00:00:31.410
+a script to say it out
+loud to an audience.
+
+12
+00:00:31.410 --> 00:00:34.665
+However, that's not
+the only component.
+
+13
+00:00:34.665 --> 00:00:37.365
+There's also the
+whole performance.
+
+14
+00:00:37.365 --> 00:00:40.200
+Directors make decisions
+on what lighting to
+
+15
+00:00:40.200 --> 00:00:44.450
+use, or costumes, or what
+the stage looks like.
+
+16
+00:00:44.450 --> 00:00:46.820
+The performance as a whole
+
+17
+00:00:46.820 --> 00:00:49.805
+involves a lot of
+design choices,
+
+18
+00:00:49.805 --> 00:00:54.760
+like set design,
+lighting, and costumes.
+
+19
+00:00:54.760 --> 00:00:57.620
+The process of creating
+this production is
+
+20
+00:00:57.620 --> 00:01:00.560
+similar to the process of
+programming in Python.
+
+21
+00:01:00.560 --> 00:01:04.475
+Programming involves a
+lot of design decisions.
+
+22
+00:01:04.475 --> 00:01:07.790
+But the process of scripting
+in Python is more like
+
+23
+00:01:07.790 --> 00:01:11.255
+writing the specific words
+that the actors will say.
+
+24
+00:01:11.255 --> 00:01:15.350
+In Python, it's good practice
+to start with a comment.
+
+25
+00:01:15.350 --> 00:01:17.810
+A comment is a note programmers
+
+26
+00:01:17.810 --> 00:01:20.780
+make about the intention
+behind their code.
+
+27
+00:01:20.780 --> 00:01:23.190
+Let's add one now.
+
+28
+00:01:24.440 --> 00:01:27.980
+We start with the hash symbol
+to indicate that this is
+
+29
+00:01:27.980 --> 00:01:33.415
+a comment. And then we'll add
+details about our intention.
+
+30
+00:01:33.415 --> 00:01:36.135
+Here we're going to print
+
+31
+00:01:36.135 --> 00:01:39.100
+"Hello Python" to the screen.
+
+32
+00:01:39.890 --> 00:01:44.970
+Okay, now let's write our first
+line of Python code.
+
+33
+00:01:45.580 --> 00:01:49.020
+This code uses print.
+
+34
+00:01:49.730 --> 00:01:55.000
+Print outputs a specified
+object to the screen.
+
+35
+00:01:55.000 --> 00:01:57.800
+After print, we put what
+
+36
+00:01:57.800 --> 00:02:00.410
+we want to output
+in parentheses.
+
+37
+00:02:00.410 --> 00:02:05.915
+In this case, we want to output
+the string "Hello Python!"
+
+38
+00:02:05.915 --> 00:02:10.330
+We must place string
+data in quotation marks.
+
+39
+00:02:10.330 --> 00:02:12.420
+These quotation marks are
+
+40
+00:02:12.420 --> 00:02:13.850
+just one example of
+
+41
+00:02:13.850 --> 00:02:16.430
+syntax that you will
+encounter in Python.
+
+42
+00:02:16.430 --> 00:02:19.895
+Syntax refers to the
+rules that determine
+
+43
+00:02:19.895 --> 00:02:23.470
+what is correctly structured
+in a computing language.
+
+44
+00:02:23.470 --> 00:02:26.195
+And now, we'll run this code
+
+45
+00:02:26.195 --> 00:02:28.740
+so the computer can
+output the string.
+
+46
+00:02:29.740 --> 00:02:31.710
+You just ran your
+first line of code.
+
+47
+00:02:31.710 --> 00:02:34.190
+Since our syntax is correct,
+
+48
+00:02:34.190 --> 00:02:36.170
+the string is now displayed.
+
+49
+00:02:36.170 --> 00:02:37.610
+Now that you've experience
+
+50
+00:02:37.610 --> 00:02:39.530
+writing and running
+code in Python,
+
+51
+00:02:39.530 --> 00:02:41.120
+we're ready to discuss
+
+52
+00:02:41.120 --> 00:02:44.940
+its basic components.
+Meet you soon.

@@ -1,0 +1,189 @@
+WEBVTT
+
+1
+00:00:01.030 --> 00:00:05.045
+So you've learned about incident response
+teams, the different types of roles, and
+
+2
+00:00:05.045 --> 00:00:06.930
+their respective responsibilities.
+
+3
+00:00:06.930 --> 00:00:12.660
+Now, let's talk about how teams respond to
+incidents using incident response plans.
+
+4
+00:00:13.660 --> 00:00:17.053
+When an incident occurs, incident response
+teams must be prepared to respond quickly,
+
+5
+00:00:17.053 --> 00:00:19.050
+efficiently, and effectively.
+
+6
+00:00:19.050 --> 00:00:22.320
+Whether it's a data breach,
+DDoS attack, or ransomware,
+
+7
+00:00:22.320 --> 00:00:26.627
+incidents have the potential to cause
+significant damage to an organization.
+
+8
+00:00:26.627 --> 00:00:31.006
+Like we previously mentioned, regulations
+may require organizations to report
+
+9
+00:00:31.006 --> 00:00:33.180
+incidents within a certain timeframe.
+
+10
+00:00:33.180 --> 00:00:37.772
+So it's crucial for organizations to have
+a formal incident response plan in place,
+
+11
+00:00:37.772 --> 00:00:39.215
+so there's a prepared and
+
+12
+00:00:39.215 --> 00:00:43.200
+consistent process to quickly respond
+to incidents once they occur.
+
+13
+00:00:44.200 --> 00:00:47.844
+You may remember learning that security
+plans consist of three basic elements:
+
+14
+00:00:47.844 --> 00:00:51.050
+policies, standards, and procedures.
+
+15
+00:00:51.050 --> 00:00:55.873
+An incident response plan is a document
+that outlines the procedures to take in
+
+16
+00:00:55.873 --> 00:00:57.928
+each step of incident response.
+
+17
+00:00:58.928 --> 00:01:02.056
+Response plans, just like response
+teams, are not all the same.
+
+18
+00:01:02.056 --> 00:01:06.480
+Organizations tailor their plans
+to meet their unique requirements
+
+19
+00:01:06.480 --> 00:01:11.470
+such as their mission, size,
+culture, industry, and structure.
+
+20
+00:01:11.470 --> 00:01:12.253
+For example,
+
+21
+00:01:12.253 --> 00:01:16.498
+smaller organizations may choose to
+include their incident response plan in
+
+22
+00:01:16.498 --> 00:01:20.951
+their security plan, while others may
+choose to have them as separate documents.
+
+23
+00:01:21.951 --> 00:01:23.332
+Although not all incident
+plans are the same,
+
+24
+00:01:23.332 --> 00:01:25.601
+there are common elements that they share.
+
+25
+00:01:26.601 --> 00:01:29.160
+Incident plans have:
+Incident response procedures.
+
+26
+00:01:29.160 --> 00:01:33.183
+These are step-by-step instructions
+on how to respond to incidents.
+
+27
+00:01:33.183 --> 00:01:37.061
+System information.
+These are things like network diagrams,
+
+28
+00:01:37.061 --> 00:01:41.011
+data flow diagrams, logging, and
+asset inventory information.
+
+29
+00:01:41.011 --> 00:01:46.050
+And other documents like contact lists,
+forms, and templates.
+
+30
+00:01:47.050 --> 00:01:49.263
+Plans aren't perfect, and
+there's always room to adjust and
+
+31
+00:01:49.263 --> 00:01:51.310
+improve as incidents occur.
+
+32
+00:01:51.310 --> 00:01:55.900
+Incident processes and procedures must
+be regularly reviewed and tested.
+
+33
+00:01:56.900 --> 00:02:00.020
+This can be done through exercises
+like tabletops or simulations.
+
+34
+00:02:00.020 --> 00:02:03.173
+These exercises ensure that
+all team members are familiar
+
+35
+00:02:03.173 --> 00:02:04.890
+with the response plan.
+
+36
+00:02:04.890 --> 00:02:09.450
+They also allow organizations to identify
+any missing gaps in a process to improve
+
+37
+00:02:09.450 --> 00:02:11.820
+their incident response plan.
+
+38
+00:02:11.820 --> 00:02:17.050
+Also, organizations may be required to
+complete specific types of exercises for
+
+39
+00:02:17.050 --> 00:02:19.340
+regulatory reasons.
+
+40
+00:02:20.340 --> 00:02:22.808
+Coming up, we'll discuss the different
+types of tools used in incident response.

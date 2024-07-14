@@ -1,0 +1,560 @@
+WEBVTT
+
+1
+00:00:00.470 --> 00:00:03.660
+In our everyday lives,
+
+2
+00:00:03.660 --> 00:00:07.125
+we frequently follow rules
+for solving problems.
+
+3
+00:00:07.125 --> 00:00:09.045
+As a simple example,
+
+4
+00:00:09.045 --> 00:00:12.325
+imagine you want
+a cup of coffee.
+
+5
+00:00:12.325 --> 00:00:14.660
+If you've made
+coffee many times,
+
+6
+00:00:14.660 --> 00:00:18.185
+then you likely follow
+a process to make it.
+
+7
+00:00:18.185 --> 00:00:21.830
+First, you grab
+your favorite mug.
+
+8
+00:00:21.830 --> 00:00:24.050
+Then, you put water into
+
+9
+00:00:24.050 --> 00:00:27.155
+the coffee maker and add
+your coffee grounds.
+
+10
+00:00:27.155 --> 00:00:30.830
+You press the start button
+and wait a few minutes.
+
+11
+00:00:30.830 --> 00:00:34.520
+Finally, you enjoy your
+fresh cup of coffee.
+
+12
+00:00:35.520 --> 00:00:37.100
+Even if you have a
+different approach to
+
+13
+00:00:37.100 --> 00:00:39.635
+making coffee or don't
+drink coffee at all,
+
+14
+00:00:39.635 --> 00:00:41.870
+you will likely
+follow a set of rules
+
+15
+00:00:41.870 --> 00:00:44.480
+for completing similar
+everyday tasks.
+
+16
+00:00:44.480 --> 00:00:47.045
+When you complete
+these routine tasks,
+
+17
+00:00:47.045 --> 00:00:49.425
+you're following an algorithm.
+
+18
+00:00:49.425 --> 00:00:54.160
+An algorithm is a set of
+rules that solve a problem.
+
+19
+00:00:54.160 --> 00:00:57.650
+In more detail, an
+algorithm is a set
+
+20
+00:00:57.650 --> 00:01:01.265
+of steps that takes an
+input from a problem,
+
+21
+00:01:01.265 --> 00:01:04.040
+uses this input
+to perform tasks,
+
+22
+00:01:04.040 --> 00:01:07.130
+and returns a solution
+as an output.
+
+23
+00:01:07.130 --> 00:01:09.530
+Let's explore how algorithms
+
+24
+00:01:09.530 --> 00:01:12.200
+can be used to solve
+problems in Python.
+
+25
+00:01:13.200 --> 00:01:16.100
+Imagine that you, as
+a security analyst,
+
+26
+00:01:16.100 --> 00:01:18.334
+have a list of IP addresses.
+
+27
+00:01:18.334 --> 00:01:19.670
+You want to extract
+
+28
+00:01:19.670 --> 00:01:22.880
+the first three digits
+of each IP address,
+
+29
+00:01:22.880 --> 00:01:25.415
+which will tell you
+information about
+
+30
+00:01:25.415 --> 00:01:28.715
+the networks that these
+IP addresses belong to.
+
+31
+00:01:28.715 --> 00:01:32.750
+To do this, we're going to
+write an algorithm that
+
+32
+00:01:32.750 --> 00:01:35.330
+involves multiple
+Python concepts
+
+33
+00:01:35.330 --> 00:01:36.945
+that we've covered so far:
+
+34
+00:01:36.945 --> 00:01:40.735
+loops, lists, and strings.
+
+35
+00:01:41.735 --> 00:01:42.970
+Here's a list with IP addresses
+
+36
+00:01:42.970 --> 00:01:45.055
+that are stored as strings.
+
+37
+00:01:45.055 --> 00:01:48.024
+For privacy reasons,
+in our example,
+
+38
+00:01:48.024 --> 00:01:51.350
+we're not showing the
+full IP addresses.
+
+39
+00:01:51.540 --> 00:01:55.870
+Our goal is to extract
+the first three numbers
+
+40
+00:01:55.870 --> 00:02:00.110
+of each address and store
+them in a new list.
+
+41
+00:02:00.110 --> 00:02:03.300
+Before we write any Python code,
+
+42
+00:02:03.300 --> 00:02:05.200
+let's break down an approach to
+
+43
+00:02:05.200 --> 00:02:07.675
+solving this problem
+with an algorithm.
+
+44
+00:02:07.675 --> 00:02:12.570
+What if you had one IP address
+instead of an entire list?
+
+45
+00:02:12.570 --> 00:02:16.230
+Well, then the problem
+becomes much simpler.
+
+46
+00:02:16.230 --> 00:02:18.490
+The first step in solving
+
+47
+00:02:18.490 --> 00:02:20.900
+the problem will
+be to use string
+
+48
+00:02:20.900 --> 00:02:24.275
+slicing to extract the
+first three digits
+
+49
+00:02:24.275 --> 00:02:26.245
+from one IP address.
+
+50
+00:02:26.245 --> 00:02:31.835
+Now let's consider how to
+apply these to an entire list.
+
+51
+00:02:31.835 --> 00:02:33.635
+As the second step,
+
+52
+00:02:33.635 --> 00:02:36.080
+we'll use a loop to apply
+
+53
+00:02:36.080 --> 00:02:39.530
+that solution to every
+IP address on the list.
+
+54
+00:02:39.530 --> 00:02:43.245
+Previously, you learned
+about string slicing,
+
+55
+00:02:43.245 --> 00:02:46.040
+so let's write some Python code
+
+56
+00:02:46.040 --> 00:02:49.475
+to solve the problem
+for one IP address.
+
+57
+00:02:50.475 --> 00:02:53.240
+Here we're starting
+with one IP address
+
+58
+00:02:53.240 --> 00:02:58.290
+that begins with 198.567.
+
+59
+00:02:58.640 --> 00:03:01.640
+And we'll write a few
+lines of code to
+
+60
+00:03:01.640 --> 00:03:04.535
+extract the first
+three characters.
+
+61
+00:03:04.535 --> 00:03:08.970
+We'll use the bracket
+notation to slice the string.
+
+62
+00:03:09.440 --> 00:03:12.315
+Inside the print statement,
+
+63
+00:03:12.315 --> 00:03:14.570
+we have the address variable,
+
+64
+00:03:14.570 --> 00:03:18.055
+which contains the IP
+address we want to slice.
+
+65
+00:03:18.055 --> 00:03:22.365
+Remember that Python
+starts counting at 0.
+
+66
+00:03:22.365 --> 00:03:25.130
+To get the first
+three characters,
+
+67
+00:03:25.130 --> 00:03:28.370
+we start our slice at index 0
+
+68
+00:03:28.370 --> 00:03:33.440
+and then continue all
+the way until index 3.
+
+69
+00:03:33.440 --> 00:03:37.205
+Remember, that Python
+excludes the final index.
+
+70
+00:03:37.205 --> 00:03:39.800
+In other words, Python
+
+71
+00:03:39.800 --> 00:03:42.650
+will return the
+characters at index 0,
+
+72
+00:03:42.650 --> 00:03:44.615
+1, and 2.
+
+73
+00:03:44.615 --> 00:03:47.730
+Now, let's run this.
+
+74
+00:03:47.960 --> 00:03:53.660
+We get the first three
+digits of the address: 198.
+
+75
+00:03:53.660 --> 00:03:55.850
+Now that we're able to solve
+
+76
+00:03:55.850 --> 00:03:58.055
+this problem for one IP address,
+
+77
+00:03:58.055 --> 00:04:00.680
+we can put this code
+into a loop and
+
+78
+00:04:00.680 --> 00:04:04.490
+apply it to all IP addresses
+in the original list.
+
+79
+00:04:04.490 --> 00:04:06.155
+Before we do this,
+
+80
+00:04:06.155 --> 00:04:09.140
+let's introduce one more
+method that we'll be using
+
+81
+00:04:09.140 --> 00:04:12.365
+in this code: the append method.
+
+82
+00:04:13.365 --> 00:04:16.745
+The append method adds
+input to the end of a list.
+
+83
+00:04:16.745 --> 00:04:22.100
+For example, let's say
+that my list contains 1,
+
+84
+00:04:22.100 --> 00:04:23.870
+2, and 3.
+
+85
+00:04:23.870 --> 00:04:26.210
+With this code, we can use
+
+86
+00:04:26.210 --> 00:04:29.450
+the append method to
+add 4 to this list.
+
+87
+00:04:29.450 --> 00:04:33.005
+First, we are given the IP list.
+
+88
+00:04:33.005 --> 00:04:35.660
+Now, we're ready to extract
+
+89
+00:04:35.660 --> 00:04:37.265
+the first three characters from
+
+90
+00:04:37.265 --> 00:04:39.785
+each element in this list.
+
+91
+00:04:39.785 --> 00:04:43.040
+Let's create an
+empty list to store
+
+92
+00:04:43.040 --> 00:04:46.620
+the first three characters
+of each IP from the list.
+
+93
+00:04:46.620 --> 00:04:50.280
+Now we can start the for loop.
+
+94
+00:04:50.280 --> 00:04:52.505
+Let's break this down.
+
+95
+00:04:53.505 --> 00:04:54.980
+The word "for" tells Python
+
+96
+00:04:54.980 --> 00:04:57.710
+that we're about to
+start a for loop.
+
+97
+00:04:57.710 --> 00:04:59.765
+We then choose address
+
+98
+00:04:59.765 --> 00:05:02.000
+as the variable inside
+of the for loop,
+
+99
+00:05:02.000 --> 00:05:07.310
+and we specify the list
+called IP as the iterable.
+
+100
+00:05:07.310 --> 00:05:09.050
+As the loop runs,
+
+101
+00:05:09.050 --> 00:05:11.990
+each element from
+the IP list will be
+
+102
+00:05:11.990 --> 00:05:15.955
+stored temporarily in
+the address variable.
+
+103
+00:05:15.955 --> 00:05:18.065
+Inside the for loop,
+
+104
+00:05:18.065 --> 00:05:20.180
+we have a line of code to add
+
+105
+00:05:20.180 --> 00:05:23.375
+the slice from address
+to the networks list.
+
+106
+00:05:24.375 --> 00:05:26.825
+Breaking this down, we
+use the code we wrote
+
+107
+00:05:26.825 --> 00:05:29.165
+earlier to get the
+first three characters
+
+108
+00:05:29.165 --> 00:05:30.925
+of an IP address.
+
+109
+00:05:30.925 --> 00:05:33.605
+We'll use our append method
+
+110
+00:05:33.605 --> 00:05:37.010
+to add an item to
+the end of a list.
+
+111
+00:05:37.010 --> 00:05:41.270
+In this case, we're adding
+to the networks list.
+
+112
+00:05:41.270 --> 00:05:46.850
+Finally, let's print the
+networks list and run the code.
+
+113
+00:05:46.850 --> 00:05:50.720
+The variable networks
+now contains a list of
+
+114
+00:05:50.720 --> 00:05:52.565
+the first three digits of
+
+115
+00:05:52.565 --> 00:05:56.160
+each IP address in the
+original list: IP.
+
+116
+00:05:57.160 --> 00:05:58.740
+That was a lot of information.
+
+117
+00:05:58.740 --> 00:06:02.130
+Designing algorithms
+can be challenging.
+
+118
+00:06:02.130 --> 00:06:05.015
+It's a good idea to
+break them down into
+
+119
+00:06:05.015 --> 00:06:08.770
+smaller problems before jumping
+into writing your code.
+
+120
+00:06:08.770 --> 00:06:11.450
+We'll continue to
+practice this idea in
+
+121
+00:06:11.450 --> 00:06:15.030
+the upcoming videos.
+Meet you there.

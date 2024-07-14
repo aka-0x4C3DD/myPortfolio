@@ -1,0 +1,463 @@
+WEBVTT
+
+1
+00:00:00.020 --> 00:00:03.585
+Tcpdump is a popular
+network analyzer.
+
+2
+00:00:03.585 --> 00:00:06.690
+It's pre-installed on many
+Linux distributions and can be
+
+3
+00:00:06.690 --> 00:00:10.725
+installed on most Unix-like
+operating systems, like macOS.
+
+4
+00:00:10.725 --> 00:00:12.630
+You can easily
+capture and monitor
+
+5
+00:00:12.630 --> 00:00:14.460
+network traffic such as TCP,
+
+6
+00:00:14.460 --> 00:00:17.295
+IP, ICMP, and many more.
+
+7
+00:00:18.295 --> 00:00:19.620
+Tcpdump is a command line tool.
+
+8
+00:00:19.620 --> 00:00:21.150
+This means that it does not have
+
+9
+00:00:21.150 --> 00:00:22.964
+a graphical user interface.
+
+10
+00:00:22.964 --> 00:00:24.345
+Earlier in the program,
+
+11
+00:00:24.345 --> 00:00:25.830
+you learned that
+the command line is
+
+12
+00:00:25.830 --> 00:00:27.675
+a very powerful
+and efficient tool,
+
+13
+00:00:27.675 --> 00:00:29.655
+and we'll practice
+using it together.
+
+14
+00:00:29.655 --> 00:00:31.290
+With tcpdump, you can apply
+
+15
+00:00:31.290 --> 00:00:33.480
+options and flags
+to your commands to
+
+16
+00:00:33.480 --> 00:00:35.400
+easily filter network
+traffic so that
+
+17
+00:00:35.400 --> 00:00:37.450
+you can find exactly
+what you're looking for.
+
+18
+00:00:37.450 --> 00:00:40.185
+You can filter for a
+specific IP address,
+
+19
+00:00:40.185 --> 00:00:42.015
+protocol, or port number.
+
+20
+00:00:43.015 --> 00:00:44.610
+Let's examine a simple
+tcpdump command
+
+21
+00:00:44.610 --> 00:00:46.305
+used to capture packets.
+
+22
+00:00:46.305 --> 00:00:48.485
+Keep in mind that your
+computer's traffic
+
+23
+00:00:48.485 --> 00:00:51.035
+may appear different when
+you use this command.
+
+24
+00:00:52.035 --> 00:00:53.915
+At first glance, this looks
+like a lot of information.
+
+25
+00:00:53.915 --> 00:00:56.015
+Let's examine it line by line.
+
+26
+00:00:56.015 --> 00:01:01.110
+The command we ran
+is: sudo tcpdump -i any
+
+27
+00:01:01.110 --> 00:01:04.625
+-v -c 1.
+
+28
+00:01:04.930 --> 00:01:07.910
+We're using sudo because the
+Linux account we're logged
+
+29
+00:01:07.910 --> 00:01:11.125
+in on doesn't have the
+permission to run tcpdump.
+
+30
+00:01:11.125 --> 00:01:14.745
+Then, we specify tcpdump
+to start tcpdump
+
+31
+00:01:14.745 --> 00:01:16.610
+and -i to specify which
+
+32
+00:01:16.610 --> 00:01:18.800
+interface we want to
+sniff traffic on.
+
+33
+00:01:18.800 --> 00:01:21.050
+The -v stands for verbose,
+
+34
+00:01:21.050 --> 00:01:23.885
+which displays detailed
+packet information.
+
+35
+00:01:23.885 --> 00:01:25.985
+The -c stands for count,
+
+36
+00:01:25.985 --> 00:01:29.845
+which specifies how many
+packets tcpdump will capture.
+
+37
+00:01:29.845 --> 00:01:31.750
+Here we've specified one.
+
+38
+00:01:31.750 --> 00:01:33.610
+Now let's examine the output.
+
+39
+00:01:34.610 --> 00:01:36.320
+Tcpdump has told us
+that it's listening on
+
+40
+00:01:36.320 --> 00:01:38.900
+any available network
+interfaces, and it's also
+
+41
+00:01:38.900 --> 00:01:42.275
+given us additional information,
+like the capture size.
+
+42
+00:01:43.275 --> 00:01:44.779
+The first field is the
+packet's timestamp,
+
+43
+00:01:44.779 --> 00:01:48.215
+which details the specific
+time of the packet travel.
+
+44
+00:01:48.215 --> 00:01:50.315
+It begins with hours, minutes,
+
+45
+00:01:50.315 --> 00:01:52.730
+seconds, and fractions
+of a second.
+
+46
+00:01:52.730 --> 00:01:55.070
+Timestamps are especially
+helpful during
+
+47
+00:01:55.070 --> 00:01:56.960
+an incident investigation
+when you want to
+
+48
+00:01:56.960 --> 00:02:00.040
+determine timelines
+and correlate traffic.
+
+49
+00:02:01.040 --> 00:02:03.320
+Next, IP is listed as
+the Version field.
+
+50
+00:02:03.320 --> 00:02:04.700
+It's listed as IP,
+
+51
+00:02:04.700 --> 00:02:07.010
+which means it's IPv4.
+
+52
+00:02:07.010 --> 00:02:08.810
+The verbose option has given us
+
+53
+00:02:08.810 --> 00:02:11.165
+more details about
+the IP packet fields,
+
+54
+00:02:11.165 --> 00:02:12.830
+such as protocol type and
+
+55
+00:02:12.830 --> 00:02:15.270
+the length of the packet.
+Let's check it out.
+
+56
+00:02:16.270 --> 00:02:18.840
+The first field, ToS stands
+for Type of Service.
+
+57
+00:02:18.840 --> 00:02:20.450
+Recall that this tells us if
+
+58
+00:02:20.450 --> 00:02:23.075
+certain packets should be
+treated with different care.
+
+59
+00:02:23.075 --> 00:02:26.440
+This is represented by
+a value in hexadecimal.
+
+60
+00:02:27.440 --> 00:02:28.790
+The TTL field is Time to Live,
+
+61
+00:02:28.790 --> 00:02:30.560
+which tells us how
+long a packet can
+
+62
+00:02:30.560 --> 00:02:33.685
+travel across a network
+before it gets dropped.
+
+63
+00:02:33.685 --> 00:02:35.450
+The next three fields are
+
+64
+00:02:35.450 --> 00:02:37.415
+Identification,
+Offset, and Flags,
+
+65
+00:02:37.415 --> 00:02:38.870
+which provide three fields with
+
+66
+00:02:38.870 --> 00:02:41.420
+information relating
+to fragmentation.
+
+67
+00:02:41.420 --> 00:02:43.640
+These fields provide
+instructions on how
+
+68
+00:02:43.640 --> 00:02:46.010
+to reassemble packets
+in the correct order.
+
+69
+00:02:46.010 --> 00:02:47.835
+For example the DF,
+
+70
+00:02:47.835 --> 00:02:50.595
+beside flags stands
+for Don't Fragment.
+
+71
+00:02:51.595 --> 00:02:53.355
+Next, the proto is
+the Protocol field.
+
+72
+00:02:53.355 --> 00:02:56.240
+It specifies the
+protocol in use and also
+
+73
+00:02:56.240 --> 00:02:57.650
+provides us with the value that
+
+74
+00:02:57.650 --> 00:02:59.510
+corresponds to the protocol.
+
+75
+00:02:59.510 --> 00:03:01.760
+Here the protocol is tcp,
+
+76
+00:03:01.760 --> 00:03:04.230
+which is represented
+by the number 6.
+
+77
+00:03:04.230 --> 00:03:07.205
+The last field, length, is the
+Total Length of the packet,
+
+78
+00:03:07.205 --> 00:03:08.800
+including the IP header.
+
+79
+00:03:09.800 --> 00:03:09.950
+Next, we can observe
+
+80
+00:03:09.950 --> 00:03:12.630
+the IP addresses that are
+communicating with each other.
+
+81
+00:03:12.630 --> 00:03:13.820
+The direction of the arrow
+
+82
+00:03:13.820 --> 00:03:16.385
+indicates the direction
+of the traffic flow.
+
+83
+00:03:16.385 --> 00:03:18.260
+The last piece of the IP address
+
+84
+00:03:18.260 --> 00:03:20.570
+indicates the port
+number or name.
+
+85
+00:03:21.570 --> 00:03:24.530
+Next, the cksum or checksum
+field corresponds to
+
+86
+00:03:24.530 --> 00:03:26.990
+the Header Checksum, which
+stores a value that's
+
+87
+00:03:26.990 --> 00:03:28.160
+used to determine if
+
+88
+00:03:28.160 --> 00:03:30.230
+any errors have
+occurred in the header.
+
+89
+00:03:30.230 --> 00:03:33.200
+Here, it's telling us it's
+correct with no errors.
+
+90
+00:03:34.200 --> 00:03:35.870
+The remaining fields
+are related to TCP.
+
+91
+00:03:35.870 --> 00:03:39.220
+For example, Flags
+indicate TCP flags.
+
+92
+00:03:39.220 --> 00:03:41.090
+The P is the push flag, and
+
+93
+00:03:41.090 --> 00:03:43.355
+the period indicates
+it's an ACK flag.
+
+94
+00:03:43.355 --> 00:03:46.130
+This means that the packet
+is pushing out data.
+
+95
+00:03:47.130 --> 00:03:48.650
+This is just one of many
+commands you can use
+
+96
+00:03:48.650 --> 00:03:51.175
+in tcpdump to capture
+network traffic.
+
+97
+00:03:51.175 --> 00:03:52.850
+Isn't it fascinating to observe
+
+98
+00:03:52.850 --> 00:03:54.290
+all the information contained
+
+99
+00:03:54.290 --> 00:03:56.210
+within these invisible packets?
+
+100
+00:03:56.210 --> 00:03:59.010
+Go ahead and try it
+out for yourself!

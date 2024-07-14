@@ -1,0 +1,245 @@
+WEBVTT
+
+1
+00:00:00.930 --> 00:00:02.217
+Hi again!
+
+2
+00:00:02.217 --> 00:00:06.584
+In this section, we'll discuss how
+incident response teams manage incidents.
+
+3
+00:00:07.584 --> 00:00:10.496
+You may have been part of a team before.
+Whether it was a sports team, or
+
+4
+00:00:10.496 --> 00:00:12.593
+a team in the workplace or at school,
+
+5
+00:00:12.593 --> 00:00:16.720
+teams are most successful when everyone
+uses their diverse strengths to work
+
+6
+00:00:16.720 --> 00:00:17.997
+towards a common goal.
+
+7
+00:00:18.997 --> 00:00:20.630
+Incident response teams
+aren't any different.
+
+8
+00:00:20.630 --> 00:00:24.930
+A successful response to security
+incidents doesn't happen in isolation.
+
+9
+00:00:24.930 --> 00:00:27.249
+It requires a team of both security and
+
+10
+00:00:27.249 --> 00:00:31.540
+non-security professionals working
+together with defined roles.
+
+11
+00:00:32.540 --> 00:00:36.162
+Computer security incident response teams,
+or CSIRTs, are a specialized group of
+
+12
+00:00:36.162 --> 00:00:41.180
+security professionals that are trained
+in incident management and response.
+
+13
+00:00:41.180 --> 00:00:45.176
+The goal of CSIRTs are to effectively and
+efficiently manage incidents,
+
+14
+00:00:45.176 --> 00:00:48.656
+provide services and resources for
+response and recovery, and
+
+15
+00:00:48.656 --> 00:00:51.330
+prevent future incidents from occurring.
+
+16
+00:00:52.330 --> 00:00:55.794
+Security is a shared responsibility, which
+is why CSIRTs must work cross functionally
+
+17
+00:00:55.794 --> 00:00:58.840
+with other departments to
+share relevant information.
+
+18
+00:00:58.840 --> 00:01:02.878
+For example, if an incident resulted
+in the breach of sensitive data,
+
+19
+00:01:02.878 --> 00:01:07.570
+like financial documents or PII,
+then the legal team must be consulted.
+
+20
+00:01:07.570 --> 00:01:12.250
+Some regulatory compliance measures may
+require organizations to publicly disclose
+
+21
+00:01:12.250 --> 00:01:15.350
+a security incident within
+a certain timeframe.
+
+22
+00:01:15.350 --> 00:01:19.862
+This means that CSIRTs must collaborate
+with the organization's public relations
+
+23
+00:01:19.862 --> 00:01:23.310
+team to coordinate efforts for
+public disclosure.
+
+24
+00:01:24.310 --> 00:01:26.042
+So how exactly does a CSIRT function?
+
+25
+00:01:26.042 --> 00:01:28.400
+First, there's the security analyst.
+
+26
+00:01:28.400 --> 00:01:32.633
+The analyst's job is to investigate security
+alerts to determine if an incident
+
+27
+00:01:32.633 --> 00:01:33.489
+has occurred.
+
+28
+00:01:33.489 --> 00:01:35.350
+If an incident has been detected,
+
+29
+00:01:35.350 --> 00:01:39.260
+the analyst will determine
+the criticality rating of the incident.
+
+30
+00:01:39.260 --> 00:01:42.884
+Some incidents can be easily
+remediated by the security analyst and
+
+31
+00:01:42.884 --> 00:01:44.455
+don't require escalation.
+
+32
+00:01:44.455 --> 00:01:46.736
+But if the incident is highly critical,
+
+33
+00:01:46.736 --> 00:01:51.231
+it gets escalated to the technical lead,
+who provides technical leadership by
+
+34
+00:01:51.231 --> 00:01:54.403
+guiding security incidents
+through their lifecycle.
+
+35
+00:01:55.403 --> 00:01:58.826
+During this time, the incident coordinator
+tracks and manages the activities of
+
+36
+00:01:58.826 --> 00:02:02.240
+the CSIRT and other teams
+involved in the response effort.
+
+37
+00:02:02.240 --> 00:02:06.277
+Their job is to ensure that incident
+response processes are followed and
+
+38
+00:02:06.277 --> 00:02:09.780
+that teams are regularly
+updated on the incident status.
+
+39
+00:02:09.780 --> 00:02:11.560
+Not all CSIRTs are the same.
+
+40
+00:02:11.560 --> 00:02:16.779
+Depending on the organization, a CSIRT
+can also be referred to as an Incident
+
+41
+00:02:16.779 --> 00:02:21.820
+Handling Team, or IHT, or
+Security Incident Response Team, SIRT.
+
+42
+00:02:21.820 --> 00:02:26.208
+Depending on an organization's structure,
+some teams can also have a broader or
+
+43
+00:02:26.208 --> 00:02:27.420
+specialized focus.
+
+44
+00:02:27.420 --> 00:02:32.339
+For example, some teams may be solely
+dedicated to crisis management and
+
+45
+00:02:32.339 --> 00:02:35.047
+others may be incorporated with a SOC.
+
+46
+00:02:35.047 --> 00:02:37.993
+Roles can have different names too.
+For example,
+
+47
+00:02:37.993 --> 00:02:40.814
+a technical lead can also
+be known as an Ops lead.
+
+48
+00:02:41.814 --> 00:02:44.718
+Regardless of the team's title or
+focus, they all share the same goal:
+
+49
+00:02:44.718 --> 00:02:47.560
+incident management and response.
+
+50
+00:02:48.560 --> 00:02:51.766
+Now that you know a bit about incident
+response teams, we'll continue to learn
+
+51
+00:02:51.766 --> 00:02:56.060
+about how incident response teams plan,
+organize, and respond to incidents.
+
+52
+00:02:56.060 --> 00:02:57.660
+I'll meet you in the next video.

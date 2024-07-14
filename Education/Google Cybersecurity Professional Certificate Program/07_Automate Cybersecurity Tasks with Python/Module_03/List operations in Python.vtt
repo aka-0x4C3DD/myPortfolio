@@ -1,0 +1,459 @@
+WEBVTT
+
+1
+00:00:01.299 --> 00:00:05.558
+Another data type we discussed
+previously is the list.
+
+2
+00:00:05.558 --> 00:00:08.901
+Lists are useful because they allow you to
+
+3
+00:00:08.901 --> 00:00:13.112
+store multiple pieces of
+data in a single variable.
+
+4
+00:00:13.112 --> 00:00:17.233
+In the security profession,
+you will work with a variety of lists.
+
+5
+00:00:17.233 --> 00:00:23.041
+For example, you may have a list of IP
+addresses that have accessed a network, and
+
+6
+00:00:23.041 --> 00:00:27.292
+another list might hold
+information on applications that
+
+7
+00:00:27.292 --> 00:00:30.257
+are blocked from running on the system.
+
+8
+00:00:31.257 --> 00:00:35.357
+Let's recap how to create
+a list in Python. In this case,
+
+9
+00:00:35.357 --> 00:00:39.637
+the items in our list
+are the letters A through E.
+
+10
+00:00:39.637 --> 00:00:45.667
+We separate them by commas and
+surround them with square brackets.
+
+11
+00:00:45.667 --> 00:00:52.165
+We can also assign our list to a variable
+to make it easier to use later.
+
+12
+00:00:52.165 --> 00:00:56.041
+Here, we've named our variable my_list.
+
+13
+00:00:57.041 --> 00:00:59.309
+When we access specific
+elements from lists,
+
+14
+00:00:59.309 --> 00:01:04.692
+we use syntax similar to when we access
+the specific elements from strings.
+
+15
+00:01:04.692 --> 00:01:10.766
+We place its index value in brackets
+after the variable that stores the list.
+
+16
+00:01:10.766 --> 00:01:14.603
+So this would access
+the second item in the list.
+
+17
+00:01:14.603 --> 00:01:16.661
+This is because in Python,
+
+18
+00:01:16.661 --> 00:01:21.584
+we start counting the elements in
+the list at zero and not at one.
+
+19
+00:01:21.584 --> 00:01:26.270
+So the index for
+the first element is zero and
+
+20
+00:01:26.270 --> 00:01:30.584
+the index for the second element is one.
+
+21
+00:01:31.584 --> 00:01:33.840
+Let's try extracting some
+elements from a list.
+
+22
+00:01:33.840 --> 00:01:39.046
+We'll extract the second element by putting
+1 in brackets after the variable.
+
+23
+00:01:39.046 --> 00:01:44.533
+We place this in a print() function
+to output the results, and
+
+24
+00:01:44.533 --> 00:01:49.005
+after we run it,
+Python outputs the letter "b".
+
+25
+00:01:50.005 --> 00:01:55.221
+Similar to strings, we can also
+concatenate lists with the plus sign.
+
+26
+00:01:55.221 --> 00:02:00.374
+List concatenation is combining
+two lists into one by placing
+
+27
+00:02:00.374 --> 00:02:06.929
+the elements of the second list directly
+after the elements of the first list.
+
+28
+00:02:06.929 --> 00:02:12.772
+Let's work with this in Python.
+Let's concatenate two lists.
+
+29
+00:02:13.772 --> 00:02:18.632
+First, we define the same list
+as in the previous example and
+
+30
+00:02:18.632 --> 00:02:22.364
+store it in the variable my_list.
+
+31
+00:02:25.319 --> 00:02:31.828
+Now, let's define an additional
+list with the numbers 1 through 4.
+
+32
+00:02:31.828 --> 00:02:37.507
+Finally, let's concatenate the two
+lists with a plus sign and
+
+33
+00:02:37.507 --> 00:02:44.484
+print out the result. And when we run it,
+we have a final concatenated list.
+
+34
+00:02:45.484 --> 00:02:47.293
+Having discussed the similarities,
+
+35
+00:02:47.293 --> 00:02:52.041
+let's now explore the differences
+between lists and strings.
+
+36
+00:02:52.041 --> 00:02:56.463
+We mentioned earlier that
+strings are immutable, meaning
+
+37
+00:02:56.463 --> 00:03:00.044
+after they are defined,
+they cannot be changed.
+
+38
+00:03:00.044 --> 00:03:04.564
+Lists, on the other hand,
+do not have this property, and
+
+39
+00:03:04.564 --> 00:03:09.085
+we can freely change, add, and
+remove list values.
+
+40
+00:03:09.085 --> 00:03:14.019
+So, for example, if we have a list
+of malicious IP addresses,
+
+41
+00:03:14.019 --> 00:03:19.153
+then every time a new malicious
+IP address is identified,
+
+42
+00:03:19.153 --> 00:03:21.995
+we can easily add it to the list.
+
+43
+00:03:22.995 --> 00:03:27.784
+Let's first try changing a specific
+element in a list in Python. We start with
+
+44
+00:03:27.784 --> 00:03:33.063
+the list used in the previous example.
+To change an element in a list,
+
+45
+00:03:33.063 --> 00:03:36.682
+We combine what we learned
+about bracket notation
+
+46
+00:03:36.682 --> 00:03:40.308
+with what we learned about
+variable assignment.
+
+47
+00:03:40.308 --> 00:03:44.336
+Let's change the second
+element in my_list,
+
+48
+00:03:44.336 --> 00:03:48.259
+which is the string "b",
+to the number 7.
+
+49
+00:03:48.259 --> 00:03:52.403
+We place the object we want to
+change on the left-hand side of
+
+50
+00:03:52.403 --> 00:03:54.358
+the variable assignment.
+
+51
+00:03:54.358 --> 00:03:59.693
+In this case,
+we'll change the second element in my_list.
+
+52
+00:03:59.693 --> 00:04:03.473
+Then we place an equals sign to indicate
+
+53
+00:04:03.473 --> 00:04:07.708
+we are reassigning this
+element of the list.
+
+54
+00:04:07.708 --> 00:04:13.930
+Finally, we place the object to take
+its place on the right-hand side.
+
+55
+00:04:13.930 --> 00:04:19.744
+Here, we'll reassign the second
+list element to a value of 7.
+
+56
+00:04:19.744 --> 00:04:25.970
+Now let's print out the list and
+run the code to examine the change.
+
+57
+00:04:25.970 --> 00:04:31.506
+Perfect! The letter "b" is now
+changed to the number 7.
+
+58
+00:04:32.506 --> 00:04:37.957
+Now, let's take a look at methods for
+inserting and removing elements in lists.
+
+59
+00:04:37.957 --> 00:04:43.234
+The first method we'll work with in
+this video is the insert method.
+
+60
+00:04:43.234 --> 00:04:48.809
+The insert method adds an element
+in a specific position
+
+61
+00:04:48.809 --> 00:04:53.483
+inside a list.
+The method takes two arguments:
+
+62
+00:04:53.483 --> 00:04:58.491
+the first is the position we're
+adding the element to, and
+
+63
+00:04:58.491 --> 00:05:04.767
+the second is the element we want to add.
+Let's use the insert method.
+
+64
+00:05:05.767 --> 00:05:11.603
+We'll start with the list we
+defined in our my_list variable.
+
+65
+00:05:11.603 --> 00:05:18.040
+Then we type my_list.insert and
+pass in two arguments.
+
+66
+00:05:18.040 --> 00:05:23.517
+The first argument is the position
+where we want to insert
+
+67
+00:05:23.517 --> 00:05:29.551
+the new information. In this case,
+we want to insert into index 1.
+
+68
+00:05:29.551 --> 00:05:34.507
+The second argument
+is the information we want to add
+
+69
+00:05:34.507 --> 00:05:39.152
+to the list; in this case,
+the integer 7.
+
+70
+00:05:40.152 --> 00:05:45.455
+Now let's print my_list.
+Our list still begins with "a",
+
+71
+00:05:45.455 --> 00:05:49.196
+the element with an index of 0,
+
+72
+00:05:49.196 --> 00:05:54.003
+and now, we have the integer
+7 in the next position,
+
+73
+00:05:54.003 --> 00:05:58.023
+the position represented
+with an index of 1.
+
+74
+00:05:58.023 --> 00:06:03.095
+Notice that the letter "b", which
+was originally at index 1,
+
+75
+00:06:03.095 --> 00:06:08.079
+did not get replaced
+like when we used bracket notation.
+
+76
+00:06:08.079 --> 00:06:10.710
+With the insert method,
+
+77
+00:06:10.710 --> 00:06:15.846
+every element beyond index
+1 is simply shifted
+
+78
+00:06:15.846 --> 00:06:20.863
+down by one position.
+The index of "b" is now 2.
+
+79
+00:06:21.863 --> 00:06:25.765
+Sometimes we might want to remove
+an element that is no longer
+
+80
+00:06:25.765 --> 00:06:30.584
+needed from a list. To do this,
+we can use the remove method.
+
+81
+00:06:30.584 --> 00:06:32.530
+The removed method
+
+82
+00:06:32.530 --> 00:06:38.379
+removes the first occurrence of
+a specific element in the list.
+
+83
+00:06:38.379 --> 00:06:44.181
+Unlike insert, the argument of
+removed is not an index value.
+
+84
+00:06:44.181 --> 00:06:49.556
+Instead, you directly type
+the element you want to remove.
+
+85
+00:06:49.556 --> 00:06:55.254
+The remove method removes the first
+instance of it in the list.
+
+86
+00:06:56.254 --> 00:07:01.032
+Let's use the remove method to
+delete the letter "d" from our list.
+
+87
+00:07:01.032 --> 00:07:07.969
+We'll type the name of our variable
+my_list, then add the remove method.
+
+88
+00:07:07.969 --> 00:07:12.299
+We want to remove "d"from this list. So,
+
+89
+00:07:12.299 --> 00:07:16.632
+we'll place it in quotation marks
+
+90
+00:07:16.632 --> 00:07:21.961
+as our argument. Then we'll print my_list.
+
+91
+00:07:21.961 --> 00:07:28.509
+And let's run this. Perfect!
+"d" has now been removed from the list.
+
+92
+00:07:29.509 --> 00:07:33.501
+Just like with strings,
+being able to search through lists
+
+93
+00:07:33.501 --> 00:07:36.963
+is a necessary skill for
+security analysts.
+
+94
+00:07:36.963 --> 00:07:39.821
+I'm looking forward to
+expanding our understanding
+
+95
+00:07:39.821 --> 00:07:41.471
+as we move forward in this course.

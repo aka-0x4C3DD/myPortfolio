@@ -1,0 +1,124 @@
+WEBVTT
+
+1
+00:00:00.200 --> 00:00:02.685
+As a security analyst,
+
+2
+00:00:02.685 --> 00:00:05.100
+you'll work with a lot of data.
+
+3
+00:00:05.100 --> 00:00:07.560
+Being able to develop
+solutions for
+
+4
+00:00:07.560 --> 00:00:10.350
+managing this data
+is very important.
+
+5
+00:00:10.350 --> 00:00:11.820
+What we're about to learn in
+
+6
+00:00:11.820 --> 00:00:14.040
+Python will help you with that.
+
+7
+00:00:14.040 --> 00:00:15.840
+Previously, we set
+
+8
+00:00:15.840 --> 00:00:19.035
+foundations for what we're
+going to do in this section.
+
+9
+00:00:19.035 --> 00:00:22.635
+We learned all about data
+types and variables.
+
+10
+00:00:22.635 --> 00:00:26.400
+We also covered conditional
+and iterative statements.
+
+11
+00:00:26.400 --> 00:00:28.140
+We learned about building
+
+12
+00:00:28.140 --> 00:00:31.785
+functions and even created
+our own functions.
+
+13
+00:00:31.785 --> 00:00:35.820
+Here, we'll build on that
+in a few different ways.
+
+14
+00:00:36.820 --> 00:00:38.130
+First, you'll learn more about
+
+15
+00:00:38.130 --> 00:00:40.800
+working with strings and lists.
+
+16
+00:00:40.800 --> 00:00:42.650
+We'll expand the ways that you
+
+17
+00:00:42.650 --> 00:00:44.630
+can work with these data types,
+
+18
+00:00:44.630 --> 00:00:47.150
+including extracting
+characters from
+
+19
+00:00:47.150 --> 00:00:49.760
+strings or items from lists.
+
+20
+00:00:49.760 --> 00:00:53.710
+Our next focus is on
+writing algorithms.
+
+21
+00:00:53.710 --> 00:00:57.050
+You'll consider a set of
+rules that can be applied in
+
+22
+00:00:57.050 --> 00:01:00.410
+Python to solve a
+security-related problem.
+
+23
+00:01:00.410 --> 00:01:03.920
+Finally, we'll further expand
+the ways we can search
+
+24
+00:01:03.920 --> 00:01:07.850
+for strings when we explore
+using regular expressions.
+
+25
+00:01:08.850 --> 00:01:10.270
+We're going to have a
+lot of fun, and you'll
+
+26
+00:01:10.270 --> 00:01:13.210
+start writing some really
+interesting code in Python.
+
+27
+00:01:13.210 --> 00:01:15.940
+I can't wait to get started.

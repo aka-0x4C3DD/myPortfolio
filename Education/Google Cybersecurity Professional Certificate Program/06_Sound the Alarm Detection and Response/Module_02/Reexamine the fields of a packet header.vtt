@@ -1,0 +1,512 @@
+WEBVTT
+
+1
+00:00:00.050 --> 00:00:03.375
+While there are many different
+tools available to use,
+
+2
+00:00:03.375 --> 00:00:05.910
+it's important as a security
+analyst that you learn
+
+3
+00:00:05.910 --> 00:00:08.655
+how to read and analyze
+packets manually.
+
+4
+00:00:08.655 --> 00:00:10.200
+To do so, let's examine
+
+5
+00:00:10.200 --> 00:00:13.095
+an important packet
+component: IP headers.
+
+6
+00:00:14.095 --> 00:00:14.760
+Previously, you learned about
+
+7
+00:00:14.760 --> 00:00:17.355
+the four layers of
+the TCP/IP model.
+
+8
+00:00:17.355 --> 00:00:20.910
+Remember, the TCP/IP model is
+a framework that is used to
+
+9
+00:00:20.910 --> 00:00:22.290
+visualize how data is
+
+10
+00:00:22.290 --> 00:00:25.035
+organized and transmitted
+across a network.
+
+11
+00:00:26.035 --> 00:00:26.970
+The internet layer accepts and
+
+12
+00:00:26.970 --> 00:00:28.725
+delivers packets
+for the network.
+
+13
+00:00:28.725 --> 00:00:31.590
+It's also the layer where the
+Internet Protocol operates
+
+14
+00:00:31.590 --> 00:00:34.515
+as the foundation for all
+communications on the internet.
+
+15
+00:00:34.515 --> 00:00:36.060
+It's responsible for making
+
+16
+00:00:36.060 --> 00:00:38.485
+sure packets reach
+their destinations.
+
+17
+00:00:39.485 --> 00:00:40.460
+The Internet Protocol
+operates like
+
+18
+00:00:40.460 --> 00:00:42.500
+a mail courier
+delivering an envelope.
+
+19
+00:00:42.500 --> 00:00:44.690
+Instead of using the
+delivery information
+
+20
+00:00:44.690 --> 00:00:45.815
+found on the envelope,
+
+21
+00:00:45.815 --> 00:00:48.110
+the Internet Protocol
+uses the information
+
+22
+00:00:48.110 --> 00:00:50.890
+found in a packet header,
+like IP addresses.
+
+23
+00:00:50.890 --> 00:00:53.150
+It then determines the
+best available route
+
+24
+00:00:53.150 --> 00:00:54.380
+for packets to take,
+
+25
+00:00:54.380 --> 00:00:57.760
+so that data can be sent
+and received between hosts.
+
+26
+00:00:58.760 --> 00:00:59.105
+As you may already know,
+
+27
+00:00:59.105 --> 00:01:00.980
+IP packets contain headers.
+
+28
+00:01:00.980 --> 00:01:03.320
+Headers contain the data
+fields essential to
+
+29
+00:01:03.320 --> 00:01:06.175
+the transfer of data to
+its intended destination.
+
+30
+00:01:06.175 --> 00:01:08.745
+Different protocols
+use different headers.
+
+31
+00:01:09.745 --> 00:01:10.340
+There are two
+different versions of
+
+32
+00:01:10.340 --> 00:01:13.025
+the Internet Protocol: IPv4,
+
+33
+00:01:13.025 --> 00:01:14.060
+which is considered to be
+
+34
+00:01:14.060 --> 00:01:16.355
+the foundation of
+internet communications,
+
+35
+00:01:16.355 --> 00:01:18.170
+and IPv6, which is
+
+36
+00:01:18.170 --> 00:01:20.740
+the most recent version
+of the Internet Protocol.
+
+37
+00:01:20.740 --> 00:01:23.990
+Remember, different protocols
+use different headers.
+
+38
+00:01:23.990 --> 00:01:27.365
+So IPv4 and IPv6 headers differ,
+
+39
+00:01:27.365 --> 00:01:30.865
+but they contain similar
+fields with different names.
+
+40
+00:01:30.865 --> 00:01:33.560
+IPv4 is still the
+most widely used,
+
+41
+00:01:33.560 --> 00:01:37.780
+so we'll focus on examining
+the fields of an IPv4 header.
+
+42
+00:01:38.780 --> 00:01:39.935
+Let's start with the
+Version field, which
+
+43
+00:01:39.935 --> 00:01:42.995
+specifies which version
+of IP is being used,
+
+44
+00:01:42.995 --> 00:01:46.360
+either IPv4 or IPv6.
+
+45
+00:01:46.360 --> 00:01:48.975
+Referring back to
+our mail analogy,
+
+46
+00:01:48.975 --> 00:01:51.740
+the Version field is like the
+different classes of mail,
+
+47
+00:01:51.740 --> 00:01:54.800
+like priority,
+express, or regular.
+
+48
+00:01:55.800 --> 00:01:59.030
+Next, IHL stands for
+Internet Header Length.
+
+49
+00:01:59.030 --> 00:02:00.950
+This field specifies
+the length of
+
+50
+00:02:00.950 --> 00:02:03.595
+the IP header plus any options.
+
+51
+00:02:04.595 --> 00:02:07.315
+The next field, ToS stands
+for Type of Service.
+
+52
+00:02:07.315 --> 00:02:08.630
+This field tells us if
+
+53
+00:02:08.630 --> 00:02:11.675
+certain packets should be
+treated with different care.
+
+54
+00:02:11.675 --> 00:02:14.090
+For example, think of ToS like
+
+55
+00:02:14.090 --> 00:02:17.014
+a fragile sticker on
+a mailed package.
+
+56
+00:02:18.014 --> 00:02:19.130
+Next is the Total Length field,
+
+57
+00:02:19.130 --> 00:02:21.710
+which identifies the length
+of the entire packet,
+
+58
+00:02:21.710 --> 00:02:24.355
+including the headers
+and the data.
+
+59
+00:02:24.355 --> 00:02:26.810
+This can be compared
+to the dimensions
+
+60
+00:02:26.810 --> 00:02:28.550
+and weight of an envelope.
+
+61
+00:02:29.550 --> 00:02:30.185
+The next three fields,
+
+62
+00:02:30.185 --> 00:02:31.850
+Identification, Flags,
+
+63
+00:02:31.850 --> 00:02:33.110
+and Fragment Offset,
+
+64
+00:02:33.110 --> 00:02:36.650
+deal with information
+related to fragmentation.
+
+65
+00:02:36.650 --> 00:02:39.290
+Fragmentation is
+when an IP packet
+
+66
+00:02:39.290 --> 00:02:40.970
+gets broken up into chunks,
+
+67
+00:02:40.970 --> 00:02:43.340
+which then get transmitted
+over the wire and
+
+68
+00:02:43.340 --> 00:02:46.085
+reassembled when they arrive
+at their destination.
+
+69
+00:02:46.085 --> 00:02:49.400
+These three fields specify
+if fragmentation has been
+
+70
+00:02:49.400 --> 00:02:51.424
+used and how to reassemble
+
+71
+00:02:51.424 --> 00:02:53.765
+the broken packets in
+the correct order.
+
+72
+00:02:53.765 --> 00:02:55.940
+This is similar to
+how mail can travel
+
+73
+00:02:55.940 --> 00:02:58.250
+through multiple
+routes like mailboxes,
+
+74
+00:02:58.250 --> 00:03:00.500
+processing facilities,
+airplanes, and
+
+75
+00:03:00.500 --> 00:03:03.310
+mail trucks before it
+reaches its destination.
+
+76
+00:03:04.310 --> 00:03:05.800
+The TTL field stands
+for Time to Live.
+
+77
+00:03:05.800 --> 00:03:07.325
+Like its name suggests,
+
+78
+00:03:07.325 --> 00:03:08.900
+this field determines how long
+
+79
+00:03:08.900 --> 00:03:11.220
+a packet can live
+before it gets dropped.
+
+80
+00:03:11.220 --> 00:03:12.820
+Without this field,
+packets could
+
+81
+00:03:12.820 --> 00:03:14.735
+loop through routers endlessly.
+
+82
+00:03:14.735 --> 00:03:17.650
+TTL is similar to how
+tracking information
+
+83
+00:03:17.650 --> 00:03:18.880
+provides details about
+
+84
+00:03:18.880 --> 00:03:21.160
+an envelope's expected
+delivery date.
+
+85
+00:03:22.160 --> 00:03:23.950
+The Protocol field specifies
+the protocol used by
+
+86
+00:03:23.950 --> 00:03:26.950
+providing a value which
+corresponds to a protocol.
+
+87
+00:03:26.950 --> 00:03:30.520
+For example, TCP is
+represented by 6.
+
+88
+00:03:30.520 --> 00:03:32.635
+This is similar to
+including the number
+
+89
+00:03:32.635 --> 00:03:34.865
+of a house in a postal address.
+
+90
+00:03:35.865 --> 00:03:37.825
+The Header Checksum stores
+a value called a checksum,
+
+91
+00:03:37.825 --> 00:03:39.550
+which is used to determine if
+
+92
+00:03:39.550 --> 00:03:41.620
+any errors have
+occurred in the header.
+
+93
+00:03:42.620 --> 00:03:45.130
+The Source Address specifies
+the source IP address and
+
+94
+00:03:45.130 --> 00:03:47.125
+the Destination
+Address specifies
+
+95
+00:03:47.125 --> 00:03:49.015
+the destination IP address.
+
+96
+00:03:49.015 --> 00:03:50.680
+This is just like the sender and
+
+97
+00:03:50.680 --> 00:03:54.185
+receiver's contact information
+found on an envelope.
+
+98
+00:03:55.185 --> 00:03:57.620
+The Options field is not
+required and is commonly
+
+99
+00:03:57.620 --> 00:03:59.059
+used for network troubleshooting
+
+100
+00:03:59.059 --> 00:04:00.635
+rather than common traffic.
+
+101
+00:04:00.635 --> 00:04:03.455
+If it's used, the header
+length increases.
+
+102
+00:04:03.455 --> 00:04:06.490
+It's like purchasing postal
+insurance for an envelope.
+
+103
+00:04:07.490 --> 00:04:08.420
+Finally, at the end
+of the packet header
+
+104
+00:04:08.420 --> 00:04:10.400
+is where the packet's
+data resides,
+
+105
+00:04:10.400 --> 00:04:12.425
+like the text in
+an email message.
+
+106
+00:04:13.425 --> 00:04:14.420
+Who knew that the
+packets of data we send
+
+107
+00:04:14.420 --> 00:04:16.945
+across networks contain
+so much information?
+
+108
+00:04:16.945 --> 00:04:18.890
+Coming up soon, you'll
+have the opportunity to
+
+109
+00:04:18.890 --> 00:04:22.020
+examine these packet
+fields in detail.

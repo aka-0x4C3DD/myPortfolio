@@ -1,0 +1,361 @@
+WEBVTT
+
+1
+00:00:00.890 --> 00:00:05.125
+Cybercriminals prefer attacks that do
+the most amount of damage with the least
+
+2
+00:00:05.125 --> 00:00:06.200
+amount of effort.
+
+3
+00:00:06.200 --> 00:00:11.000
+One of the most popular forms of social
+engineering that meets this description is phishing.
+
+4
+00:00:12.000 --> 00:00:15.295
+Phishing is the use of digital
+communications to trick people into
+
+5
+00:00:15.295 --> 00:00:18.760
+revealing sensitive data or
+deploying malicious software.
+
+6
+00:00:18.760 --> 00:00:22.381
+Phishing leverages many
+communication technologies, but
+
+7
+00:00:22.381 --> 00:00:26.289
+the term is mainly used to describe
+attacks that arrive by email.
+
+8
+00:00:27.289 --> 00:00:29.235
+Phishing attacks don't
+just affect individuals.
+
+9
+00:00:29.235 --> 00:00:31.805
+They are also harmful to organizations.
+
+10
+00:00:31.805 --> 00:00:36.405
+A single employee that falls for one
+of these tricks can give malicious
+
+11
+00:00:36.405 --> 00:00:38.406
+attackers access to systems.
+
+12
+00:00:38.406 --> 00:00:43.539
+Once inside, attackers can exploit
+sensitive data like customer names and
+
+13
+00:00:43.539 --> 00:00:44.831
+product secrets.
+
+14
+00:00:45.831 --> 00:00:48.605
+Attackers who carry out these
+attacks commonly use phishing kits.
+
+15
+00:00:48.605 --> 00:00:52.616
+A phishing kit is a collection of
+software tools needed to launch
+
+16
+00:00:52.616 --> 00:00:54.300
+a phishing campaign.
+
+17
+00:00:54.300 --> 00:00:58.320
+People with little technical
+background can use one of these kits.
+
+18
+00:00:59.320 --> 00:01:02.159
+Each of the tools inside
+are designed to avoid detection.
+
+19
+00:01:02.159 --> 00:01:03.761
+As a security professional,
+
+20
+00:01:03.761 --> 00:01:07.282
+you should be aware of the three
+main tools inside a phishing kit, so
+
+21
+00:01:07.282 --> 00:01:11.970
+that you can quickly identify when
+they're being used and put a stop to it.
+
+22
+00:01:12.970 --> 00:01:14.390
+The first is malicious attachments.
+
+23
+00:01:14.390 --> 00:01:19.828
+These are files that are infected and can
+cause harm to the organization's systems.
+
+24
+00:01:20.828 --> 00:01:22.780
+Phishing kits also include
+fake-data collection forms.
+
+25
+00:01:22.780 --> 00:01:26.470
+These forms look like legitimate forms,
+like a survey.
+
+26
+00:01:26.470 --> 00:01:27.809
+Unlike a real survey,
+
+27
+00:01:27.809 --> 00:01:32.540
+they ask for sensitive information that
+isn't normally asked for in an email.
+
+28
+00:01:33.540 --> 00:01:36.230
+The third resource they include
+are fraudulent web links.
+
+29
+00:01:36.230 --> 00:01:40.630
+These open to malicious web pages that
+are designed to look like trusted brands.
+
+30
+00:01:40.630 --> 00:01:42.496
+Unlike actual websites,
+
+31
+00:01:42.496 --> 00:01:48.271
+these fraudulent sites are built to steal
+information, like login credentials.
+
+32
+00:01:49.271 --> 00:01:53.450
+Cybercriminals can use these tools to
+launch a phishing attack in many forms.
+
+33
+00:01:53.450 --> 00:01:55.875
+The most common is
+through malicious emails.
+
+34
+00:01:55.875 --> 00:02:00.096
+However, they can use them in
+other forms of communication too.
+
+35
+00:02:00.096 --> 00:02:03.413
+Most recently,
+cybercriminals are using smishing and
+
+36
+00:02:03.413 --> 00:02:07.161
+vishing to trick people into
+revealing private information.
+
+37
+00:02:09.169 --> 00:02:12.637
+Smishing is the use of text messages
+to obtain sensitive information or
+
+38
+00:02:12.637 --> 00:02:14.700
+to impersonate a known source.
+
+39
+00:02:14.700 --> 00:02:17.950
+You've probably received these
+types of messages before.
+
+40
+00:02:17.950 --> 00:02:21.038
+Not only are smishing
+messages annoying to receive,
+
+41
+00:02:21.038 --> 00:02:25.580
+they're also difficult to prevent.
+That's why some attackers send them.
+
+42
+00:02:25.580 --> 00:02:28.530
+Some smishing messages are easy to detect.
+
+43
+00:02:28.530 --> 00:02:32.114
+They might show signs of being malicious
+like promising a cash reward for
+
+44
+00:02:32.114 --> 00:02:34.950
+clicking an attached link
+that shouldn't be clicked.
+
+45
+00:02:34.950 --> 00:02:38.200
+Other times, smishing is hard to spot.
+
+46
+00:02:38.200 --> 00:02:42.130
+Attackers sometimes use local
+area codes to appear legitimate.
+
+47
+00:02:42.130 --> 00:02:45.558
+Some hackers can even send
+messages disguised as friends and
+
+48
+00:02:45.558 --> 00:02:50.071
+families of their target to fool them
+into disclosing sensitive information.
+
+49
+00:02:52.120 --> 00:02:55.584
+Vishing is the exploitation of
+electronic voice communication to obtain
+
+50
+00:02:55.584 --> 00:02:58.980
+sensitive information or
+impersonate a known source.
+
+51
+00:02:58.980 --> 00:03:02.760
+During vishing attacks, criminals
+pretend to be someone they're not.
+
+52
+00:03:02.760 --> 00:03:07.560
+For example, attackers might call
+pretending to be a company representative.
+
+53
+00:03:07.560 --> 00:03:10.420
+They might claim that there's
+a problem with your account.
+
+54
+00:03:10.420 --> 00:03:13.790
+And they can offer to fix it if you provide
+them with sensitive information.
+
+55
+00:03:14.790 --> 00:03:17.652
+Most organizations use a few basic
+security measures to prevent these and
+
+56
+00:03:17.652 --> 00:03:21.150
+any other types of phishing
+attacks from becoming a problem.
+
+57
+00:03:21.150 --> 00:03:24.504
+For example, anti-phishing
+policies spread awareness and
+
+58
+00:03:24.504 --> 00:03:28.250
+encourage users to follow data
+security procedures correctly.
+
+59
+00:03:28.250 --> 00:03:32.722
+Employee training resources also help
+inform employees about things to look for
+
+60
+00:03:32.722 --> 00:03:34.980
+when an email looks suspicious.
+
+61
+00:03:35.980 --> 00:03:39.150
+Another line of defense against
+phishing is securing email inboxes.
+
+62
+00:03:39.150 --> 00:03:44.190
+Email filters are commonly used to keep
+harmful messages from reaching users.
+
+63
+00:03:44.190 --> 00:03:49.500
+For example, specific email addresses
+can be blocked using a blocklist.
+
+64
+00:03:49.500 --> 00:03:54.195
+Organizations often use other filters, like
+allowlists, to specify IP addresses that
+
+65
+00:03:54.195 --> 00:03:57.610
+are approved to send
+mail within the company.
+
+66
+00:03:58.610 --> 00:04:01.615
+Organizations also use intrusion
+prevention systems to look for
+
+67
+00:04:01.615 --> 00:04:03.940
+unusual patterns in email traffic.
+
+68
+00:04:03.940 --> 00:04:08.675
+Security analysts use monitoring tools
+like this to spot suspicious emails,
+
+69
+00:04:08.675 --> 00:04:11.650
+quarantine them, and
+produce a log of events.
+
+70
+00:04:12.650 --> 00:04:16.239
+Phishing campaigns are popular and
+dangerous forms of social engineering that
+
+71
+00:04:16.239 --> 00:04:18.970
+organizations of all
+sizes need to deal with.
+
+72
+00:04:18.970 --> 00:04:23.679
+Just a single compromised password that an
+attacker can get their hands on can lead
+
+73
+00:04:23.679 --> 00:04:25.450
+to a costly data breach.
+
+74
+00:04:25.450 --> 00:04:28.605
+Now that you're familiar with
+the tools these attackers use,
+
+75
+00:04:28.605 --> 00:04:31.534
+you're better equipped to
+spot phishing and prevent it.

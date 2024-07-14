@@ -1,0 +1,261 @@
+WEBVTT
+
+1
+00:00:00.947 --> 00:00:04.941
+The demand for security
+professionals has never been higher.
+
+2
+00:00:04.941 --> 00:00:09.319
+Organizations across the world require
+professionals with your knowledge and
+
+3
+00:00:09.319 --> 00:00:12.268
+skills to protect their
+systems from attackers.
+
+4
+00:00:12.268 --> 00:00:15.076
+And with the number of
+threats on the rise,
+
+5
+00:00:15.076 --> 00:00:19.214
+security professionals often
+perform a diverse set of tasks.
+
+6
+00:00:19.214 --> 00:00:19.798
+It's for
+
+7
+00:00:19.798 --> 00:00:24.775
+this reason that we'll incorporate another
+tool as part of our security toolbox.
+
+8
+00:00:24.775 --> 00:00:28.714
+A tool that can simplify
+many common security tasks.
+
+9
+00:00:28.714 --> 00:00:33.003
+A tool that's used not only
+by security professionals but
+
+10
+00:00:33.003 --> 00:00:37.657
+also by engineers and
+data scientists. That tool is Python.
+
+11
+00:00:38.657 --> 00:00:42.597
+Hi there! Congratulations on getting to
+the next step in your security journey.
+
+12
+00:00:42.597 --> 00:00:46.744
+My name is Angel, and
+I am a Security Engineer at Google.
+
+13
+00:00:46.744 --> 00:00:50.329
+I'm excited to be joining
+you in this course.
+
+14
+00:00:50.329 --> 00:00:54.760
+If you've been following along
+sequentially, you've already applied
+
+15
+00:00:54.760 --> 00:00:59.335
+the specific tools that security
+professionals use during the detection,
+
+16
+00:00:59.335 --> 00:01:01.636
+analysis, and response processes.
+
+17
+00:01:01.636 --> 00:01:06.641
+And you also learned how to communicate
+with your computer through Linux and SQL.
+
+18
+00:01:06.641 --> 00:01:11.126
+Now, we'll focus on how programming
+in Python can be used for
+
+19
+00:01:11.126 --> 00:01:13.289
+some common security tasks.
+
+20
+00:01:14.289 --> 00:01:15.935
+As you consider your next career step,
+
+21
+00:01:15.935 --> 00:01:20.677
+you might find that Python skills
+will help you in your everyday work.
+
+22
+00:01:20.677 --> 00:01:25.376
+This course is designed for
+learning Python, starting with the basics.
+
+23
+00:01:25.376 --> 00:01:28.484
+Then you'll gradually
+build on those basics and
+
+24
+00:01:28.484 --> 00:01:33.892
+apply what you learn to gain hands-on
+practice with security-related examples.
+
+25
+00:01:33.892 --> 00:01:37.941
+Fortunately, Python is known for
+its readability. And
+
+26
+00:01:37.941 --> 00:01:42.257
+just like all languages,
+it will get easier with practice.
+
+27
+00:01:42.257 --> 00:01:47.167
+Pretty soon, you might be using
+Python in your security career.
+
+28
+00:01:47.167 --> 00:01:53.243
+Python can automate the manual effort
+of important tasks like file parsing.
+
+29
+00:01:54.243 --> 00:01:56.998
+Python has helped me a lot
+in my career here at Google.
+
+30
+00:01:56.998 --> 00:01:59.140
+I am part of a team responsible for
+
+31
+00:01:59.140 --> 00:02:03.736
+protecting Google's infrastructure,
+which includes everything that
+
+32
+00:02:03.736 --> 00:02:08.725
+employees use—from laptops and desktops
+to the network and cloud resources.
+
+33
+00:02:08.725 --> 00:02:12.024
+We do this by engineering
+security solutions and
+
+34
+00:02:12.024 --> 00:02:15.166
+automating the repeatable
+parts of our work.
+
+35
+00:02:15.166 --> 00:02:20.396
+What I like about Python is that it has
+cross-platform support, and a lot of tools
+
+36
+00:02:20.396 --> 00:02:25.878
+have already been developed by members of
+the security community that use Python.
+
+37
+00:02:25.878 --> 00:02:30.230
+This makes it easy for me to find
+the tools I need and get support with
+
+38
+00:02:30.230 --> 00:02:34.996
+blockers so I can complete both my
+professional and personal projects.
+
+39
+00:02:34.996 --> 00:02:38.605
+My hope is that this course
+will be helpful to you.
+
+40
+00:02:38.605 --> 00:02:40.362
+Let's explore what we'll cover.
+
+41
+00:02:41.362 --> 00:02:44.246
+First, you'll be introduced to basic
+programming concepts in Python.
+
+42
+00:02:44.246 --> 00:02:48.452
+You'll learn why Python has been adopted
+by security professionals around
+
+43
+00:02:48.452 --> 00:02:49.117
+the world.
+
+44
+00:02:49.117 --> 00:02:52.305
+You will also develop and
+run your first program.
+
+45
+00:02:52.305 --> 00:02:56.784
+After this, we'll focus on
+writing effective Python code.
+
+46
+00:02:56.784 --> 00:03:01.113
+We'll discuss concepts that help
+make our work more efficient.
+
+47
+00:03:01.113 --> 00:03:05.255
+Our next main topic is on
+working with strings and lists.
+
+48
+00:03:05.255 --> 00:03:09.938
+These will be relevant to a lot of the
+data that you will encounter in a security
+
+49
+00:03:09.938 --> 00:03:10.597
+context.
+
+50
+00:03:10.597 --> 00:03:11.534
+And finally,
+
+51
+00:03:11.534 --> 00:03:16.543
+you'll wrap up the course with an exploration
+of putting Python into practice.
+
+52
+00:03:16.543 --> 00:03:21.245
+You'll learn about opening and
+parsing files and about debugging code.
+
+53
+00:03:22.245 --> 00:03:25.042
+Python is certainly a useful skill for
+security analysts.
+
+54
+00:03:25.042 --> 00:03:25.991
+Let's get started.

@@ -1,0 +1,281 @@
+WEBVTT
+
+1
+00:00:00.780 --> 00:00:03.820
+Security professionals
+use a variety of tools.
+
+2
+00:00:03.820 --> 00:00:06.203
+One of those tools is
+computer programming.
+
+3
+00:00:06.203 --> 00:00:10.178
+Programming is used to create
+a specific set of instructions for
+
+4
+00:00:10.178 --> 00:00:12.027
+a computer to execute tasks.
+
+5
+00:00:13.027 --> 00:00:15.029
+Let's take an example
+of a vending machine.
+
+6
+00:00:15.029 --> 00:00:21.223
+Think of a vending machine as a computer
+that supplies food or drinks to customers.
+
+7
+00:00:21.223 --> 00:00:26.529
+To receive an item, the customer
+inserts the money into the machine and
+
+8
+00:00:26.529 --> 00:00:28.928
+then select the item they want.
+
+9
+00:00:28.928 --> 00:00:34.846
+Let's say the customer provides
+the machine with a value of $5.
+
+10
+00:00:34.846 --> 00:00:39.408
+The machine stores this value
+while you make your selection.
+
+11
+00:00:39.408 --> 00:00:43.013
+If you select a candy bar that costs $2,
+
+12
+00:00:43.013 --> 00:00:48.884
+the machine takes this input,
+otherwise known as an instruction,
+
+13
+00:00:48.884 --> 00:00:54.714
+and then understands to
+output your candy bar for $2
+
+14
+00:00:54.714 --> 00:00:58.887
+and provides the change back of $3.
+
+15
+00:00:59.887 --> 00:01:02.189
+There are many programming
+languages in existence.
+
+16
+00:01:02.189 --> 00:01:05.060
+Here, we'll focus on Python.
+
+17
+00:01:05.060 --> 00:01:09.402
+Python is considered to be
+a general-purpose language.
+
+18
+00:01:09.402 --> 00:01:14.827
+This means that it can create
+a variety of different programs, and
+
+19
+00:01:14.827 --> 00:01:19.851
+it isn't a specialized in any
+particular problem in fields
+
+20
+00:01:19.851 --> 00:01:24.588
+such as web development and
+artificial intelligence.
+
+21
+00:01:24.588 --> 00:01:30.950
+Python is typically used to build websites
+and perform data analysis.
+
+22
+00:01:31.950 --> 00:01:35.448
+In security, the main reason we use Python
+is to automate our tasks.
+
+23
+00:01:35.448 --> 00:01:39.557
+Automation is the use of
+technology to reduce human and
+
+24
+00:01:39.557 --> 00:01:43.771
+manual effort to perform common and
+repetitive tasks.
+
+25
+00:01:43.771 --> 00:01:48.764
+Python is generally best for
+automating short, simple tasks.
+
+26
+00:01:48.764 --> 00:01:53.545
+For example, a security analyst
+who's dealing with a security
+
+27
+00:01:53.545 --> 00:01:57.718
+incident might have a log
+with necessary information.
+
+28
+00:01:57.718 --> 00:02:01.968
+Reading through these manually
+would take too much time, but
+
+29
+00:02:01.968 --> 00:02:07.046
+Python can help sort through this so
+the analysts can find what they need.
+
+30
+00:02:07.046 --> 00:02:13.392
+As another example, an analyst might use
+Python to manage an access control list,
+
+31
+00:02:13.392 --> 00:02:18.576
+the list that controls who can
+access the system and its resources.
+
+32
+00:02:18.576 --> 00:02:22.416
+It would be potentially less
+consistent if the analysts had
+
+33
+00:02:22.416 --> 00:02:27.348
+to manually remove an employee's access
+every time they left the company.
+
+34
+00:02:27.348 --> 00:02:33.151
+However, a Python program can
+periodically monitor this instead. Or,
+
+35
+00:02:33.151 --> 00:02:39.840
+Python could also perform some automated
+tasks like analyzing network traffic.
+
+36
+00:02:39.840 --> 00:02:44.228
+Though these tasks can be done
+through outside applications,
+
+37
+00:02:44.228 --> 00:02:47.049
+they are also possible through Python.
+
+38
+00:02:48.049 --> 00:02:50.276
+In addition to automating
+individual tasks,
+
+39
+00:02:50.276 --> 00:02:54.253
+Python can combine separate
+tasks into one workstream.
+
+40
+00:02:54.253 --> 00:03:00.021
+For example, imagine a playbook indicates
+that an analyst needs to resolve
+
+41
+00:03:00.021 --> 00:03:06.524
+a certain situation by delivering a file
+and then notifying the proper individuals.
+
+42
+00:03:06.524 --> 00:03:09.575
+Python can connect these
+processes together.
+
+43
+00:03:10.575 --> 00:03:15.746
+So why exactly might a security professional
+choose Python for these tasks?
+
+44
+00:03:15.746 --> 00:03:19.583
+There are several advantages Python
+has as a programming language.
+
+45
+00:03:19.583 --> 00:03:24.293
+For one, Python is user-friendly
+because it resembles human language,
+
+46
+00:03:24.293 --> 00:03:27.286
+it requires less code, and
+it's easy to read.
+
+47
+00:03:27.286 --> 00:03:32.384
+Python programmers also have the benefit
+of following standard guidelines
+
+48
+00:03:32.384 --> 00:03:36.695
+to ensure consistency with the design and
+readability of code.
+
+49
+00:03:36.695 --> 00:03:38.299
+Another great reason for
+
+50
+00:03:38.299 --> 00:03:42.658
+learning Python is that there's
+a large amount of online support.
+
+51
+00:03:42.658 --> 00:03:47.649
+Python also has an extensive collection
+of built-in code that we can import and
+
+52
+00:03:47.649 --> 00:03:50.155
+use to perform many different tasks.
+
+53
+00:03:50.155 --> 00:03:54.285
+These are just some of the reasons why
+Python continues to be in high demand
+
+54
+00:03:54.285 --> 00:03:57.285
+across different industries
+throughout the world.
+
+55
+00:03:57.285 --> 00:04:00.231
+You'll most likely use it
+in your security career.
+
+56
+00:04:01.231 --> 00:04:02.281
+Wow! All of this sounds great.
+
+57
+00:04:02.281 --> 00:04:09.248
+Let's take a short break, and next, we'll
+finally get to run some Python code.
+
+58
+00:04:09.248 --> 00:04:10.821
+I'll meet you in the next video.

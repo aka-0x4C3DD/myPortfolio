@@ -1,0 +1,260 @@
+WEBVTT
+
+1
+00:00:01.200 --> 00:00:05.820
+We previously learned how we can
+pass arguments into a function.
+
+2
+00:00:05.820 --> 00:00:10.014
+We can do more than pass
+information into a function.
+
+3
+00:00:10.014 --> 00:00:13.191
+We can also send information out of one!
+
+4
+00:00:13.191 --> 00:00:17.080
+Return statements allow us to do this.
+
+5
+00:00:18.080 --> 00:00:22.807
+A return statement is a Python statement
+that executes inside a function and
+
+6
+00:00:22.807 --> 00:00:26.311
+sends information back
+to the function call.
+
+7
+00:00:27.620 --> 00:00:32.592
+This ability to send information back
+from a function is useful to a security
+
+8
+00:00:32.592 --> 00:00:35.080
+analyst in various ways.
+
+9
+00:00:35.080 --> 00:00:39.527
+As one example, an analyst might
+have a function that checks
+
+10
+00:00:39.527 --> 00:00:43.801
+whether someone is allowed to
+access a particular file and
+
+11
+00:00:43.801 --> 00:00:48.701
+will return a Boolean value of "True" or
+"False" to the larger program.
+
+12
+00:00:49.950 --> 00:00:52.400
+We'll explore another example.
+
+13
+00:00:52.400 --> 00:00:57.118
+Let's create a function related
+to analyzing login attempts.
+
+14
+00:00:57.118 --> 00:01:01.913
+Based on the information it takes in,
+this function will compute
+
+15
+00:01:01.913 --> 00:01:07.510
+the percentage of failed attempts and
+return this percentage.
+
+16
+00:01:07.510 --> 00:01:10.960
+The program could use this
+information in a variety of ways.
+
+17
+00:01:10.960 --> 00:01:15.821
+For example, it might be used to determine
+whether or not to lock an account.
+
+18
+00:01:17.070 --> 00:01:22.717
+So let's get started and learn how to
+return information from a function.
+
+19
+00:01:25.251 --> 00:01:31.345
+Just like before, we start by defining our
+function. We'll name it calculate fails()
+
+20
+00:01:31.345 --> 00:01:36.654
+and we'll set two parameters
+related to login attempts:
+
+21
+00:01:36.654 --> 00:01:42.090
+one for total_attempts and
+one for failed_attempts.
+
+22
+00:01:42.090 --> 00:01:47.376
+Next, we'll tell Python what we
+want this function to do.
+
+23
+00:01:47.376 --> 00:01:51.878
+We want this function to store
+the percentage of failed attempts in
+
+24
+00:01:51.878 --> 00:01:54.451
+a variable called fail_percentage.
+
+25
+00:01:55.520 --> 00:02:01.743
+We need to divide failed_attempts by
+total_attempts to get this percentage.
+
+26
+00:02:01.743 --> 00:02:06.724
+So far, this is similar to what
+we've learned previously. But now,
+
+27
+00:02:06.724 --> 00:02:10.631
+let's learn how to return
+the fail percentage.
+
+28
+00:02:10.631 --> 00:02:14.397
+To do this,
+we need to use the keyword return.
+
+29
+00:02:14.397 --> 00:02:19.500
+Return is used to return
+information from a function.
+
+30
+00:02:19.500 --> 00:02:23.711
+In our case, we'll return
+the percentage we just calculated.
+
+31
+00:02:24.760 --> 00:02:29.900
+So after the keyword return,
+we’ll type fail_percentage.
+
+32
+00:02:29.900 --> 00:02:32.721
+This is our variable that
+contains this information.
+
+33
+00:02:33.860 --> 00:02:39.308
+Now, we're ready to call this function.
+We'll calculate the percentage for
+
+34
+00:02:39.308 --> 00:02:42.990
+a user who has logged in 4 times
+with 2 failed attempts.
+
+35
+00:02:42.990 --> 00:02:47.281
+So, our arguments are 4 and 2.
+
+36
+00:02:49.010 --> 00:02:53.716
+When we run this,
+the function returns the percentage of
+
+37
+00:02:53.716 --> 00:02:58.020
+failed attempts. It’s .5, or 50 percent,
+
+38
+00:02:58.020 --> 00:03:02.590
+but in some Python environments,
+this might not be printed to the screen.
+
+39
+00:03:02.590 --> 00:03:06.531
+We cannot use the specific variable named
+fail_percentage
+
+40
+00:03:06.531 --> 00:03:08.950
+outside of the function.
+
+41
+00:03:08.950 --> 00:03:13.562
+So, in order to use this information
+in another part of the program,
+
+42
+00:03:13.562 --> 00:03:19.061
+we would need to return the value from the
+function and assign it to a new variable.
+
+43
+00:03:20.110 --> 00:03:22.320
+Let's check this out.
+
+44
+00:03:22.320 --> 00:03:24.969
+This time, when the function is called,
+
+45
+00:03:24.969 --> 00:03:30.370
+the value that's returned is stored
+in a variable called percentage.
+
+46
+00:03:30.370 --> 00:03:33.810
+Then, we can use this
+variable in additional code.
+
+47
+00:03:33.810 --> 00:03:38.969
+For example, we can write a conditional
+that checks if the percentage
+
+48
+00:03:38.969 --> 00:03:43.001
+of failed attempts is greater than or
+equal to 50 percent.
+
+49
+00:03:44.150 --> 00:03:49.581
+When this condition is met, we can tell
+Python to print an "Account locked" message.
+
+50
+00:03:50.970 --> 00:03:52.573
+Let's run this code.
+
+51
+00:03:52.573 --> 00:03:57.078
+And this time, the percentage
+isn't returned to the screen.
+
+52
+00:03:57.078 --> 00:04:00.399
+Instead, we get the “Account locked”
+message.
+
+53
+00:04:01.399 --> 00:04:04.632
+Coming up, we'll discuss more functions,
+but this time,
+
+54
+00:04:04.632 --> 00:04:09.120
+we'll go over a few that are ready for
+use and built in to Python!

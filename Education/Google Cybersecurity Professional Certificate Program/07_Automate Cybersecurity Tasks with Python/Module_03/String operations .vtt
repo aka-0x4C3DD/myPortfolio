@@ -1,0 +1,513 @@
+WEBVTT
+
+1
+00:00:00.200 --> 00:00:02.310
+Knowing how to work with
+
+2
+00:00:02.310 --> 00:00:05.100
+the string data in
+security is important.
+
+3
+00:00:05.100 --> 00:00:08.190
+For example, you might
+find yourself working with
+
+4
+00:00:08.190 --> 00:00:11.715
+usernames to find patterns
+in login information.
+
+5
+00:00:11.715 --> 00:00:13.260
+We're going to revisit
+
+6
+00:00:13.260 --> 00:00:15.030
+the string data type and learn
+
+7
+00:00:15.030 --> 00:00:16.980
+how to work with it in Python.
+
+8
+00:00:17.980 --> 00:00:20.640
+First, let's have a quick
+refresher on the strings.
+
+9
+00:00:20.640 --> 00:00:23.940
+We defined the string data as
+
+10
+00:00:23.940 --> 00:00:27.855
+data consisting of an ordered
+sequence of characters.
+
+11
+00:00:27.855 --> 00:00:30.000
+In Python, strings are
+
+12
+00:00:30.000 --> 00:00:32.790
+written in between
+quotation marks.
+
+13
+00:00:32.790 --> 00:00:37.140
+It's okay to use either double
+or single quotation marks,
+
+14
+00:00:37.140 --> 00:00:38.840
+but in this course, we've been
+
+15
+00:00:38.840 --> 00:00:41.320
+using double quotation marks.
+
+16
+00:00:41.320 --> 00:00:45.495
+As examples, we have
+the strings "Hello",
+
+17
+00:00:45.495 --> 00:00:49.650
+"123", and "Number 1!"
+
+18
+00:00:50.650 --> 00:00:52.725
+We also previously
+covered variables.
+
+19
+00:00:52.725 --> 00:00:55.735
+Here, the variable my_string
+
+20
+00:00:55.735 --> 00:00:59.030
+is currently storing
+the string "security".
+
+21
+00:01:00.030 --> 00:01:02.750
+You can also create a string
+from another data type,
+
+22
+00:01:02.750 --> 00:01:05.750
+such as an integer or a float.
+
+23
+00:01:05.750 --> 00:01:08.540
+To do that, we need to introduce
+
+24
+00:01:08.540 --> 00:01:12.305
+a new built-in function,
+the string function.
+
+25
+00:01:12.305 --> 00:01:15.080
+The string function
+is a function that
+
+26
+00:01:15.080 --> 00:01:18.550
+converts the input
+object into a string.
+
+27
+00:01:18.550 --> 00:01:22.370
+Converting objects to
+strings allows us to
+
+28
+00:01:22.370 --> 00:01:25.910
+perform tasks that are
+only possible for strings.
+
+29
+00:01:25.910 --> 00:01:29.240
+For example, we might
+convert an integer into
+
+30
+00:01:29.240 --> 00:01:34.125
+a string to remove elements
+from it or to re-order it.
+
+31
+00:01:34.125 --> 00:01:37.475
+Both are difficult for
+an integer data type.
+
+32
+00:01:38.475 --> 00:01:41.520
+Let's practice converting
+an integer to a string.
+
+33
+00:01:42.070 --> 00:01:47.575
+We'll apply the string
+function to the integer 123.
+
+34
+00:01:47.575 --> 00:01:51.175
+Now, the variable new_string
+
+35
+00:01:51.175 --> 00:01:54.035
+contains a string of
+three characters:
+
+36
+00:01:54.035 --> 00:01:56.690
+1, 2, and 3.
+
+37
+00:01:56.690 --> 00:01:59.635
+Let's print its type to check.
+
+38
+00:01:59.635 --> 00:02:03.770
+We'll run it. Perfect, it tells
+
+39
+00:02:03.770 --> 00:02:06.215
+us that we now have a string!
+
+40
+00:02:06.215 --> 00:02:09.050
+Awesome!
+So far,
+
+41
+00:02:09.050 --> 00:02:12.370
+we know different ways to
+create and store a string.
+
+42
+00:02:12.370 --> 00:02:14.660
+Now, let's explore how to
+
+43
+00:02:14.660 --> 00:02:17.600
+perform some basic
+string operations.
+
+44
+00:02:18.600 --> 00:02:21.395
+Our first example is
+the length function.
+
+45
+00:02:21.395 --> 00:02:24.260
+The length function
+is a function that
+
+46
+00:02:24.260 --> 00:02:27.065
+returns the number of
+elements in an object.
+
+47
+00:02:27.065 --> 00:02:29.540
+Using it on a string tells
+
+48
+00:02:29.540 --> 00:02:32.905
+us how many characters
+the string has.
+
+49
+00:02:32.905 --> 00:02:34.835
+Earlier in the program,
+
+50
+00:02:34.835 --> 00:02:37.190
+we learned that
+IP addresses have
+
+51
+00:02:37.190 --> 00:02:40.935
+two versions, IPv4 or IPv6.
+
+52
+00:02:40.935 --> 00:02:45.410
+IPv4 addresses have a
+maximum of 15 characters.
+
+53
+00:02:45.410 --> 00:02:48.590
+So a security
+professional might use
+
+54
+00:02:48.590 --> 00:02:52.580
+the length function to check
+if an IPv4 address is valid.
+
+55
+00:02:52.580 --> 00:02:56.090
+If its length is greater
+than 15 characters,
+
+56
+00:02:56.090 --> 00:03:00.530
+then we'd know that it's
+an invalid IPv4 address.
+
+57
+00:03:01.530 --> 00:03:02.510
+Let's use this function to print
+
+58
+00:03:02.510 --> 00:03:05.320
+the length of the string "Hello"
+
+59
+00:03:06.320 --> 00:03:08.355
+We'll nest the length function
+
+60
+00:03:08.355 --> 00:03:10.970
+within the print
+function because we
+
+61
+00:03:10.970 --> 00:03:13.160
+want to first calculate
+the length of
+
+62
+00:03:13.160 --> 00:03:17.100
+this string and then
+print it to the screen.
+
+63
+00:03:17.420 --> 00:03:20.050
+Okay, let's run this and check out
+
+64
+00:03:20.050 --> 00:03:22.630
+how many characters
+Python counts.
+
+65
+00:03:22.630 --> 00:03:24.775
+The output is 5,
+
+66
+00:03:24.775 --> 00:03:28.055
+one for each letter
+in the word Hello.
+
+67
+00:03:29.055 --> 00:03:32.395
+We can also use the addition
+operator on the strings.
+
+68
+00:03:32.395 --> 00:03:35.665
+This is called string
+concatenation.
+
+69
+00:03:35.665 --> 00:03:38.050
+The string concatenation is
+
+70
+00:03:38.050 --> 00:03:40.925
+the process of joining
+two strings together.
+
+71
+00:03:40.925 --> 00:03:43.470
+For example, we can add
+
+72
+00:03:43.470 --> 00:03:47.085
+the strings "Hello"
+and "world" together.
+
+73
+00:03:47.085 --> 00:03:52.160
+To concatenate strings, we
+can use the + symbol.
+
+74
+00:03:52.370 --> 00:03:54.570
+After we run it,
+
+75
+00:03:54.570 --> 00:03:57.010
+we get "Helloworld" with
+
+76
+00:03:57.010 --> 00:03:59.830
+no spaces in between
+the two strings.
+
+77
+00:03:59.830 --> 00:04:02.230
+It's important to note that
+
+78
+00:04:02.230 --> 00:04:05.585
+some operators don't
+work for strings.
+
+79
+00:04:05.585 --> 00:04:08.200
+For example, you cannot use
+
+80
+00:04:08.200 --> 00:04:11.350
+a minus sign to subtract
+the two strings.
+
+81
+00:04:12.350 --> 00:04:15.610
+Finally, we're going to
+talk about string methods.
+
+82
+00:04:15.610 --> 00:04:17.860
+A method is a function
+
+83
+00:04:17.860 --> 00:04:21.020
+that belongs to a
+specific data type.
+
+84
+00:04:21.020 --> 00:04:24.940
+So, using a string method
+on another data type,
+
+85
+00:04:24.940 --> 00:04:28.030
+like an integer,
+would cause an error.
+
+86
+00:04:28.030 --> 00:04:33.380
+Unlike other functions, methods
+appear after the string.
+
+87
+00:04:33.380 --> 00:04:36.040
+Two common string methods are
+
+88
+00:04:36.040 --> 00:04:38.785
+the upper and the lower methods.
+
+89
+00:04:38.785 --> 00:04:41.350
+The upper method
+returns a copy of
+
+90
+00:04:41.350 --> 00:04:44.315
+the string in all
+uppercase letters.
+
+91
+00:04:45.315 --> 00:04:48.005
+Let's apply the upper
+method to the string "Hello"
+
+92
+00:04:49.005 --> 00:04:49.910
+We'll place this inside of
+
+93
+00:04:49.910 --> 00:04:52.820
+a print function to
+output it to the screen.
+
+94
+00:04:52.820 --> 00:04:56.905
+Let's focus on the unique
+syntax of methods.
+
+95
+00:04:56.905 --> 00:04:59.190
+After our string "Hello",
+
+96
+00:04:59.190 --> 00:05:02.225
+we place a period or dot,
+
+97
+00:05:02.225 --> 00:05:06.245
+and then specify the
+method we want to use.
+
+98
+00:05:06.245 --> 00:05:09.220
+Here, that's upper()
+
+99
+00:05:10.220 --> 00:05:12.105
+Okay, now we're ready to run this.
+
+100
+00:05:12.105 --> 00:05:16.775
+HELLO is printed to the screen
+in all uppercase letters.
+
+101
+00:05:17.775 --> 00:05:20.480
+Similarly, the lower
+method returns
+
+102
+00:05:20.480 --> 00:05:24.455
+a copy of the string in
+all lowercase letters.
+
+103
+00:05:24.455 --> 00:05:29.025
+Let's apply the lower
+method on the "Hello" string.
+
+104
+00:05:29.025 --> 00:05:33.110
+Remember that we need to put
+the string and the method
+
+105
+00:05:33.110 --> 00:05:37.130
+inside of a print function
+to output the results.
+
+106
+00:05:37.130 --> 00:05:39.320
+And now, we have the string
+
+107
+00:05:39.320 --> 00:05:41.780
+printed in all
+lowercase letters.
+
+108
+00:05:42.780 --> 00:05:43.610
+Coming up, we're going to
+
+109
+00:05:43.610 --> 00:05:45.845
+learn a lot more about strings,
+
+110
+00:05:45.845 --> 00:05:49.190
+like indexing and
+splitting strings.
+
+111
+00:05:49.190 --> 00:05:52.380
+I'm looking forward
+to meeting you there!

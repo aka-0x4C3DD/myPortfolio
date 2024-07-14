@@ -1,0 +1,315 @@
+WEBVTT
+
+1
+00:00:00.900 --> 00:00:05.399
+Previously, you learned about signature-based
+analysis. You also learned how to
+
+2
+00:00:05.399 --> 00:00:09.207
+read signatures used in network-based
+intrusion detection systems.
+
+3
+00:00:09.207 --> 00:00:13.763
+Here, we'll use an open source signature-based
+IDS called Suricata to examine
+
+4
+00:00:13.763 --> 00:00:15.310
+a signature.
+
+5
+00:00:16.310 --> 00:00:18.564
+Many NIDS technologies come with
+pre-written signatures.
+
+6
+00:00:18.564 --> 00:00:21.754
+You can think of these signatures
+as customizable templates.
+
+7
+00:00:21.754 --> 00:00:25.700
+Sort of like different templates
+available in a word processor.
+
+8
+00:00:25.700 --> 00:00:29.225
+These signature templates provide you
+with a starting point for writing and
+
+9
+00:00:29.225 --> 00:00:30.320
+defining your rules.
+
+10
+00:00:30.320 --> 00:00:32.900
+You can also write and add your own rules.
+
+11
+00:00:32.900 --> 00:00:36.162
+Let's examine a pre-written
+signature through Suricata.
+
+12
+00:00:37.162 --> 00:00:40.400
+On this Linux machine running Ubuntu,
+Suricata is already installed.
+
+13
+00:00:40.400 --> 00:00:44.605
+Let's examine some of its files by
+changing directories to the etc directory
+
+14
+00:00:44.605 --> 00:00:46.930
+and into the suricata directory.
+
+15
+00:00:46.930 --> 00:00:50.520
+This is where all of Suricata's
+configuration files live.
+
+16
+00:00:51.520 --> 00:00:55.910
+Next, we'll use the ls command to list
+the contents of the suricata directory.
+
+17
+00:00:55.910 --> 00:01:00.072
+There's a couple of different files in
+here, but we'll focus on the rules folder.
+
+18
+00:01:00.072 --> 00:01:02.800
+This is where the pre-written
+signatures are.
+
+19
+00:01:02.800 --> 00:01:05.230
+You can also add custom signatures here.
+
+20
+00:01:05.230 --> 00:01:09.265
+We'll use the cd command followed by
+the name of the folder to navigate to that
+
+21
+00:01:09.265 --> 00:01:10.250
+folder.
+
+22
+00:01:10.250 --> 00:01:14.610
+Using the ls command, we can observe that
+the folder contains some rule templates
+
+23
+00:01:14.610 --> 00:01:17.180
+for different protocols and services.
+
+24
+00:01:18.180 --> 00:01:20.777
+Let's examine the custom.rules
+file using the less command.
+
+25
+00:01:20.777 --> 00:01:25.314
+As a quick refresher, the less command
+returns the content of a file
+
+26
+00:01:25.314 --> 00:01:30.360
+one page at a time which makes it easy to move
+forward and backward through the content.
+
+27
+00:01:30.360 --> 00:01:33.270
+We'll use the arrow key to scroll up.
+
+28
+00:01:33.270 --> 00:01:37.533
+Lines that begin with a pound sign (#)
+are comments meant to provide context for
+
+29
+00:01:37.533 --> 00:01:41.190
+those who read them and
+are ignored by Suricata.
+
+30
+00:01:41.190 --> 00:01:46.000
+The first line says Custom rules
+example for HTTP connection.
+
+31
+00:01:46.000 --> 00:01:50.920
+This tells us that this file contains
+custom rules for HTTP connections.
+
+32
+00:01:50.920 --> 00:01:53.270
+We can observe that there's a signature.
+
+33
+00:01:53.270 --> 00:01:56.469
+The first word specifies
+the signature's ACTION.
+
+34
+00:01:56.469 --> 00:01:59.350
+For this signature, the action is alert.
+
+35
+00:01:59.350 --> 00:02:03.980
+This means that the signature generates an
+alert when all of the conditions are met.
+
+36
+00:02:03.980 --> 00:02:05.990
+The next part of
+the signature is the HEADER.
+
+37
+00:02:05.990 --> 00:02:10.134
+It specifies the protocol http.
+The source IP address is HOME_NET and
+
+38
+00:02:10.134 --> 00:02:12.146
+source port is defined as ANY.
+
+39
+00:02:12.146 --> 00:02:17.049
+The arrow indicates the direction of
+traffic coming from the home network and
+
+40
+00:02:17.049 --> 00:02:22.750
+going to the destination IP address
+EXTERNAL_NET and ANY destination port.
+
+41
+00:02:23.750 --> 00:02:27.215
+So far, we know that this signature
+triggers an alert when it detects any HTTP
+
+42
+00:02:27.215 --> 00:02:31.810
+traffic leaving the home network and
+going to the external network.
+
+43
+00:02:31.810 --> 00:02:35.454
+Let's examine the remainder of
+the signature to identify if there's any
+
+44
+00:02:35.454 --> 00:02:37.933
+additional conditions
+the signature looks for.
+
+45
+00:02:38.933 --> 00:02:40.950
+The last part of the signature
+includes the RULE OPTIONS.
+
+46
+00:02:40.950 --> 00:02:44.490
+They're enclosed in parentheses and
+separated by semicolons.
+
+47
+00:02:44.490 --> 00:02:49.074
+There's many options listed here, but
+we'll focus on the message, flow, and
+
+48
+00:02:49.074 --> 00:02:50.310
+content options.
+
+49
+00:02:50.310 --> 00:02:55.080
+The message option will show the message
+"GET on wire" once the alert is triggered.
+
+50
+00:02:55.080 --> 00:02:59.500
+The flow option is used to match on
+direction of network traffic flow.
+
+51
+00:02:59.500 --> 00:03:00.880
+Here, it's established.
+
+52
+00:03:00.880 --> 00:03:04.170
+This means that a connection
+has been successfully made.
+
+53
+00:03:04.170 --> 00:03:07.235
+The content option inspects
+the content of a packet.
+
+54
+00:03:07.235 --> 00:03:11.320
+Here, between the quotation marks,
+the text GET is specified.
+
+55
+00:03:11.320 --> 00:03:16.180
+GET is an HTTP request that's used to
+retrieve and request data from a server.
+
+56
+00:03:16.180 --> 00:03:20.928
+This means the signature will match if
+a network packet contains the text GET,
+
+57
+00:03:20.928 --> 00:03:22.423
+indicating a request.
+
+58
+00:03:23.423 --> 00:03:26.966
+To summarize, this signature alerts
+anytime Suricata observes the text GET in
+
+59
+00:03:26.966 --> 00:03:31.259
+an HTTP connection from the home network,
+going to the external network.
+
+60
+00:03:31.259 --> 00:03:33.917
+Every environment is different and
+in order for
+
+61
+00:03:33.917 --> 00:03:37.790
+an IDS to be effective,
+signatures must be tested and tailored.
+
+62
+00:03:37.790 --> 00:03:40.648
+As a security analyst,
+you may test, modify, or
+
+63
+00:03:40.648 --> 00:03:45.436
+create IDS signatures to improve the
+detection of threats in an environment and
+
+64
+00:03:45.436 --> 00:03:48.093
+reduce the likelihood of false positives.
+
+65
+00:03:48.093 --> 00:03:51.230
+Coming up,
+we'll examine how Suricata logs events.
+
+66
+00:03:51.230 --> 00:03:51.777
+Meet you there.

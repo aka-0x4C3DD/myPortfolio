@@ -1,0 +1,345 @@
+WEBVTT
+
+1
+00:00:01.115 --> 00:00:05.706
+Incident lifecycle frameworks provide
+a structure to support incident response
+
+2
+00:00:05.706 --> 00:00:06.511
+operations.
+
+3
+00:00:06.511 --> 00:00:11.216
+Frameworks help organizations develop
+a standardized approach to their incident
+
+4
+00:00:11.216 --> 00:00:12.358
+response process, so
+
+5
+00:00:12.358 --> 00:00:15.998
+that incidents are managed in
+an effective and consistent way.
+
+6
+00:00:15.998 --> 00:00:20.058
+There are many different types of
+frameworks that organizations can adopt
+
+7
+00:00:20.058 --> 00:00:22.127
+and modify according to their needs.
+
+8
+00:00:23.127 --> 00:00:25.008
+In this course, we'll
+focus on the NIST CSF.
+
+9
+00:00:25.008 --> 00:00:27.149
+Then, we'll expand on the CSF and
+
+10
+00:00:27.149 --> 00:00:31.288
+discuss the phases of the NIST
+incident response lifecycle.
+
+11
+00:00:31.288 --> 00:00:36.356
+To recall, the five core functions
+of the NIST CSF are: identify,
+
+12
+00:00:36.356 --> 00:00:39.688
+protect, detect, respond, and recover.
+
+13
+00:00:39.688 --> 00:00:43.952
+This course will explore the last
+three steps of this framework:
+
+14
+00:00:43.952 --> 00:00:46.052
+detect, respond, and recover.
+
+15
+00:00:46.052 --> 00:00:50.216
+These last three steps are critical
+stages during incident response, and
+
+16
+00:00:50.216 --> 00:00:53.629
+as an analyst, you'll detect and
+respond to incidents and
+
+17
+00:00:53.629 --> 00:00:55.619
+implement actions for recovery.
+
+18
+00:00:56.619 --> 00:01:00.473
+The NIST incident response lifecycle is
+another NIST framework with additional substeps
+
+19
+00:01:00.473 --> 00:01:02.807
+dedicated to incident response.
+
+20
+00:01:02.807 --> 00:01:07.459
+It begins with preparation.
+Next, detection and analysis, and
+
+21
+00:01:07.459 --> 00:01:13.640
+then containment, eradication and recovery,
+and finally post-incident activity.
+
+22
+00:01:13.640 --> 00:01:18.094
+One thing to note is that the incident
+lifecycle isn't a linear process.
+
+23
+00:01:18.094 --> 00:01:22.888
+It's a cycle, which means that steps can
+overlap as new discoveries are made.
+
+24
+00:01:23.888 --> 00:01:27.429
+This lifecycle gives us a blueprint of
+how to effectively respond to incidents,
+
+25
+00:01:27.429 --> 00:01:31.006
+but before we dive into incident
+detection and response,
+
+26
+00:01:31.006 --> 00:01:34.511
+let's take some time to
+understand what an incident is.
+
+27
+00:01:35.511 --> 00:01:39.321
+According to NIST, an incident is
+"an occurrence that actually or imminently
+
+28
+00:01:39.321 --> 00:01:44.057
+jeopardizes, without lawful authority,
+the confidentiality, integrity, or
+
+29
+00:01:44.057 --> 00:01:47.614
+availability of information or
+an information system;
+
+30
+00:01:47.614 --> 00:01:52.190
+or constitutes a violation or
+imminent threat of violation of law,
+
+31
+00:01:52.190 --> 00:01:57.101
+security policies, security procedures, or
+acceptable use policies."
+
+32
+00:01:57.101 --> 00:01:59.168
+Whoa, that's a lot to take in.
+
+33
+00:01:59.168 --> 00:02:00.574
+Let's break it down.
+
+34
+00:02:01.574 --> 00:02:04.717
+It's important to understand that all
+security incidents are events, but
+
+35
+00:02:04.717 --> 00:02:06.998
+not all events are security incidents.
+
+36
+00:02:06.998 --> 00:02:08.367
+What are events?
+
+37
+00:02:08.367 --> 00:02:12.803
+An event is an observable occurrence
+on a network, system, or device.
+
+38
+00:02:13.803 --> 00:02:16.945
+Here's an example of an event. A user
+attempts to log into their email account,
+
+39
+00:02:16.945 --> 00:02:19.785
+but they can't because they
+forgot their password.
+
+40
+00:02:19.785 --> 00:02:25.034
+The user then requests a password reset
+and successfully changes their password.
+
+41
+00:02:26.034 --> 00:02:26.941
+This is an observable event.
+
+42
+00:02:26.941 --> 00:02:28.005
+Why?
+
+43
+00:02:28.005 --> 00:02:32.093
+Because systems and applications
+log password reset requests and
+
+44
+00:02:32.093 --> 00:02:35.165
+logs provide evidence
+that something happened.
+
+45
+00:02:35.165 --> 00:02:38.870
+We know that someone successfully
+requested a password reset and
+
+46
+00:02:38.870 --> 00:02:42.723
+that they did not violate security
+policies to access the account.
+
+47
+00:02:43.723 --> 00:02:46.542
+Now, imagine that instead of
+the rightful owner of the account,
+
+48
+00:02:46.542 --> 00:02:49.806
+a malicious actor trying to
+gain access to the account,
+
+49
+00:02:49.806 --> 00:02:55.031
+successfully initiated the password change
+request and changed the account password.
+
+50
+00:02:55.031 --> 00:02:58.848
+This would be considered both an event and
+a security incident.
+
+51
+00:02:58.848 --> 00:03:01.718
+It's an event because it's
+an observable occurrence.
+
+52
+00:03:01.718 --> 00:03:06.530
+It's also a security incident because
+a malicious actor violated the security
+
+53
+00:03:06.530 --> 00:03:10.850
+policy to unlawfully access an account
+that is not rightfully theirs.
+
+54
+00:03:10.850 --> 00:03:15.170
+Remember, all security incidents
+are events, but not all events are security incidents.
+
+55
+00:03:16.170 --> 00:03:19.094
+Just like detectives
+working a case carefully handle and
+
+56
+00:03:19.094 --> 00:03:21.372
+document their evidence and findings,
+
+57
+00:03:21.372 --> 00:03:26.090
+security analysts are required to do
+the same when they investigate a security
+
+58
+00:03:26.090 --> 00:03:26.812
+incident.
+
+59
+00:03:26.812 --> 00:03:31.701
+An incident investigation reveals
+critical information about the five W's
+
+60
+00:03:31.701 --> 00:03:32.794
+of an incident:
+
+61
+00:03:32.794 --> 00:03:35.345
+who triggered the incident,
+
+62
+00:03:35.345 --> 00:03:37.482
+what happened,
+
+63
+00:03:37.482 --> 00:03:40.325
+when the incident took place,
+
+64
+00:03:40.325 --> 00:03:45.566
+where the incident took place, and
+why the incident occurred.
+
+65
+00:03:46.566 --> 00:03:49.416
+Keeping track of this information is
+essential not only during an incident
+
+66
+00:03:49.416 --> 00:03:52.790
+investigation, but also during
+the closure of an investigation
+
+67
+00:03:52.790 --> 00:03:57.322
+when it comes time to write the final
+report. As an analyst, you'll need a method
+
+68
+00:03:57.322 --> 00:04:01.739
+to document and reference this information
+for easy access when you need it.
+
+69
+00:04:02.739 --> 00:04:05.414
+A great way to do this is to use
+an incident handler's journal,
+
+70
+00:04:05.414 --> 00:04:09.100
+which is a form of documentation
+used in incident response.
+
+71
+00:04:09.100 --> 00:04:13.040
+Throughout this course, you'll be using
+your own incident handler's journal to take
+
+72
+00:04:13.040 --> 00:04:14.526
+notes of any incident details.
+
+73
+00:04:14.526 --> 00:04:17.821
+We'll discuss more on documentation
+in the upcoming lessons.

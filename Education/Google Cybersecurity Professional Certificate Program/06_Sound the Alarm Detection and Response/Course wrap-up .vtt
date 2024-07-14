@@ -1,0 +1,239 @@
+WEBVTT
+
+1
+00:00:00.020 --> 00:00:03.255
+Congratulations on
+completing this course
+
+2
+00:00:03.255 --> 00:00:04.904
+on detection and response!
+
+3
+00:00:04.904 --> 00:00:06.570
+As you've progressed,
+we've covered
+
+4
+00:00:06.570 --> 00:00:08.565
+a wide range of
+topics and tools.
+
+5
+00:00:09.565 --> 00:00:11.205
+Let's take a moment to
+review what you've learned.
+
+6
+00:00:11.205 --> 00:00:13.320
+First, we began with an overview
+
+7
+00:00:13.320 --> 00:00:15.375
+of the incident
+response lifecycle.
+
+8
+00:00:15.375 --> 00:00:17.670
+You learned how security
+teams coordinate
+
+9
+00:00:17.670 --> 00:00:18.930
+their response efforts.
+
+10
+00:00:18.930 --> 00:00:20.610
+And you explored the documentation,
+
+11
+00:00:20.610 --> 00:00:22.305
+detection, and management tools
+
+12
+00:00:22.305 --> 00:00:24.210
+used in incident response.
+
+13
+00:00:25.210 --> 00:00:26.070
+Next, you learned how to monitor
+
+14
+00:00:26.070 --> 00:00:27.750
+and analyze network traffic.
+
+15
+00:00:27.750 --> 00:00:29.310
+You learned about capturing and
+
+16
+00:00:29.310 --> 00:00:31.580
+analyzing packets using
+packets sniffers.
+
+17
+00:00:31.580 --> 00:00:34.360
+You also practiced using
+tools like tcpdump
+
+18
+00:00:34.360 --> 00:00:36.515
+to capture and
+analyze network data
+
+19
+00:00:36.515 --> 00:00:39.145
+to identify indicators
+of compromise.
+
+20
+00:00:40.145 --> 00:00:42.260
+Then, we explored
+processes and procedures
+
+21
+00:00:42.260 --> 00:00:43.670
+involved in the phases of
+
+22
+00:00:43.670 --> 00:00:45.695
+the incident
+response lifecycle.
+
+23
+00:00:45.695 --> 00:00:47.780
+You learned about
+techniques related to
+
+24
+00:00:47.780 --> 00:00:49.880
+incident detection and analysis.
+
+25
+00:00:49.880 --> 00:00:51.080
+You also learned about
+
+26
+00:00:51.080 --> 00:00:53.180
+documentation like
+chain of custody,
+
+27
+00:00:53.180 --> 00:00:55.505
+playbooks, and final reports.
+
+28
+00:00:55.505 --> 00:00:57.829
+We ended with
+exploring strategies
+
+29
+00:00:57.829 --> 00:01:00.760
+used for recovery and
+post-incident activity.
+
+30
+00:01:01.760 --> 00:01:03.750
+Finally, you learned how to
+interpret logs and alerts.
+
+31
+00:01:03.750 --> 00:01:06.125
+You explored Suricata
+on the command line
+
+32
+00:01:06.125 --> 00:01:08.720
+to read and understand
+signatures and rules.
+
+33
+00:01:08.720 --> 00:01:11.120
+You also used SIEM
+tools like Splunk and
+
+34
+00:01:11.120 --> 00:01:13.890
+Chronicle to search
+for events and logs.
+
+35
+00:01:14.890 --> 00:01:15.565
+As a security analyst,
+
+36
+00:01:15.565 --> 00:01:18.535
+you'll be presented with a
+new challenge every day.
+
+37
+00:01:18.535 --> 00:01:20.620
+Whether it's
+investigating evidence
+
+38
+00:01:20.620 --> 00:01:22.030
+or documenting your work,
+
+39
+00:01:22.030 --> 00:01:23.950
+you'll use what you've
+learned in this course
+
+40
+00:01:23.950 --> 00:01:26.110
+to effectively
+respond to incidents.
+
+41
+00:01:27.110 --> 00:01:27.580
+I'm so glad to have been on
+
+42
+00:01:27.580 --> 00:01:29.200
+this learning journey with you.
+
+43
+00:01:29.200 --> 00:01:30.700
+You've done a fantastic job
+
+44
+00:01:30.700 --> 00:01:32.080
+in expanding your knowledge and
+
+45
+00:01:32.080 --> 00:01:35.229
+learning new tools to add
+to your security toolbox.
+
+46
+00:01:35.229 --> 00:01:37.000
+One of the things I love about
+
+47
+00:01:37.000 --> 00:01:38.350
+the security field
+is that there's
+
+48
+00:01:38.350 --> 00:01:40.145
+always something new to learn.
+
+49
+00:01:40.145 --> 00:01:42.595
+And coming up, you'll continue
+your learning journey
+
+50
+00:01:42.595 --> 00:01:45.250
+by exploring a programming
+language called Python,
+
+51
+00:01:45.250 --> 00:01:48.130
+which can be used to
+automate security tasks.
+
+52
+00:01:48.130 --> 00:01:50.450
+Keep up the great work!

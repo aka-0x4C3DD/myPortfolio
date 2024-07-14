@@ -1,0 +1,240 @@
+WEBVTT
+
+1
+00:00:00.920 --> 00:00:04.502
+In many organizations, network
+communication travels over multiple
+
+2
+00:00:04.502 --> 00:00:07.793
+networks in different countries and
+across different devices.
+
+3
+00:00:07.793 --> 00:00:11.897
+Data can get unintentionally sent and
+stored in insecure places,
+
+4
+00:00:11.897 --> 00:00:15.493
+like personal email inboxes or
+cloud storage platforms.
+
+5
+00:00:15.493 --> 00:00:19.574
+Users trust that their data is safely and
+securely sent and stored.
+
+6
+00:00:19.574 --> 00:00:24.014
+And it's the job of security professionals
+like you to help protect these
+
+7
+00:00:24.014 --> 00:00:26.465
+communications in transit and at rest.
+
+8
+00:00:27.465 --> 00:00:30.793
+Previously, you may recall learning how
+to identify and secure critical assets
+
+9
+00:00:30.793 --> 00:00:34.621
+through security controls like data
+classification and encryption.
+
+10
+00:00:34.621 --> 00:00:39.598
+Coming up, we'll expand on this topic and
+examine how network traffic analysis can
+
+11
+00:00:39.598 --> 00:00:44.445
+be used to monitor network activity and
+identify potential malicious activity.
+
+12
+00:00:45.445 --> 00:00:46.021
+So what is network traffic?
+
+13
+00:00:46.021 --> 00:00:49.637
+Network traffic is the amount of
+data that moves across a network.
+
+14
+00:00:49.637 --> 00:00:54.105
+While network data is the data that's
+transmitted between devices on a network.
+
+15
+00:00:55.105 --> 00:00:55.890
+Depending on the size of a network,
+
+16
+00:00:55.890 --> 00:00:59.170
+there can be a huge volume of
+network traffic at any given moment.
+
+17
+00:00:59.170 --> 00:01:02.989
+For example, in a large,
+multinational organization, there may
+
+18
+00:01:02.989 --> 00:01:07.217
+be thousands of employees sending and
+receiving emails at any given time.
+
+19
+00:01:07.217 --> 00:01:08.938
+That's a lot of network traffic.
+
+20
+00:01:08.938 --> 00:01:11.823
+With such large volumes of
+traffic being produced,
+
+21
+00:01:11.823 --> 00:01:15.365
+how do you know what's normal behavior,
+or what's unusual and
+
+22
+00:01:15.365 --> 00:01:18.728
+requires investigation as
+a potential security incident?
+
+23
+00:01:19.728 --> 00:01:23.204
+Imagine being stuck in unexpected traffic
+during your regular drive to work.
+
+24
+00:01:23.204 --> 00:01:27.783
+And, as you move along, you realize
+something unusual caused the traffic,
+
+25
+00:01:27.783 --> 00:01:32.012
+like a minor vehicle collision which
+slowed down the expected flow.
+
+26
+00:01:32.012 --> 00:01:32.712
+On the road,
+
+27
+00:01:32.712 --> 00:01:37.384
+we have certain expectations about traffic
+flows based on our commuting experience.
+
+28
+00:01:37.384 --> 00:01:41.892
+Peak traffic patterns like morning and
+evening rush are normal and expected,
+
+29
+00:01:41.892 --> 00:01:45.992
+while abnormal traffic during
+off-peak times reveals that something
+
+30
+00:01:45.992 --> 00:01:49.150
+unexpected has happened,
+like a vehicle collision.
+
+31
+00:01:50.150 --> 00:01:51.394
+Network traffic works in the same way.
+
+32
+00:01:51.394 --> 00:01:54.943
+By understanding how data should
+be flowing across the network,
+
+33
+00:01:54.943 --> 00:01:58.700
+you can develop an understanding
+of expected network traffic flow.
+
+34
+00:01:58.700 --> 00:02:02.873
+By knowing what's normal,
+you can easily spot what's abnormal.
+
+35
+00:02:02.873 --> 00:02:07.813
+We can detect traffic abnormalities
+through observation to spot indicators
+
+36
+00:02:07.813 --> 00:02:12.373
+of compromise, also known as IoC,
+which are observable evidence that
+
+37
+00:02:12.373 --> 00:02:15.646
+suggests signs of a potential
+security incident.
+
+38
+00:02:16.646 --> 00:02:18.052
+Take, for instance, data exfiltration,
+
+39
+00:02:18.052 --> 00:02:21.506
+which is the unauthorized
+transmission of data from a system.
+
+40
+00:02:21.506 --> 00:02:25.758
+Attackers use data exfiltration to
+steal or leak data such as user names,
+
+41
+00:02:25.758 --> 00:02:28.170
+passwords, or intellectual property.
+
+42
+00:02:28.170 --> 00:02:32.644
+By observing network traffic, we can
+determine if there's any indicators of
+
+43
+00:02:32.644 --> 00:02:36.793
+compromise, such as large volumes
+of outbound traffic leaving a host.
+
+44
+00:02:36.793 --> 00:02:40.533
+This is a sign of possible
+data exfiltration which can be
+
+45
+00:02:40.533 --> 00:02:42.211
+further investigated.
+
+46
+00:02:43.211 --> 00:02:44.879
+Understanding and
+monitoring network traffic for
+
+47
+00:02:44.879 --> 00:02:48.919
+inconsistencies is an important aspect
+of a security professional's job.
+
+48
+00:02:48.919 --> 00:02:49.586
+Coming up,
+
+49
+00:02:49.586 --> 00:02:53.671
+we'll explore what a data exfiltration
+attack looks like in real-time.
+
+50
+00:02:53.671 --> 00:02:54.610
+Meet you there.

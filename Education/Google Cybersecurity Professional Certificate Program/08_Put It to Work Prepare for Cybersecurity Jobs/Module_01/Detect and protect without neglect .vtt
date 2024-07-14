@@ -1,0 +1,374 @@
+WEBVTT
+
+1
+00:00:00.380 --> 00:00:04.020
+Welcome back! In
+earlier courses,
+
+2
+00:00:04.020 --> 00:00:05.280
+we discussed the impact that
+
+3
+00:00:05.280 --> 00:00:07.020
+security incidents can have on
+
+4
+00:00:07.020 --> 00:00:10.605
+the critical data and
+assets of an organization.
+
+5
+00:00:10.605 --> 00:00:13.230
+If data and assets
+are compromised,
+
+6
+00:00:13.230 --> 00:00:16.470
+it can lead to financial
+pains for an organization.
+
+7
+00:00:16.470 --> 00:00:19.920
+It can even lead to regulatory
+fines and the loss of
+
+8
+00:00:19.920 --> 00:00:21.840
+credibility with customers or
+
+9
+00:00:21.840 --> 00:00:24.135
+other businesses in
+the same industry.
+
+10
+00:00:24.135 --> 00:00:26.550
+This is why your
+role in protecting
+
+11
+00:00:26.550 --> 00:00:29.205
+company data and
+assets is so valuable.
+
+12
+00:00:30.205 --> 00:00:31.320
+Collaboration is
+an exciting part
+
+13
+00:00:31.320 --> 00:00:32.865
+about working in security.
+
+14
+00:00:32.865 --> 00:00:34.830
+There are so many
+individuals across
+
+15
+00:00:34.830 --> 00:00:36.270
+an organization that are
+
+16
+00:00:36.270 --> 00:00:38.815
+interested in various
+functions of security.
+
+17
+00:00:38.815 --> 00:00:41.690
+No security professional
+can do this alone.
+
+18
+00:00:42.690 --> 00:00:43.310
+Some team members are focused on
+
+19
+00:00:43.310 --> 00:00:45.910
+protecting sensitive
+financial data,
+
+20
+00:00:45.910 --> 00:00:49.085
+others work on protecting
+usernames and passwords,
+
+21
+00:00:49.085 --> 00:00:51.020
+some are more focused
+on protecting
+
+22
+00:00:51.020 --> 00:00:53.210
+third-party vendor security, and
+
+23
+00:00:53.210 --> 00:00:57.305
+others may be concerned with
+protecting employees' PII.
+
+24
+00:00:58.305 --> 00:00:59.810
+These stakeholders
+and others have
+
+25
+00:00:59.810 --> 00:01:02.420
+an interest in the role the
+security team plays for
+
+26
+00:01:02.420 --> 00:01:04.760
+keeping the organization,
+and the people
+
+27
+00:01:04.760 --> 00:01:07.640
+it serves, safe from
+malicious attacks.
+
+28
+00:01:07.640 --> 00:01:10.790
+It's important to recognize
+that the assets and data you
+
+29
+00:01:10.790 --> 00:01:14.735
+protect affect multiple
+levels of your organization.
+
+30
+00:01:15.735 --> 00:01:17.180
+One of the most
+important concerns for
+
+31
+00:01:17.180 --> 00:01:20.900
+an organization is the
+protection of customer data.
+
+32
+00:01:20.900 --> 00:01:23.720
+Customers trust that an
+organization they engage
+
+33
+00:01:23.720 --> 00:01:26.750
+with will protect their
+data at all times.
+
+34
+00:01:26.750 --> 00:01:28.985
+This means credit card numbers,
+
+35
+00:01:28.985 --> 00:01:31.670
+Social Security numbers, emails,
+
+36
+00:01:31.670 --> 00:01:34.895
+usernames, passwords,
+and so much more.
+
+37
+00:01:35.895 --> 00:01:36.830
+It's important to keep this in
+
+38
+00:01:36.830 --> 00:01:39.815
+mind when taking on
+a security role.
+
+39
+00:01:39.815 --> 00:01:41.660
+Understanding the importance of
+
+40
+00:01:41.660 --> 00:01:42.995
+the data you're protecting
+
+41
+00:01:42.995 --> 00:01:46.565
+is a big part of having a
+strong security mindset.
+
+42
+00:01:47.565 --> 00:01:48.560
+As a security professional,
+
+43
+00:01:48.560 --> 00:01:50.030
+it's important to handle
+
+44
+00:01:50.030 --> 00:01:53.000
+sensitive data with
+care while being
+
+45
+00:01:53.000 --> 00:01:55.220
+mindful of the little details to
+
+46
+00:01:55.220 --> 00:01:58.325
+ensure that private data is
+protected from breaches.
+
+47
+00:01:59.325 --> 00:02:01.325
+When a security event
+results in a data breach,
+
+48
+00:02:01.325 --> 00:02:04.375
+it is categorized as
+a security incident.
+
+49
+00:02:04.375 --> 00:02:06.350
+However, if the event is
+
+50
+00:02:06.350 --> 00:02:08.480
+resolved without
+resulting in a breach,
+
+51
+00:02:08.480 --> 00:02:10.610
+it's not considered an incident.
+
+52
+00:02:11.610 --> 00:02:12.950
+It's better to be
+safe when it comes
+
+53
+00:02:12.950 --> 00:02:15.290
+to taking a job in the
+security profession.
+
+54
+00:02:15.290 --> 00:02:17.480
+That means paying attention to
+
+55
+00:02:17.480 --> 00:02:20.585
+details and raising your
+issues to your supervisor.
+
+56
+00:02:20.585 --> 00:02:24.170
+For example, a
+seemingly small issue,
+
+57
+00:02:24.170 --> 00:02:26.060
+like an employee
+installing an app on
+
+58
+00:02:26.060 --> 00:02:28.400
+their work device without
+getting permission from
+
+59
+00:02:28.400 --> 00:02:31.729
+the help desk should be
+escalated to a supervisor.
+
+60
+00:02:31.729 --> 00:02:34.670
+This is because some apps
+have vulnerabilities that
+
+61
+00:02:34.670 --> 00:02:37.805
+can pose a threat to the
+security of the organization.
+
+62
+00:02:38.805 --> 00:02:40.460
+An example of a bigger issue is
+
+63
+00:02:40.460 --> 00:02:41.960
+noticing that a log may have
+
+64
+00:02:41.960 --> 00:02:44.025
+malicious code executed in it.
+
+65
+00:02:44.025 --> 00:02:47.155
+Malicious code can lead
+to operational downtime,
+
+66
+00:02:47.155 --> 00:02:49.390
+severe financial consequences,
+
+67
+00:02:49.390 --> 00:02:52.390
+or the loss of critical
+high-level assets.
+
+68
+00:02:53.390 --> 00:02:54.370
+The point is that there are
+
+69
+00:02:54.370 --> 00:02:57.715
+no issues that are
+too small or too big.
+
+70
+00:02:57.715 --> 00:02:59.170
+If you're not sure of the
+
+71
+00:02:59.170 --> 00:03:01.090
+potential impact of an incident,
+
+72
+00:03:01.090 --> 00:03:03.100
+it's always best
+to be cautious and
+
+73
+00:03:03.100 --> 00:03:05.740
+report events to the
+appropriate team members.
+
+74
+00:03:06.740 --> 00:03:08.195
+Each day on the job as
+a security professional
+
+75
+00:03:08.195 --> 00:03:10.900
+comes with a level
+of responsibility to
+
+76
+00:03:10.900 --> 00:03:13.975
+help protect the organization
+and the people it serves.
+
+77
+00:03:13.975 --> 00:03:17.455
+The decisions you make not
+only affect the company,
+
+78
+00:03:17.455 --> 00:03:19.150
+but also its customers and
+
+79
+00:03:19.150 --> 00:03:21.925
+countless team members
+across the organization.
+
+80
+00:03:21.925 --> 00:03:26.000
+Remember, what you do matters!

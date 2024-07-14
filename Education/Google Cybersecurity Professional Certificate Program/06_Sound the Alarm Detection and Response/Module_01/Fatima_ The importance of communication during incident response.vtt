@@ -1,0 +1,311 @@
+WEBVTT
+
+1
+00:00:03.380 --> 00:00:05.625
+My name is Fatima,
+
+2
+00:00:05.625 --> 00:00:07.110
+and I'm a tech lead manager on
+
+3
+00:00:07.110 --> 00:00:08.900
+Google's Detection
+and Response Team.
+
+4
+00:00:08.900 --> 00:00:10.425
+If there is a hacker
+on the network,
+
+5
+00:00:10.425 --> 00:00:11.790
+our job is to find them.
+
+6
+00:00:11.790 --> 00:00:13.770
+Working in detection is
+
+7
+00:00:13.770 --> 00:00:15.660
+really like an artist
+preparing for a show.
+
+8
+00:00:15.660 --> 00:00:17.910
+We spend all this time
+developing all of
+
+9
+00:00:17.910 --> 00:00:20.415
+these signatures
+to detect hackers,
+
+10
+00:00:20.415 --> 00:00:22.035
+and then one day,
+
+11
+00:00:22.035 --> 00:00:23.490
+it's time for the show.
+
+12
+00:00:23.490 --> 00:00:25.500
+You get that same nervous energy
+
+13
+00:00:25.500 --> 00:00:26.880
+and your question whether you're
+
+14
+00:00:26.880 --> 00:00:28.470
+ready for the
+performance or not,
+
+15
+00:00:28.470 --> 00:00:30.600
+but you really don't
+have a choice.
+
+16
+00:00:30.600 --> 00:00:32.360
+The hackers are
+going to come and
+
+17
+00:00:32.360 --> 00:00:33.620
+you have to be ready for them.
+
+18
+00:00:33.620 --> 00:00:36.230
+I would say cybersecurity
+is very exciting.
+
+19
+00:00:36.230 --> 00:00:37.940
+You never know when
+
+20
+00:00:37.940 --> 00:00:41.450
+the next vulnerability
+is going to be released.
+
+21
+00:00:41.450 --> 00:00:44.100
+You never know when the next
+incident is going to happen.
+
+22
+00:00:44.100 --> 00:00:46.040
+A great example of
+an incident would be
+
+23
+00:00:46.040 --> 00:00:48.725
+the Log4j vulnerability
+that happened in 2021.
+
+24
+00:00:48.725 --> 00:00:50.690
+The entire company
+came together to
+
+25
+00:00:50.690 --> 00:00:52.160
+investigate whether or not we
+
+26
+00:00:52.160 --> 00:00:53.990
+were affected by
+this vulnerability.
+
+27
+00:00:53.990 --> 00:00:57.155
+It was my team's job to
+make that determination.
+
+28
+00:00:57.155 --> 00:01:00.770
+We ingest hundreds
+of millions of lines
+
+29
+00:01:00.770 --> 00:01:02.650
+of logs per second.
+
+30
+00:01:02.650 --> 00:01:04.790
+After we have these logs,
+
+31
+00:01:04.790 --> 00:01:07.670
+it requires hunting and
+log diving through them,
+
+32
+00:01:07.670 --> 00:01:11.360
+creating different signatures to
+
+33
+00:01:11.360 --> 00:01:13.250
+match against these logs
+
+34
+00:01:13.250 --> 00:01:15.950
+for signs of compromise.
+
+35
+00:01:15.950 --> 00:01:18.290
+We were able to say all clear,
+
+36
+00:01:18.290 --> 00:01:21.125
+we are not impacted by
+this and we're safe.
+
+37
+00:01:21.125 --> 00:01:23.165
+Those are the moments.
+Those are the highlights.
+
+38
+00:01:23.165 --> 00:01:25.070
+That's where everything
+comes together.
+
+39
+00:01:25.070 --> 00:01:28.990
+Teamwork in an incident
+response scenario, is key.
+
+40
+00:01:28.990 --> 00:01:31.985
+You cannot run an
+incident response
+
+41
+00:01:31.985 --> 00:01:36.500
+without a really solid team,
+
+42
+00:01:36.500 --> 00:01:38.030
+a team that works
+really well together,
+
+43
+00:01:38.030 --> 00:01:39.750
+a team that really
+trust each other.
+
+44
+00:01:39.750 --> 00:01:41.030
+The way to maintain
+
+45
+00:01:41.030 --> 00:01:42.605
+clear and effective
+communication
+
+46
+00:01:42.605 --> 00:01:44.390
+is by communicating a lot.
+
+47
+00:01:44.390 --> 00:01:47.000
+During an incident it's a
+little bit counterintuitive,
+
+48
+00:01:47.000 --> 00:01:51.470
+but the people who are the
+more senior engineers,
+
+49
+00:01:51.470 --> 00:01:54.035
+these people become
+the operational leads.
+
+50
+00:01:54.035 --> 00:01:55.400
+They are the people who are
+
+51
+00:01:55.400 --> 00:01:57.140
+responsible for making sure that
+
+52
+00:01:57.140 --> 00:01:58.280
+the communication is not
+
+53
+00:01:58.280 --> 00:02:00.550
+breaking down within
+their function.
+
+54
+00:02:00.550 --> 00:02:03.020
+So, we shift roles
+from being very
+
+55
+00:02:03.020 --> 00:02:06.845
+technical to really focusing
+on the communication,
+
+56
+00:02:06.845 --> 00:02:09.170
+aggregating the data,
+and surfacing the data
+
+57
+00:02:09.170 --> 00:02:11.570
+to the right people who
+need to know about it.
+
+58
+00:02:11.570 --> 00:02:13.520
+I definitely recommend
+cybersecurity as
+
+59
+00:02:13.520 --> 00:02:16.370
+a career field because
+really the attackers,
+
+60
+00:02:16.370 --> 00:02:17.480
+they're not going to let you get
+
+61
+00:02:17.480 --> 00:02:19.030
+bored because they
+are very creative,
+
+62
+00:02:19.030 --> 00:02:20.600
+so we have to be creative in
+
+63
+00:02:20.600 --> 00:02:22.495
+the way that we go
+out looking for them.
+
+64
+00:02:22.495 --> 00:02:24.230
+Being a person who
+likes to learn,
+
+65
+00:02:24.230 --> 00:02:25.955
+knowing that there's
+always going to be
+
+66
+00:02:25.955 --> 00:02:29.215
+a thing for me to learn
+and become good at,
+
+67
+00:02:29.215 --> 00:02:32.580
+that's exciting and that
+keeps me motivated.

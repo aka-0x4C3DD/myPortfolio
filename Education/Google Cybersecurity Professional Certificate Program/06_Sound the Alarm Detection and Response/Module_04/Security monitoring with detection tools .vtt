@@ -1,0 +1,401 @@
+WEBVTT
+
+1
+00:00:00.230 --> 00:00:03.390
+Detection requires data, and
+
+2
+00:00:03.390 --> 00:00:06.210
+this data can come from
+various data sources.
+
+3
+00:00:06.210 --> 00:00:07.545
+You've already explored how
+
+4
+00:00:07.545 --> 00:00:09.555
+different devices produce logs.
+
+5
+00:00:09.555 --> 00:00:12.540
+Now we'll examine how different
+detection technologies
+
+6
+00:00:12.540 --> 00:00:13.920
+monitor devices and
+
+7
+00:00:13.920 --> 00:00:16.080
+log different types
+of system activity,
+
+8
+00:00:16.080 --> 00:00:18.780
+like network and
+endpoint telemetry.
+
+9
+00:00:19.780 --> 00:00:20.760
+Telemetry is the collection and
+
+10
+00:00:20.760 --> 00:00:23.100
+transmission of
+data for analysis.
+
+11
+00:00:23.100 --> 00:00:26.070
+While logs record events
+occurring on systems,
+
+12
+00:00:26.070 --> 00:00:28.590
+telemetry describes
+the data itself.
+
+13
+00:00:28.590 --> 00:00:30.450
+For example, packet captures
+
+14
+00:00:30.450 --> 00:00:32.595
+are considered
+network telemetry.
+
+15
+00:00:32.595 --> 00:00:34.290
+For security professionals,
+
+16
+00:00:34.290 --> 00:00:36.270
+logs and telemetry
+are sources of
+
+17
+00:00:36.270 --> 00:00:37.620
+evidence that can be used to
+
+18
+00:00:37.620 --> 00:00:40.425
+answer questions
+during investigations.
+
+19
+00:00:41.425 --> 00:00:42.380
+Previously, you learned about
+
+20
+00:00:42.380 --> 00:00:45.080
+an intrusion detection
+system, or IDS.
+
+21
+00:00:45.080 --> 00:00:47.480
+Remember that IDS is
+an application that
+
+22
+00:00:47.480 --> 00:00:50.980
+monitors activity and alerts
+on possible intrusions.
+
+23
+00:00:50.980 --> 00:00:53.120
+This includes monitoring
+different parts of
+
+24
+00:00:53.120 --> 00:00:55.535
+a system or network
+like an endpoint.
+
+25
+00:00:56.535 --> 00:00:57.425
+An endpoint is any device
+
+26
+00:00:57.425 --> 00:00:59.945
+connected on a network,
+such as a laptop,
+
+27
+00:00:59.945 --> 00:01:03.355
+tablet, desktop computer,
+or a smartphone.
+
+28
+00:01:03.355 --> 00:01:05.210
+Endpoints are entry points into
+
+29
+00:01:05.210 --> 00:01:07.504
+a network, which makes
+them key targets
+
+30
+00:01:07.504 --> 00:01:09.365
+for malicious actors
+looking to gain
+
+31
+00:01:09.365 --> 00:01:11.755
+unauthorized access
+into a system.
+
+32
+00:01:12.755 --> 00:01:14.820
+To monitor endpoints
+for threats or attacks,
+
+33
+00:01:14.820 --> 00:01:17.870
+a host-based intrusion
+detection system can be used.
+
+34
+00:01:17.870 --> 00:01:19.700
+It's an application
+that monitors
+
+35
+00:01:19.700 --> 00:01:22.400
+the activity of the host
+on which it's installed.
+
+36
+00:01:22.400 --> 00:01:24.920
+To clarify, a host
+is any device that
+
+37
+00:01:24.920 --> 00:01:27.590
+communicates with other
+devices on a network,
+
+38
+00:01:27.590 --> 00:01:29.420
+similar to an endpoint.
+
+39
+00:01:29.420 --> 00:01:31.850
+Host-based intrusion
+detection systems
+
+40
+00:01:31.850 --> 00:01:34.175
+are installed as an
+agent on a single host,
+
+41
+00:01:34.175 --> 00:01:36.770
+such as a laptop
+computer or a server.
+
+42
+00:01:36.770 --> 00:01:38.765
+Depending on its configuration,
+
+43
+00:01:38.765 --> 00:01:40.985
+host-based intrusion
+detection systems
+
+44
+00:01:40.985 --> 00:01:42.170
+will monitor the host
+
+45
+00:01:42.170 --> 00:01:45.940
+on which it's installed to
+detect suspicious activity.
+
+46
+00:01:45.940 --> 00:01:47.945
+Once something has
+been detected,
+
+47
+00:01:47.945 --> 00:01:52.115
+it records output as logs
+and an alert gets generated.
+
+48
+00:01:53.115 --> 00:01:54.680
+What if we wanted to
+monitor a network?
+
+49
+00:01:54.680 --> 00:01:57.530
+A network-based intrusion
+detection system collects
+
+50
+00:01:57.530 --> 00:02:00.485
+and analyzes network
+traffic and network data.
+
+51
+00:02:00.485 --> 00:02:03.020
+Network-based intrusion
+detection systems
+
+52
+00:02:03.020 --> 00:02:05.000
+work similar to packet sniffers
+
+53
+00:02:05.000 --> 00:02:07.310
+because they analyze
+network traffic and
+
+54
+00:02:07.310 --> 00:02:10.340
+network data on a specific
+point in the network.
+
+55
+00:02:11.340 --> 00:02:13.580
+It's common to deploy
+multiple IDS sensors at
+
+56
+00:02:13.580 --> 00:02:14.960
+different points in the network
+
+57
+00:02:14.960 --> 00:02:17.210
+to achieve adequate visibility.
+
+58
+00:02:17.210 --> 00:02:20.555
+When suspicious or unusual
+network activity is detected,
+
+59
+00:02:20.555 --> 00:02:22.910
+the network-based
+intrusion detection system
+
+60
+00:02:22.910 --> 00:02:24.920
+logs it and generates an alert.
+
+61
+00:02:24.920 --> 00:02:26.180
+In this example, the
+
+62
+00:02:26.180 --> 00:02:28.250
+network-based intrusion
+detection system is
+
+63
+00:02:28.250 --> 00:02:30.290
+monitoring the traffic
+that's both coming
+
+64
+00:02:30.290 --> 00:02:32.710
+from and going to the internet.
+
+65
+00:02:33.710 --> 00:02:34.790
+Intrusion detection systems use
+
+66
+00:02:34.790 --> 00:02:36.875
+different types of
+detection methods.
+
+67
+00:02:36.875 --> 00:02:40.205
+One of the most common methods
+is signature analysis.
+
+68
+00:02:40.205 --> 00:02:42.830
+Signature analysis is
+a detection method
+
+69
+00:02:42.830 --> 00:02:44.930
+used to find events
+of interest.
+
+70
+00:02:44.930 --> 00:02:47.870
+A signature specifies
+a set of rules that an
+
+71
+00:02:47.870 --> 00:02:50.830
+IDS refers to when it
+monitors activity.
+
+72
+00:02:50.830 --> 00:02:53.495
+If the activity matches the
+rules in the signature,
+
+73
+00:02:53.495 --> 00:02:56.290
+the IDS logs it and
+sends out an alert.
+
+74
+00:02:56.290 --> 00:02:58.040
+For example, a signature can be
+
+75
+00:02:58.040 --> 00:02:59.720
+written to generate an alert if
+
+76
+00:02:59.720 --> 00:03:03.125
+a failed login on a system
+happens three times in a row,
+
+77
+00:03:03.125 --> 00:03:06.190
+which suggests a possible
+password attack.
+
+78
+00:03:07.190 --> 00:03:08.030
+Before alerts are generated,
+
+79
+00:03:08.030 --> 00:03:09.740
+the activity must be logged.
+
+80
+00:03:09.740 --> 00:03:13.415
+IDS technologies record the
+information of the devices,
+
+81
+00:03:13.415 --> 00:03:17.440
+systems, and networks which
+they monitor as IDS logs.
+
+82
+00:03:17.440 --> 00:03:19.880
+IDS logs can then
+be sent, stored,
+
+83
+00:03:19.880 --> 00:03:23.975
+and analyzed in a centralized
+log repository like a SIEM.
+
+84
+00:03:24.975 --> 00:03:26.510
+Coming up, we'll
+explore how to read and
+
+85
+00:03:26.510 --> 00:03:29.820
+configure signatures.
+Meet you there!

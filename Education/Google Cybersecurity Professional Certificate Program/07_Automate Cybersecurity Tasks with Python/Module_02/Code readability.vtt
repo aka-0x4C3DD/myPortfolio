@@ -1,0 +1,326 @@
+WEBVTT
+
+1
+00:00:00.910 --> 00:00:05.585
+Welcome back! One of the advantages
+to programming in Python is that
+
+2
+00:00:05.585 --> 00:00:07.860
+it's a very readable language.
+
+3
+00:00:07.860 --> 00:00:12.855
+It also helps that the Python community
+shares a set of guidelines that
+
+4
+00:00:12.855 --> 00:00:17.269
+promote clean and neat code.
+These are called style guides.
+
+5
+00:00:17.269 --> 00:00:21.331
+A style guide is a manual
+that informs the writing,
+
+6
+00:00:21.331 --> 00:00:24.551
+formatting, and design of documents.
+
+7
+00:00:24.551 --> 00:00:26.411
+As it relates to programming,
+
+8
+00:00:26.411 --> 00:00:31.290
+style guides are intended to help
+programmers follow similar conventions.
+
+9
+00:00:32.290 --> 00:00:36.082
+The PEP 8 style guide is a resource
+that provides stylistic guidelines for
+
+10
+00:00:36.082 --> 00:00:38.390
+programmers working in Python.
+
+11
+00:00:38.390 --> 00:00:42.480
+PEP is short for
+Python Enhancement Proposals.
+
+12
+00:00:42.480 --> 00:00:47.890
+PEP 8 provides programmers with
+suggestions related to syntax.
+
+13
+00:00:47.890 --> 00:00:51.556
+They're not mandatory, but
+they help create consistency
+
+14
+00:00:51.556 --> 00:00:56.081
+among programmers to make sure that
+others can easily understand our code.
+
+15
+00:00:57.210 --> 00:01:00.564
+It's essentially based on
+the principle that code
+
+16
+00:01:00.564 --> 00:01:03.510
+is read much more often than it's written.
+
+17
+00:01:03.510 --> 00:01:07.557
+This is a great resource for
+anyone who wants to learn how to style and
+
+18
+00:01:07.557 --> 00:01:12.650
+format their Python code in a manner
+consistent with other programmers.
+
+19
+00:01:12.650 --> 00:01:15.860
+For example, PEP 8 discusses comments.
+
+20
+00:01:15.860 --> 00:01:21.740
+A comment is a note programmers make
+about the intention behind their code.
+
+21
+00:01:21.940 --> 00:01:27.756
+They are inserted in computer programs to
+indicate what the code is doing and why.
+
+22
+00:01:28.356 --> 00:01:33.232
+PEP 8 gives specific recommendations,
+like making your comments clear
+
+23
+00:01:33.232 --> 00:01:36.790
+and keeping them up-to-date
+when the code changes.
+
+24
+00:01:37.790 --> 00:01:39.341
+Here's an example of
+code without a comment.
+
+25
+00:01:40.340 --> 00:01:44.509
+The person who wrote it might
+know what's going on, but
+
+26
+00:01:44.509 --> 00:01:47.261
+what about others who need to read it?
+
+27
+00:01:47.261 --> 00:01:52.166
+They might not understand the context
+behind the failed-attempts variable and
+
+28
+00:01:52.166 --> 00:01:55.592
+why it prints "Account locked"
+if it's greater than 5.
+
+29
+00:01:55.592 --> 00:02:00.562
+And the original writer might need to
+revisit this code in the future, for
+
+30
+00:02:00.562 --> 00:02:03.383
+example, to debug the larger program.
+
+31
+00:02:03.383 --> 00:02:07.270
+Without the comment,
+they would also be less efficient.
+
+32
+00:02:07.271 --> 00:02:10.490
+But in this example we've added a comment.
+
+33
+00:02:10.490 --> 00:02:14.515
+All the readers can quickly
+understand what our program and
+
+34
+00:02:14.515 --> 00:02:16.294
+its variables are doing.
+
+35
+00:02:16.294 --> 00:02:20.360
+Comments should be short and
+right to the point.
+
+36
+00:02:21.360 --> 00:02:27.110
+Next, let's talk about another important
+aspect of code readability: indentation.
+
+37
+00:02:27.110 --> 00:02:32.106
+Indentation is a space added at
+the beginning of a line of code.
+
+38
+00:02:32.106 --> 00:02:38.251
+This both improves readability and
+ensures that code is executed properly.
+
+39
+00:02:39.400 --> 00:02:42.946
+There are instances when you
+must indent lines of code to
+
+40
+00:02:42.946 --> 00:02:46.121
+establish connections
+with other lines of code.
+
+41
+00:02:47.120 --> 00:02:50.804
+This groups the indented
+lines of code together and
+
+42
+00:02:50.804 --> 00:02:55.920
+establishes a connection with a previous
+line of code that isn't indented.
+
+43
+00:02:55.920 --> 00:02:59.910
+The body of a conditional
+statement is one example of this.
+
+44
+00:02:59.910 --> 00:03:05.447
+We need to make sure this printed
+statement executes only when the condition
+
+45
+00:03:05.447 --> 00:03:10.050
+is met. Indenting here provides
+this instruction to Python.
+
+46
+00:03:10.050 --> 00:03:14.759
+If the printed statement were not
+indented, Python would execute this
+
+47
+00:03:14.759 --> 00:03:19.560
+printed statement outside of
+the conditional and it would always print.
+
+48
+00:03:19.560 --> 00:03:24.221
+This would be problematic because
+you would get a message that updates
+
+49
+00:03:24.221 --> 00:03:25.110
+are needed,
+
+50
+00:03:25.110 --> 00:03:27.787
+even if they're not. To indent,
+
+51
+00:03:27.787 --> 00:03:32.161
+you must add at least one
+space before a line of code.
+
+52
+00:03:33.160 --> 00:03:38.194
+Typically, programmers are two to four
+spaces for visual clarity.
+
+53
+00:03:38.194 --> 00:03:42.800
+The PEP 8 style guide
+recommends four spaces.
+
+54
+00:03:43.800 --> 00:03:46.853
+At my first engineering job,
+I wrote a script to help validate and
+
+55
+00:03:46.853 --> 00:03:49.170
+launch firewall rules.
+
+56
+00:03:49.170 --> 00:03:51.561
+Initially, my script worked well, but
+
+57
+00:03:51.561 --> 00:03:57.950
+it became hard to read a year later when
+we were trying to expand its functionality.
+
+58
+00:03:57.950 --> 00:03:59.942
+My programming knowledge and
+
+59
+00:03:59.942 --> 00:04:05.606
+coding style had evolved over that year, as
+had the coding practices of my teammates.
+
+60
+00:04:05.606 --> 00:04:10.361
+Our organization did not use a coding
+style guide at that time, so
+
+61
+00:04:10.361 --> 00:04:16.459
+our codes were very different,
+hard to read, and did not scale well.
+
+62
+00:04:16.459 --> 00:04:21.442
+This caused a lot of challenges and
+required additional work to fix.
+
+63
+00:04:22.442 --> 00:04:26.499
+Ensuring that code is readable and
+can be modified over time is why
+
+64
+00:04:26.499 --> 00:04:32.146
+it's important for security professionals
+to adhere to coding style guides
+
+65
+00:04:32.146 --> 00:04:37.052
+and why style guides are so
+important for organizations to utilize.
+
+66
+00:04:37.052 --> 00:04:42.294
+The ability to write readable code
+is key when working in Python.
+
+67
+00:04:42.294 --> 00:04:44.903
+As we head into the next
+part of our course,
+
+68
+00:04:44.903 --> 00:04:49.632
+we'll continue to develop effective
+code practices for better readability.

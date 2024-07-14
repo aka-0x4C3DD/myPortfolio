@@ -1,0 +1,532 @@
+WEBVTT
+
+1
+00:00:00.110 --> 00:00:03.930
+Previously, we introduced
+iterative statements
+
+2
+00:00:03.930 --> 00:00:06.585
+in Python and focused
+on for loops.
+
+3
+00:00:06.585 --> 00:00:09.135
+An iterative statement is code that
+
+4
+00:00:09.135 --> 00:00:12.255
+repeatedly executes a
+set of instructions.
+
+5
+00:00:12.255 --> 00:00:14.385
+In this video, we'll explore
+
+6
+00:00:14.385 --> 00:00:18.210
+another type of iterative
+statement: the while loop.
+
+7
+00:00:18.210 --> 00:00:19.875
+When we used for loops,
+
+8
+00:00:19.875 --> 00:00:21.810
+the code repeatedly executed
+
+9
+00:00:21.810 --> 00:00:23.970
+based on a specified sequence.
+
+10
+00:00:23.970 --> 00:00:27.105
+While loops still
+repeatedly execute,
+
+11
+00:00:27.105 --> 00:00:30.555
+but this repetition is
+based on a condition.
+
+12
+00:00:30.555 --> 00:00:33.135
+As long as the
+condition is true,
+
+13
+00:00:33.135 --> 00:00:35.655
+the loop continues to execute.
+
+14
+00:00:35.655 --> 00:00:37.755
+But when it becomes false,
+
+15
+00:00:37.755 --> 00:00:39.695
+the while loop stops.
+
+16
+00:00:40.695 --> 00:00:41.990
+This while loop, for example,
+
+17
+00:00:41.990 --> 00:00:44.825
+sets a condition where
+the variable time
+
+18
+00:00:44.825 --> 00:00:47.790
+must be less than
+or equal to 10.
+
+19
+00:00:47.790 --> 00:00:50.030
+This means it will keep running
+
+20
+00:00:50.030 --> 00:00:53.150
+until the variable time
+is greater than 10.
+
+21
+00:00:53.151 --> 00:00:54.980
+Similar to the for loop,
+
+22
+00:00:54.980 --> 00:00:57.145
+a while loop has a header.
+
+23
+00:00:57.145 --> 00:00:59.265
+It consists of the keyword
+
+24
+00:00:59.265 --> 00:01:03.210
+while, the condition,
+and a colon.
+
+25
+00:01:03.210 --> 00:01:07.490
+The while loop starts
+with the keyword while.
+
+26
+00:01:07.490 --> 00:01:12.080
+The keyword while signals the
+beginning of a while loop
+
+27
+00:01:12.080 --> 00:01:14.690
+and is followed by the
+condition that evaluates to
+
+28
+00:01:14.690 --> 00:01:18.675
+a Boolean value of
+either True or False.
+
+29
+00:01:18.675 --> 00:01:21.500
+The condition contains
+the loop variable.
+
+30
+00:01:21.500 --> 00:01:23.450
+This variable is used to
+
+31
+00:01:23.450 --> 00:01:25.865
+control the number
+of loop iterations.
+
+32
+00:01:25.865 --> 00:01:28.880
+However, there is an
+important distinction in
+
+33
+00:01:28.880 --> 00:01:31.850
+the variables used in
+for and while loops.
+
+34
+00:01:32.850 --> 00:01:34.250
+With while loops,
+the variable isn't
+
+35
+00:01:34.250 --> 00:01:36.980
+created within the
+loop statement itself.
+
+36
+00:01:36.980 --> 00:01:38.780
+Before writing the while loop,
+
+37
+00:01:38.780 --> 00:01:40.950
+you need to assign the variable.
+
+38
+00:01:40.950 --> 00:01:44.675
+Then you'll be able to
+reference it in the loop.
+
+39
+00:01:44.675 --> 00:01:47.000
+When the condition
+containing the loop variable
+
+40
+00:01:47.000 --> 00:01:49.840
+evaluates to True,
+the loop iterates.
+
+41
+00:01:49.840 --> 00:01:51.365
+If it does not,
+
+42
+00:01:51.365 --> 00:01:53.240
+then the loop stops.
+
+43
+00:01:53.240 --> 00:01:56.330
+This condition will
+evaluate to True while
+
+44
+00:01:56.330 --> 00:02:00.080
+the variable time is less
+than or equal to 10.
+
+45
+00:02:01.080 --> 00:02:03.445
+Finally, the loop header
+ends with a colon.
+
+46
+00:02:03.445 --> 00:02:05.035
+Just like a for loop,
+
+47
+00:02:05.035 --> 00:02:07.340
+a while loop has an
+indented body that
+
+48
+00:02:07.340 --> 00:02:11.365
+consists of the actions to
+take while the loop iterates.
+
+49
+00:02:11.365 --> 00:02:13.520
+The intention of this code is to
+
+50
+00:02:13.520 --> 00:02:15.890
+print the value of a
+variable that represents
+
+51
+00:02:15.890 --> 00:02:18.500
+the time and increase
+its value by
+
+52
+00:02:18.500 --> 00:02:22.095
+two, until it becomes
+greater than 10.
+
+53
+00:02:22.095 --> 00:02:25.760
+This means the first
+action in this while loop
+
+54
+00:02:25.760 --> 00:02:27.050
+is to simply print
+
+55
+00:02:27.050 --> 00:02:29.285
+the current value of
+the time variable.
+
+56
+00:02:29.285 --> 00:02:31.190
+Since while loops do not
+
+57
+00:02:31.190 --> 00:02:33.410
+include a sequence
+to iterate through,
+
+58
+00:02:33.410 --> 00:02:35.630
+we have to explicitly define
+
+59
+00:02:35.630 --> 00:02:37.250
+how the loop variable changes
+
+60
+00:02:37.250 --> 00:02:38.690
+in the body of the while loop.
+
+61
+00:02:38.690 --> 00:02:41.180
+For example, in this while loop,
+
+62
+00:02:41.180 --> 00:02:42.920
+we increase the loop variable
+
+63
+00:02:42.920 --> 00:02:45.830
+time by two every iteration.
+
+64
+00:02:45.830 --> 00:02:48.080
+This is because we only want to
+
+65
+00:02:48.080 --> 00:02:50.405
+print the time
+every two minutes,
+
+66
+00:02:50.405 --> 00:02:53.660
+so this while loop
+prints out all
+
+67
+00:02:53.660 --> 00:02:57.170
+even numbers less
+than or equal to 10.
+
+68
+00:02:58.170 --> 00:02:59.900
+Now that we know the
+basics of while loops,
+
+69
+00:02:59.900 --> 00:03:02.540
+let's explore a
+practical example.
+
+70
+00:03:02.540 --> 00:03:04.550
+Imagine we have a limitation on
+
+71
+00:03:04.550 --> 00:03:07.150
+how many devices a
+user can connect to.
+
+72
+00:03:07.150 --> 00:03:10.670
+We can use a while loop to
+print a message when the user
+
+73
+00:03:10.670 --> 00:03:14.510
+has reached their maximum
+number of connected devices.
+
+74
+00:03:14.510 --> 00:03:17.795
+Let's create a while
+loop for this.
+
+75
+00:03:18.795 --> 00:03:20.285
+Before we start our while loop,
+
+76
+00:03:20.285 --> 00:03:23.300
+we need to assign values
+to two variables.
+
+77
+00:03:23.300 --> 00:03:25.190
+First, we'll set
+
+78
+00:03:25.190 --> 00:03:28.555
+the maximum value of
+connected devices to five.
+
+79
+00:03:28.555 --> 00:03:31.805
+Then, we'll set our
+loop variable.
+
+80
+00:03:31.805 --> 00:03:36.490
+We'll use i for this and
+set it to a value of one.
+
+81
+00:03:36.490 --> 00:03:38.695
+Unlike with for loops,
+
+82
+00:03:38.695 --> 00:03:40.340
+with while loops, we set
+
+83
+00:03:40.340 --> 00:03:42.530
+this variable
+outside of the loop.
+
+84
+00:03:42.530 --> 00:03:46.360
+Next, we'll create the
+header of our while loop.
+
+85
+00:03:46.360 --> 00:03:49.205
+In this case, the
+condition is that
+
+86
+00:03:49.205 --> 00:03:52.745
+the first variable is less
+than the second variable.
+
+87
+00:03:52.745 --> 00:03:57.500
+Those variables are the loop
+variable "i" and max_devices.
+
+88
+00:03:57.500 --> 00:04:01.115
+Since we know the value
+of max_devices is five,
+
+89
+00:04:01.115 --> 00:04:04.100
+we can understand that
+this loop will run as
+
+90
+00:04:04.100 --> 00:04:07.610
+long as the current value
+of "i" is less than five.
+
+91
+00:04:07.610 --> 00:04:11.900
+Then we indicate what we
+want our while loop to do.
+
+92
+00:04:11.900 --> 00:04:14.510
+Because this loop runs as long
+
+93
+00:04:14.510 --> 00:04:18.000
+as the user can still
+connect to devices,
+
+94
+00:04:18.310 --> 00:04:20.660
+we'll first have it print
+
+95
+00:04:20.660 --> 00:04:25.980
+a "user can still connect to
+additional devices" message.
+
+96
+00:04:26.060 --> 00:04:31.775
+After this, with each iteration,
+we'll increment i by one.
+
+97
+00:04:31.775 --> 00:04:33.484
+When the loop repeats,
+
+98
+00:04:33.484 --> 00:04:36.730
+it will use the new
+value of the i variable.
+
+99
+00:04:36.730 --> 00:04:38.855
+Python will exit the loop when
+
+100
+00:04:38.855 --> 00:04:41.975
+i is no longer less than five.
+
+101
+00:04:42.975 --> 00:04:45.590
+Let's also print a message
+when this happens.
+
+102
+00:04:45.590 --> 00:04:48.050
+We stop indenting because
+
+103
+00:04:48.050 --> 00:04:51.410
+this next action occurs
+outside of the loop.
+
+104
+00:04:51.410 --> 00:04:54.170
+Then we'll print "user has
+
+105
+00:04:54.170 --> 00:04:57.920
+reached maximum number
+of connected devices."
+
+106
+00:05:08.600 --> 00:05:11.860
+We're ready to run this.
+
+107
+00:05:11.870 --> 00:05:13.995
+Because of the loop,
+
+108
+00:05:13.995 --> 00:05:17.480
+the first message prints
+a total of four times.
+
+109
+00:05:17.480 --> 00:05:21.845
+The loop stops when the value
+of i increments to five.
+
+110
+00:05:21.845 --> 00:05:24.170
+At this point, it exits
+
+111
+00:05:24.170 --> 00:05:27.220
+the loop and prints
+the second message.
+
+112
+00:05:28.220 --> 00:05:30.860
+When you combine this new
+understanding of for and
+
+113
+00:05:30.860 --> 00:05:32.630
+while loops with
+what you already
+
+114
+00:05:32.630 --> 00:05:35.525
+know about conditional
+statements and variables,
+
+115
+00:05:35.525 --> 00:05:40.350
+you have a lot of options
+in Python. Great work!

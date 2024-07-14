@@ -1,0 +1,157 @@
+WEBVTT
+
+1
+00:00:01.030 --> 00:00:04.902
+Incidents happen, and as a security
+analyst, you'll likely be tasked with
+
+2
+00:00:04.902 --> 00:00:09.640
+investigating and responding to security
+incidents at some point in your career.
+
+3
+00:00:09.640 --> 00:00:14.640
+Let's examine the Detection and Analysis
+phase of the incident response lifecycle.
+
+4
+00:00:14.640 --> 00:00:18.693
+This is where incident response
+teams verify and analyze incidents.
+
+5
+00:00:19.693 --> 00:00:22.201
+Detection enables the prompt
+discovery of security events.
+
+6
+00:00:23.290 --> 00:00:27.440
+Remember not all events are incidents,
+but all incidents are events.
+
+7
+00:00:27.440 --> 00:00:32.666
+Events are regular occurrences in business
+operations, like visits to a website or
+
+8
+00:00:32.666 --> 00:00:34.418
+password reset requests.
+
+9
+00:00:34.418 --> 00:00:36.259
+IDS and SIEM tools collect and
+
+10
+00:00:36.259 --> 00:00:42.330
+analyze event data from different sources
+to identify potential unusual activity.
+
+11
+00:00:42.330 --> 00:00:46.391
+If an incident is detected, such as
+a malicious actor successfully gaining
+
+12
+00:00:46.391 --> 00:00:50.270
+unauthorized access to an account,
+then an alert is sent out.
+
+13
+00:00:50.270 --> 00:00:53.268
+Security teams then begin
+the Analysis phase.
+
+14
+00:00:54.268 --> 00:00:57.650
+Analysis involves the investigation and
+validation of alerts.
+
+15
+00:00:57.650 --> 00:01:01.835
+During the analysis process, analysts
+must apply their critical thinking and
+
+16
+00:01:01.835 --> 00:01:05.650
+incident analysis skills to
+investigate and validate alerts.
+
+17
+00:01:05.650 --> 00:01:10.150
+They'll examine indicators of compromise
+to determine if an incident has occurred.
+
+18
+00:01:10.150 --> 00:01:12.361
+This can be a challenge for
+a couple of reasons.
+
+19
+00:01:14.540 --> 00:01:18.380
+The challenge with detection is it's
+impossible to detect everything.
+
+20
+00:01:18.380 --> 00:01:22.640
+Even great detection tools have
+limitations in how they work, and automated
+
+21
+00:01:22.640 --> 00:01:27.810
+tools may not be fully deployed across
+an organization due to limited resources.
+
+22
+00:01:27.810 --> 00:01:31.292
+Some incidents are unavoidable,
+which is why it's important for
+
+23
+00:01:31.292 --> 00:01:34.411
+organizations to have an incident
+response plan in place.
+
+24
+00:01:35.411 --> 00:01:37.716
+Analysts often receive a high
+volume of alerts per shift,
+
+25
+00:01:37.716 --> 00:01:39.342
+sometimes even thousands.
+
+26
+00:01:39.342 --> 00:01:44.180
+Most of the time, high alert volumes are
+caused by misconfigured alert settings.
+
+27
+00:01:44.180 --> 00:01:46.745
+For example, alert rules
+that are too broad and
+
+28
+00:01:46.745 --> 00:01:51.020
+not tuned to an organization's
+environment create false positives.
+
+29
+00:01:51.020 --> 00:01:54.716
+Other times, high alert volumes
+can be legitimate alerts caused
+
+30
+00:01:54.716 --> 00:01:59.097
+by malicious actors taking advantage
+of a newly discovered vulnerability.
+
+31
+00:02:00.097 --> 00:02:03.352
+As a security analyst, it's important that
+you're equipped to effectively analyze
+
+32
+00:02:03.352 --> 00:02:05.578
+alerts and coming up, you'll do just that.

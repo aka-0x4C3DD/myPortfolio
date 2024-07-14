@@ -1,0 +1,247 @@
+WEBVTT
+
+1
+00:00:00.350 --> 00:00:03.795
+Let's start our exploration of
+
+2
+00:00:03.795 --> 00:00:06.720
+user-defined functions
+by creating
+
+3
+00:00:06.720 --> 00:00:09.505
+and then running a
+very simple function.
+
+4
+00:00:10.505 --> 00:00:11.640
+The first thing we need to do
+
+5
+00:00:11.640 --> 00:00:13.615
+is define our function.
+
+6
+00:00:13.615 --> 00:00:15.505
+When we define a function,
+
+7
+00:00:15.505 --> 00:00:19.435
+we basically tell
+Python that it exists.
+
+8
+00:00:19.435 --> 00:00:23.165
+The def keyword is
+needed for this.
+
+9
+00:00:23.165 --> 00:00:25.480
+def is placed before
+
+10
+00:00:25.480 --> 00:00:28.480
+a function name to
+define a function.
+
+11
+00:00:28.480 --> 00:00:30.655
+Let's create a function that
+
+12
+00:00:30.655 --> 00:00:33.835
+greets employees
+after they log in.
+
+13
+00:00:34.835 --> 00:00:36.510
+First, we'll comment
+
+14
+00:00:36.510 --> 00:00:39.335
+on what we want to
+do with this code.
+
+15
+00:00:39.335 --> 00:00:42.005
+We want to define a function.
+
+16
+00:00:42.005 --> 00:00:45.805
+Now, we'll go to a new line and
+
+17
+00:00:45.805 --> 00:00:49.570
+use the keyword def
+to name our function.
+
+18
+00:00:49.570 --> 00:00:53.240
+We'll call it greet_employee.
+
+19
+00:00:54.250 --> 00:00:57.445
+Let's look at this syntax
+a little more closely.
+
+20
+00:00:57.445 --> 00:00:59.920
+After our keyword def and
+
+21
+00:00:59.920 --> 00:01:03.320
+the function name, we
+place parentheses.
+
+22
+00:01:03.320 --> 00:01:05.860
+Later, we'll explore adding
+
+23
+00:01:05.860 --> 00:01:08.315
+information inside
+the parentheses,
+
+24
+00:01:08.315 --> 00:01:10.435
+but for this simple function,
+
+25
+00:01:10.435 --> 00:01:12.845
+we don't need to add anything.
+
+26
+00:01:12.845 --> 00:01:15.340
+Also, just like we did with
+
+27
+00:01:15.340 --> 00:01:17.835
+conditional and
+iterative statements,
+
+28
+00:01:17.835 --> 00:01:20.945
+we add a colon at the
+end of this header.
+
+29
+00:01:20.945 --> 00:01:22.875
+After the colon,
+
+30
+00:01:22.875 --> 00:01:25.915
+we'll indicate what
+the function will do.
+
+31
+00:01:25.915 --> 00:01:29.200
+In our case, we
+want the function
+
+32
+00:01:29.200 --> 00:01:32.890
+to output a message once
+the employee logs in.
+
+33
+00:01:33.890 --> 00:01:35.725
+So let's continue
+creating our function
+
+34
+00:01:35.725 --> 00:01:38.375
+and tell Python to
+print this string.
+
+35
+00:01:38.375 --> 00:01:43.970
+This line is indented because
+it's part of this function.
+
+36
+00:01:44.150 --> 00:01:47.610
+So what happens if
+we run this code?
+
+37
+00:01:47.610 --> 00:01:52.455
+Does it print our
+message? Let's try this.
+
+38
+00:01:52.455 --> 00:01:55.180
+It doesn't.
+
+39
+00:01:55.180 --> 00:01:58.510
+That's because you also have
+to call your function.
+
+40
+00:01:58.510 --> 00:02:00.295
+You may not realize it,
+
+41
+00:02:00.295 --> 00:02:03.805
+but you already have
+experience calling functions.
+
+42
+00:02:03.805 --> 00:02:06.325
+Print is a built-in function
+
+43
+00:02:06.325 --> 00:02:08.710
+that we've called many times.
+
+44
+00:02:09.710 --> 00:02:13.225
+So to call greet_employee,
+we'll do something similar.
+
+45
+00:02:13.225 --> 00:02:15.940
+Let's go with a new line.
+
+46
+00:02:16.190 --> 00:02:18.775
+We'll add another comment
+
+47
+00:02:18.775 --> 00:02:22.630
+because now our purpose
+is to call our function.
+
+48
+00:02:22.630 --> 00:02:27.855
+And then, we'll call the
+greet_employee function.
+
+49
+00:02:27.855 --> 00:02:30.550
+We'll run it again.
+
+50
+00:02:30.680 --> 00:02:35.040
+This time it printed
+our welcome message.
+
+51
+00:02:36.040 --> 00:02:39.825
+Great work! We've now defined
+and called a function.
+
+52
+00:02:39.825 --> 00:02:42.520
+This was a simple function.
+
+53
+00:02:42.520 --> 00:02:45.080
+We're going to learn
+something next that
+
+54
+00:02:45.080 --> 00:02:48.690
+will add to the complexity
+of the functions you write.

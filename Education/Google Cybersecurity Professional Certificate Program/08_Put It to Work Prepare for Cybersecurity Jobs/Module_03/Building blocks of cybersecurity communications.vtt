@@ -1,0 +1,387 @@
+WEBVTT
+
+1
+00:00:00.230 --> 00:00:04.620
+Previously, we discussed
+communicating information
+
+2
+00:00:04.620 --> 00:00:06.675
+that is important
+to stakeholders.
+
+3
+00:00:06.675 --> 00:00:08.820
+It's essential that
+communications are
+
+4
+00:00:08.820 --> 00:00:11.040
+specific and clear, so
+
+5
+00:00:11.040 --> 00:00:13.245
+stakeholders understand
+what's happening
+
+6
+00:00:13.245 --> 00:00:15.780
+and what actions may
+need to be taken.
+
+7
+00:00:15.780 --> 00:00:18.810
+In this video, we'll go
+into more detail about
+
+8
+00:00:18.810 --> 00:00:22.365
+how to create precise and
+clear communications.
+
+9
+00:00:23.365 --> 00:00:25.260
+Creating security
+communications to share with
+
+10
+00:00:25.260 --> 00:00:28.665
+stakeholders is similar
+to telling a great story.
+
+11
+00:00:28.665 --> 00:00:33.105
+Stories typically have a
+beginning, middle, and end.
+
+12
+00:00:33.105 --> 00:00:35.660
+Somewhere in that story
+there is some sort of
+
+13
+00:00:35.660 --> 00:00:38.780
+conflict and an
+eventual resolution.
+
+14
+00:00:38.780 --> 00:00:41.390
+This concept is also true when
+
+15
+00:00:41.390 --> 00:00:44.205
+telling security stories
+to stakeholders.
+
+16
+00:00:45.205 --> 00:00:46.430
+The security story details
+
+17
+00:00:46.430 --> 00:00:48.530
+what the security challenge is,
+
+18
+00:00:48.530 --> 00:00:50.675
+how it impacts the organization,
+
+19
+00:00:50.675 --> 00:00:53.255
+and possible solutions
+to the issue.
+
+20
+00:00:53.255 --> 00:00:55.850
+The security story also includes
+
+21
+00:00:55.850 --> 00:00:58.325
+data related to the challenge,
+
+22
+00:00:58.325 --> 00:01:01.370
+its impact and
+proposed solutions.
+
+23
+00:01:01.370 --> 00:01:04.400
+This data could be in the form
+of reports that summarize
+
+24
+00:01:04.400 --> 00:01:06.380
+key findings or a list of
+
+25
+00:01:06.380 --> 00:01:09.250
+issues that may need
+immediate attention.
+
+26
+00:01:10.250 --> 00:01:12.595
+Let's use the following
+scenario as an example.
+
+27
+00:01:12.595 --> 00:01:15.310
+You've been monitoring
+system logs and
+
+28
+00:01:15.310 --> 00:01:18.020
+notice possible
+malicious code execution
+
+29
+00:01:18.020 --> 00:01:19.340
+in the logs that can lead to
+
+30
+00:01:19.340 --> 00:01:23.740
+the exposure of sensitive
+user information.
+
+31
+00:01:23.740 --> 00:01:25.790
+Now, you need to communicate
+
+32
+00:01:25.790 --> 00:01:27.695
+what is happening
+to a stakeholder,
+
+33
+00:01:27.695 --> 00:01:30.425
+in this case, your
+immediate supervisor.
+
+34
+00:01:30.425 --> 00:01:33.575
+The first step is to
+detail the issue:
+
+35
+00:01:33.575 --> 00:01:36.560
+potential malicious
+code execution
+
+36
+00:01:36.560 --> 00:01:39.125
+found while monitoring the logs.
+
+37
+00:01:39.125 --> 00:01:41.210
+The next step is to refer to
+
+38
+00:01:41.210 --> 00:01:44.390
+the organization's incident
+response playbook, and
+
+39
+00:01:44.390 --> 00:01:46.340
+mention the suggested
+guidance from
+
+40
+00:01:46.340 --> 00:01:48.650
+the playbook regarding
+malicious code
+
+41
+00:01:48.650 --> 00:01:50.440
+found in system logs.
+
+42
+00:01:50.440 --> 00:01:52.130
+This shows your supervisor
+
+43
+00:01:52.130 --> 00:01:53.510
+that you've been
+paying attention to
+
+44
+00:01:53.510 --> 00:01:56.885
+the procedures already
+established by the team.
+
+45
+00:01:56.885 --> 00:01:59.600
+The final piece of your story is
+
+46
+00:01:59.600 --> 00:02:02.335
+to provide a possible
+solution to the issue.
+
+47
+00:02:03.335 --> 00:02:04.910
+In this scenario, you may not be
+
+48
+00:02:04.910 --> 00:02:08.090
+the final decision maker
+regarding what action is taken,
+
+49
+00:02:08.090 --> 00:02:11.270
+but you've explained to
+the stakeholder what
+
+50
+00:02:11.270 --> 00:02:14.690
+has happened and a possible
+solution to the problem.
+
+51
+00:02:15.690 --> 00:02:17.075
+You can communicate the story
+
+52
+00:02:17.075 --> 00:02:19.585
+we just discussed
+in various ways.
+
+53
+00:02:19.585 --> 00:02:22.475
+Send an email, share a document,
+
+54
+00:02:22.475 --> 00:02:23.930
+or even communicate through
+
+55
+00:02:23.930 --> 00:02:25.940
+the use of a visual
+representation.
+
+56
+00:02:25.940 --> 00:02:28.040
+You can also use
+incident management
+
+57
+00:02:28.040 --> 00:02:29.750
+or ticketing systems.
+
+58
+00:02:29.750 --> 00:02:32.750
+Many organizations have
+incident management or
+
+59
+00:02:32.750 --> 00:02:34.580
+ticketing systems that follow
+
+60
+00:02:34.580 --> 00:02:37.505
+the steps outlined in
+their security playbooks.
+
+61
+00:02:38.505 --> 00:02:39.290
+Some scenarios are better
+
+62
+00:02:39.290 --> 00:02:42.065
+expressed by using
+visual elements.
+
+63
+00:02:42.065 --> 00:02:43.910
+Visuals are used to convey
+
+64
+00:02:43.910 --> 00:02:46.160
+key details in the
+form of graphs,
+
+65
+00:02:46.160 --> 00:02:49.700
+charts, videos, or
+other visual effects.
+
+66
+00:02:49.700 --> 00:02:51.590
+This allows stakeholders to view
+
+67
+00:02:51.590 --> 00:02:55.415
+a pictorial representation
+of what is being explained.
+
+68
+00:02:55.415 --> 00:02:57.590
+Visual dashboards
+can help you tell
+
+69
+00:02:57.590 --> 00:03:00.125
+a full security story
+to stakeholders.
+
+70
+00:03:00.125 --> 00:03:01.655
+Later in this course,
+
+71
+00:03:01.655 --> 00:03:03.890
+you'll have an opportunity
+to learn how to use
+
+72
+00:03:03.890 --> 00:03:07.205
+Google Sheets to create
+a visual security story.
+
+73
+00:03:07.205 --> 00:03:09.140
+That's going to be fun!
+
+74
+00:03:10.140 --> 00:03:12.080
+A security professional
+who knows how to tell
+
+75
+00:03:12.080 --> 00:03:15.590
+a compelling and concise
+security story can help
+
+76
+00:03:15.590 --> 00:03:17.570
+stakeholders make
+decisions about
+
+77
+00:03:17.570 --> 00:03:20.050
+the best ways to
+respond to an incident.
+
+78
+00:03:20.050 --> 00:03:22.190
+Ideally, you want to be
+
+79
+00:03:22.190 --> 00:03:23.915
+someone that make
+stakeholders' jobs
+
+80
+00:03:23.915 --> 00:03:26.660
+easier, and communicating
+effectively
+
+81
+00:03:26.660 --> 00:03:28.640
+will certainly help you do that.
+
+82
+00:03:29.640 --> 00:03:30.725
+Coming up, we'll continue
+
+83
+00:03:30.725 --> 00:03:34.470
+our discussion about
+communicating with stakeholders.

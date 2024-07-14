@@ -1,0 +1,433 @@
+WEBVTT
+
+1
+00:00:00.140 --> 00:00:02.820
+Security analysts are hired to
+
+2
+00:00:02.820 --> 00:00:05.280
+protect company assets and data,
+
+3
+00:00:05.280 --> 00:00:07.560
+including knowing when and
+
+4
+00:00:07.560 --> 00:00:09.944
+how to escalate
+security incidents.
+
+5
+00:00:09.944 --> 00:00:12.060
+In this video, we'll define
+
+6
+00:00:12.060 --> 00:00:14.820
+security incident
+escalation and discuss
+
+7
+00:00:14.820 --> 00:00:17.190
+your role in making
+decisions that help protect
+
+8
+00:00:17.190 --> 00:00:20.505
+your organization's
+data and assets.
+
+9
+00:00:21.505 --> 00:00:23.490
+So what is incident escalation? And
+
+10
+00:00:23.490 --> 00:00:26.595
+why is it so important for
+security professionals?
+
+11
+00:00:26.595 --> 00:00:29.280
+Incident escalation
+is the process of
+
+12
+00:00:29.280 --> 00:00:32.130
+identifying a potential
+security incident,
+
+13
+00:00:32.130 --> 00:00:35.555
+triaging it, and (if appropriate)
+
+14
+00:00:35.555 --> 00:00:38.740
+handing it off to a more
+experienced team member.
+
+15
+00:00:38.740 --> 00:00:41.330
+It's important to
+also recognize that
+
+16
+00:00:41.330 --> 00:00:44.090
+not every incident
+needs to be escalated.
+
+17
+00:00:44.090 --> 00:00:46.130
+In this video, we'll cover
+
+18
+00:00:46.130 --> 00:00:49.104
+what types of incidents
+should be escalated.
+
+19
+00:00:50.104 --> 00:00:52.760
+As an entry-level analyst,
+it's unlikely that
+
+20
+00:00:52.760 --> 00:00:56.180
+you'll be responding to security
+incidents independently.
+
+21
+00:00:56.180 --> 00:01:00.080
+However, it's important that
+you know how to evaluate and
+
+22
+00:01:00.080 --> 00:01:02.585
+escalate incidents to
+the right individual
+
+23
+00:01:02.585 --> 00:01:04.624
+or team when necessary.
+
+24
+00:01:04.624 --> 00:01:07.220
+Let's discuss the
+essential skills needed to
+
+25
+00:01:07.220 --> 00:01:09.874
+properly escalate
+security incidents.
+
+26
+00:01:10.874 --> 00:01:12.560
+There are two essential
+skills that will help you
+
+27
+00:01:12.560 --> 00:01:16.070
+identify security incidents
+that need to be escalated:
+
+28
+00:01:16.070 --> 00:01:19.510
+attention to detail and
+an ability to follow
+
+29
+00:01:19.510 --> 00:01:23.290
+an organization's escalation
+guidelines or processes.
+
+30
+00:01:23.290 --> 00:01:27.220
+Attention to detail will help
+you quickly identify when
+
+31
+00:01:27.220 --> 00:01:28.870
+something doesn't
+seem right within
+
+32
+00:01:28.870 --> 00:01:31.735
+the organization's
+network or systems.
+
+33
+00:01:31.735 --> 00:01:35.470
+Following a company's escalation
+guidelines or processes
+
+34
+00:01:35.470 --> 00:01:37.405
+will help you know
+how to properly
+
+35
+00:01:37.405 --> 00:01:39.775
+escalate the issue
+you've identified.
+
+36
+00:01:40.775 --> 00:01:42.520
+Larger organizations'
+security teams have
+
+37
+00:01:42.520 --> 00:01:44.995
+many levels, and each level,
+
+38
+00:01:44.995 --> 00:01:46.990
+or member, of that team plays
+
+39
+00:01:46.990 --> 00:01:50.365
+a major role in protecting the
+company's assets and data.
+
+40
+00:01:50.365 --> 00:01:54.085
+However, smaller and
+medium sized companies have
+
+41
+00:01:54.085 --> 00:01:55.840
+only one or two people
+
+42
+00:01:55.840 --> 00:01:58.675
+responsible for the
+organization's security.
+
+43
+00:01:58.675 --> 00:02:00.500
+For now, we'll focus on
+
+44
+00:02:00.500 --> 00:02:02.585
+the roles in bigger
+organizations.
+
+45
+00:02:03.585 --> 00:02:05.360
+From the Chief Information
+Security Officer,
+
+46
+00:02:05.360 --> 00:02:07.100
+also known as the CISO,
+
+47
+00:02:07.100 --> 00:02:10.340
+to the engineering team,
+public relations team,
+
+48
+00:02:10.340 --> 00:02:11.960
+and even the legal team,
+
+49
+00:02:11.960 --> 00:02:15.055
+every member of the
+security team matters.
+
+50
+00:02:15.055 --> 00:02:17.330
+Each team member's
+role depends on
+
+51
+00:02:17.330 --> 00:02:19.915
+the nature and scope
+of the incident.
+
+52
+00:02:19.915 --> 00:02:22.460
+These roles are
+highlighted within
+
+53
+00:02:22.460 --> 00:02:24.770
+a company's escalation process.
+
+54
+00:02:24.770 --> 00:02:27.140
+Even the smallest
+security incident can
+
+55
+00:02:27.140 --> 00:02:30.100
+become a much larger
+issue if not addressed.
+
+56
+00:02:30.100 --> 00:02:32.210
+And that's where you come in!
+
+57
+00:02:33.210 --> 00:02:34.595
+Imagine you're
+working at your desk
+
+58
+00:02:34.595 --> 00:02:37.400
+and notice what appears
+to be a minor incident,
+
+59
+00:02:37.400 --> 00:02:38.900
+but you decide to take a break
+
+60
+00:02:38.900 --> 00:02:41.155
+before addressing
+or escalating it.
+
+61
+00:02:41.155 --> 00:02:44.705
+This decision could have
+major consequences.
+
+62
+00:02:44.705 --> 00:02:47.975
+If a small issue goes
+unescalated for too long,
+
+63
+00:02:47.975 --> 00:02:49.610
+it has the potential to become
+
+64
+00:02:49.610 --> 00:02:52.580
+a larger problem that
+costs the company money,
+
+65
+00:02:52.580 --> 00:02:54.965
+exposes sensitive customer data,
+
+66
+00:02:54.965 --> 00:02:57.500
+or damages the
+company's reputation.
+
+67
+00:02:57.500 --> 00:02:59.840
+However, with a high-level of
+
+68
+00:02:59.840 --> 00:03:02.810
+attention to detail, and
+an ability to follow
+
+69
+00:03:02.810 --> 00:03:05.045
+your organization's
+escalation guidelines
+
+70
+00:03:05.045 --> 00:03:06.980
+and processes, it may be
+
+71
+00:03:06.980 --> 00:03:08.390
+possible to avoid exposing
+
+72
+00:03:08.390 --> 00:03:11.740
+the business, and its customers,
+to harmful incidents.
+
+73
+00:03:12.740 --> 00:03:13.760
+As an entry-level analyst,
+
+74
+00:03:13.760 --> 00:03:15.740
+you play an important role.
+
+75
+00:03:15.740 --> 00:03:18.065
+You help the security
+team identify
+
+76
+00:03:18.065 --> 00:03:20.210
+issues within the network and
+
+77
+00:03:20.210 --> 00:03:22.190
+systems and help make sure
+
+78
+00:03:22.190 --> 00:03:23.570
+the right person on the team is
+
+79
+00:03:23.570 --> 00:03:25.640
+alerted when incidents occur.
+
+80
+00:03:26.640 --> 00:03:27.905
+Think about an assembly line.
+
+81
+00:03:27.905 --> 00:03:31.250
+Would the final step in the
+line be negatively impacted
+
+82
+00:03:31.250 --> 00:03:34.705
+if the first step were done
+incorrectly, or not at all?
+
+83
+00:03:34.705 --> 00:03:36.315
+Of course it would!
+
+84
+00:03:36.315 --> 00:03:38.210
+Every decision you make helps
+
+85
+00:03:38.210 --> 00:03:40.430
+the entire security team protect
+
+86
+00:03:40.430 --> 00:03:43.280
+an organization's
+assets and data.
+
+87
+00:03:43.280 --> 00:03:47.210
+Knowing when and how to
+escalate security incidents
+
+88
+00:03:47.210 --> 00:03:49.340
+is one of many
+important decisions
+
+89
+00:03:49.340 --> 00:03:51.845
+you'll need to make
+on a daily basis.
+
+90
+00:03:52.845 --> 00:03:53.690
+Later in this course,
+
+91
+00:03:53.690 --> 00:03:56.960
+we'll discuss the various
+levels of security incidents.
+
+92
+00:03:56.960 --> 00:04:00.065
+Knowing those levels will help
+you determine the level of
+
+93
+00:04:00.065 --> 00:04:04.500
+urgency needed to escalate
+different incident types.

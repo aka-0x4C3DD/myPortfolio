@@ -1,0 +1,488 @@
+WEBVTT
+
+1
+00:00:00.140 --> 00:00:02.865
+To defend against attacks,
+
+2
+00:00:02.865 --> 00:00:04.650
+organizations need
+to have more than
+
+3
+00:00:04.650 --> 00:00:05.850
+just the understanding of
+
+4
+00:00:05.850 --> 00:00:08.220
+the growing digital
+landscape around them.
+
+5
+00:00:08.220 --> 00:00:11.640
+Positioning themselves ahead
+of a cyber threat also takes
+
+6
+00:00:11.640 --> 00:00:13.200
+understanding the type of
+
+7
+00:00:13.200 --> 00:00:15.540
+attacks that can be
+used against them.
+
+8
+00:00:16.540 --> 00:00:18.900
+Last time, we began
+exploring how the cloud has
+
+9
+00:00:18.900 --> 00:00:20.880
+expanded the digital
+attack surface
+
+10
+00:00:20.880 --> 00:00:22.740
+that organizations protect.
+
+11
+00:00:22.740 --> 00:00:25.470
+As a result, cloud
+computing has led to
+
+12
+00:00:25.470 --> 00:00:28.425
+an increase in the number
+attack vectors available.
+
+13
+00:00:29.425 --> 00:00:31.095
+Attack vectors refer
+to the pathways
+
+14
+00:00:31.095 --> 00:00:34.335
+attackers use to penetrate
+security defenses.
+
+15
+00:00:34.335 --> 00:00:36.585
+Like the doors and
+windows of a home,
+
+16
+00:00:36.585 --> 00:00:39.165
+these pathways are
+the exploitable features
+
+17
+00:00:39.165 --> 00:00:40.780
+of an attack surface.
+
+18
+00:00:40.780 --> 00:00:44.680
+One example of an attack
+vector would be social media.
+
+19
+00:00:44.680 --> 00:00:48.530
+Another would be removable
+media, like a USB drive.
+
+20
+00:00:49.530 --> 00:00:51.440
+Most people outside of
+security assume that
+
+21
+00:00:51.440 --> 00:00:53.540
+cyber criminals
+are the only ones
+
+22
+00:00:53.540 --> 00:00:55.915
+out there exploiting
+attack vectors.
+
+23
+00:00:55.915 --> 00:00:57.770
+While attack vectors are used by
+
+24
+00:00:57.770 --> 00:01:00.050
+malicious hackers to
+steal information,
+
+25
+00:01:00.050 --> 00:01:01.805
+other groups use them too.
+
+26
+00:01:01.805 --> 00:01:03.844
+For example, employees
+
+27
+00:01:03.844 --> 00:01:07.100
+occasionally exploit attack
+vectors unintentionally.
+
+28
+00:01:07.100 --> 00:01:10.165
+This happens a lot with
+social media platforms.
+
+29
+00:01:10.165 --> 00:01:13.400
+Sometimes, employees post
+sensitive company news
+
+30
+00:01:13.400 --> 00:01:15.155
+that shouldn't have been shared.
+
+31
+00:01:15.155 --> 00:01:18.450
+At times, this same kind of thing
+happens on purpose.
+
+32
+00:01:18.450 --> 00:01:20.690
+Social media platforms are also
+
+33
+00:01:20.690 --> 00:01:22.835
+vectors that
+disgruntled employees
+
+34
+00:01:22.835 --> 00:01:24.530
+use to intentionally share
+
+35
+00:01:24.530 --> 00:01:27.820
+confidential information
+that can harm the company.
+
+36
+00:01:28.820 --> 00:01:30.080
+We all treat attack vectors as
+
+37
+00:01:30.080 --> 00:01:32.570
+critical risks to
+asset security.
+
+38
+00:01:32.570 --> 00:01:35.060
+Attackers typically
+put forth a lot of
+
+39
+00:01:35.060 --> 00:01:38.205
+effort planning their attacks
+before carrying them out.
+
+40
+00:01:38.205 --> 00:01:40.910
+It's up to us as security
+professionals to
+
+41
+00:01:40.910 --> 00:01:44.270
+put an even greater amount of
+effort into stopping them.
+
+42
+00:01:45.270 --> 00:01:46.685
+Security teams do
+this by thinking of
+
+43
+00:01:46.685 --> 00:01:49.540
+each vector with an
+attacker mindset.
+
+44
+00:01:49.540 --> 00:01:51.620
+This starts with a
+simple question,
+
+45
+00:01:51.620 --> 00:01:54.455
+"how would we exploit
+this vector?"
+
+46
+00:01:54.455 --> 00:01:57.020
+We then go through a
+step-by-step process
+
+47
+00:01:57.020 --> 00:01:58.700
+to answer our question.
+
+48
+00:01:59.700 --> 00:02:01.865
+First, when practicing
+an attacker mindset,
+
+49
+00:02:01.865 --> 00:02:03.695
+we identify a target.
+
+50
+00:02:03.695 --> 00:02:06.875
+This could be specific
+information, a system,
+
+51
+00:02:06.875 --> 00:02:08.765
+a person, a group,
+
+52
+00:02:08.765 --> 00:02:10.760
+or the organization itself.
+
+53
+00:02:11.760 --> 00:02:14.090
+Next, we determine how the
+target can be accessed.
+
+54
+00:02:14.090 --> 00:02:16.790
+What information is
+available that an attacker
+
+55
+00:02:16.790 --> 00:02:19.430
+might take advantage of
+to reach the target?
+
+56
+00:02:20.430 --> 00:02:20.810
+Based on that information,
+
+57
+00:02:20.810 --> 00:02:22.580
+the third step is to evaluate
+
+58
+00:02:22.580 --> 00:02:26.090
+the attack vectors that can
+be exploited to gain entry.
+
+59
+00:02:27.090 --> 00:02:29.630
+And finally, we find the tools
+and methods of attack.
+
+60
+00:02:29.630 --> 00:02:32.485
+What will the attackers
+use to carry this out?
+
+61
+00:02:33.485 --> 00:02:34.660
+Along the way, practicing
+
+62
+00:02:34.660 --> 00:02:37.295
+an attacker mindset
+provides valuable insight
+
+63
+00:02:37.295 --> 00:02:39.440
+into the best security
+controls to implement
+
+64
+00:02:39.440 --> 00:02:42.315
+and the vulnerabilities
+that need to be monitored.
+
+65
+00:02:42.315 --> 00:02:44.650
+Every organization
+has a long list
+
+66
+00:02:44.650 --> 00:02:46.585
+of attack vectors to defend.
+
+67
+00:02:46.585 --> 00:02:49.105
+While there are a lot of
+ways to protect them,
+
+68
+00:02:49.105 --> 00:02:51.845
+there are a few common
+rules for doing this.
+
+69
+00:02:52.845 --> 00:02:54.520
+One key to defending
+attack vectors is
+
+70
+00:02:54.520 --> 00:02:57.370
+educating users about
+security vulnerabilities.
+
+71
+00:02:57.370 --> 00:03:00.050
+These efforts are usually
+tied to an event.
+
+72
+00:03:00.050 --> 00:03:02.290
+For example, advising them about
+
+73
+00:03:02.290 --> 00:03:04.210
+a new phishing exploit that is
+
+74
+00:03:04.210 --> 00:03:06.535
+targeting users in
+the organization.
+
+75
+00:03:07.535 --> 00:03:08.050
+Another rule is applying
+
+76
+00:03:08.050 --> 00:03:09.755
+the principle of
+least privilege.
+
+77
+00:03:09.755 --> 00:03:12.615
+We've explored least privilege
+earlier in this section.
+
+78
+00:03:12.615 --> 00:03:14.890
+It's the idea that
+access rights should be
+
+79
+00:03:14.890 --> 00:03:17.690
+limited to what's required
+to perform a task.
+
+80
+00:03:17.690 --> 00:03:19.515
+Like we previously explored,
+
+81
+00:03:19.515 --> 00:03:22.285
+this practice closes
+multiple security holes
+
+82
+00:03:22.285 --> 00:03:24.815
+inside an organization's
+attack surface.
+
+83
+00:03:26.815 --> 00:03:27.740
+Next, using the right
+security controls and
+
+84
+00:03:27.740 --> 00:03:31.535
+tools can go a long way towards
+defending attack vectors.
+
+85
+00:03:31.535 --> 00:03:33.680
+Even the most
+knowledgeable employees
+
+86
+00:03:33.680 --> 00:03:35.180
+make security mistakes,
+
+87
+00:03:35.180 --> 00:03:36.740
+like accidentally clicking on
+
+88
+00:03:36.740 --> 00:03:38.705
+a malicious link in an email.
+
+89
+00:03:38.705 --> 00:03:41.045
+Having the right
+security tools in place,
+
+90
+00:03:41.045 --> 00:03:42.695
+like antivirus software,
+
+91
+00:03:42.695 --> 00:03:44.780
+helps to defend
+attack vectors more
+
+92
+00:03:44.780 --> 00:03:47.635
+efficiently and reduce
+the risk of human error.
+
+93
+00:03:48.635 --> 00:03:49.175
+Last but not least,
+
+94
+00:03:49.175 --> 00:03:51.365
+is building a diverse
+security team.
+
+95
+00:03:51.365 --> 00:03:54.110
+This is one of the best
+ways to reduce the risk of
+
+96
+00:03:54.110 --> 00:03:57.020
+attack vectors and
+prevent future attacks.
+
+97
+00:03:58.020 --> 00:03:58.940
+Your own unique perspective can
+
+98
+00:03:58.940 --> 00:04:01.400
+greatly improve the
+security team's ability to
+
+99
+00:04:01.400 --> 00:04:03.500
+apply an attacker's
+mindset and stay
+
+100
+00:04:03.500 --> 00:04:05.935
+one step ahead of
+potential threats.
+
+101
+00:04:05.935 --> 00:04:07.550
+Keeping yourself informed is
+
+102
+00:04:07.550 --> 00:04:09.320
+always important in this field.
+
+103
+00:04:09.320 --> 00:04:11.195
+You're already off
+to a great start,
+
+104
+00:04:11.195 --> 00:04:13.560
+so keep up the good work!

@@ -1,0 +1,209 @@
+WEBVTT
+
+1
+00:00:00.050 --> 00:00:02.940
+In this video, we'll
+introduce you to
+
+2
+00:00:02.940 --> 00:00:06.270
+intrusion detection and
+intrusion prevention systems.
+
+3
+00:00:07.270 --> 00:00:08.100
+Imagine that you've
+just installed
+
+4
+00:00:08.100 --> 00:00:10.110
+a home intrusion
+security system.
+
+5
+00:00:10.110 --> 00:00:12.105
+You've installed
+intruder sensors for
+
+6
+00:00:12.105 --> 00:00:14.310
+each entry and exit
+point in your home,
+
+7
+00:00:14.310 --> 00:00:16.500
+including doors and windows.
+
+8
+00:00:16.500 --> 00:00:18.510
+Those sensors work
+by sending out
+
+9
+00:00:18.510 --> 00:00:21.330
+sound waves, and when an
+object touches a sound wave,
+
+10
+00:00:21.330 --> 00:00:22.560
+the waves bounce back to
+
+11
+00:00:22.560 --> 00:00:24.870
+your sensor and trigger
+an alert to your phone,
+
+12
+00:00:24.870 --> 00:00:28.005
+notifying you that an
+intrusion was detected.
+
+13
+00:00:29.005 --> 00:00:30.945
+An intrusion detection
+system, or IDS,
+
+14
+00:00:30.945 --> 00:00:34.050
+works in a very similar way
+to home intrusion sensors.
+
+15
+00:00:34.050 --> 00:00:35.880
+An intrusion detection system
+
+16
+00:00:35.880 --> 00:00:37.605
+is an application that monitors
+
+17
+00:00:37.605 --> 00:00:39.510
+system and network activity, and
+
+18
+00:00:39.510 --> 00:00:42.220
+produces alerts on
+possible intrusions.
+
+19
+00:00:42.220 --> 00:00:45.260
+Like the home intrusion
+sensor, IDS collects and
+
+20
+00:00:45.260 --> 00:00:48.470
+analyzes system information
+for abnormal activities.
+
+21
+00:00:48.470 --> 00:00:50.390
+If something unusual
+is detected,
+
+22
+00:00:50.390 --> 00:00:52.190
+the IDS sends out an alert
+
+23
+00:00:52.190 --> 00:00:54.685
+to appropriate channels
+and personnel.
+
+24
+00:00:55.685 --> 00:00:58.460
+Now, imagine a jewelry
+storefront with a window sensor.
+
+25
+00:00:58.460 --> 00:00:59.960
+When the sensor detects that
+
+26
+00:00:59.960 --> 00:01:01.625
+the window's glass
+has been shattered,
+
+27
+00:01:01.625 --> 00:01:04.670
+it triggers a steel roll-up
+door to automatically replace
+
+28
+00:01:04.670 --> 00:01:06.485
+the shattered window and prevent
+
+29
+00:01:06.485 --> 00:01:08.870
+unauthorized entry
+into the store.
+
+30
+00:01:09.870 --> 00:01:11.915
+This is what an intrusion
+prevention system does.
+
+31
+00:01:11.915 --> 00:01:14.555
+Intrusion prevention
+systems, or IPS,
+
+32
+00:01:14.555 --> 00:01:17.389
+have all the same
+capabilities as an IDS,
+
+33
+00:01:17.389 --> 00:01:18.560
+but they can do more.
+
+34
+00:01:18.560 --> 00:01:20.480
+They monitor system activity for
+
+35
+00:01:20.480 --> 00:01:23.680
+intrusions and takes
+action to stop it.
+
+36
+00:01:24.680 --> 00:01:26.420
+Many tools have the
+ability to perform
+
+37
+00:01:26.420 --> 00:01:29.225
+the function of
+both IDS and IPS.
+
+38
+00:01:29.225 --> 00:01:31.430
+Some popular tools are Snort,
+
+39
+00:01:31.430 --> 00:01:35.790
+Zeek, Kismet, Sagan,
+and Suricata.
+
+40
+00:01:35.790 --> 00:01:38.990
+We will be exploring Suricata
+in upcoming lessons.
+
+41
+00:01:39.990 --> 00:01:40.205
+You might be wondering,
+
+42
+00:01:40.205 --> 00:01:42.560
+where do these alert
+notifications go?
+
+43
+00:01:42.560 --> 00:01:45.065
+Well, coming up, we'll
+discuss how to manage alerts
+
+44
+00:01:45.065 --> 00:01:49.080
+using security information
+and event management tools.

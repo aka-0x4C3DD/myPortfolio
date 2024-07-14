@@ -1,0 +1,218 @@
+WEBVTT
+
+1
+00:00:00.840 --> 00:00:05.790
+Security professionals are often
+tasked with reviewing log files.
+
+2
+00:00:05.790 --> 00:00:09.039
+These files may have thousands of entries,
+
+3
+00:00:09.039 --> 00:00:15.900
+so it can be helpful to automate this
+process, and that's where Python comes in.
+
+4
+00:00:16.900 --> 00:00:21.073
+Let's start by importing a simple text
+file that just contains a few words and
+
+5
+00:00:21.073 --> 00:00:23.791
+then restoring it as a string in Python.
+
+6
+00:00:24.860 --> 00:00:31.091
+All we need is the text file, its
+location, and the right Python keywords.
+
+7
+00:00:31.091 --> 00:00:35.226
+We're going to start by
+typing a "with" statement.
+
+8
+00:00:35.226 --> 00:00:41.139
+The keyword with handles errors and
+manages external resources.
+
+9
+00:00:41.139 --> 00:00:46.083
+When using with, Python knows to
+automatically release resources that
+
+10
+00:00:46.083 --> 00:00:51.201
+would otherwise keep our system busy
+until the program finishes running.
+
+11
+00:00:52.200 --> 00:00:57.031
+It's often used in file
+handling to automatically
+
+12
+00:00:57.031 --> 00:00:59.795
+close a file after reading it.
+
+13
+00:00:59.795 --> 00:01:04.709
+To open files and then read them,
+we write a statement that
+
+14
+00:01:04.709 --> 00:01:10.550
+begins with the keyword with.
+Then, we use the open() function.
+
+15
+00:01:11.550 --> 00:01:15.290
+Open() is a function that
+opens a file in Python.
+
+16
+00:01:15.290 --> 00:01:19.541
+The first parameter is the name of
+the text file on your computer or
+
+17
+00:01:19.541 --> 00:01:21.411
+a link to it on the internet.
+
+18
+00:01:22.410 --> 00:01:24.982
+Depending on the Python environment,
+
+19
+00:01:24.982 --> 00:01:28.880
+you might also need to
+include a path to this file.
+
+20
+00:01:28.880 --> 00:01:34.180
+Remember to include the .txt
+extension in the file name.
+
+21
+00:01:35.180 --> 00:01:37.960
+Now let's discuss the second parameter.
+
+22
+00:01:37.960 --> 00:01:44.800
+This parameter in the open() function tells
+Python what we want to do with the file.
+
+23
+00:01:44.800 --> 00:01:52.180
+In our case, we want to read a file, so we
+use the letter "r" between quotation marks.
+
+24
+00:01:52.180 --> 00:01:57.850
+If we wanted to write to a file,
+we would replace this "r" with a "w".
+
+25
+00:01:57.850 --> 00:02:01.216
+But here, we're focusing on reading.
+
+26
+00:02:02.216 --> 00:02:04.224
+Finally, file is a variable that contains
+
+27
+00:02:04.224 --> 00:02:09.660
+the file information as long as
+we're inside the with statement.
+
+28
+00:02:09.660 --> 00:02:16.270
+Like with other types of statements, we
+end our with statement with a colon.
+
+29
+00:02:16.270 --> 00:02:21.083
+The code that comes after the colon
+will tell Python what to do with
+
+30
+00:02:21.083 --> 00:02:22.931
+the content of the file.
+
+31
+00:02:25.260 --> 00:02:27.100
+Let's go into Python and
+use what we learned.
+
+32
+00:02:27.100 --> 00:02:29.471
+We're ready to open a text file in Python.
+
+33
+00:02:30.840 --> 00:02:34.213
+Now we'll type our with statement.
+
+34
+00:02:42.902 --> 00:02:47.040
+Next, we'll use Python's
+built-in read method.
+
+35
+00:02:47.040 --> 00:02:51.370
+The read method converts
+files into strings.
+
+36
+00:02:51.370 --> 00:02:54.952
+Now let's go back to our with statement.
+
+37
+00:02:54.952 --> 00:03:02.010
+Similar to a for loop, with statements
+start an indent on the next line.
+
+38
+00:03:02.010 --> 00:03:08.416
+This tells Python that this code is
+happening inside the with statement.
+
+39
+00:03:08.416 --> 00:03:13.328
+Inside of the statement, we're going
+to use the read() function to turn
+
+40
+00:03:13.328 --> 00:03:17.501
+our file into a string and
+store that inside a new variable.
+
+41
+00:03:18.850 --> 00:03:23.420
+This new variable can be used
+outside of the with statement.
+
+42
+00:03:23.420 --> 00:03:28.520
+So let's exit the with statement
+by removing the indentation and
+
+43
+00:03:28.520 --> 00:03:30.196
+print the variable.
+
+44
+00:03:36.988 --> 00:03:40.349
+Perfect! The string from
+the text prints out.
+
+45
+00:03:48.728 --> 00:03:51.180
+Coming up,
+we're going to discuss parsing files
+
+46
+00:03:51.180 --> 00:03:54.785
+so we are equipped to handle
+security logs in the future.

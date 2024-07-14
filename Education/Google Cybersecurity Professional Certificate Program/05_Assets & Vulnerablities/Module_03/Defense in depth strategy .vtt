@@ -1,0 +1,406 @@
+WEBVTT
+
+1
+00:00:00.200 --> 00:00:03.780
+A layered defense is
+difficult to penetrate.
+
+2
+00:00:03.780 --> 00:00:05.265
+When one barrier fails,
+
+3
+00:00:05.265 --> 00:00:07.800
+another takes its place
+to stop an attack.
+
+4
+00:00:07.800 --> 00:00:09.300
+Defense in depth is
+
+5
+00:00:09.300 --> 00:00:12.195
+a security model that
+makes use of this concept.
+
+6
+00:00:12.195 --> 00:00:13.620
+It's a layered approach to
+
+7
+00:00:13.620 --> 00:00:16.515
+vulnerability management
+that reduces risk.
+
+8
+00:00:16.515 --> 00:00:19.650
+Defense in depth is
+commonly referred to as
+
+9
+00:00:19.650 --> 00:00:21.450
+the castle approach because it
+
+10
+00:00:21.450 --> 00:00:24.285
+resembles the layered
+defenses of a castle.
+
+11
+00:00:25.285 --> 00:00:25.755
+In the Middle Ages,
+
+12
+00:00:25.755 --> 00:00:28.575
+these structures were very
+difficult to penetrate.
+
+13
+00:00:28.575 --> 00:00:30.864
+They featured
+different defenses,
+
+14
+00:00:30.864 --> 00:00:32.960
+each unique in its design, that
+
+15
+00:00:32.960 --> 00:00:35.485
+posed different challenges
+for attackers.
+
+16
+00:00:35.485 --> 00:00:38.345
+For example, a
+water-filled barrier
+
+17
+00:00:38.345 --> 00:00:40.325
+called a moat usually formed
+
+18
+00:00:40.325 --> 00:00:42.740
+a circle around the castle,
+preventing threats like
+
+19
+00:00:42.740 --> 00:00:45.685
+large groups of attackers from
+reaching the castle walls.
+
+20
+00:00:45.685 --> 00:00:49.130
+The few soldiers that made
+it past the first layer of
+
+21
+00:00:49.130 --> 00:00:50.960
+defense were then faced with
+
+22
+00:00:50.960 --> 00:00:54.155
+a new challenge,
+giant stone walls.
+
+23
+00:00:54.155 --> 00:00:56.375
+A vulnerability of
+these structures
+
+24
+00:00:56.375 --> 00:00:58.025
+were that they could be climbed.
+
+25
+00:00:58.025 --> 00:01:01.475
+If attackers tried exploiting
+that weakness, guess what?
+
+26
+00:01:01.475 --> 00:01:03.575
+They were met with
+another layer of defense,
+
+27
+00:01:03.575 --> 00:01:05.735
+watch towers, filled
+with defenders
+
+28
+00:01:05.735 --> 00:01:08.405
+ready to shoot arrows and
+keep them from climbing!
+
+29
+00:01:08.405 --> 00:01:10.400
+Each level of defense of
+
+30
+00:01:10.400 --> 00:01:13.610
+these medieval structures
+minimized the risk of
+
+31
+00:01:13.610 --> 00:01:16.475
+attacks by identifying
+vulnerabilities and
+
+32
+00:01:16.475 --> 00:01:20.120
+implementing a security control
+should one system fail.
+
+33
+00:01:21.120 --> 00:01:23.035
+Defense in depth works
+in a similar way.
+
+34
+00:01:23.035 --> 00:01:25.190
+The defense in depth concept
+
+35
+00:01:25.190 --> 00:01:27.700
+can be used to
+protect any asset.
+
+36
+00:01:27.700 --> 00:01:30.350
+It's mainly used in
+cybersecurity to protect
+
+37
+00:01:30.350 --> 00:01:33.260
+information using a
+five layer design.
+
+38
+00:01:33.260 --> 00:01:36.950
+Each layer features a number
+of security controls that
+
+39
+00:01:36.950 --> 00:01:38.360
+protect information as it
+
+40
+00:01:38.360 --> 00:01:40.565
+travels in and out of the model.
+
+41
+00:01:41.565 --> 00:01:42.230
+The first layer of defense in
+
+42
+00:01:42.230 --> 00:01:44.270
+depth is the perimeter layer.
+
+43
+00:01:44.270 --> 00:01:46.340
+This layer includes
+some technologies
+
+44
+00:01:46.340 --> 00:01:47.915
+that we've already explored,
+
+45
+00:01:47.915 --> 00:01:50.005
+like usernames and passwords.
+
+46
+00:01:50.005 --> 00:01:51.620
+Mainly, this is
+
+47
+00:01:51.620 --> 00:01:55.640
+a user authentication layer
+that filters external access.
+
+48
+00:01:55.640 --> 00:01:58.640
+Its function is to
+only allow access to
+
+49
+00:01:58.640 --> 00:02:01.930
+trusted partners to reach
+the next layer of defense.
+
+50
+00:02:02.930 --> 00:02:04.400
+Second, the network
+layer is more
+
+51
+00:02:04.400 --> 00:02:06.815
+closely aligned
+with authorization.
+
+52
+00:02:06.815 --> 00:02:08.780
+The network layer is made up of
+
+53
+00:02:08.780 --> 00:02:11.960
+other technologies like
+network firewalls and others.
+
+54
+00:02:12.960 --> 00:02:13.975
+Next, is the endpoint layer.
+
+55
+00:02:13.975 --> 00:02:16.070
+Endpoints refer to the devices
+
+56
+00:02:16.070 --> 00:02:17.825
+that have access on a network.
+
+57
+00:02:17.825 --> 00:02:20.269
+They could be devices
+like a laptop,
+
+58
+00:02:20.269 --> 00:02:22.415
+desktop, or a server.
+
+59
+00:02:22.415 --> 00:02:24.830
+Some examples of
+technologies that protect
+
+60
+00:02:24.830 --> 00:02:27.955
+these devices are
+anti-virus software.
+
+61
+00:02:28.955 --> 00:02:31.430
+After that, we get to
+the application layer.
+
+62
+00:02:31.430 --> 00:02:33.425
+This includes all the interfaces
+
+63
+00:02:33.425 --> 00:02:35.795
+that are used to interact
+with technology.
+
+64
+00:02:35.795 --> 00:02:38.180
+At this layer,
+security measures are
+
+65
+00:02:38.180 --> 00:02:40.760
+programmed as part
+of an application.
+
+66
+00:02:40.760 --> 00:02:44.795
+One common example is
+multi-factor authentication.
+
+67
+00:02:44.795 --> 00:02:47.225
+You may be familiar
+with having to enter
+
+68
+00:02:47.225 --> 00:02:50.675
+both your password
+and a code sent by SMS.
+
+69
+00:02:50.675 --> 00:02:54.040
+This is part of the
+application layer of defense.
+
+70
+00:02:55.040 --> 00:02:57.980
+And finally, the fifth layer of
+defense is the data layer.
+
+71
+00:02:57.980 --> 00:02:59.930
+At this layer, we've arrived at
+
+72
+00:02:59.930 --> 00:03:02.210
+the critical data that
+must be protected,
+
+73
+00:03:02.210 --> 00:03:05.035
+like personally
+identifiable information.
+
+74
+00:03:05.035 --> 00:03:07.850
+One security control
+that is important here in
+
+75
+00:03:07.850 --> 00:03:11.555
+this final layer of defense
+is asset classification.
+
+76
+00:03:12.555 --> 00:03:13.205
+Like I mentioned earlier,
+
+77
+00:03:13.205 --> 00:03:15.710
+information passes in
+and out of each of
+
+78
+00:03:15.710 --> 00:03:19.330
+these five layers whenever
+it's exchanged over a network.
+
+79
+00:03:19.330 --> 00:03:22.580
+There are many more security
+controls aside from the few
+
+80
+00:03:22.580 --> 00:03:24.080
+that I mentioned that are part
+
+81
+00:03:24.080 --> 00:03:26.090
+of the defense in depth model.
+
+82
+00:03:26.090 --> 00:03:28.280
+A lot of businesses design
+
+83
+00:03:28.280 --> 00:03:31.735
+their security systems using
+the defense in-depth model.
+
+84
+00:03:31.735 --> 00:03:34.010
+Understanding this
+framework hopefully
+
+85
+00:03:34.010 --> 00:03:35.750
+gives you a better sense of how
+
+86
+00:03:35.750 --> 00:03:38.090
+an organization's
+security controls work
+
+87
+00:03:38.090 --> 00:03:41.550
+together to protect
+important assets.

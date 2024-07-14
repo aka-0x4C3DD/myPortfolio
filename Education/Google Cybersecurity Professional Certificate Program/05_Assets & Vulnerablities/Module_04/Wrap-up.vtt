@@ -1,0 +1,182 @@
+WEBVTT
+
+1
+00:00:00.050 --> 00:00:02.925
+Managing threats is a major part
+
+2
+00:00:02.925 --> 00:00:04.950
+of what security
+professionals do.
+
+3
+00:00:04.950 --> 00:00:06.585
+In this part of the course,
+
+4
+00:00:06.585 --> 00:00:08.190
+we've explored some common types
+
+5
+00:00:08.190 --> 00:00:09.780
+of cyber threats that you'll
+
+6
+00:00:09.780 --> 00:00:13.465
+likely encounter in the
+field. Let's review.
+
+7
+00:00:14.465 --> 00:00:16.650
+We started off discussing
+social engineering.
+
+8
+00:00:16.650 --> 00:00:19.260
+You learned that attackers
+have a variety of ways to
+
+9
+00:00:19.260 --> 00:00:22.440
+trick their targets into
+sharing private information.
+
+10
+00:00:22.440 --> 00:00:24.870
+Social engineering
+techniques rely on
+
+11
+00:00:24.870 --> 00:00:28.050
+exploiting people's trust
+and willingness to help.
+
+12
+00:00:28.050 --> 00:00:30.825
+Phishing attacks are one
+of the most common ways
+
+13
+00:00:30.825 --> 00:00:34.005
+that attackers go about
+manipulating their targets.
+
+14
+00:00:35.005 --> 00:00:36.555
+Next, we explored malware.
+
+15
+00:00:36.555 --> 00:00:39.585
+Here, we discussed the
+major classes of malware,
+
+16
+00:00:39.585 --> 00:00:42.210
+like viruses,
+trojans, and worms.
+
+17
+00:00:42.210 --> 00:00:44.745
+You learned how to spot
+signs of infection.
+
+18
+00:00:44.745 --> 00:00:46.640
+You also learned how malware has
+
+19
+00:00:46.640 --> 00:00:50.230
+evolved and become more
+sophisticated over the years.
+
+20
+00:00:51.230 --> 00:00:52.670
+After that, we turned
+our attention to
+
+21
+00:00:52.670 --> 00:00:57.070
+web-based exploits,
+specifically injection attacks.
+
+22
+00:00:57.070 --> 00:00:59.075
+You learned about
+cross-site scripting
+
+23
+00:00:59.075 --> 00:01:00.455
+and SQL injection,
+
+24
+00:01:00.455 --> 00:01:02.000
+two of the most common types of
+
+25
+00:01:02.000 --> 00:01:04.250
+attacks facing
+organizations online.
+
+26
+00:01:04.250 --> 00:01:07.240
+We discussed how each of these
+attacks are carried out.
+
+27
+00:01:07.240 --> 00:01:08.660
+You also learned about how
+
+28
+00:01:08.660 --> 00:01:12.140
+web applications can be
+protected from malicious code.
+
+29
+00:01:12.140 --> 00:01:15.935
+Finally, we explored the
+threat modeling process.
+
+30
+00:01:15.935 --> 00:01:18.170
+You learned the process
+that security teams
+
+31
+00:01:18.170 --> 00:01:20.530
+use to perform these exercises.
+
+32
+00:01:21.530 --> 00:01:23.120
+Unfortunately, cyberattacks and
+
+33
+00:01:23.120 --> 00:01:25.070
+security breaches
+are a reality that
+
+34
+00:01:25.070 --> 00:01:27.385
+we're challenged with
+on a regular basis.
+
+35
+00:01:27.385 --> 00:01:29.540
+However, being aware of
+
+36
+00:01:29.540 --> 00:01:31.370
+the type of threats
+that exist and
+
+37
+00:01:31.370 --> 00:01:33.380
+the threat modeling
+process provides
+
+38
+00:01:33.380 --> 00:01:34.910
+an important foundation for
+
+39
+00:01:34.910 --> 00:01:37.860
+your work as a security analyst.

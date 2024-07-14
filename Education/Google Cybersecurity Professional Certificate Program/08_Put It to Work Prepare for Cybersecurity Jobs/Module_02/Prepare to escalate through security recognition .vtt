@@ -1,0 +1,368 @@
+WEBVTT
+
+1
+00:00:00.200 --> 00:00:03.060
+Previously, we defined what
+
+2
+00:00:03.060 --> 00:00:05.130
+it means to escalate
+an incident.
+
+3
+00:00:05.130 --> 00:00:07.410
+We also discussed
+the skills needed to
+
+4
+00:00:07.410 --> 00:00:10.515
+properly escalate incidents
+when the time comes.
+
+5
+00:00:11.515 --> 00:00:12.720
+In this video, we're
+going to cover
+
+6
+00:00:12.720 --> 00:00:16.765
+a few incident classification
+types to be aware of:
+
+7
+00:00:16.765 --> 00:00:18.525
+malware infection,
+
+8
+00:00:18.525 --> 00:00:21.990
+unauthorized access,
+and improper usage.
+
+9
+00:00:22.990 --> 00:00:24.660
+A malware infection
+is the incident type
+
+10
+00:00:24.660 --> 00:00:26.820
+that occurs when malicious
+software designed to
+
+11
+00:00:26.820 --> 00:00:29.100
+disrupt a system infiltrates
+
+12
+00:00:29.100 --> 00:00:31.860
+an organization's
+computers or network.
+
+13
+00:00:31.860 --> 00:00:34.155
+As discussed in a
+previous course,
+
+14
+00:00:34.155 --> 00:00:37.170
+malware infections can
+come in many forms.
+
+15
+00:00:37.170 --> 00:00:41.060
+Some are simple and others
+are a bit more complex.
+
+16
+00:00:41.060 --> 00:00:43.640
+One example is a
+phishing attempt.
+
+17
+00:00:43.640 --> 00:00:46.460
+These are relatively
+simple malware infections.
+
+18
+00:00:46.460 --> 00:00:48.980
+Another example is a
+ransomware attack,
+
+19
+00:00:48.980 --> 00:00:51.775
+which is considered
+much more complex.
+
+20
+00:00:52.775 --> 00:00:53.720
+Malware infections can cause
+
+21
+00:00:53.720 --> 00:00:57.260
+a system's network to run
+an unusually low speeds.
+
+22
+00:00:57.260 --> 00:00:59.090
+Attackers can even prevent
+
+23
+00:00:59.090 --> 00:01:01.520
+an organization from
+viewing critical data,
+
+24
+00:01:01.520 --> 00:01:03.470
+unless the organization pays
+
+25
+00:01:03.470 --> 00:01:06.415
+the attacker a ransom
+to unlock the data.
+
+26
+00:01:06.415 --> 00:01:08.660
+This incident type is especially
+
+27
+00:01:08.660 --> 00:01:11.030
+impactful to an
+organization because of
+
+28
+00:01:11.030 --> 00:01:13.190
+the amount of sensitive
+data stored on
+
+29
+00:01:13.190 --> 00:01:16.190
+an organization's
+network and computers.
+
+30
+00:01:16.190 --> 00:01:18.290
+Escalating malware infections is
+
+31
+00:01:18.290 --> 00:01:19.940
+an important aspect of
+
+32
+00:01:19.940 --> 00:01:22.475
+protecting the organization
+that you work for.
+
+33
+00:01:22.475 --> 00:01:24.850
+But wait, there's more.
+
+34
+00:01:25.850 --> 00:01:26.780
+The second incident type we'll
+
+35
+00:01:26.780 --> 00:01:29.945
+discuss is unauthorized access.
+
+36
+00:01:29.945 --> 00:01:31.670
+This is an incident type that
+
+37
+00:01:31.670 --> 00:01:33.380
+occurs when an individual gains
+
+38
+00:01:33.380 --> 00:01:35.630
+digital or physical access to
+
+39
+00:01:35.630 --> 00:01:38.530
+a system or application
+without permission.
+
+40
+00:01:38.530 --> 00:01:40.310
+As you may recall,
+
+41
+00:01:40.310 --> 00:01:43.625
+earlier in the program, we
+discussed brute force attacks,
+
+42
+00:01:43.625 --> 00:01:46.715
+which use trial and error
+to compromise passwords,
+
+43
+00:01:46.715 --> 00:01:49.780
+login credentials,
+and encryption keys.
+
+44
+00:01:49.780 --> 00:01:52.835
+These attacks are often
+used to help attackers gain
+
+45
+00:01:52.835 --> 00:01:54.350
+unauthorized access to an
+
+46
+00:01:54.350 --> 00:01:57.440
+organization's systems
+or applications.
+
+47
+00:01:58.440 --> 00:02:00.380
+All unauthorized
+access incidents
+
+48
+00:02:00.380 --> 00:02:02.275
+are important to escalate.
+
+49
+00:02:02.275 --> 00:02:06.200
+However, the urgency of that
+escalation depends on how
+
+50
+00:02:06.200 --> 00:02:07.760
+critical that system is to
+
+51
+00:02:07.760 --> 00:02:10.460
+the organization's
+business operations.
+
+52
+00:02:10.460 --> 00:02:11.990
+We'll explore this idea in
+
+53
+00:02:11.990 --> 00:02:14.500
+more detail later
+in this course.
+
+54
+00:02:15.500 --> 00:02:18.425
+The third incident we'll
+discuss is improper usage.
+
+55
+00:02:18.425 --> 00:02:22.100
+This is an incident type that
+occurs when an employee of
+
+56
+00:02:22.100 --> 00:02:23.750
+an organization violates
+
+57
+00:02:23.750 --> 00:02:26.900
+the organization's
+acceptable use policies.
+
+58
+00:02:27.900 --> 00:02:29.465
+This one can be a
+bit complicated.
+
+59
+00:02:29.465 --> 00:02:33.640
+There are instances when
+improper usage is unintentional.
+
+60
+00:02:33.640 --> 00:02:36.020
+For an example, an employee may
+
+61
+00:02:36.020 --> 00:02:38.240
+attempt to access
+software licenses for
+
+62
+00:02:38.240 --> 00:02:40.220
+personal use or even use
+
+63
+00:02:40.220 --> 00:02:44.425
+a company's system to access a
+friend's or coworker's data.
+
+64
+00:02:44.425 --> 00:02:46.400
+Maybe the employee
+wasn't aware of
+
+65
+00:02:46.400 --> 00:02:48.440
+the policy they were violating,
+
+66
+00:02:48.440 --> 00:02:50.720
+or maybe the policy
+wasn't properly
+
+67
+00:02:50.720 --> 00:02:53.750
+defined and communicated
+to employees.
+
+68
+00:02:54.750 --> 00:02:55.205
+But there are other times when
+
+69
+00:02:55.205 --> 00:02:58.420
+improper usage is
+an intentional act.
+
+70
+00:02:58.420 --> 00:03:00.860
+So how do you know if an
+improper usage incident
+
+71
+00:03:00.860 --> 00:03:02.990
+is accidental or intentional?
+
+72
+00:03:02.990 --> 00:03:05.945
+That can be a difficult
+decision to make.
+
+73
+00:03:05.945 --> 00:03:08.675
+That's why improper
+usage incidents should
+
+74
+00:03:08.675 --> 00:03:11.285
+always be escalated
+to a supervisor.
+
+75
+00:03:12.285 --> 00:03:14.315
+As a member of an
+organization's security team,
+
+76
+00:03:14.315 --> 00:03:16.040
+it's likely that
+you'll encounter
+
+77
+00:03:16.040 --> 00:03:19.060
+a variety of incident
+types while on the job.
+
+78
+00:03:19.060 --> 00:03:20.930
+So it's important to know what they
+
+79
+00:03:20.930 --> 00:03:24.060
+are and how to escalate them.

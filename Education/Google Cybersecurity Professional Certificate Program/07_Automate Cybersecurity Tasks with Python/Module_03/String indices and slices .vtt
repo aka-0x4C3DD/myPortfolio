@@ -1,0 +1,554 @@
+WEBVTT
+
+1
+00:00:00.170 --> 00:00:03.480
+In security, there are a variety
+
+2
+00:00:03.480 --> 00:00:06.165
+of reasons we might need to
+search through a string.
+
+3
+00:00:06.165 --> 00:00:08.430
+For example, we might need to
+
+4
+00:00:08.430 --> 00:00:11.070
+locate a username
+in a security log.
+
+5
+00:00:11.070 --> 00:00:12.930
+Or, if we learn that
+
+6
+00:00:12.930 --> 00:00:16.335
+a certain IP address is
+associated with malware,
+
+7
+00:00:16.335 --> 00:00:20.260
+we might search for this
+address in a network log.
+
+8
+00:00:20.260 --> 00:00:23.600
+And, the first step in being
+able to use Python in
+
+9
+00:00:23.600 --> 00:00:25.220
+these ways is learning
+
+10
+00:00:25.220 --> 00:00:28.160
+about the index of
+characters in a string.
+
+11
+00:00:28.160 --> 00:00:31.445
+The index is a
+number assigned to
+
+12
+00:00:31.445 --> 00:00:35.599
+every element in a sequence
+that indicates its position.
+
+13
+00:00:35.599 --> 00:00:39.085
+In this video, we are
+discussing strings.
+
+14
+00:00:39.085 --> 00:00:41.060
+So, the index is
+
+15
+00:00:41.060 --> 00:00:44.130
+the position of each
+character in a string.
+
+16
+00:00:45.450 --> 00:00:48.250
+Let's start with
+the string "HELLO."
+
+17
+00:00:48.250 --> 00:00:52.355
+Every character in the
+string is assigned an index.
+
+18
+00:00:52.355 --> 00:00:56.410
+In Python, we start
+counting indices from 0.
+
+19
+00:00:56.410 --> 00:00:59.730
+So, the character "H"
+has an index of 0,
+
+20
+00:00:59.730 --> 00:01:03.660
+and "E" has an index
+of 1, and so on.
+
+21
+00:01:03.660 --> 00:01:08.200
+Let's take this into Python
+and practice using indices.
+
+22
+00:01:09.200 --> 00:01:11.300
+Placing an index in
+square brackets after
+
+23
+00:01:11.300 --> 00:01:15.085
+a string returns the
+character at that index.
+
+24
+00:01:15.085 --> 00:01:17.420
+Let's place the index 1 in
+
+25
+00:01:17.420 --> 00:01:21.000
+square brackets after
+"HELLO" and run it.
+
+26
+00:01:21.190 --> 00:01:24.485
+This returned the character "E."
+
+27
+00:01:24.485 --> 00:01:27.065
+Remember, indices start at 0,
+
+28
+00:01:27.065 --> 00:01:31.790
+so an index of 1 isn't the
+first character in the word.
+
+29
+00:01:32.790 --> 00:01:34.160
+But what if we want it to
+
+30
+00:01:34.160 --> 00:01:36.980
+return more than
+just one character?
+
+31
+00:01:36.980 --> 00:01:39.290
+We can extract a larger part of
+
+32
+00:01:39.290 --> 00:01:42.980
+a string by specifying
+a set of indices.
+
+33
+00:01:42.980 --> 00:01:45.500
+This is called a slice.
+
+34
+00:01:45.500 --> 00:01:48.515
+When taking a slice
+from a string,
+
+35
+00:01:48.515 --> 00:01:51.530
+we specify where the slice
+
+36
+00:01:51.530 --> 00:01:54.965
+starts and where the slice ends.
+
+37
+00:01:54.965 --> 00:01:57.650
+So we provide two indices.
+
+38
+00:01:57.650 --> 00:02:00.635
+The first index
+is the beginning,
+
+39
+00:02:00.635 --> 00:02:02.995
+which is included in the output.
+
+40
+00:02:02.995 --> 00:02:06.005
+The second index is the end,
+
+41
+00:02:06.005 --> 00:02:08.630
+but it's not included
+in the final output.
+
+42
+00:02:08.630 --> 00:02:11.030
+Instead, Python stops
+
+43
+00:02:11.030 --> 00:02:14.735
+the slice at the element
+before the second index.
+
+44
+00:02:14.735 --> 00:02:19.250
+For example, if we wanted
+to take the letters E-L-L
+
+45
+00:02:19.250 --> 00:02:20.880
+from "HELLO,"
+
+46
+00:02:20.880 --> 00:02:24.530
+we would start the
+interval from the index 1,
+
+47
+00:02:24.530 --> 00:02:27.185
+but we'd end before the index 4.
+
+48
+00:02:28.185 --> 00:02:29.660
+Let's try this example and
+
+49
+00:02:29.660 --> 00:02:32.260
+extract a slice from
+a string in Python.
+
+50
+00:02:32.260 --> 00:02:35.720
+Let's type in the string and
+take the slice starting
+
+51
+00:02:35.720 --> 00:02:39.190
+at index 1 and ending
+before index 4.
+
+52
+00:02:39.190 --> 00:02:43.590
+Now, let's run the code
+and examine the output.
+
+53
+00:02:43.940 --> 00:02:46.830
+There's the slice we wanted.
+
+54
+00:02:47.830 --> 00:02:49.160
+Now that we know how to describe
+
+55
+00:02:49.160 --> 00:02:51.605
+the location of a
+character in a string,
+
+56
+00:02:51.605 --> 00:02:54.020
+let's learn how to
+search in a string.
+
+57
+00:02:54.020 --> 00:02:58.520
+To do this, we need to
+use the index method.
+
+58
+00:02:58.520 --> 00:03:02.000
+The index method finds
+the first occurrence of
+
+59
+00:03:02.000 --> 00:03:05.570
+the input in a string and
+returns its location.
+
+60
+00:03:05.570 --> 00:03:09.500
+Let's practice using the
+index method in Python.
+
+61
+00:03:10.500 --> 00:03:12.845
+Let's say we want to
+use the index method
+
+62
+00:03:12.845 --> 00:03:16.490
+to find the character
+"E" in the string "HELLO."
+
+63
+00:03:16.490 --> 00:03:19.160
+We'll locate the
+first instance of
+
+64
+00:03:19.160 --> 00:03:25.320
+the character "E." Let's examine
+this line in more detail.
+
+65
+00:03:25.390 --> 00:03:29.525
+After writing the string
+and the index method,
+
+66
+00:03:29.525 --> 00:03:31.520
+we use the character we want to
+
+67
+00:03:31.520 --> 00:03:34.540
+find as the argument
+of the index method.
+
+68
+00:03:34.540 --> 00:03:39.075
+Remember, the strings in
+Python are case-sensitive,
+
+69
+00:03:39.075 --> 00:03:41.615
+so we need to make sure
+
+70
+00:03:41.615 --> 00:03:45.235
+we use the appropriate case
+with the index method.
+
+71
+00:03:45.235 --> 00:03:47.625
+Let's run this code now.
+
+72
+00:03:47.625 --> 00:03:49.950
+This returned the number 1.
+
+73
+00:03:49.950 --> 00:03:54.220
+This is because "E" has
+an index value of 1.
+
+74
+00:03:55.220 --> 00:03:57.230
+Now, let's explore an example
+
+75
+00:03:57.230 --> 00:04:00.800
+where a character repeats
+multiple times in the string.
+
+76
+00:04:00.800 --> 00:04:02.450
+Let's try searching for
+
+77
+00:04:02.450 --> 00:04:07.475
+the character "L." We start
+with similar code as before,
+
+78
+00:04:07.475 --> 00:04:11.825
+passing the argument "L" instead
+of "E" to the index method.
+
+79
+00:04:11.825 --> 00:04:16.690
+Now, let's run this code
+and investigate the result.
+
+80
+00:04:16.690 --> 00:04:19.695
+The result is the index 2.
+
+81
+00:04:19.695 --> 00:04:22.910
+This tells us that
+the method only
+
+82
+00:04:22.910 --> 00:04:24.830
+identified the
+first occurrence of
+
+83
+00:04:24.830 --> 00:04:27.740
+the character "L" and
+not the second.
+
+84
+00:04:27.740 --> 00:04:29.960
+This is an important detail to
+
+85
+00:04:29.960 --> 00:04:33.440
+notice when working
+with the index method.
+
+86
+00:04:34.440 --> 00:04:35.539
+As a security analyst,
+
+87
+00:04:35.539 --> 00:04:37.760
+learning how to
+work with indices
+
+88
+00:04:37.760 --> 00:04:40.535
+allows you to find certain
+parts in a string.
+
+89
+00:04:40.535 --> 00:04:43.010
+For example, if you need to find
+
+90
+00:04:43.010 --> 00:04:45.725
+the location of the @
+symbol in an email,
+
+91
+00:04:45.725 --> 00:04:48.500
+you can use the
+index method to find
+
+92
+00:04:48.500 --> 00:04:51.910
+what you're looking for
+with one line of code.
+
+93
+00:04:52.910 --> 00:04:55.280
+Now let's turn our attention
+
+94
+00:04:55.280 --> 00:04:58.160
+to an important property
+of the strings.
+
+95
+00:04:58.160 --> 00:05:00.680
+Have you ever heard
+the expression
+
+96
+00:05:00.680 --> 00:05:02.935
+"some things never change"?
+
+97
+00:05:02.935 --> 00:05:04.820
+It might be said about
+
+98
+00:05:04.820 --> 00:05:07.595
+the comfortable feeling you
+have with a good friend,
+
+99
+00:05:07.595 --> 00:05:10.160
+even when you haven't seen
+them for a long time.
+
+100
+00:05:10.160 --> 00:05:15.350
+Well, in Python, we can also
+say this about strings.
+
+101
+00:05:15.350 --> 00:05:18.555
+Strings are immutable.
+
+102
+00:05:18.555 --> 00:05:21.800
+In Python, "immutable"
+means that it
+
+103
+00:05:21.800 --> 00:05:23.480
+cannot be changed after it's
+
+104
+00:05:23.480 --> 00:05:25.625
+created and assigned a value.
+
+105
+00:05:25.625 --> 00:05:28.990
+Let's break this down
+with an example.
+
+106
+00:05:29.990 --> 00:05:33.675
+Let's assign the string "HELLO"
+to the variable my_string.
+
+107
+00:05:33.675 --> 00:05:38.735
+Now, if we want to change
+the character "E" to an "A"
+
+108
+00:05:38.735 --> 00:05:44.010
+so my_string has the
+value "HALLO,"
+
+109
+00:05:44.010 --> 00:05:47.905
+then we might be inclined
+to use index notation.
+
+110
+00:05:47.905 --> 00:05:50.550
+But here we get an error.
+
+111
+00:05:50.550 --> 00:05:54.140
+My_string is immutable,
+so we cannot
+
+112
+00:05:54.140 --> 00:05:58.035
+make changes like this.
+And there you have it!
+
+113
+00:05:59.035 --> 00:06:01.775
+You've just learned how to index
+and slice into strings.
+
+114
+00:06:01.775 --> 00:06:04.865
+You've also seen that
+strings are immutable.
+
+115
+00:06:04.865 --> 00:06:07.010
+You cannot reassign characters
+
+116
+00:06:07.010 --> 00:06:09.085
+after a string has been defined.
+
+117
+00:06:09.085 --> 00:06:11.060
+Coming up, we'll learn
+
+118
+00:06:11.060 --> 00:06:13.610
+about list operations
+and see that
+
+119
+00:06:13.610 --> 00:06:19.260
+lists can be changed with index
+notation. Meet you there.

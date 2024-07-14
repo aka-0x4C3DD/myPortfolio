@@ -1,0 +1,95 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:01.580
+Well done!
+
+2
+00:00:01.580 --> 00:00:05.338
+You've learned about why
+security analysts use Python and
+
+3
+00:00:05.338 --> 00:00:07.440
+the basic structure of a program.
+
+4
+00:00:07.440 --> 00:00:11.041
+You've even written some
+lines of Python code.
+
+5
+00:00:12.041 --> 00:00:13.043
+Let's review what you learned so far.
+
+6
+00:00:13.043 --> 00:00:16.312
+You first learned about
+the basics of programming and
+
+7
+00:00:16.312 --> 00:00:19.892
+why it's a very important tool for
+security analysts.
+
+8
+00:00:19.892 --> 00:00:23.548
+You also learned some of the basic
+concepts of how programming
+
+9
+00:00:23.548 --> 00:00:24.610
+languages work.
+
+10
+00:00:24.610 --> 00:00:27.790
+You then learned to recognize
+data types in Python.
+
+11
+00:00:27.790 --> 00:00:33.020
+We focused on string, integer,
+float, Boolean, and list data.
+
+12
+00:00:33.020 --> 00:00:36.120
+Next, we focused on
+working with variables.
+
+13
+00:00:36.120 --> 00:00:40.573
+You then learned all about conditional
+statements, and how to check for
+
+14
+00:00:40.573 --> 00:00:43.502
+logical conditions using
+Python statements.
+
+15
+00:00:43.502 --> 00:00:47.681
+Lastly, we worked with
+iterative statements and
+
+16
+00:00:47.681 --> 00:00:52.389
+discussed the two types of loops:
+for and while loops.
+
+17
+00:00:53.389 --> 00:00:56.565
+You'll use this knowledge as you
+progress through this course and
+
+18
+00:00:56.565 --> 00:00:58.874
+in your career as a security analyst.
+
+19
+00:00:58.874 --> 00:01:02.748
+In the next section, we'll explore
+other important components of Python,
+
+20
+00:01:02.748 --> 00:01:03.948
+including functions.

@@ -1,0 +1,286 @@
+WEBVTT
+
+1
+00:00:00.170 --> 00:00:02.580
+In this video, we'll discuss
+
+2
+00:00:02.580 --> 00:00:05.655
+the third phase of the
+incident response lifecycle.
+
+3
+00:00:05.655 --> 00:00:07.620
+This phase includes
+the steps for
+
+4
+00:00:07.620 --> 00:00:09.435
+how security teams contain,
+
+5
+00:00:09.435 --> 00:00:11.895
+eradicate, and recover
+from an incident.
+
+6
+00:00:11.895 --> 00:00:15.254
+It's important to note that
+these steps interrelate.
+
+7
+00:00:15.254 --> 00:00:18.225
+Containment helps meet
+the goals of eradication,
+
+8
+00:00:18.225 --> 00:00:20.320
+which helps meet the
+goals of recovery.
+
+9
+00:00:20.320 --> 00:00:23.100
+This phase of the lifecycle
+also integrates with
+
+10
+00:00:23.100 --> 00:00:24.210
+the core functions of
+
+11
+00:00:24.210 --> 00:00:27.875
+the NIST Cybersecurity
+Framework, Respond and Recover.
+
+12
+00:00:27.875 --> 00:00:31.210
+Let's begin with the
+first step, containment.
+
+13
+00:00:32.210 --> 00:00:33.320
+After an incident
+has been detected,
+
+14
+00:00:33.320 --> 00:00:34.720
+it must be contained.
+
+15
+00:00:34.720 --> 00:00:37.040
+Containment is the
+act of limiting and
+
+16
+00:00:37.040 --> 00:00:40.180
+preventing additional damage
+caused by an incident.
+
+17
+00:00:40.180 --> 00:00:43.024
+Organizations outline their
+containment strategies
+
+18
+00:00:43.024 --> 00:00:44.950
+in incident response plans.
+
+19
+00:00:44.950 --> 00:00:47.690
+Containment strategies
+detail the actions that
+
+20
+00:00:47.690 --> 00:00:49.205
+security teams should take
+
+21
+00:00:49.205 --> 00:00:51.215
+after an incident
+has been detected.
+
+22
+00:00:51.215 --> 00:00:53.000
+Different containment
+strategies are
+
+23
+00:00:53.000 --> 00:00:55.600
+used for various incident types.
+
+24
+00:00:56.600 --> 00:00:58.250
+For example, a common
+containment strategy
+
+25
+00:00:58.250 --> 00:00:59.570
+for a malware incident on
+
+26
+00:00:59.570 --> 00:01:01.760
+a single computer
+system is to isolate
+
+27
+00:01:01.760 --> 00:01:04.840
+the affected system by
+disconnecting it from the network.
+
+28
+00:01:04.840 --> 00:01:06.260
+This prevents the spread of
+
+29
+00:01:06.260 --> 00:01:08.515
+the malware to other
+systems in the network.
+
+30
+00:01:08.515 --> 00:01:10.190
+As a result, the incident is
+
+31
+00:01:10.190 --> 00:01:12.560
+contained to the single
+compromised system,
+
+32
+00:01:12.560 --> 00:01:14.645
+which limits any further damage.
+
+33
+00:01:14.645 --> 00:01:16.580
+Containment actions
+are the first step
+
+34
+00:01:16.580 --> 00:01:18.905
+toward removing a threat
+from an environment.
+
+35
+00:01:19.905 --> 00:01:20.945
+Once an incident
+has been contained,
+
+36
+00:01:20.945 --> 00:01:22.580
+security teams work to remove
+
+37
+00:01:22.580 --> 00:01:25.525
+all traces of the incident
+through eradication.
+
+38
+00:01:25.525 --> 00:01:28.190
+Eradication involves
+the complete removal of
+
+39
+00:01:28.190 --> 00:01:31.085
+the incident elements from
+all affected systems.
+
+40
+00:01:31.085 --> 00:01:34.640
+For example, eradication
+actions include performing
+
+41
+00:01:34.640 --> 00:01:36.470
+vulnerability tests and applying
+
+42
+00:01:36.470 --> 00:01:39.700
+patches to vulnerabilities
+related to the threat.
+
+43
+00:01:40.700 --> 00:01:42.050
+Finally, the last
+step of this phase in
+
+44
+00:01:42.050 --> 00:01:44.540
+the incident response
+lifecycle is recovery.
+
+45
+00:01:44.540 --> 00:01:46.580
+Recovery is the
+process of returning
+
+46
+00:01:46.580 --> 00:01:49.420
+affected systems back
+to normal operations.
+
+47
+00:01:49.420 --> 00:01:50.990
+An incident can disrupt
+
+48
+00:01:50.990 --> 00:01:53.465
+key business operations
+and services.
+
+49
+00:01:53.465 --> 00:01:56.300
+During recovery, any services
+that were impacted by
+
+50
+00:01:56.300 --> 00:01:59.395
+the incident are brought
+back to normal operation.
+
+51
+00:01:59.395 --> 00:02:03.080
+Recovery actions include:
+reimaging affected systems,
+
+52
+00:02:03.080 --> 00:02:05.180
+resetting passwords,
+and adjusting
+
+53
+00:02:05.180 --> 00:02:07.900
+network configurations
+like firewall rules.
+
+54
+00:02:08.900 --> 00:02:11.494
+Remember, the incident response
+lifecycle is cyclical.
+
+55
+00:02:11.494 --> 00:02:13.490
+Multiple incidents
+can happen across
+
+56
+00:02:13.490 --> 00:02:15.905
+time and these incidents
+can be related.
+
+57
+00:02:15.905 --> 00:02:18.860
+Security teams may have to
+circle back to other phases
+
+58
+00:02:18.860 --> 00:02:22.220
+in the lifecycle to conduct
+additional investigations.
+
+59
+00:02:22.220 --> 00:02:24.110
+Next up, we'll discuss
+
+60
+00:02:24.110 --> 00:02:27.690
+the final phase of the
+lifecycle. Meet you there.

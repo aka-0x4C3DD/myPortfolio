@@ -1,0 +1,123 @@
+WEBVTT
+
+1
+00:00:00.020 --> 00:00:03.690
+Welcome back! I'm so
+glad you're joining us.
+
+2
+00:00:03.690 --> 00:00:05.310
+Previously, you
+were introduced to
+
+3
+00:00:05.310 --> 00:00:07.335
+incident detection and response.
+
+4
+00:00:07.335 --> 00:00:09.150
+You may also remember
+learning about
+
+5
+00:00:09.150 --> 00:00:11.385
+networking from a
+previous course.
+
+6
+00:00:12.385 --> 00:00:12.945
+To recap, you learned about
+
+7
+00:00:12.945 --> 00:00:14.430
+how devices talk to each other
+
+8
+00:00:14.430 --> 00:00:15.990
+using network protocols and
+
+9
+00:00:15.990 --> 00:00:18.015
+the different types
+of network attacks.
+
+10
+00:00:18.015 --> 00:00:21.430
+You also examined some network
+security best practices.
+
+11
+00:00:22.430 --> 00:00:23.490
+Here, we'll expand
+on networking and
+
+12
+00:00:23.490 --> 00:00:25.950
+shift our focus to
+network analysis.
+
+13
+00:00:25.950 --> 00:00:27.090
+First, you'll examine
+
+14
+00:00:27.090 --> 00:00:28.350
+network communications by
+
+15
+00:00:28.350 --> 00:00:30.270
+exploring network traffic flows.
+
+16
+00:00:30.270 --> 00:00:32.100
+Next, you'll learn
+about viewing and
+
+17
+00:00:32.100 --> 00:00:34.830
+capturing network traffic
+using packet sniffers.
+
+18
+00:00:34.830 --> 00:00:37.035
+Then, you'll be introduced
+to packet analysis,
+
+19
+00:00:37.035 --> 00:00:39.540
+where you'll examine
+packet fields and decode
+
+20
+00:00:39.540 --> 00:00:42.340
+communication between
+devices and networks.
+
+21
+00:00:43.340 --> 00:00:44.105
+As a security professional,
+
+22
+00:00:44.105 --> 00:00:46.340
+you'll be tasked with
+monitoring networks and
+
+23
+00:00:46.340 --> 00:00:49.885
+system infrastructure to
+detect malicious activities.
+
+24
+00:00:49.885 --> 00:00:52.400
+And this section will provide
+you with the opportunity to
+
+25
+00:00:52.400 --> 00:00:55.115
+develop your network and
+packet analysis skills.
+
+26
+00:00:55.115 --> 00:00:58.500
+Are you ready to begin?
+Let's get started!

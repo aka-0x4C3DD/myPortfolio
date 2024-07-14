@@ -1,0 +1,412 @@
+WEBVTT
+
+1
+00:00:00.050 --> 00:00:02.340
+Have you ever taken a trip to
+
+2
+00:00:02.340 --> 00:00:04.335
+a place you've never
+visited before?
+
+3
+00:00:04.335 --> 00:00:06.569
+You may have used
+a travel itinerary
+
+4
+00:00:06.569 --> 00:00:08.280
+to plan your trip activities.
+
+5
+00:00:08.280 --> 00:00:10.995
+Travel itineraries are
+essential documents to have,
+
+6
+00:00:10.995 --> 00:00:13.375
+especially for travel
+to a new place.
+
+7
+00:00:13.375 --> 00:00:15.210
+They help keep you
+organized and give
+
+8
+00:00:15.210 --> 00:00:17.110
+you a clear picture
+of your travel plans.
+
+9
+00:00:17.110 --> 00:00:19.275
+They detail the
+activities you'll do,
+
+10
+00:00:19.275 --> 00:00:20.670
+the places you'll visit,
+
+11
+00:00:20.670 --> 00:00:22.965
+and your travel time
+between destinations.
+
+12
+00:00:23.965 --> 00:00:25.605
+Playbooks are similar
+to travel itineraries.
+
+13
+00:00:25.605 --> 00:00:28.124
+As you may remember from
+our previous discussions,
+
+14
+00:00:28.124 --> 00:00:30.210
+a playbook is a
+manual that provides
+
+15
+00:00:30.210 --> 00:00:33.040
+details about any
+operational action.
+
+16
+00:00:33.040 --> 00:00:35.675
+They provide security
+analysts with instructions
+
+17
+00:00:35.675 --> 00:00:38.510
+on exactly what to do
+when an incident occurs.
+
+18
+00:00:39.510 --> 00:00:40.730
+Playbooks provide
+security professionals
+
+19
+00:00:40.730 --> 00:00:41.810
+with a clear picture of
+
+20
+00:00:41.810 --> 00:00:42.830
+their tasks during
+
+21
+00:00:42.830 --> 00:00:45.565
+the entire incident
+response life cycle.
+
+22
+00:00:45.565 --> 00:00:47.480
+Responding to an incident can be
+
+23
+00:00:47.480 --> 00:00:49.775
+unpredictable and
+chaotic at times.
+
+24
+00:00:49.775 --> 00:00:51.470
+Security teams are expected to
+
+25
+00:00:51.470 --> 00:00:53.210
+act quickly and effectively.
+
+26
+00:00:53.210 --> 00:00:54.890
+Playbooks offer structure and
+
+27
+00:00:54.890 --> 00:00:56.810
+order during this
+time by clearly
+
+28
+00:00:56.810 --> 00:00:58.445
+outlining the actions to take
+
+29
+00:00:58.445 --> 00:01:00.605
+when responding to a
+specific incident.
+
+30
+00:01:00.605 --> 00:01:01.850
+By following a playbook,
+
+31
+00:01:01.850 --> 00:01:03.890
+security teams can
+reduce any guesswork
+
+32
+00:01:03.890 --> 00:01:06.425
+and uncertainty during
+response times.
+
+33
+00:01:06.425 --> 00:01:08.300
+This allows security
+teams to act
+
+34
+00:01:08.300 --> 00:01:10.265
+quickly and without
+any hesitation.
+
+35
+00:01:10.265 --> 00:01:12.860
+Without playbooks, an
+effective and swift response
+
+36
+00:01:12.860 --> 00:01:15.125
+to an incident is
+nearly impossible.
+
+37
+00:01:16.125 --> 00:01:17.420
+Within playbooks, there
+may be checklists
+
+38
+00:01:17.420 --> 00:01:19.490
+that can also help
+security teams perform
+
+39
+00:01:19.490 --> 00:01:22.460
+effectively during stressful
+times by helping them
+
+40
+00:01:22.460 --> 00:01:24.110
+remember to complete
+each step in
+
+41
+00:01:24.110 --> 00:01:25.925
+the incident
+response life cycle.
+
+42
+00:01:26.925 --> 00:01:28.580
+Playbooks outline the
+steps that are necessary
+
+43
+00:01:28.580 --> 00:01:31.265
+in response to an
+attack like ransomware,
+
+44
+00:01:31.265 --> 00:01:34.160
+data breach, malware, or DDoS.
+
+45
+00:01:34.160 --> 00:01:35.960
+Here's an example
+of a playbook that
+
+46
+00:01:35.960 --> 00:01:37.535
+uses a flowchart diagram
+
+47
+00:01:37.535 --> 00:01:38.930
+with the steps to take during
+
+48
+00:01:38.930 --> 00:01:41.000
+the detection of a DDoS attack.
+
+49
+00:01:41.000 --> 00:01:43.910
+This depicts the process
+for detecting a DDoS
+
+50
+00:01:43.910 --> 00:01:46.805
+and begins with determining
+the indicators of compromise,
+
+51
+00:01:46.805 --> 00:01:49.085
+like unknown incoming traffic.
+
+52
+00:01:49.085 --> 00:01:51.935
+Once the indicators of
+compromise are determined,
+
+53
+00:01:51.935 --> 00:01:53.150
+the next step is to collect
+
+54
+00:01:53.150 --> 00:01:55.820
+the logs and finally
+analyze the evidence.
+
+55
+00:01:56.820 --> 00:01:58.010
+There are three different
+types of playbooks:
+
+56
+00:01:58.010 --> 00:02:01.280
+non-automated, automated,
+or semi-automated.
+
+57
+00:02:01.280 --> 00:02:03.560
+The DDoS playbook
+we just explored is
+
+58
+00:02:03.560 --> 00:02:06.020
+an example of a
+non-automated playbook,
+
+59
+00:02:06.020 --> 00:02:08.150
+which requires
+step-by-step actions
+
+60
+00:02:08.150 --> 00:02:10.235
+performed by an analyst.
+
+61
+00:02:11.235 --> 00:02:13.205
+Automated playbooks
+automate tasks
+
+62
+00:02:13.205 --> 00:02:16.155
+in incident response
+processes. For example,
+
+63
+00:02:16.155 --> 00:02:18.650
+tasks such as categorizing
+the severity of
+
+64
+00:02:18.650 --> 00:02:20.630
+the incident or
+gathering evidence
+
+65
+00:02:20.630 --> 00:02:23.105
+can be done using an
+automated playbook.
+
+66
+00:02:23.105 --> 00:02:25.100
+Automated playbooks
+can help lower
+
+67
+00:02:25.100 --> 00:02:27.440
+the time to resolution
+during an incident.
+
+68
+00:02:27.440 --> 00:02:29.330
+SOAR and SIEM tools can be
+
+69
+00:02:29.330 --> 00:02:31.670
+configured to
+automate playbooks.
+
+70
+00:02:32.670 --> 00:02:34.010
+Finally, semi-automated
+playbooks
+
+71
+00:02:34.010 --> 00:02:36.980
+combine a person's
+action with automation.
+
+72
+00:02:36.980 --> 00:02:38.600
+Tedious, error-prone, or
+
+73
+00:02:38.600 --> 00:02:40.790
+time-consuming tasks
+can be automated,
+
+74
+00:02:40.790 --> 00:02:42.800
+while analysts can prioritize
+
+75
+00:02:42.800 --> 00:02:44.629
+their time with other tasks.
+
+76
+00:02:44.629 --> 00:02:46.715
+Semi-automated
+playbooks can help
+
+77
+00:02:46.715 --> 00:02:50.360
+increase productivity and
+decrease time to resolution.
+
+78
+00:02:51.360 --> 00:02:53.135
+As a security team
+responds to incidents,
+
+79
+00:02:53.135 --> 00:02:54.650
+they may discover
+that a playbook
+
+80
+00:02:54.650 --> 00:02:56.450
+needs updates or changes.
+
+81
+00:02:56.450 --> 00:02:58.310
+Threats are constantly evolving
+
+82
+00:02:58.310 --> 00:02:59.915
+and for playbooks
+to be effective,
+
+83
+00:02:59.915 --> 00:03:02.785
+they must be maintained
+and updated regularly.
+
+84
+00:03:03.785 --> 00:03:05.255
+A great time to introduce
+changes to playbooks
+
+85
+00:03:05.255 --> 00:03:07.985
+is during the post-incident
+activity phase.
+
+86
+00:03:07.985 --> 00:03:10.100
+We'll be exploring more
+about this phase in
+
+87
+00:03:10.100 --> 00:03:13.080
+an upcoming section.
+Meet you there.

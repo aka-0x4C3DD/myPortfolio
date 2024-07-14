@@ -1,0 +1,189 @@
+WEBVTT
+
+1
+00:00:00.703 --> 00:00:04.663
+Now that a security team has
+successfully contained eradicated and
+
+2
+00:00:04.663 --> 00:00:08.009
+recovered from an incident,
+their job is done, right?
+
+3
+00:00:08.009 --> 00:00:09.152
+Not quite.
+
+4
+00:00:10.152 --> 00:00:11.962
+Whether it's a new technology or
+a new vulnerability,
+
+5
+00:00:11.962 --> 00:00:14.669
+there's always more to learn
+in the security field.
+
+6
+00:00:14.669 --> 00:00:18.919
+The perfect time for learning and
+improvement happens during the final phase
+
+7
+00:00:18.919 --> 00:00:22.589
+of the incident response lifecycle,
+post-incident activity.
+
+8
+00:00:22.589 --> 00:00:25.804
+The post-incident activity
+phase entails the process of
+
+9
+00:00:25.804 --> 00:00:30.535
+reviewing an incident to identify areas
+for improvement during incident handling.
+
+10
+00:00:31.535 --> 00:00:34.638
+During this phase of the lifecycle,
+different types of documentation get
+
+11
+00:00:34.638 --> 00:00:35.858
+updated or created.
+
+12
+00:00:35.858 --> 00:00:40.057
+One of the critical forms of documentation
+that gets created is the final report.
+
+13
+00:00:40.057 --> 00:00:43.908
+The final report is documentation that
+provides a comprehensive review of
+
+14
+00:00:43.908 --> 00:00:44.649
+an incident.
+
+15
+00:00:44.649 --> 00:00:49.102
+It includes a timeline and details of
+all events related to the incident and
+
+16
+00:00:49.102 --> 00:00:51.656
+recommendations for future prevention.
+
+17
+00:00:52.656 --> 00:00:55.716
+During an incident, the goal of
+the security team is to focus efforts on
+
+18
+00:00:55.716 --> 00:00:57.189
+response and recovery.
+
+19
+00:00:57.189 --> 00:01:02.022
+After an incident, security teams work to
+minimize the risk of it happening again.
+
+20
+00:01:03.022 --> 00:01:05.662
+One way to improve processes is to
+hold a lessons learned meeting.
+
+21
+00:01:05.662 --> 00:01:09.594
+A lessons learned meeting includes all
+parties involved in the incident and
+
+22
+00:01:09.594 --> 00:01:12.490
+is generally held within two
+weeks after the incident.
+
+23
+00:01:12.490 --> 00:01:16.792
+During this meeting, the incident is
+reviewed to determine what happened,
+
+24
+00:01:16.792 --> 00:01:20.112
+what actions were taken, and
+how well the actions worked.
+
+25
+00:01:20.112 --> 00:01:24.752
+The final report is also used as the main
+reference document during this meeting.
+
+26
+00:01:24.752 --> 00:01:29.196
+The goal of the discussions in a lessons
+learned meeting is to share ideas and
+
+27
+00:01:29.196 --> 00:01:33.587
+information about the incident and
+how to improve future response efforts.
+
+28
+00:01:34.587 --> 00:01:36.687
+Here are some questions to ask
+during a lessons learned meeting:
+
+29
+00:01:36.687 --> 00:01:38.338
+What happened?
+
+30
+00:01:38.338 --> 00:01:40.244
+What time did it happen?
+
+31
+00:01:40.244 --> 00:01:41.913
+Who discovered it?
+
+32
+00:01:41.913 --> 00:01:44.603
+How did it get contained?
+
+33
+00:01:44.603 --> 00:01:47.518
+What were the actions taken for recovery?
+
+34
+00:01:47.518 --> 00:01:50.198
+What could have been done differently?
+
+35
+00:01:51.198 --> 00:01:54.895
+Incident reviews can reveal human errors
+before detection and during response,
+
+36
+00:01:54.895 --> 00:01:58.905
+whether it's a security analyst missing
+a step in a recovery process, or
+
+37
+00:01:58.905 --> 00:02:03.450
+an employee clicking a link in a phishing
+email, resulting in the spread of malware.
+
+38
+00:02:03.450 --> 00:02:07.379
+Blaming someone for an action they did or
+didn't do should be avoided.
+
+39
+00:02:07.379 --> 00:02:11.673
+Instead security teams can view this as
+an opportunity to learn from what happened
+
+40
+00:02:11.673 --> 00:02:12.428
+and improve.

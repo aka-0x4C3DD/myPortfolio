@@ -1,0 +1,266 @@
+WEBVTT
+
+1
+00:00:01.039 --> 00:00:01.939
+Preparing for
+
+2
+00:00:01.939 --> 00:00:06.892
+attacks is an important job that the
+entire security team is responsible for.
+
+3
+00:00:06.892 --> 00:00:10.708
+Threat actors have many tools they
+can use depending on their target.
+
+4
+00:00:10.708 --> 00:00:11.603
+For example,
+
+5
+00:00:11.603 --> 00:00:16.534
+attacking a small business can be
+different from attacking a public utility.
+
+6
+00:00:16.534 --> 00:00:21.340
+Each have different assets and
+specific defenses to keep them safe.
+
+7
+00:00:21.340 --> 00:00:26.397
+In all cases, anticipating attacks
+is the key to preparing for them.
+
+8
+00:00:26.397 --> 00:00:32.048
+In security, we do that by performing
+an activity known as threat modeling.
+
+9
+00:00:33.048 --> 00:00:35.411
+Threat modeling is a process
+of identifying assets,
+
+10
+00:00:35.411 --> 00:00:39.307
+their vulnerabilities, and
+how each is exposed to threats.
+
+11
+00:00:39.307 --> 00:00:41.109
+We apply threat modeling to everything
+
+12
+00:00:41.109 --> 00:00:45.994
+we protect. Entire systems,
+applications, or business processes
+
+13
+00:00:45.994 --> 00:00:50.145
+all get examined from this
+security-related perspective.
+
+14
+00:00:51.145 --> 00:00:54.302
+Creating threat models is a lengthy and
+detailed activity.
+
+15
+00:00:54.302 --> 00:00:59.204
+They're normally performed by a collection
+of individuals with years of experience in
+
+16
+00:00:59.204 --> 00:00:59.876
+the field.
+
+17
+00:00:59.876 --> 00:01:04.139
+Because of that, it's considered to
+be an advanced skill in security.
+
+18
+00:01:04.139 --> 00:01:07.951
+However, that doesn't mean
+you won't be involved.
+
+19
+00:01:08.951 --> 00:01:11.335
+There are several threat modeling
+frameworks used in the field.
+
+20
+00:01:11.335 --> 00:01:14.839
+Some are better suited for
+network security. Others are better for
+
+21
+00:01:14.839 --> 00:01:18.488
+things like information security,
+or application development.
+
+22
+00:01:19.488 --> 00:01:22.240
+In general,
+there are six steps of a threat model.
+
+23
+00:01:22.240 --> 00:01:25.318
+The first is to define
+the scope of the model.
+
+24
+00:01:25.318 --> 00:01:29.818
+At this stage, the team determines
+what they're building by creating
+
+25
+00:01:29.818 --> 00:01:32.748
+an inventory of assets and
+classifying them.
+
+26
+00:01:33.748 --> 00:01:35.946
+The second step is to identify threats.
+
+27
+00:01:35.946 --> 00:01:39.895
+Here, the team defines all
+potential threat actors.
+
+28
+00:01:39.895 --> 00:01:44.462
+A threat actor is any person or
+group who presents a security risk.
+
+29
+00:01:44.462 --> 00:01:49.324
+Threat actors are characterized
+as being internal or external.
+
+30
+00:01:49.324 --> 00:01:53.576
+For example, an internal threat
+actor could be an employee
+
+31
+00:01:53.576 --> 00:01:56.730
+who intentionally expose an asset to harm.
+
+32
+00:01:56.730 --> 00:02:00.712
+An example of an external threat
+actor could be a malicious hacker, or
+
+33
+00:02:00.712 --> 00:02:02.070
+a competing business.
+
+34
+00:02:03.070 --> 00:02:04.672
+After threat actors have been identified,
+
+35
+00:02:04.672 --> 00:02:07.987
+the team puts together what's
+known as an attack tree.
+
+36
+00:02:07.987 --> 00:02:12.403
+An attack tree is a diagram
+that maps threats to assets.
+
+37
+00:02:12.403 --> 00:02:16.027
+The team tries to be as detailed
+as possible when constructing
+
+38
+00:02:16.027 --> 00:02:17.915
+this diagram before moving on.
+
+39
+00:02:18.915 --> 00:02:22.541
+Step three of the threat modeling process
+is to characterize the environment.
+
+40
+00:02:22.541 --> 00:02:26.714
+Here, the team applies an attacker
+mindset to the business.
+
+41
+00:02:26.714 --> 00:02:30.768
+They consider how the customers and
+employees interact with the environment.
+
+42
+00:02:30.768 --> 00:02:35.720
+Other factors they consider are external
+partners and third party vendors.
+
+43
+00:02:36.720 --> 00:02:38.974
+At step four, their objective
+is to analyze threats.
+
+44
+00:02:38.974 --> 00:02:44.431
+Here, the team works together to examine
+existing protections and identify gaps.
+
+45
+00:02:44.431 --> 00:02:48.873
+They then rank threats according to
+their risk score that they assign.
+
+46
+00:02:49.873 --> 00:02:53.332
+During step five,
+the team decides how to mitigate risk.
+
+47
+00:02:53.332 --> 00:02:57.990
+At this point, the group creates their
+plan for defending against threats.
+
+48
+00:02:57.990 --> 00:03:03.070
+The choices here are to avoid risk,
+transfer it, reduce it, or accept it.
+
+49
+00:03:04.070 --> 00:03:05.960
+The sixth and
+final step is to evaluate findings.
+
+50
+00:03:05.960 --> 00:03:10.917
+At this stage, everything that was done
+during the exercise is documented,
+
+51
+00:03:10.917 --> 00:03:15.279
+fixes are applied, and the team makes
+note of any successes they had.
+
+52
+00:03:15.279 --> 00:03:17.391
+They also record any lessons learned, so
+
+53
+00:03:17.391 --> 00:03:20.464
+they can inform how they
+approach future threat models.
+
+54
+00:03:21.464 --> 00:03:23.988
+That's an overview of the general
+threat modeling process.
+
+55
+00:03:23.988 --> 00:03:27.369
+What we've explored was just
+one of many methods that exist.

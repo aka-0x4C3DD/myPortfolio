@@ -1,0 +1,273 @@
+WEBVTT
+
+1
+00:00:00.140 --> 00:00:03.030
+Security attacks
+are on the rise, and
+
+2
+00:00:03.030 --> 00:00:04.859
+new vulnerabilities
+are exploited
+
+3
+00:00:04.859 --> 00:00:06.465
+and discovered every week.
+
+4
+00:00:06.465 --> 00:00:08.520
+No matter how prepared
+an organization
+
+5
+00:00:08.520 --> 00:00:10.815
+may be in the event
+of a security attack,
+
+6
+00:00:10.815 --> 00:00:13.020
+at some point
+something goes wrong.
+
+7
+00:00:13.020 --> 00:00:15.285
+Whether it's a data
+breach, ransomware,
+
+8
+00:00:15.285 --> 00:00:17.505
+or a simple mistake
+made by an employee,
+
+9
+00:00:17.505 --> 00:00:19.980
+incidents happen. And it's up to
+
+10
+00:00:19.980 --> 00:00:21.780
+security professionals
+like you to
+
+11
+00:00:21.780 --> 00:00:24.585
+effectively respond to
+security incidents.
+
+12
+00:00:25.585 --> 00:00:26.565
+Hello and welcome to the course!
+
+13
+00:00:26.565 --> 00:00:28.020
+I'm Dave, and I'm a Principal
+
+14
+00:00:28.020 --> 00:00:30.090
+Security Strategist
+for Google Cloud.
+
+15
+00:00:30.090 --> 00:00:31.800
+I have 20 years of experience
+
+16
+00:00:31.800 --> 00:00:33.940
+as a security
+practitioner and leader.
+
+17
+00:00:33.940 --> 00:00:35.300
+Over the past eight years,
+
+18
+00:00:35.300 --> 00:00:36.680
+I've worked at industry-leading
+
+19
+00:00:36.680 --> 00:00:38.465
+security vendors like Fortinet,
+
+20
+00:00:38.465 --> 00:00:40.490
+Splunk, and Google,
+where I developed
+
+21
+00:00:40.490 --> 00:00:42.895
+a specialty in
+security analytics.
+
+22
+00:00:42.895 --> 00:00:45.230
+I have a passion for
+helping analysts develop
+
+23
+00:00:45.230 --> 00:00:48.040
+the skills necessary to
+succeed in their careers.
+
+24
+00:00:49.040 --> 00:00:49.710
+I'm so happy you're here.
+
+25
+00:00:49.710 --> 00:00:51.470
+You've done a great job so far.
+
+26
+00:00:51.470 --> 00:00:53.915
+You've learned a lot
+about security concepts,
+
+27
+00:00:53.915 --> 00:00:56.915
+best practices, and types
+of security attacks.
+
+28
+00:00:56.915 --> 00:00:59.929
+Now in this course, we'll
+focus on incident detection,
+
+29
+00:00:59.929 --> 00:01:01.960
+analysis, and response.
+
+30
+00:01:01.960 --> 00:01:03.830
+You'll have the
+opportunity to apply
+
+31
+00:01:03.830 --> 00:01:06.620
+your learning using
+tools such as tcpdump,
+
+32
+00:01:06.620 --> 00:01:10.225
+Wireshark, Suricata,
+Splunk, and Chronicle.
+
+33
+00:01:10.225 --> 00:01:11.555
+By the end of this course,
+
+34
+00:01:11.555 --> 00:01:13.249
+you'll have an
+in-depth understanding
+
+35
+00:01:13.249 --> 00:01:14.845
+of incident response.
+
+36
+00:01:15.845 --> 00:01:16.220
+First, you'll learn about
+
+37
+00:01:16.220 --> 00:01:18.245
+the incident response
+lifecycle and how
+
+38
+00:01:18.245 --> 00:01:20.555
+incident response
+teams work together.
+
+39
+00:01:20.555 --> 00:01:23.210
+You'll also learn about
+the types of tools used in
+
+40
+00:01:23.210 --> 00:01:26.110
+detection and response,
+including documentation.
+
+41
+00:01:26.110 --> 00:01:28.940
+You'll also be given your own
+incident handler's journal
+
+42
+00:01:28.940 --> 00:01:31.340
+that you'll use during
+your investigations.
+
+43
+00:01:32.340 --> 00:01:33.080
+Next, you'll apply
+your knowledge and
+
+44
+00:01:33.080 --> 00:01:35.375
+networking in Linux to
+monitor and analyze
+
+45
+00:01:35.375 --> 00:01:37.340
+network traffic using
+packet sniffers
+
+46
+00:01:37.340 --> 00:01:39.440
+like Wireshark and tcpdump
+
+47
+00:01:39.440 --> 00:01:41.390
+to capture and
+analyze packets for
+
+48
+00:01:41.390 --> 00:01:44.194
+potential indicators
+of security incidents.
+
+49
+00:01:45.194 --> 00:01:46.970
+Then, you'll become familiar
+with the common processes and
+
+50
+00:01:46.970 --> 00:01:50.210
+procedures used during incident
+detection and response.
+
+51
+00:01:50.210 --> 00:01:52.580
+You'll learn how to use
+investigative tools to
+
+52
+00:01:52.580 --> 00:01:56.005
+analyze and verify incidents
+and produce documentation.
+
+53
+00:01:57.005 --> 00:01:58.760
+Finally, you'll learn how to
+interpret logs and alerts.
+
+54
+00:01:58.760 --> 00:02:00.410
+You'll learn how detection tools
+
+55
+00:02:00.410 --> 00:02:02.240
+produce logs and how these logs
+
+56
+00:02:02.240 --> 00:02:03.710
+are analyzed in security
+
+57
+00:02:03.710 --> 00:02:06.295
+information and event
+management tools.
+
+58
+00:02:07.295 --> 00:02:09.850
+Ready to begin?
+Let's get started!

@@ -1,0 +1,240 @@
+WEBVTT
+
+1
+00:00:00.900 --> 00:00:01.714
+Hi there.
+
+2
+00:00:01.714 --> 00:00:06.715
+Previously, you learned how an incident
+handler's journal is used for documenting the 5 W's of
+
+3
+00:00:06.715 --> 00:00:11.653
+an incident: who, what, where,
+when, and why an incident occurred.
+
+4
+00:00:11.653 --> 00:00:16.149
+In this section, we'll continue our
+discussion on documentation by exploring the different
+
+5
+00:00:16.149 --> 00:00:20.976
+types of documentation, the importance
+of effective documentation, and we'll finish off
+
+6
+00:00:20.976 --> 00:00:24.764
+with the discussion on documentation tools.
+
+7
+00:00:25.764 --> 00:00:28.561
+Documentation is any form of
+recorded content that is used for
+
+8
+00:00:28.561 --> 00:00:30.740
+a specific purpose.
+
+9
+00:00:30.740 --> 00:00:35.240
+This can be audio, digital, or
+handwritten instructions, and even videos.
+
+10
+00:00:35.240 --> 00:00:38.509
+There is no set industry standard for
+documentation, so
+
+11
+00:00:38.509 --> 00:00:42.100
+many organizations set their
+own documentation practices.
+
+12
+00:00:42.100 --> 00:00:45.721
+Regardless, documentation is
+meant to provide instruction and guidance
+
+13
+00:00:45.721 --> 00:00:47.450
+on a specific topic.
+
+14
+00:00:48.450 --> 00:00:49.646
+There are also many
+types of documentation,
+
+15
+00:00:49.646 --> 00:00:53.660
+and you may already be familiar with
+some of them from the previous lessons.
+
+16
+00:00:53.660 --> 00:00:58.374
+These include playbooks, incident
+handler's journals, policies, plans,
+
+17
+00:00:58.374 --> 00:00:59.790
+and final reports.
+
+18
+00:00:59.790 --> 00:01:04.059
+Remember, there isn't an industry standard
+for documentation, which means that one
+
+19
+00:01:04.059 --> 00:01:08.640
+organization's documentation practices may
+look completely different than another's.
+
+20
+00:01:08.640 --> 00:01:13.639
+Often, organizations will tailor their
+documentation practices according to their needs
+
+21
+00:01:13.639 --> 00:01:19.310
+and legal requirements. They may add, remove,
+or even merge documentation types.
+
+22
+00:01:20.310 --> 00:01:23.327
+Have you ever purchased a product, and
+didn't know how to use it, and consulted
+
+23
+00:01:23.327 --> 00:01:27.301
+the product manual for instructions on
+how to do something like turn it on?
+
+24
+00:01:27.301 --> 00:01:30.778
+Congrats, you've used
+documentation to solve an issue.
+
+25
+00:01:31.778 --> 00:01:35.103
+Previously, you've learned about how
+playbooks keep business operations safe,
+
+26
+00:01:35.103 --> 00:01:39.463
+and in incident response, playbooks
+work similar to a product manual.
+
+27
+00:01:39.463 --> 00:01:40.464
+As a refresher,
+
+28
+00:01:40.464 --> 00:01:45.080
+a playbook is a manual that provides
+details about any operational action.
+
+29
+00:01:45.080 --> 00:01:47.870
+You'll learn more about playbooks later.
+
+30
+00:01:48.870 --> 00:01:50.280
+Let's revisit that product manual example.
+
+31
+00:01:50.280 --> 00:01:54.531
+Have you ever consulted a product manual
+for help and found yourself confused with
+
+32
+00:01:54.531 --> 00:01:58.030
+the instructions and
+unable to get the help you needed?
+
+33
+00:01:58.030 --> 00:02:01.437
+Whether it's had to do with unclear
+visuals and instructions or
+
+34
+00:02:01.437 --> 00:02:06.150
+a confusing layout, you weren't able to
+use the documentation to solve your issue.
+
+35
+00:02:06.150 --> 00:02:09.449
+This is an example of
+ineffective documentation.
+
+36
+00:02:10.449 --> 00:02:13.031
+Effective documentation reduces
+uncertainty and confusion.
+
+37
+00:02:13.031 --> 00:02:17.012
+This is critical during a security
+incident when tensions are high and
+
+38
+00:02:17.012 --> 00:02:18.779
+urgent response is required.
+
+39
+00:02:18.779 --> 00:02:21.329
+As a security professional,
+you'll be using and
+
+40
+00:02:21.329 --> 00:02:23.330
+creating documentation regularly.
+
+41
+00:02:23.330 --> 00:02:28.190
+It's essential that the documentation you
+use and produce is clear, consistent,
+
+42
+00:02:28.190 --> 00:02:32.515
+and accurate, so that you and your team
+can respond swiftly and decisively.
+
+43
+00:02:33.515 --> 00:02:35.151
+Word processors are a common
+way to document.
+
+44
+00:02:35.151 --> 00:02:42.125
+Some popular tools to use are Google Docs,
+OneNote, Evernote, and Notepad++.
+
+45
+00:02:43.125 --> 00:02:46.970
+Ticketing systems like Jira can also be
+used to document and track incidents.
+
+46
+00:02:47.970 --> 00:02:50.984
+Lastly, Google Sheets,
+audio recorders, cameras, and
+
+47
+00:02:50.984 --> 00:02:54.930
+handwritten notes are also
+tools you can use to document.
+
+48
+00:02:55.930 --> 00:02:57.869
+Our discussion on documentation
+has only just begun.
+
+49
+00:02:57.869 --> 00:03:01.444
+Soon, you'll use your incident handler's
+journal to put your documentation
+
+50
+00:03:01.444 --> 00:03:02.201
+skills to work.

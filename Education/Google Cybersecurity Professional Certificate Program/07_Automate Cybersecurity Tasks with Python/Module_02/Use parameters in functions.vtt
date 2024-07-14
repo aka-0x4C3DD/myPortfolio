@@ -1,0 +1,301 @@
+WEBVTT
+
+1
+00:00:01.120 --> 00:00:05.100
+Previously, we defined and
+called our first function.
+
+2
+00:00:05.100 --> 00:00:09.495
+It didn't require any information
+from outside the function, but
+
+3
+00:00:09.495 --> 00:00:11.130
+other functions might.
+
+4
+00:00:11.130 --> 00:00:16.274
+This means we need to talk about
+using parameters in functions.
+
+5
+00:00:16.274 --> 00:00:21.898
+In Python, a parameter is an object that
+is included in a function definition for
+
+6
+00:00:21.898 --> 00:00:23.482
+use in that function.
+
+7
+00:00:23.482 --> 00:00:28.293
+Parameters are accepted into a function
+through the parentheses after
+
+8
+00:00:28.293 --> 00:00:29.501
+a function name.
+
+9
+00:00:30.710 --> 00:00:35.480
+The function that we created in the last
+video isn't taking in any parameters.
+
+10
+00:00:36.480 --> 00:00:42.530
+Now, let's revisit another function
+called range() that does use parameters.
+
+11
+00:00:42.530 --> 00:00:46.929
+If you recall,
+the range() function generates a sequence of
+
+12
+00:00:46.929 --> 00:00:52.220
+numbers from a start point to
+the value before the stop point.
+
+13
+00:00:52.220 --> 00:00:56.790
+Therefore,range() does include
+parameters for the start and
+
+14
+00:00:56.790 --> 00:01:01.450
+stop indices that each
+accept an integer value.
+
+15
+00:01:01.450 --> 00:01:06.420
+For instance,
+it could accept integers 3 and 7.
+
+16
+00:01:06.420 --> 00:01:12.081
+This means the sequence it
+generates will run from 3 to 6.
+
+17
+00:01:13.430 --> 00:01:15.041
+In our previous example,
+
+18
+00:01:15.041 --> 00:01:20.430
+we wrote a function that displayed
+a welcome message when someone logged in.
+
+19
+00:01:20.430 --> 00:01:24.551
+It would be even more welcoming if
+we included the employee's name with
+
+20
+00:01:24.551 --> 00:01:26.180
+the message.
+
+21
+00:01:27.180 --> 00:01:30.521
+Let's define a function with a parameter
+so we can greet employees by name!
+
+22
+00:01:32.310 --> 00:01:33.972
+When we define our function,
+
+23
+00:01:33.972 --> 00:01:37.971
+we'll include the name of the parameter
+that our function depends on.
+
+24
+00:01:39.580 --> 00:01:44.990
+We place this parameter, the name
+variable, inside the parentheses.
+
+25
+00:01:44.990 --> 00:01:47.421
+The rest of the syntax stays the same.
+
+26
+00:01:48.550 --> 00:01:51.498
+Now, let's go to the next line and
+indent so
+
+27
+00:01:51.498 --> 00:01:55.061
+we can tell Python what
+we want this function to do.
+
+28
+00:01:56.160 --> 00:02:00.555
+We want it to print a message that welcomes
+the employee using the name that's
+
+29
+00:02:00.555 --> 00:02:02.121
+passed into the function.
+
+30
+00:02:03.250 --> 00:02:08.996
+Bringing this variable into our print
+statement requires a few considerations.
+
+31
+00:02:08.996 --> 00:02:14.140
+Like before, we start with
+the welcome message we want to print.
+
+32
+00:02:14.140 --> 00:02:15.419
+In this case, though,
+
+33
+00:02:15.419 --> 00:02:20.220
+we're not stopping our message after
+we tell them they're logged in.
+
+34
+00:02:20.220 --> 00:02:25.190
+We want to continue and
+add the employee's name to the message.
+
+35
+00:02:25.190 --> 00:02:30.196
+That's why we're placing
+a comma after "You're logged in"
+
+36
+00:02:30.196 --> 00:02:33.410
+and then adding the name variable.
+
+37
+00:02:33.410 --> 00:02:36.896
+Since this is a variable and
+not a specific string,
+
+38
+00:02:36.896 --> 00:02:40.360
+we don't place it in quotation marks.
+
+39
+00:02:41.360 --> 00:02:42.386
+Now that our function is set up,
+
+40
+00:02:42.386 --> 00:02:46.903
+we're ready to call it with the specific
+argument that we want to pass in.
+
+41
+00:02:46.903 --> 00:02:53.023
+In Python, an argument is the data brought
+into a function when it is called.
+
+42
+00:02:53.023 --> 00:02:56.694
+For example,
+earlier, when we passed 3 and
+
+43
+00:02:56.694 --> 00:03:01.136
+7 into the range() function,
+these were arguments.
+
+44
+00:03:01.136 --> 00:03:06.681
+In our case, let's imagine we want to
+greet an employee named Charley Patel.
+
+45
+00:03:08.950 --> 00:03:12.940
+We'll call our greet_employee()
+function with this argument.
+
+46
+00:03:12.940 --> 00:03:19.001
+And when we run this, Charley Patel
+gets a personalized welcome message!
+
+47
+00:03:20.080 --> 00:03:24.813
+In this example, we only have one
+parameter in our function. But
+
+48
+00:03:24.813 --> 00:03:26.620
+we can have more.
+
+49
+00:03:26.620 --> 00:03:28.581
+Let's explore an example of this.
+
+50
+00:03:29.710 --> 00:03:34.688
+Maybe instead of a single name parameter,
+we have a parameter for
+
+51
+00:03:34.688 --> 00:03:38.330
+first name and
+a second parameter for last name.
+
+52
+00:03:38.330 --> 00:03:42.431
+If so, we would need to
+adjust the code like this.
+
+53
+00:03:43.520 --> 00:03:46.439
+First, when we define the function,
+
+54
+00:03:46.439 --> 00:03:50.921
+we include both parameters and
+separate them with a comma.
+
+55
+00:03:52.520 --> 00:03:58.550
+Then, when we call it, we also include
+two arguments. This time we're greeting
+
+56
+00:03:58.550 --> 00:04:04.600
+someone with the first name of Kiara and
+with the last name of Carter.
+
+57
+00:04:04.600 --> 00:04:07.760
+These are also separated by a comma.
+
+58
+00:04:07.760 --> 00:04:11.487
+Let's run this and welcome Kiara Carter!
+
+59
+00:04:12.487 --> 00:04:15.378
+As we just explored,
+using more than one parameter
+
+60
+00:04:15.378 --> 00:04:17.891
+just requires a few adjustments.
+
+61
+00:04:19.670 --> 00:04:21.374
+Great work in this video!
+
+62
+00:04:21.374 --> 00:04:25.850
+We learned a lot about working
+with parameters in a function.
+
+63
+00:04:25.850 --> 00:04:29.797
+This understanding is something you'll
+need as you continue to write Python
+
+64
+00:04:29.797 --> 00:04:30.351
+scripts.

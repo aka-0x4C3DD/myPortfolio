@@ -1,0 +1,132 @@
+WEBVTT
+
+1
+00:00:00.590 --> 00:00:04.425
+We've learned a lot about
+Python together already,
+
+2
+00:00:04.425 --> 00:00:06.810
+and we still have more to cover.
+
+3
+00:00:06.810 --> 00:00:08.415
+In this section,
+
+4
+00:00:08.415 --> 00:00:10.950
+we're going to explore how
+a security analyst like
+
+5
+00:00:10.950 --> 00:00:13.950
+yourself puts Python
+into practice.
+
+6
+00:00:14.950 --> 00:00:15.704
+As a security analyst,
+
+7
+00:00:15.704 --> 00:00:18.540
+you will likely work with
+security logs that capture
+
+8
+00:00:18.540 --> 00:00:21.690
+information on various
+system activities.
+
+9
+00:00:21.690 --> 00:00:24.030
+These logs are often very
+
+10
+00:00:24.030 --> 00:00:26.700
+large and hard to
+quickly interpret.
+
+11
+00:00:26.700 --> 00:00:29.610
+But Python can easily automate
+
+12
+00:00:29.610 --> 00:00:33.060
+these tasks and make things
+much more efficient.
+
+13
+00:00:33.060 --> 00:00:35.025
+So first, we'll focus
+
+14
+00:00:35.025 --> 00:00:37.650
+on opening and reading
+files in Python.
+
+15
+00:00:37.650 --> 00:00:39.800
+This includes log files.
+
+16
+00:00:39.800 --> 00:00:42.890
+We'll then explore
+parsing files.
+
+17
+00:00:42.890 --> 00:00:46.790
+This means you'll be able to
+work with files in ways that
+
+18
+00:00:46.790 --> 00:00:48.620
+provide you with the
+security-related
+
+19
+00:00:48.620 --> 00:00:51.155
+information that
+you're targeting.
+
+20
+00:00:51.155 --> 00:00:55.235
+Finally, part of writing
+code is debugging code.
+
+21
+00:00:55.235 --> 00:00:57.395
+It's important to be
+able to interpret
+
+22
+00:00:57.395 --> 00:00:59.510
+error messages to
+make your code work.
+
+23
+00:00:59.510 --> 00:01:01.670
+We'll cover common types of
+
+24
+00:01:01.670 --> 00:01:04.625
+Python errors and
+ways to resolve them.
+
+25
+00:01:05.625 --> 00:01:07.730
+Overall, after completing
+this section,
+
+26
+00:01:07.730 --> 00:01:10.670
+you'll have a better
+understanding of Python and
+
+27
+00:01:10.670 --> 00:01:14.015
+how as a security
+analyst you can use it.
+
+28
+00:01:14.015 --> 00:01:16.470
+I can't wait to join you.
