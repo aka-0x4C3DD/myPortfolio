@@ -1,0 +1,33 @@
+// example of setter and getter // MVC - 
+
+class Person {
+
+     protected String name;
+      protected int age;
+
+    String getName(){
+       return name;
+}
+
+public void setName(String name){
+this.name = name;
+
+}
+int getAge(){
+       return age;
+}
+
+public void setAge(int age){
+this.age = age;
+
+}
+
+public static void main(String[] args) {
+  Person p = new Person();
+  p.setName("GOOD Day");
+  
+  System.out.println(p.getName());
+  p.setAge(22);
+System.out.println(p.getAge());
+}
+}
