@@ -1,0 +1,1 @@
+Graphical method, simplex method, transportation method, assignment methods.
