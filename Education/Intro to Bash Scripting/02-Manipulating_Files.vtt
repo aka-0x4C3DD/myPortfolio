@@ -1,0 +1,613 @@
+WEBVTT
+
+1
+00:00:00.640 --> 00:00:03.450
+Welcome to Introduction to Bash Shell, scripting. I'm
+
+2
+00:00:03.450 --> 00:00:05.250
+Kerri-Leigh, and I'll be leading you through the steps
+
+3
+00:00:05.250 --> 00:00:07.490
+you need to familiarize yourself with the bash shell command
+
+4
+00:00:07.490 --> 00:00:10.070
+line and creating scripts that customize and automate
+
+5
+00:00:10.070 --> 00:00:11.150
+the shell and its tools.
+
+6
+00:00:11.740 --> 00:00:13.700
+By the end of this course, you'll be able to create a backup
+
+7
+00:00:13.710 --> 00:00:14.950
+file with a bash shell script.
+
+8
+00:00:15.740 --> 00:00:18.090
+You'll notice there two panels on your screen. In the panel
+
+9
+00:00:18.090 --> 00:00:18.620
+on your right,
+
+10
+00:00:18.630 --> 00:00:20.990
+you'll watch these videos where I'll demonstrate and cover lesson
+
+11
+00:00:20.990 --> 00:00:21.550
+material.
+
+12
+00:00:22.170 --> 00:00:24.450
+The panel on the left is your space, so you can follow along
+
+13
+00:00:24.450 --> 00:00:26.250
+with the lesson and get hands-on practice.
+
+14
+00:00:26.770 --> 00:00:28.950
+Remember, you can always pause the recording as you need
+
+15
+00:00:28.950 --> 00:00:31.930
+to type in commands or script code, to run a script,
+
+16
+00:00:31.940 --> 00:00:33.450
+and to make any corrections as we go.
+
+17
+00:00:34.040 --> 00:00:34.950
+Now let's get started.
+
+18
+00:00:35.930 --> 00:00:38.290
+We're using Ubuntu which is one version of Linux.
+
+19
+00:00:38.560 --> 00:00:40.890
+If you're not familiar with Linux, it's an open source
+
+20
+00:00:40.900 --> 00:00:42.730
+operating system that mimics UNIX,
+
+21
+00:00:42.740 --> 00:00:46.020
+so it's a great platform for software developers as well as I
+
+22
+00:00:46.020 --> 00:00:47.950
+T and cybersecurity professionals.
+
+23
+00:00:48.440 --> 00:00:50.880
+You may have heard about the CLI, command line interface.
+
+24
+00:00:51.160 --> 00:00:52.450
+It's the interface for the shell.
+
+25
+00:00:52.940 --> 00:00:55.320
+If you've ever seen old movies from the eighties and nineties,
+
+26
+00:00:55.320 --> 00:00:57.820
+or if you're a fan of the series, Mr Robot, you've seen
+
+27
+00:00:57.820 --> 00:00:58.490
+the command line.
+
+28
+00:00:59.040 --> 00:01:00.550
+And what exactly is the shell?
+
+29
+00:01:01.140 --> 00:01:03.900
+A simple explanation is that it's how we interact directly
+
+30
+00:01:03.900 --> 00:01:06.790
+with the operating system, taking care of system level tasks.
+
+31
+00:01:07.440 --> 00:01:10.520
+The graphical user interface or GUI, is great for accessing
+
+32
+00:01:10.520 --> 00:01:12.790
+files and programs with a simple and visually appealing
+
+33
+00:01:12.790 --> 00:01:13.340
+interface.
+
+34
+00:01:13.590 --> 00:01:17.130
+But imagine you needed to do a complex task like search all
+
+35
+00:01:17.130 --> 00:01:20.140
+your files for a keyword and email the files as attachments
+
+36
+00:01:20.140 --> 00:01:21.250
+if they have a keyword.
+
+37
+00:01:21.740 --> 00:01:23.480
+You can do that with a GUI, but it will take you
+
+38
+00:01:23.480 --> 00:01:25.450
+some time, and it would be tedious work.
+
+39
+00:01:25.940 --> 00:01:28.630
+However, both are fast and easy to accomplish on the command
+
+40
+00:01:28.630 --> 00:01:31.220
+line. In short, the command line makes life easier,
+
+41
+00:01:31.220 --> 00:01:33.300
+and you don't have to master it to benefit from it.
+
+42
+00:01:34.940 --> 00:01:36.970
+We're in the GUI here, so we'll need a terminal, which is
+
+43
+00:01:36.970 --> 00:01:38.750
+where we can access the shell CLI.
+
+44
+00:01:39.550 --> 00:01:40.140
+Open the shell.
+
+45
+00:01:40.140 --> 00:01:43.980
+You can access it from the desktop with this icon, or you can
+
+46
+00:01:43.990 --> 00:01:47.950
+use a keyboard shortcut, control-alt-T or on a Mac
+
+47
+00:01:47.950 --> 00:01:48.310
+control-command-T.
+
+48
+00:01:48.310 --> 00:01:51.150
+Let's click on the icon to open a terminal.
+
+49
+00:01:53.310 --> 00:01:55.350
+Now that we're in the terminal, what can we do?
+
+50
+00:01:55.970 --> 00:01:58.270
+First, let's find out what Shell is running in this terminal.
+
+51
+00:01:58.280 --> 00:02:03.860
+To do that, we can type echo $SHELL. Echo means print,
+
+52
+00:02:03.870 --> 00:02:06.750
+and the string shell is the variable that references the shell.
+
+53
+00:02:07.340 --> 00:02:10.060
+This course teaches the bash shell script specifically,
+
+54
+00:02:10.190 --> 00:02:11.970
+but there are other options out there.
+
+55
+00:02:12.080 --> 00:02:14.250
+Bash stands for Bourne Again Shell, since it's based off
+
+56
+00:02:14.260 --> 00:02:16.250
+the Bourne shell, which was the original.
+
+57
+00:02:16.740 --> 00:02:19.650
+But there's also c-shell, korn shell, z shell, and others.
+
+58
+00:02:20.170 --> 00:02:22.100
+As you can see, the terminal has returned the path
+
+59
+00:02:22.100 --> 00:02:24.450
+to the shell in use now, and it's bash.
+
+60
+00:02:25.240 --> 00:02:27.950
+Now let's see what directories and files are available to us.
+
+61
+00:02:28.470 --> 00:02:33.280
+To do that, type 'ls' for list. This will list visible files
+
+62
+00:02:33.280 --> 00:02:35.930
+in the directory we're currently in. Its kind of ugly,
+
+63
+00:02:35.930 --> 00:02:38.550
+though. You can only see names here, but what are they?
+
+64
+00:02:39.140 --> 00:02:42.110
+You can use options on commands to expand how that command
+
+65
+00:02:42.110 --> 00:02:42.820
+functions.
+
+66
+00:02:42.830 --> 00:02:48.430
+Here's an example: 'ls -al'. Here, 'ls' is
+
+67
+00:02:48.430 --> 00:02:49.600
+the command, and the '-al'
+
+68
+00:02:49.600 --> 00:02:50.600
+part is the option.
+
+69
+00:02:51.060 --> 00:02:53.150
+The dash tells the command we're starting an option.
+
+70
+00:02:53.160 --> 00:02:55.970
+The 'a' stands for all, so you'll see hidden files, which start
+
+71
+00:02:55.970 --> 00:02:56.650
+with a period.
+
+72
+00:02:57.270 --> 00:03:00.340
+The 'l' stands for a long listing format, so you'll get to see
+
+73
+00:03:00.340 --> 00:03:01.850
+a lot of nitty gritty details.
+
+74
+00:03:02.370 --> 00:03:03.590
+Let's go over what those mean.
+
+75
+00:03:05.040 --> 00:03:07.740
+This first column tells you what it is and what its permissions
+
+76
+00:03:07.740 --> 00:03:10.510
+are. If it starts with a dash, it's a file.
+
+77
+00:03:10.780 --> 00:03:13.060
+If there's a 'd', it's a directory, which is where you put
+
+78
+00:03:13.060 --> 00:03:16.450
+files. It's the equivalent of folders for Mac and Windows.
+
+79
+00:03:17.270 --> 00:03:20.410
+The series of r's, w's, x's, and dashes after that, define
+
+80
+00:03:20.410 --> 00:03:23.480
+who has what kind of access to that file or directory--who
+
+81
+00:03:23.480 --> 00:03:25.150
+can read, write and execute.
+
+82
+00:03:25.710 --> 00:03:29.280
+The two columns that say 'rhyme' are the user and groups.
+
+83
+00:03:29.940 --> 00:03:32.810
+The next column tells you the file size in bytes, then
+
+84
+00:03:32.810 --> 00:03:34.220
+the date it was last accessed.
+
+85
+00:03:34.420 --> 00:03:37.650
+And finally, the file or directory name is in the last column.
+
+86
+00:03:38.240 --> 00:03:40.680
+You might notice that directories have the same size.
+
+87
+00:03:41.140 --> 00:03:43.950
+This is the standard minimum size allocated to a directory.
+
+88
+00:03:45.240 --> 00:03:47.450
+We'll talk more about the man command in another task,
+
+89
+00:03:47.840 --> 00:03:50.570
+but if you're feeling curious, you can type 'man
+
+90
+00:03:52.540 --> 00:03:59.140
+ls' to get more information about the options available
+
+91
+00:03:59.140 --> 00:03:59.550
+to you.
+
+92
+00:03:59.900 --> 00:04:01.600
+You can use man on any command.
+
+93
+00:04:01.610 --> 00:04:03.650
+Just type 'q' to
+
+94
+00:04:03.650 --> 00:04:04.950
+leave the man page when you're done.
+
+95
+00:04:05.640 --> 00:04:06.430
+So great.
+
+96
+00:04:06.440 --> 00:04:07.450
+But where are we?
+
+97
+00:04:07.450 --> 00:04:08.580
+What is this stuff?
+
+98
+00:04:08.820 --> 00:04:11.170
+When you start the terminal, you'll begin in your user
+
+99
+00:04:11.170 --> 00:04:14.890
+directory. To see the path to your directory type 'pwd'.
+
+100
+00:04:15.780 --> 00:04:17.820
+That's where your user directory is located.
+
+101
+00:04:18.279 --> 00:04:19.279
+Don't worry about remembering
+
+102
+00:04:19.279 --> 00:04:20.850
+that because here's a little hint:
+
+103
+00:04:21.440 --> 00:04:23.630
+if you ever end up navigating around and you want a quick
+
+104
+00:04:23.630 --> 00:04:25.920
+way to get back to this directory type 'cd'.
+
+105
+00:04:26.440 --> 00:04:27.390
+Let's give that a try.
+
+106
+00:04:27.810 --> 00:04:33.240
+First type 'cd /'. We're in the top-
+
+107
+00:04:33.240 --> 00:04:34.960
+most directory in the file structure,
+
+108
+00:04:34.970 --> 00:04:36.020
+the root directory.
+
+109
+00:04:36.390 --> 00:04:40.450
+You can type 'ls -l' if you're curious about what's
+
+110
+00:04:40.460 --> 00:04:46.440
+in this directory, and when you're ready type 'cd' and then
+
+111
+00:04:46.440 --> 00:04:49.940
+using 'pwd', you can see we're back in our user directory
+
+112
+00:04:50.260 --> 00:04:51.390
+thanks to typing 'cd'.
+
+113
+00:04:51.750 --> 00:04:54.430
+But what is cd? Change directory.
+
+114
+00:04:54.790 --> 00:04:55.690
+If you want to go up
+
+115
+00:04:55.690 --> 00:04:59.610
+one directory, type 'cd ..'. And using 'pwd'
+
+116
+00:05:00.740 --> 00:05:04.870
+we can see wee're in /home. Using 'ls -al'
+
+117
+00:05:04.880 --> 00:05:08.050
+we can see what other user directories are here.
+
+118
+00:05:08.790 --> 00:05:11.870
+To go back to ours, type 'cd rhyme'.
+
+119
+00:05:13.240 --> 00:05:15.250
+Or of course, we could have just type 'cd'.
+
+120
+00:05:15.640 --> 00:05:19.100
+Another way to reference our home directory is with the tilde.
+
+121
+00:05:19.100 --> 00:05:21.300
+You could do 'cd ~'.
+
+122
+00:05:23.040 --> 00:05:25.620
+We'll use this again later so you can see how powerful it is
+
+123
+00:05:25.620 --> 00:05:28.300
+as a shortcut for 'user directory'.
+
+124
+00:05:31.240 --> 00:05:33.340
+Before we wrap up this task, let's talk for a minute
+
+125
+00:05:33.340 --> 00:05:35.780
+about relative and absolute path names.
+
+126
+00:05:36.280 --> 00:05:38.450
+The absolute path name is the full path name.
+
+127
+00:05:38.840 --> 00:05:43.600
+For example, if we wanted to go to /lib/terminfo, we type
+
+128
+00:05:43.860 --> 00:05:49.760
+'cd /lib/terminfo'. So you know it's a full
+
+129
+00:05:49.760 --> 00:05:52.000
+path name because it starts with the forward slash.
+
+130
+00:05:52.310 --> 00:05:54.220
+That means we're building the directories from the root
+
+131
+00:05:54.220 --> 00:05:56.540
+directory all the way down to the directory where we want
+
+132
+00:05:56.540 --> 00:05:59.390
+to be. From here, we can see what directories live in this
+
+133
+00:05:59.390 --> 00:06:00.450
+one by typing what?
+
+134
+00:06:01.870 --> 00:06:05.710
+'ls -l'. There are other directories here, and you can navigate
+
+135
+00:06:05.710 --> 00:06:06.170
+to them.
+
+136
+00:06:06.180 --> 00:06:06.890
+They're full path
+
+137
+00:06:06.890 --> 00:06:10.170
+name will be /lib/terminfo and then the name
+
+138
+00:06:10.170 --> 00:06:12.050
+of that directory, for example, H.
+
+139
+00:06:12.640 --> 00:06:15.440
+But here you can use the relative path to access it.
+
+140
+00:06:15.630 --> 00:06:17.450
+Just type 'cd h'.
+
+141
+00:06:18.180 --> 00:06:21.790
+In this case, 'h' is the relative path. Relative in this case
+
+142
+00:06:21.990 --> 00:06:25.270
+means where that location is in relation to where you are now.
+
+143
+00:06:25.640 --> 00:06:28.150
+If we wanted to go back to our user directory with a relative
+
+144
+00:06:28.150 --> 00:06:29.630
+path, we have to do this:
+
+145
+00:06:30.040 --> 00:06:36.700
+'cd ../../../home/rhyme'.
+
+146
+00:06:37.940 --> 00:06:40.710
+Remember, the double period means go up one directory
+
+147
+00:06:40.710 --> 00:06:44.090
+level. So we went up three, then back down home and back
+
+148
+00:06:44.090 --> 00:06:45.320
+into our user directory.
+
+149
+00:06:45.940 --> 00:06:46.650
+Complicated?
+
+150
+00:06:46.660 --> 00:06:48.150
+Not once you get used to it.
+
+151
+00:06:49.140 --> 00:06:50.850
+So now you've seen the terminal and gotten a feel
+
+152
+00:06:50.850 --> 00:06:54.520
+for navigating the directories. In the next task, we'll learn
+
+153
+00:06:54.520 --> 00:06:56.600
+how to look at what's in the files and edit them.
