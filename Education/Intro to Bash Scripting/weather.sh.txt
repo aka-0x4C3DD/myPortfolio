@@ -1,0 +1,76 @@
+#!/bin/bash
+
+# Okay, you've found us out. It's not a real API.
+# Author: Alexander Epstein https://github.com/alexanderepstein
+# Codecademy Edits by Prabhjot Singh https://github.com/Prince25
+currentVersion="1.23.0" #This version variable should not have a v but should contain all other characters ex Github release tag is v1.2.4 currentVersion is 1.2.4
+LANG="${LANG:-en}"
+locale=$(echo "$LANG" | cut -c1-2)
+if [[ $(echo "$locale" | grep -Eo "[a-z A-Z]*" | wc -c) != 3 ]]; then locale="en"; fi
+dataFile="data/weather.json"
+
+# Finds weather report from the JSON file based on the city and then echoes it to stdout
+# Weather reports from https://github.com/chubin/wttr.in
+getWeather()
+{
+  city=$(echo "$1" | tr '[:upper:]' '[:lower:]' | xargs)
+  weather=$(jq -r --arg city "$city" '.[$city]' "$dataFile" 2> /dev/null)
+  if [[ $weather == "null" ]];then
+    echo "Error: No weather report found for $1"
+    return 1;
+  else
+    echo "$weather"
+    return 0;
+  fi
+}
+
+usage()
+{
+  cat <<EOF
+Weather
+Description: Provides a 3 day forecast of a specified location.
+Usage: weather [flag] or weather [city]
+  -h  Show the help
+  -v  Get the tool version
+Cities available: Delhi, Dubai, London, Los Angeles, Paris, New York, Tokyo
+Examples:
+  ./weather.sh "Paris"
+  ./weather.sh "Tokyo"
+  ./weather.sh "Los Angeles"
+  ./weather.sh -h
+  ./weather.sh -v
+EOF
+}
+
+while getopts "uvh" opt; do
+  case "$opt" in
+    \?) echo "Invalid option: -$OPTARG" >&2
+        exit 1
+        ;;
+    h)  usage
+        exit 0
+        ;;
+    v)  echo "Version $currentVersion"
+        exit 0
+        ;;
+    :)  echo "Option -$OPTARG requires an argument." >&2
+        exit 1
+        ;;
+  esac
+done
+
+# special set of first arguments that have a specific behavior across tools
+if [[ $# == "0" ]]; then
+  usage ## if calling the tool with no flags and args chances are you want to return usage
+  exit 0
+elif [[ $1 == "help" || $1 == ":help" ]]; then
+  usage
+  exit 0
+fi
+
+if [[ $# -ne 1 ]]; then
+    echo "Illegal number of arguments" >&2
+    exit 1
+fi
+
+getWeather "$1" || exit 1

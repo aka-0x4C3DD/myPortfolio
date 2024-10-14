@@ -1,0 +1,4 @@
+California 20
+Sydney 15
+Delhi 29
+Tokyo 22
