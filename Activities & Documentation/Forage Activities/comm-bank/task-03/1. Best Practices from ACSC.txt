@@ -1,0 +1,39 @@
+1. Best Practices from ACSC
+
+Australian Cyber Security Centre (ACSC) website Common best practices include:
+
+    Use passphrases rather than single-word passwords (e.g., "correct-horse-battery-staple").
+    Ensure passwords are at least 14 characters long.
+    Avoid easily guessable information (like birthdays or names).
+    Enable multi-factor authentication (MFA) for additional security.
+    Use unique passwords for each account.
+    Store passwords securely (using a password manager).
+
+2. Simple & Clear Visuals
+
+Use icons and illustrations to depict key concepts like:
+
+    A lock for security.
+    A shield for protection (symbolizing MFA).
+    A notebook with dots (for password managers).
+    A person thinking (for remembering passwords).
+
+3. Key Points to Include (Based on ACSC Advice)
+
+    Use Passphrases: Create long and memorable passphrases by combining unrelated words.
+    Enable MFA: Always turn on multi-factor authentication for important accounts.
+    Unique for Each Account: Never reuse passwords across multiple services.
+    Use a Password Manager: Store and manage your passwords securely in an encrypted vault.
+    Avoid Predictable Passwords: Don't use your name, birth date, or common phrases.
+
+4. Tips on Managing Passwords
+
+    Change passwords periodically, especially if there's a security breach.
+    Use a password manager to avoid the need to memorize multiple passwords.
+    Educate about the risks of saving passwords in browsers.
+
+5. Design
+
+    Color Palette: Use a color palette that aligns with your company’s branding and is easy on the eyes (e.g., blue for trust, green for safety).
+    Layout: Organize information hierarchically, with headings, icons, and small chunks of text.
+    Font: Use clean, legible fonts like Arial or Open Sans for readability.

@@ -1,0 +1,46 @@
+Task 1: APT breach: analysing the impact on information security
+
+Here is your task
+
+As a cybersecurity professional, you will be expected to utilise various Open-Source Intelligence (OSINT) tools and techniques to gather information on APT34. You can find some OSINT tools in the resources section; however, feel free to conduct your own individual research.
+
+You will also need to apply the MITRE ATT&CK Framework, a standardised tool used to identify and categorise cyberthreats, to develop a comprehensive defence strategy to protect the client's networks and systems against future attacks. You should answer the following questions in your research:
+
+1. What is their history?
+
+2. Which nation/state are they associated with?
+
+3. Do they target specific industries?
+
+4. What are their motives?
+
+5. What are the TTPs they use to conduct their attacks?
+
+6. What security measures could the client implement to defend against cyberattacks conducted by this APT?
+
+Your ultimate goal is to communicate your findings and recommendations effectively to the client's leadership team, providing actionable insights that can improve the corporation's security posture. Submit your findings in the text submission box below.
+
+Are you ready to take on this challenge and become a cybersecurity hero?
+
+Let's get started!
+Here are some resources to help you
+
+OSINT tools to gather information on APT34:
+
+    Mandiant Security Blog: https://www.mandiant.com/resources/blog  
+    CrowdStrike: https://www.crowdstrike.com/
+    Recorded Future: https://www.recordedfuture.com/
+    CyberScoop: https://www.cyberscoop.com/
+    Dark Reading: https://www.darkreading.com/
+    The CyberWire: https://thecyberwire.com/
+    SecureWorks - https://www.secureworks.com/
+    ThreatConnect - https://www.threatconnect.com
+    Kaspersky Lab: https://www.kaspersky.com/
+    Symantec Threat Intelligence: https://www.symantec.com/threat-intelligence
+
+MITRE ATT&CK Framework (https://attack.mitre.org/): This is a widely used tool to categorise and identify cyberthreats. Students should familiarise themselves with the framework and understand how to apply it to develop a comprehensive defence strategy.
+
+News and Other Resources: Students should stay up-to-date with the latest cybersecurity news and resources to gain a better understanding of the evolving cybersecurity landscape and new threats.
+
+    Cybersecurity and Infrastructure Security Agency (CISA): https://www.cisa.gov/
+    US-CERT: https://www.us-cert.gov/
