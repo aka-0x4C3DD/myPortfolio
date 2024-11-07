@@ -8,7 +8,7 @@ In the transaction linked [here](https://explorer.solana.com/tx/45pGoC4Rr3fJ1TKr
 
 The **largest account balance** on Solana tends to be with exchange-held or institutional accounts, which can hold hundreds of millions of SOL for trading or staking purposes. Exact amounts vary as accounts are constantly active, with funds moving in and out, which can be checked [here](https://docs.chainstack.com/reference/solana-gettokenlargestaccounts).
 ```
-As of 2025-11-07 19:00 IST 
+As of 2024-11-07 19:00 IST 
 {
   "jsonrpc": "2.0",
   "result": {
