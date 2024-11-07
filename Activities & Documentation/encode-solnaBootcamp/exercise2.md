@@ -6,7 +6,7 @@ The special address [`1nc1nerator11111111111111111111111111111111`](https://expl
 
 In the transaction linked [here](https://explorer.solana.com/tx/45pGoC4Rr3fJ1TKrsiRkhHRbdUeX7633XAGVec6XzVdpRbzQgHhe6ZC6Uq164MPWtiqMg7wCkC6Wy3jy2BqsDEKf), it looks like a **staking transaction** where SOL tokens are delegated to a validator. Delegating tokens like this helps to support Solana’s decentralized security and gives the delegator a share of rewards earned by the validator.
 
-The **largest account balance** on Solana tends to be with exchange-held or institutional accounts, which can hold hundreds of millions of SOL for trading or staking purposes. Exact amounts vary as accounts are constantly active, with funds moving in and out, which can be checked [here}(https://docs.chainstack.com/reference/solana-gettokenlargestaccounts).
+The **largest account balance** on Solana tends to be with exchange-held or institutional accounts, which can hold hundreds of millions of SOL for trading or staking purposes. Exact amounts vary as accounts are constantly active, with funds moving in and out, which can be checked [here](https://docs.chainstack.com/reference/solana-gettokenlargestaccounts).
 ```
 As of 2025-11-07 19:00 IST 
 {
