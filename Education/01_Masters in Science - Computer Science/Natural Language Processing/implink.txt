@@ -1,0 +1,13 @@
+https://www.lexalytics.com/blog/machine-learning-natural-language-processing/
+https://www.wwt.com/blog/a-brief-history-of-nlp
+https://www.geeksforgeeks.org/what-are-language-models-in-nlp/
+https://www.geeksforgeeks.org/phases-of-natural-language-processing-nlp/
+https://www.tutorialspoint.com/natural_language_processing/natural_language_processing_syntactic_analysis.htm
+https://www.scaler.com/topics/nlp/n-gram-model-in-nlp/
+
+https://www.youtube.com/watch?v=zz1CFBS4NaY&list=PLS5J_kYlArq70lFrO7hTSpGl97AosjFCl
+
+
+https://towardsdatascience.com/natural-language-processing-dependency-parsing-cf094bbbe3f7/
+https://www.upgrad.com/blog/dependency-parsing-in-nlp/
+https://www.analyticsvidhya.com/blog/2022/03/syntactical-parsing-in-nlp/
